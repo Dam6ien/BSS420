@@ -1,0 +1,92 @@
+\documentclass[a4paper,11pt,fleqn]{report}
+
+\usepackage{acronym}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{booktabs}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[margin=30mm]{geometry}
+\usepackage{graphicx}
+	\graphicspath{
+		{Graphics/}
+	}
+\usepackage{hyperref}
+	\hypersetup{
+		colorlinks=true,
+		linkcolor=blue,
+		filecolor=blue,
+		urlcolor=blue,
+		citecolor=blue
+	}
+\usepackage[sort&compress]{natbib}
+	\bibliographystyle{apalike}
+\usepackage[mark]{gitinfo2}
+ \renewcommand{\gitMark}{Branch:\,\gitBranch\,@\,\gitAbbrevHash{}; Author:\,\gitAuthorName; Date:\,\gitAuthorIsoDate~\textbullet{}}
+\usepackage{url}
+
+\begin{document}
+%===============================================================
+% Frontmatter and title page to be added manually at the end
+%===============================================================
+\include{TitlePage}
+\pagenumbering{roman}
+
+\tableofcontents
+\listoffigures\addcontentsline{toc}{chapter}{List of Figures}
+\listoftables\addcontentsline{toc}{chapter}{List of Tables}
+
+\chapter*{Acronyms}
+\addcontentsline{toc}{chapter}{Acronyms}
+\begin{acronym}[ABCDEF]
+\acro{CTD}{Centre for Transport Development}
+\acro{UP}{University of Pretoria}
+\end{acronym}
+
+\chapter{Introduction}
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\acresetall
+Welcome to writing in \LaTeX~ during your stay in \ac{CTD} at \ac{UP}.
+At the start of each chapter we reset all the acronyms so that they are typed out in full the first time they are used in a chapter. 
+
+\section{Background}
+
+There is usually some introductory text before you just jump in with \textbackslash\texttt{section\{\ldots\}} and \textbackslash\texttt{subsection\{\ldots\}} commands.
+
+\subsection{Subsection}
+You have to ensure that there is proper flow through your document. 
+One suggestion is to plan your document by only adding the various section and subsection headings. 
+You should have flow through them. 
+And once there is logical flow at the structural level, you can start populating the different sections.
+
+In \LaTeX, when you want to start with a new paragraph, you simply leave open a line in the source \texttt{$\star$.tex} file, without adding specific line break commands `\textbackslash\textbackslash'. 
+The formatting of the paragraphs so that each subsequent paragraph starts with the first line indented, and \emph{no open space between lines}, is sorted out by \LaTeX~during compilation.
+
+\chapter{Literature review}
+\acresetall
+So at the start of a new chapter, the first use of the acronym \ac{UP} should be written in full again.
+I doubt \citet{ar:Manson2006} will think this is a rigorous review.
+
+
+\chapter{Model}
+\acresetall
+And here is some mathematical formula expressed in~\eqref{eq:example}.
+\begin{align}
+y & = mx + c \label{eq:example}
+\end{align}
+where $m$ is the gradient of the line.
+
+\chapter{Results and discussion}
+\acresetall
+
+\chapter{Conclusion}
+\acresetall
+This is the chapter where you add \emph{concluding} remarks. It is not a summary.
+
+
+\bibliography{Example}
+
+
+\appendix
+\chapter{Some data as appendix}
+
+\end{document}
