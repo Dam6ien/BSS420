@@ -1,0 +1,667 @@
+\documentclass[a4paper,11pt,fleqn]{report}
+
+%@wlbean included the following commands to enable in-line comments in your proposal.
+\usepackage{color}
+\usepackage{tikz}
+\newcommand{\wlb}[1]{{\color{red}{~(wlb: #1)}}} %Mrs Bean comments
+
+\usepackage{tabstackengine}[2016-11-30]
+\usepackage{amsmath,amssymb,amsfonts,mathtools}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{tabularx}
+%\usepackage[dvipsnames]{xcolor}
+\usepackage[margin=30mm]{geometry}
+\usepackage{graphicx}
+\graphicspath{{Figs/}}
+\usepackage{hyperref}
+	\hypersetup{
+		colorlinks=true,
+		linkcolor=blue,
+		filecolor=blue, 
+		urlcolor=blue,  
+		citecolor=blue
+	}
+\usepackage[sort&compress]{natbib}
+	\bibliographystyle{abbrv}
+	%\bibliographystyle{ieeetr}	
+	\setcitestyle{square}
+	
+%\usepackage[mark]{gitinfo2}
+% \renewcommand{\gitMark}{Branch:\,\gitBranch\,@\,\gitAbbrevHash{}; Author:\,\gitAuthorName; Date:\,\gitAuthorIsoDate~\textbullet{}}
+%\usepackage[linesnumbered,lined,boxed,commentsnumbered, vlined,]{algorithm2e}
+\usepackage[ruled, linesnumbered]{algorithm2e}
+\SetAlFnt{\small\sffamily}
+\usepackage{url}
+
+\usepackage{acronym}
+
+\begin{document}
+\begin{titlepage}
+    \begin{center}
+        \vspace*{1cm}
+        
+        \LARGE
+        \textbf{BSS 410 Systems Engineering}
+        
+        \vspace{0.5cm}
+        \LARGE
+        Group 6
+        
+        \vspace{1.5cm}
+        \large
+        Kyle Roberts		15106502\\
+        Gareth Swart.		15106463\\
+		Matthew Freire		15182356\\
+		Damien Sousa de Gouveia		15003079
+
+        
+        \vspace{7.8cm}
+        
+        \large
+        A project report in partial fulfilment of the BSS 410 module requirements.\\
+        
+        
+ 		\vspace{1.4cm}           
+
+		at the        
+        
+		 \vspace{2.2cm}     
+           
+        \large
+        Department of Industrial and Systems Engineering\\
+         \vspace{0.5cm}    
+        University of Pretoria\\
+         \vspace{0.5cm}    
+        South Africa\\
+        \vspace{1cm} 
+        \today
+        
+    \end{center}
+\end{titlepage}
+
+
+%\maketitle
+\tableofcontents
+\listoffigures
+%\addcontentsline{Acronyms}
+
+%\listoftables
+
+\vspace*{5mm} \hrule
+
+\section*{ACRONYMS}
+\begin{acronym}[ACRONYMS]
+		\acro{SE}{Systems Engineering}
+
+	\end{acronym}	
+	
+\newpage
+
+\chapter{Introduction}		\label{chp: 1 Intro}
+\section{Problem Background} \label{sec: Problem Background}
+
+\section{Problem Statement} \label{sec: Problem Statement}
+
+
+\section{Research Question} \label{sec: rschQuesion}
+
+
+\section{Research Design}	   \label{sec: rschDesign}
+
+
+\section{Research Methodology}	\label{sec: rschMeth}
+The problem at hand is by nature an Operations Research problem and the importance of using a design research paradigm to approach and solve such a problem is emphasised by Manson \citep{manson2006}. The design research approach is proven to be beneficial for Operations Research work by Manson \citep{manson2006} who evaluates three Operations Research articles against the seven guidelines for design research prescribed by Hevner \citep{von2004}. The five step methodology that Manson \citep{manson2006} summarises will be used.\\
+
+\textbf{Step 1: Awareness of the Problem}\\
+This step is addressed in Sections~\ref{sec: Problem Statement} and \ref{sec: rschDesign} where a clear understanding of the problem is presented. Chapter~\ref{chp: 2 LitRev} that follows also forms a crucial part of this step as it demonstrates awareness of the possible solution approaches, methods within them and specific tools that have been proven to be successful in solving this type of problem. The formal project proposal presented serves as the output for this stage as it explains the research effort and the reason it will be conducted.\\
+
+\textbf{Step 2: Suggestion}\\
+The proposed design artefact is a computer model to accommodate the problem of optimally sizing a \ac{PV} solar system (described in Section~\ref{sec: rschDesign}). The design artefact will fulfil the required functionality and operate as detailed by the conceptual design in Chapter~\ref{chp: 4 Conceptual Model Design}. Three different algorithms (as discussed in Section~\ref{sec: Method Selection}) will be used to determine the optimal solution. \ac{IM}, \ac{GA} and \ac{PSO}. Multiple versions of the design artefact will be created to accomodate and compare each of these algorithms. The formulation of an algorithm for the maximisation function that each of these three methods will call on, also forms part of the design artefact and is detailed in Section~\ref{sec: Algorithm Formulation}.\\
+
+\textbf{Step 3: Development}\\
+\textit{R-Studio} is selected as the development software for the design artefact. Firstly, for its extensive data handling and statistical analysis functionality, secondly for the compatibility of \textit{R} as a coding language with \ac{SA}'s on-site information system \textit{Unifii} and thirdly because it is known to have numerous optimisation packages. The maximisation function and \ac{IM} will be coded from scratch in \textit{R-Studio} and the \ac{GA} and \ac{PSO} algorithms applied by means of freely available packages in \textit{R-Studio}. The development of this artefact is deconstructed into three primary phases namely: Data Tidying and Analysis (Chapter~\ref{chp: 3 Data Analysis}), Conceptual Model Design (Chapter~\ref{chp: 4 Conceptual Model Design}) and R-Studio Model and Validation (Chapter~\ref{chp: 5 Results}).\\
+
+\indent\textbf{Phase A: Data Tidying and Analysis}\label{Phase A: Data Exploration and Analysis}\\
+This phase consists of all tasks required to tidy, analyse and understand the input data for the proposed model. The four primary datasets: \textit{Solar Yield}, \textit{User Consumption}, \textit{Cost} and \textit{Tariff} will be tidied using \textit{tidyr} and \textit{dplyr} packages in \textit{R-Studio} by following the principles of Wickham and Grolemund \citep{Grol2017}. Once tidied for analysis, the behaviour of each dataset will be analysed. Any unexpected results or findings are to be addressed before completing this phase. This phase will be considered complete once all data necessary for the model to run is processed and available in an appropriate format to be input into the final model.\\
+
+\indent\textbf{Phase B: Conceptual Model Design}\label{Phase B: Conceptual Model Design}\\
+Phase B is expected to overlap with the end of phase A to some extent in that the conceptual design of the model will determine the required format for the input data prepared in phase A. Phase B will also consist of declaring variables for the various factors to be included in the model as well as constraints, necessary formulae and most importantly - the accurate construction of the objective function. Furthermore, the desired outputs of the model will also be determined during this phase by determining the information that is most important to the user. Once all variables, constraints, formulae and the objective function are closely evaluated and correctly declared, this phase will be considered complete.\\
+
+\indent\textbf{Phase C: R-Studio Model and Validation}\label{Phase C: R-Studio Model Construction}\\
+Phase C consists of translating the conceptual model into computer code in \textit{R-studio} in order to make the model a `one-click' script that can be run by an on-site computer. This phase will require research and extensive consideration to determine which optimisation packages available in \textit{R-studio} are most applicable. This phase will be considered complete once the model in \textit{R-studio} effectively processes all the input data and produces the desired result by running the script and determining the optimal system size.\\
+
+\textbf{Step 4: Evaluation}\\
+The designed artefact (computer model's) success will be evaluated by means of verification and validation. Verification will be completed by means of ensuring the model accurately represents the decision making steps required by \ac{SA} to size a solar system and that any assumptions made in its construction are valid. Model validation will be done by testing the model's ability to produce realistic results in consultation with \ac{SA} employees experienced in system sizing.\\
+% make use of a method prescribed by McCarl and Apland \citep{mccarl1986}to ensure the model produces realistic results and aptly fulfils \ac{SA}'s needs. 
+
+\textbf{Step 5: Conclusion}\\
+The fifth and final stage requires critical assessment whereby the results of the project and the different algorithms used are recorded. This entails documenting the design artefact's ability to fulfil the functionality required as well as any of its limitations and flaws. The optimisation algorithm that best suits \ac{SA}'s needs must be determined in this step. This is important as the decision must be made as to which version of the model is suited to \ac{SA}'s needs for future use and integration of the model into the current information system. Essentially, assessment of whether the project successfully answered the design question must crucically be determined to decide whether further research and use of the model is justified or not.\\
+
+\chapter{Literature Review} \label{chp: 2 LitRev}
+
+\section{Solar System Components} \label{sec: System Components}
+At the most basic level, a solar energy system comprises of three main components: \ac{PV} solar panels, an inverter and a mounting system \citep{Wenham2013}. \ac{PV} solar panels function by absorbing particles of light and converting them into useful electrical energy. However, solar panels produce low voltage direct current electricity and the inverter in a solar energy system is used to convert this energy into alternating current to power a home or business \citep{Hantula2010}. The third component (a mounting system) is required to fix the solar panels to a building roof or alternatively onto a stand that is fixed into the ground. This component is crucial to the long-term success of the project as solar panels by nature will be subjected to harsh environmental conditions such as rain, wind and hail \citep{Wenham2013}. While solar energy systems can be particularly important in reducing carbon footprint over the long-term, their components are subject to a number of limiting factors that make them challenging to correctly size.
+
+\section{Solar System Sizing Challenges} \label{sec: Size Challenges}
+\ac{PV} panels are available in a number of different sizes with some capable of producing substantially more power than others. However, all solar panels are susceptible to degradation that causes a reduction in the power they are capable of producing over time\citep{Jordan2013}. This degradation occurs for reasons such as extreme ultraviolet exposure, heavy wind and other harsh weather conditions that cause the photovoltaic cells within the solar panel to degrade and operate less effectively over time. However, the National Renewable Energy Laboratory (NREL) \citep{Jordan2013} found that the improvement in solar panel technologies since 2000 significantly decreased the annual degradation of most \ac{PV} panels from 1\% to less than 0.05\%. Solar inverters are not capable of converting 100\% of the direct current electricity received into alternating current either and usually operate at efficiencies ranging between 95-97\%, meaning 3-5\% of the energy produced by solar panels is lost as heat during this conversion \citep{eltawil2010}. Mounting system selection and installation can also be challenging as there are often a number of constraints. Maximum available roof space, ground space, chimneys and other roof fixtures as well as possible tilt angles all constrain the system's design \citep{Bradley2003}. 
+
+Another typical challenge for sizing solar systems is determining the power output the system as a whole needs to produce. Because most solar systems and \ac{SA}'s in particular, are subject to the use-as-produced nature of solar energy (addressed in Section~\ref{sSec: HRES}), many form part of a \ac{HRES} with an additional source to supply the deficit in demand. In order to displace as much of the additional source's supply as possible, power produced by solar needs to match consumer demand as accurately as possible. This is a significant problem considering a site's power demand pattern is usually unknown before system sizing takes place. Sizing solar systems becomes increasingly complex for solar energy providers because of consumers' unqiue and unknown power demand patterns and the fact that their ability to make a profit is dependent on providing a system that supplies power to match this demand. 
+
+\section{Solar System Sizing Approaches} \label{sec: Sizing Approaches}
+Numerous different approaches are taken towards minimising this mismatch between solar power supply and consumer demand. One of which, is to forecast \ac{PV} solar system yield as accurately as possible. This is was done by Pelland et al. \citep{Pelland2013} who completed day-ahead forecasting of \ac{PV} solar systems with the use of Numerical Weather Prediction, Geostationary Satellite Imagery and Persistence Whole Sky Imagery. Analysis of the results found Geostationary Satellite Imagery to be the most accurate technique and stochastic learning techniques with exogenous input to be highly competitive in accuracy \citep{Pelland2013}. Pelland et al. \citep{Pelland2013} show this yield prediction approach to be effective if the necessary forecasting techniques and data are available. \ac{SA} use a similar approach to minimise the mismatch between solar power supply and consumer demand. However, \ac{SA}'s yield forecasting is performed with the use of an on-site simulation program \textit{PVsyst}. This simulation tool (\textit{PVsyst}) produces expected yield values for a proposed system while accounting for key factors influencing solar yield such as location specific weather data, inverter selection and panel mounting angle \citep{PVsyst2012}. At present, this simulation tool does not account for degradation and only produces a year's worth of solar yield values.
+
+Another approach to minimise the mismatch between supply and demand is to predict consumer power demand as accurately as possible. Electrical power demand can be complex to predict because of a number of influencing weather, socio-economic and demographic variables such as gross domestic product, wind-chill index, temperature and even population \citep{al1996}. Electrical power demand is also subject to the behaviour of individuals and daily work cycles that create peak and off-peak periods. There are so many influencing variables that it is not justified to attempt to quantify the effect of each individually on power demand for a specific site \citep{al1996}. Power demand is therefore either forecasted by means of an Autonomous Model or Conditional Model. Autonomous models rely on historical data as they use the past growth of electricity demand to forecast the future growth (and demand). Conditional models also rely on historical data however, they attempt to relate past electricity demand growth to some of the aforementioned influencing variables (gross domestic product, wind-chill index etc.) \citep{al1996}. \ac{SA} do not employ either of these models to predict power demand at present. This is because \ac{SA} do not provide solar energy to a municipality or area with a single large solar system, but rather to numerous unique customers. Each of these unique customers have different power needs and are dispersed across South Africa and other countries. This means some degree of consumer profiling is required to categorise similar customers according to site characteristics such as size and primary function (home, business or industrial). Ideally, new customer sites could be categorised according to the consumer profiles created from existing demand data. However, this is still not an exact science as there is no way of easily determining a new consumer's future behaviour. For example: if a site were to undergo expansion, downsizing or a change in function, the power demand would be expected to change drastically. 
+
+% It should also be noted that the demand of an existing customer is not always logged. 
+%It is therefore only possible to determine an optimal system size that is optimal under the imposed constraints and limitations discussed above and relevant \ac{SA}'s case.  
+
+\section{Optimal Sizing Methods} \label{sec: Optimal Sizing Methods}
+The increasing popularity of renewable energy source utilisation in recent years has led to many studies on the optimisation and sizing of not just solar, but many types of \ac{HRES}s in spite of the challenges discussed in Sections~\ref{sec: Size Challenges} and \ref{sec: Sizing Approaches}. Optimal sizing of a \ac{HRES}'s components is essential to ensure consumers' power requirements are met with minimum investment in equipment and maintenance costs for the energy supplier \citep{erdinc2012}. Meeting consumer's energy demands with minimum costs enables suppliers to provide renewable energy at a lower price therefore, encouraging more consumers to reduce their carbon footprint. 
+
+Erdinc and Uzunoglu \citep{erdinc2012} evaluate numerous methods that have been used in recent years to determine the optimal configuration and sizing of \ac{HRES}s. Of these tools, there is significant literature on \ac{GA} and \ac{PSO} which are claimed to be the most advantageous to solving problems of this nature, however numerous methods are considered.
+
+Shen \citep{shen2009} optimally sizes a standalone \ac{PV} system and solar array battery in Malaysia. The optimal system (that with minimum cost) is determined with the use of available data on power demand, local weather and loss of power supply probability. The problem is formulated by variables, sets and an objective function as in \ac{LP}, but is solved graphically with the use of a three-dimensional plot. Both predicted solar yield values and power demand data are used to determine the optimal solution in this study.
+
+Khatib et al. also point out consumer power demand and meteorological data as two crucial datasets to determine the optimal solution of a \ac{PV} solar system \citep{khatib2016}. More than 15 optimal sizing studies are summarised where the use of these datasets have enabled an optimal solution to be determined, whether it be to minimise system cost, levelized cost of energy or electricity production cost \citep{khatib2016}. Although most of the studies addressed by Khatib et al. are for standalone \ac{PV} systems (i.e. those with battery storage), they make use of hourly power consumption and meteorological data. These datasets are both available for all \ac{SA} sites that the final model will size. Maximum available area that is converted to maximum system size is also a factor considered by most studies that note it to be an important constraint on the solution space \citep{khatib2016}. Khatib et al. furthermore address the use of Neural Networks as an Artificial Intelligence method used by some to optimally size systems with synthetic hourly power demand.
+
+Makhloufi compares the use of classical optimisation methods against \ac{GA} use to size \ac{PV} systems. Variable power demand and the non-linear characteristics of some components make the use of classical optimisation methods such as `worst month method' and `loss of power supply probability' particularly challenging \citep{makhloufi2015}. Makhloufi points out that a lack of meteorological or power consumption data in \ac{PV} sizing problems is well suited to techniques such as \ac{GA} and \ac{PSO}. Furthermore, \ac{GA}'s accuracy in determining such solutions is proven to be signficantly greater than either of the aforementioned classical optimisation methods.
+
+Further studies where \ac{GA} has been successfully applied to problems of this nature are demonstrated by Koutroulis et al. \citep{koutroulis2006} who apply them to optimally size a stand-alone photovoltaic/wind-generator system and by Lagorse et al.\citep{lagorse2009} who economically design a \ac{HRES} composed of \ac{PV}, wind and a fuel cell as sources. Similarly, the methods used in a \ac{PSO} solution approach are explained by Erdinc and Uzunoglu \citep{erdinc2012} and successful applications demonstrated by Sanchez et al. \citep{sanchez2010} and Denghan et al. \citep{dehghan2009} who use it to determine the optimal size of a \ac{HRES} and hydrogen-based wind/photovoltaic plant, respectively. However, it should be noted that although \ac{GA} and \ac{PSO} may be successfully used to optimally size \ac{PV} systems, they are metaheuristics methods that do not yield exactly optimal solutions \citep{Winston02}.
+
+\ac{LP}, a tool evaluated by Erdinc and Uzunoglu \citep{erdinc2012}, is capable of determining exactly optimal solutions when sufficient input data is available \citep{Winston02}. \ac{LP} is also proven to be substantially easier to code than \ac{GA} or \ac{PSO} and is effective to use when data is available to remove the need for a heuristics approach to be taken \citep{erdinc2012}. The reduction of a complex model to a mathematical set of constraints and objective function make \ac{LP} formulation more accessible and easily understood by a wider audience, when compared to \ac{GA} that is particularly difficult to create a conceptual design for but not to use. \ac{LP} is however, known to have greater computational time inefficiency when compared to \ac{GA} and \ac{PSO}. This is partly because of its ability to yield an exactly optimal solution that heuristic algorithms do not guarantee \citep{Winston02}. 
+
+\section{Method Selection} \label{sec: Method Selection}
+Although \ac{LP} appears to be an appropriate approach for its aforementioned abilities, the problem at hand cannot be solved with \ac{LP}because of its non-linear nature (i.e. multiple rate increases, panel degradation and tariff escalations). The non-linear nature of \ac{SA}'s optimal sizing problem makes it best suited to be solved with a metaheuristics technique. It is also evident from Section~\ref{sec: Optimal Sizing Methods} that both \ac{GA} and \ac{PSO} have been successfully used to solve system sizing problems of a similar nature. Solar yield data is always available to \ac{SA} through means of their \textit{PVsyst} simulation program and for the purpose of this study it is assumed that one year of client load data is always available. Because the two primary datasets are available for this calculation, no forecasting needs to be done by the final computer model. Neural Networks, although investigated will not be considered for use in this particular project because of their need for a training procedure and shear complexity. Use of a COTS (Commercial off the shelf system) is also not considered due to the limited functionality of most and their inability to represent all source characteristics unique to the situation \citep{erdinc2012}. \ac{SA}'s preference is also to have an in-house developed solution that can be easily integrated into their current information system \textit{Unifii}.
+ 
+Once the optimal system size has been determined there are a number of factors that must be considered in the design of the system to meet that size (inverter sizes, number of inverters, minimum and maximimum panel size etc.). It is therefore not always possible to achieve the optimal system size exactly. This is the case for \ac{SA} in practice, meaning that the resolution of accuracy required by the design team is $kWp$ integers.  Therefore any further accuracy in the form of decimal points is not of significant importance as it is not likely, for example that a system could be designed and built to be 35.64 $kWp$. An \ac{IM} that tests system sizes at each possible $kWp$ value is consequently another way to determine the optimal system size. All three methods: \ac{IM}, \ac{GA} and \ac{PSO} are used to determine the optimal system size. The pros and cons of each of the selected methods is later assessed in Section~\ref{sec: Algorithm Comparison}. 
+
+\chapter{Data Tidying and Analysis} \label{chp: 3 Data Analysis}
+\section{Data Tidying} \label{sec: Data Tidying}
+In \ac{SA}'s case, four primary datasets are required to determine the best possible system size for a site, all of which are tidied and handled with techniques detailed by Wickham and Grolemund \citep{Grol2017}. Custom \textit{R-studio} code is used to accommodate the unique format of each Microsoft Excel datasheet by reading and converting each into useful matrix and dataframe formats to apply calculations and other operations on. The four primary datasets read, cleaned and operated on by the sizing calculator are: \\
+
+\noindent\textbf{Yield Data} - Solar Yield data for a selected system size and particular site. This data is produced by the on-site simulation tool \textit{PVSyst}. It consists of hourly ($kW$) yield values for the duration of a single year and is stored in the format of a \textit{.csv} file.\\
+
+\noindent\textbf{Usage Data} - Client usage data for a particular site. This data is retrieved from an on-site data logger that reads consumer power demand ($kW$) in 30 minute intervals. Data is stored in a Microsoft Excel .\textit{xlsm} file.\\
+
+\noindent\textbf{Cost Data} - This consists of the equipment and installation costs ($R/Wh$) for \ac{SA}'s three primary suppliers. The costs differ depending on the interval in which the proposed system size ($kWp$) falls. These ($R/Wh$) cost charged by suppliers decreases as the size of the system to be purchased increases.\\
+
+\noindent\textbf{Tariff Data} - \ac{TOU} data consisting of the rate charged ($R/kWh$) for electricity by the site's relevant municipality. Each hour's \ac{TOU} rate is dependent on the season (high/low) and period of day(standard, peak or off-peak) in which power is consumed by the client. These seasons and periods are determined by the National Energy Regulator of South Africa (NERSA) who specify rates for each municipality across the country.\\
+
+\section{Data Analysis} \label{sec: Site Analysis}
+The results, objective function and algorithm comparison detailed in this study are all completed on a single site for consistency in comparison. \ac{SA} sized a system for this commercial site in Kwaggafontein (Bloemfontein, South Africa) at the beginning of 2018. This site is an ideal case study choice for two reasons. Firstly, this site has already been sized with present methods, eliminating the need for this calculation to be done and preventing any possible bias in the value obtained and used. Secondly, data on a site's actual power demand is not always available to \ac{SA} before sizing a system however, a year's worth of power consumption data is available for the site in Kwaggafontein. Expected solar yield values at this location were produced by \ac{SA}'s \textit{PVsyst} simulation program that accounts for weather, panel-tilt and other conditions. To orient the reader on this site and the nature of the problem addressed in Chapter~\ref{chp: 1 Intro}, some preliminary data analysis on the site is provided.\\
+
+\textbf{Solar Yield vs. Consumption}\\
+The actual demand and expected solar yield values for this site size are plotted in Figure~\ref{fig: YieldVSDemand}. Although, the nature of solar energy makes it incapable of completely matching consumer demand (for reasons addressed in Section~\ref{sSec: powerDemand}), it is evident that under-capacity system sizing is the present approach used by \ac{SA}. It is precisely this undersizing and the opportunity to incur some degree of over-production cost in order to earn more revenue in the long run, that prompted development of an optimal sizing calculator. \\
+
+\begin{figure}
+\begin{center}
+\includegraphics[scale = 0.6]{YieldVSDemand.pdf}
+\caption{Solar Yield vs. Actual Demand}
+\label{fig: YieldVSDemand}
+\end{center}
+\end{figure}
+
+\noindent\textbf{Eskom Tariff}\\
+This site uses and pays for electricity supplied by Eskom on a \ac{TOU} basis - meaning the rate a consumer is charged for consuming a $kWh$ of power supplied by Eskom, is specific to the season (high or low), and period (peak, standard or off-peak) that hour falls under. Figure~\ref{fig: TOU_typical} shows this \ac{TOU} structure defined by Eskom.
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale = 0.4]{TOU.png}
+\caption{Eskom's Low and High Season Time of Use Structure}
+\label{fig: TOU_typical}
+\end{center}
+\end{figure}
+
+Each municipality supplied by Eskom has a unique set of rates that are charged for the different periods defined. The site of interest falls under the Manguang Municipality and the \ac{TOU} tariffs specified by NERSA for this particular site are given in Table~\ref{table:	tb TOU}.\\
+
+\begin{table}[h]
+\caption {Manguang Municipality TOU Tariffs} \label{table:	tb TOU} 
+\begin{center}
+\begin{tabular}{p{3cm} p{3cm} c{3cm}}\toprule
+	{\textbf{Season}} & {\textbf{Period}} & {\textbf{Rate (R/kWh)}}\\ \midrule
+    Low & Standard & 1.3438\\
+    Low & Peak & 1.7917\\
+    Low & Off-peak & 1.1341\\
+    High & Standard & 1.8136\\
+    High & Peak & 3.2994\\
+    High & Off-peak & 1.7480\\ \bottomrule
+\end{tabular}
+\end{center}
+\end{table}
+
+\noindent\textbf{Equipment and Installation}\\
+The cost of equipment and installation is different for each of \ac{SA}'s suppliers but is specified on a $R/Wh$ scale with a `bulk discount' basis as mentioned in Section~\ref{sec: Data Tidying}. Figure~\ref{fig: SupplierCosts} demonstrate's a supplier's cost for different system size intervals.
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale = 0.35]{SupplierCosts.png}
+\caption{Supplier Equipment and Installation cost for different system sizes}
+\label{fig: SupplierCosts}
+\end{center}
+\end{figure}
+
+\chapter{Conceptual Model Design} \label{chp: 4 Conceptual Model Design}
+\section{Model Design} \label{sec: Model Design}
+The model is constructed of five principal steps shown in Figure~\ref{fig: FlowChart}.
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale = 0.5]{FlowChart.png}
+\caption{Flowchart of Model Operations}
+\label{fig: FlowChart}
+\end{center}
+\end{figure}
+
+Each of these steps is a section of code that performs a specific function. Firstly, the necessary R-packages to run the model are loaded, along with the four primary datasets (addressed in Section~\ref{sec: Data Tidying}) and the input values specified by the user. The model then tidies the \textit{Solar Yield} and \textit{User Consumption} datasets into the desired format for data operation. After which, data operations are performed in step three where conditions are tested and dataframes populated with the necessary \ac{TOU} rates and other variables. A dataframe to store the results of the algorithm while it is run is constructed and setup in step four before system sizes are tested by calling on the maximisation function that returns the objective function value each time. After possible system sizes have been tested, the model ends its run process by displaying an output of results to the user specifying: optimal system size, the maximised objective function value, a dataframe of results (profit, revenue, overproduction etc.) for all system sizes tested as well as a graphic showing the relationship between system size and the objective function.
+
+\section{Objective Function} \label{sec: Objective Function}
+The objective function that the \textit{Maximisation Function} (Figure~\ref{fig: FlowChart)}) was initially to maximise differential revenue over the life of the project by testing different system sizes. However, \ac{SA}'s management later decided to investigate two alternative objective functions. All three are detailed below:\\
+
+This initial objective funciton seeked to only weigh the opportunity revenue that could be earned from a larger system against the overproduction costs of that system over the project life. It therefore, did not not include tariff increases or \ac{NPV} assessement. It simply compared the revenue to be earned from a larger system against the cost of overproduction for that larger system. The objective function (maximise differential revenue) is defined as follows:
+\begin{equation}
+\boxed{$\textbf{max z} = \text{Annual opportunity revenue} - \text{Annual overproduction costs}$}\\
+\end{equation}
+
+The second objective function is that which maximises profit over the life of the project by using relevant time value of money principles. It does not require the value \ac{SA} would have sized the system to with current methods in its calculation. Profit is maximised by determining the system size that produces the largest \ac{NPV}. Three important variables are used to perform this \ac{NPV} calculation: \textit{SAincrease} and \textit{EskomIncrease} - The (\%) amount by which \ac{SA} and Eskom escalate their tariffs annually and \textit{ROI} - The \ac{MARR} by which cash flows are brought back to a present value. Instead of quantifying only differential revenues and costs (as with the previous objective function) the full annual revenue, equipment and maintenance costs are accounted for in this objective funciton.
+\begin{equation}
+\boxed{$\textbf{max z} = \text{Annual revenue} - \text{Equipment and Installation cost} - \text{Annual Maintenance costs}$}\\
+\end{equation}
+
+\ac{SA}'s management later decided to investigate a third alternative, which is to maximise customer savings over the life of the project while ensuring a minimum return on investment of 13.5\%. This is done by calculating customer saving in each hour of the project life as in the calculation below:\\
+\begin{equation}
+\boxed{$\textbf{max z} = \text{min(Consumption, Solar Yield)}$\times$ (\text{Eskom tariff} - \text{SolarAfrica tariff})$}\\
+\end{equation}
+
+Three different versions of the model exist, each catering for one of the objective functions. The algorithm formulation detailed in Section~\ref{sec: Algorithm Formulation} is the same for all objective functions apart from the value that the programming function returns, which is specific to the value that is being maximised (i.e. \ac{NPV} or customer savings).
+
+The variables, objective function and constraints of the \textit{R-Studio} model follow:\\
+
+\section{Algorithm Formulation} \label{sec: Algorithm Formulation}
+The \textit{Maximisation Function} (Figure~\ref{fig: FlowChart}) that step five calls on to maximise the objetive function (Section~\ref{sec: Objective Function}), is a customised programming function that was developed for \ac{SA}'s case. This function was developed because of the complex unique nature of the problem at hand and the many data operations that need to be performed to evaluate calculations on an hourly basis over a number of years. The formulation of the \textit{Maximisation Function} is detailed in the section below with the use of the \textit{algorithm2e} package in \textit{LaTeX}.
+
+In order for the model to make calculations on an hourly basis over the duration of the project life, there are a number of hour by year matrices that store the relevant solar yield and user consumption data. The general form of this matrix is given below:
+\[
+%\stackText% MUST BE PREVAILING MODE TO GET LABELS IN TEXT
+\TABstackTextstyle{\scriptsize}
+\fixTABwidth{T}
+\savestack\collabels{\tabbedCenterstack{i = & 1 & 2 & 3 & \ldots & n}}
+\edef\colwidth{\maxTABwd}
+\savestack\rowlabels{\tabbedCenterstack[l]{1 \\ 2 \\ 3 \\ . \\ .\\ 8760}}
+\ensurestackMath{
+  \textrm{Project Life} = 
+  \stackon{%
+    \parenMatrixstack{
+    \makebox[\colwidth]{$1$} & 1 & 1 & 1 & 1\\
+    0 & 1 & 0 & 0 & 1\\
+    0 & 0 & 1 & 0 & 1\\
+    0 & 0 & 0 & 1 & 1\\
+    0 & 0 & 0 & 0 & 1\\
+    0 & 0 & 0 & 0 & 1
+    }%
+  }{\collabels}
+  \rowlabels
+}
+\]
+
+where:
+
+\medskip\
+\begin{tabular}{cp{1.2\linewidth}}
+	$i  =$ & Each year of the user specified project life \{1, 2, 3, \ldots,n\}\\
+	$j  =$ & Each hour of a year \{1, 2, 3, \ldots,8760\}\\
+\end{tabular}\medskip\\
+
+The following user inputs to the model are important to take note of before visiting the algorithm formulation of the maximisation function.\\
+
+\textbf{User Inputs}\\
+\newenvironment{conditions}
+  {\par\vspace{\abovedisplayskip}\noindent\begin{tabular}{>{$}l<{$} @{${}={}$} l}}
+  {\end{tabular}\par\vspace{\belowdisplayskip}}
+\begin{conditions}
+\indent\indent n & Duration of project life ($years$)\\   
+\indent\indent y & Simulation run system size ($kWp$)\\
+\indent\indent min & Minimum system size ($kWp$)\\
+\indent\indent max & Maximum system size possible ($kWp$)\\
+\indent\indent cs & System size with current methods ($kWp$)\\
+\indent\indent SA & SolarAfrica annual tariff increase ($\%$)\\
+\indent\indent Eskom & Eskom annual tariff increase ($\%$)\\
+\indent\indent ROI & SolarAfrica's required return on investment ($\%$)\\
+\indent\indent deg & Annual Panel degradation ($\%$)
+\end{conditions}
+
+%\begin{bmatrix} 
+%a & b \\
+%c & d 
+%\end{bmatrix}
+
+%Project Life = 		Hours $j = $ \bordermatrix{~ & i & = & 1 & 2 & 3 & \ldots &\tikz[remember picture]\node[inner sep=0pt] (a) {n}; & \cr
+%                  1 &  &  &  &  & \cr
+   %               2 &  &  &  &  & \cr
+      %            3 &  &  &  &  & \cr
+         %         . &  &  &  &  & \cr
+            %      . &  &  &  &  & \cr
+               %   . &  &  &  &  & \cr
+                  %\tikz[remember picture]\node[inner sep=0pt] (b) {8760}; & . & . & . & . & .  \cr
+%                  }
+%\]
+%  \begin{tikzpicture}[overlay, remember picture]
+ %   \draw[->] (a.east) ++(2mm,0) -- node[above] {Years} ++(1,0);
+ % \end{tikzpicture}\\
+ 
+
+%\begin{equation}
+%	\begin{turn}
+% 	\mbox{\ Hours}
+% 	\end{turn}
+%	\stackrel{\mbox{\ Years}}{
+%\begin{pmatrix}
+%  1 & 2 & 3 & \ldots & n\\
+%  2 & 0 & 1 & 0 & 1\\
+%  3 & 0 & 0 & 0 & 0\\
+%  . & 1 & 1 & 0 & 1\\
+%  . & 1 & 1 & 0 & 1\\
+%  . & 1 & 1 & 0 & 1\\
+% 8760 & 1 & 0 & 0 & 1\\
+% \end{pmatrix}
+% }
+%\end{equation}
+The Maximisation Function is desconstructed into six steps for explanatory purposes. The first of these six steps is Supplier Selection~\ref{lb: Select_supplier}. Line~\ref{l: ID_Supp} identifies all possible suppliers for the interval in which the proposed system size falls, line~\ref{l: sort_Supp} sorts the possible suppliers by lowest to highest cost $Rands/Wp$ in that interval, line~\ref{l: eqpCost} calcuates the cost of equipment and installation for the system and line~\ref{l: mainCost} calculates the annual maintenance cost.\\
+
+\begin{algorithm}[H]
+  \DontPrintSemicolon
+  \SetKwData{CostData}{CostData} \SetKwData{ROI}{ROI}
+  \SetKwData{EquipmentAndInstall}{EquipmentAndInstall} \SetKwData{SAtariff}{SAtariff}   			 \SetKwData{maintenanceAnnual}{maintenanceAnnual} 
+  \SetAlgorithmName{Step}{heuristic}{List of Heuristics}
+	\BlankLine
+	\CostData$\leftarrow$ subset(\CostData, Upper Size Interval $<=$ p & Lower Size interval $>=$ p)\; \label{l: ID_Supp}
+	\EquipmentAndInstall$\leftarrow$ sort(\CostData, Price, increasing)\; \label{l: sort_Supp}
+	\EquipmentAndInstall$\leftarrow$ $\EquipmentAndInstall[1]\times 1000\times x$\; \label{l: eqpCost}
+	\maintenanceAnnual$\leftarrow$  $0.015\times$ \EquipmentAndInstall\; \label{l: mainCost}
+\caption{Supplier Selection}\label{lb: Select_supplier}
+\end{algorithm}
+
+Step~\ref{lb: SA_rate} calculates the tariff \ac{SA} charge for power in each hour over the duration of the projet life. Line~\ref{l: SAtariff} calculates the tariff \ac{SA} will charge the customer in the first year based on company policy, line~\ref{l: SA_PL} defines a matrix to store all the values, lines~\ref{l: fl1_start} to~\ref{l: fl1_end} with line~\ref{l: SA_rateCalc} are used to extend this tariff over the duration of the user specified project life and simultaneously apply \ac{SA}'s annual escalation rate.
+
+\begin{algorithm}
+  \DontPrintSemicolon
+  \SetKwData{SArateProjectLife}{SArateProjectLife} \SetKwData{SAincrease}{SAincrease}
+  \SetKwData{EquipmentAndInstall}{EquipmentAndInstall} \SetKwData{SAtariff}{SAtariff}   	
+  \SetKwData{OnekWpYield}{OnekWpYield} \SetKwData{ROI}{ROI} 
+  \SetAlgorithmName{Step}{heuristic}{List of Heuristics}
+  \BlankLine
+  	\SAtariff$\leftarrow ((\EquipmentAndInstall\times 1000\times \ROI) + 100)\div$  sum(\OnekWpYield)\; \label{l: SAtariff}
+	\SArateProjectLife$\leftarrow$ matrix(rows = 8760, columns = n)\; \label{l: SA_PL}
+	  \BlankLine
+	\For{$j\1$ \KwTo $n$}{ \label{l: fl1_start}
+		\For{$i\1$ \KwTo $8760$}{
+			\SArateProjectLife$[i, j]\leftarrow$ (\SAtariff)$\times(1+$\SAincrease)$^{j-1}$\; \label{l: SA_rateCalc}
+		}
+	}  \label{l: fl1_end}
+\caption{SolarAfrica Rate Calculation}\label{lb: SA_rate}
+\end{algorithm}
+
+Step~\ref{lb: System Yield} calculates the yield values of the proposed size system for each hour over the duration of the projet life. Line~\ref{l: systYield} calculates the yield values for every hour in the first year by multiplying the yield values for a 1 $kWp$ system by the proposed system size. Line~\ref{l: yieldLife} defines a matrix to store all the values, lines~\ref{l: fl2_start} to~\ref{l: fl2_end} in conjunction with line~\ref{l: applyDeg} inside, are used to both extend the yield values over the duration of the project life and apply \ac{SA}'s annual \ac{PV} panel degradation factor.
+
+\begin{algorithm}
+  \DontPrintSemicolon
+  \SetKwData{systemYieldProposedSize}{systemYieldProposedSize} 	
+  \SetKwData{OnekWpYield}{OnekWpYield} \SetKwData{YieldProjectLife}{YieldProjectLife}
+  \SetAlgorithmName{Step}{heuristic}{List of Heuristics}
+  \BlankLine
+	\systemYieldProposedSize$\leftarrow \OnekWpYield\times x$\; \label{l: systYield}
+	\YieldProjectLife$\leftarrow$ matrix(NA, rows = 8760, columns = n)\; \label{l: yieldLife}
+	\BlankLine 
+	\For{$j\1 $ \KwTo $n$}{\label{l: fl2_start}
+		\For{$i\1 $ \KwTo $8760$}{
+			\YieldProjectLife$[i, j]\leftarrow$ systemYieldProposedSize$[i]\times (1-$degradation$)^{j-1}$\;  \label{l: applyDeg}
+		}
+	} \label{l: fl2_end}
+\caption{System Yield Calculation}\label{lb: System Yield} 
+  }
+\end{algorithm}
+
+Step~\ref{lb: Yield VS Cons} compares the yield value in every hour of the project life against the power consumption value, in order to determine revenue, customer savings and overproduction over the project life. Lines~\ref{l: matRev} to~\ref{l: matOverP} define matrices for the three aforementioned variables. Line~\ref{l: if_YvsU} tests whether the power produced by the solar system is greater than the user's demand for power in a given hour. The revenue, customer saving and overproduction values are then assigned accordingly in lines~\ref{l: revLine} to~\ref{l: overPLine} power supply is greater than user demand or in lines~\ref{l: revLine2} to~\ref{l: overPLine2} if user demand is greater than power supply. This applies the constraint that ensures \ac{SA} can only earn revenue for supplying the power demanded by the user and not for providing a system that provides excess power.\\
+
+\begin{algorithm}[H]
+  \DontPrintSemicolon
+  \SetKwData{systemYieldProposedSize}{systemYieldProposedSize} 	
+  \SetKwData{OnekWpYield}{OnekWpYield} \SetKwData{YieldProjectLife}{YieldProjectLife}
+  \SetKwData{UsageProjectLife}{UsageProjectLife} \SetKwData{SArateProjectLife}{SArateProjectLife} \SetKwData{EskomProjectLife}{EskomProjectLife}
+  \SetKwData{OverProductionProjectLife}{OverProductionProjectLife} \SetKwData{SavingProjectLife}{SavingProjectLife} \SetKwData{RevenueProjectLife}{RevenueProjectLife}
+  \SetAlgorithmName{Step}{heuristic}{List of Heuristics}
+  	\RevenueProjectLife $\leftarrow$ matrix(rows = 8760, columns = n)\; \label{l: matRev}
+    \SavingProjectLife $\leftarrow$ matrix(row = 8760, columns = n)\;
+    \OverProductionProjectLife $\leftarrow$ matrix(rows = 8760, columns = n)\; \label{l: matOverP}
+\BlankLine    
+    	\For{$j\1 $ \KwTo $n$}{
+		\For{$i\1 $ \KwTo $8760$}{
+		 	\If {\YieldProjectLife$[i, j] >=$ \UsageProjectLife$[i, j]$}{  \label{l: if_YvsU}
+        		\RevenueProjectLife$[i, j] \leftarrow$ (\SArateProjectLife$[i, j]$)$\times$(\UsageProjectLife$[i, j]$)\; \label{l: revLine}
+        		\SavingProjectLife$[i, j] \leftarrow$ (\EskomRateProjectLife$[i, j]$- \SArateProjectLife$[i, j]$)$\times$(\UsageProjectLife$[i, j]$)\; \label{l: savLine}
+        		\OverProductionProjectLife$[i, j] \leftarrow$ (\YieldProjectLife$[i, j]$) - (\UsageProjectLife$[i, j]$)\; \label{l: overPLine}
+			}
+			\lElse {
+		\BlankLine
+				\RevenueProjectLife$[i, j] \leftarrow$ (\SArateProjectLife$[i, j]$)$\times$(\YieldProjectLife[i, j])\; \label{l: revLine2}
+        		\SavingProjectLife$[i, j] \leftarrow$ (\EskomRateProjectLife$[i, j]$- \SArateProjectLife$[i, j]$)$\times$(\YieldProjectLife$[i, j]$)\; \label{l: savLine2}
+        \OverProductionProjectLife$[i, j] \leftarrow$ 0\; \label{l: overPLine2}
+			}
+		} 
+}
+\caption{Compare supply and demand}\label{lb: Yield VS Cons}
+  }
+\end{algorithm}\\
+
+Step~\ref{lb: NPV calcs} completes two \ac{NPV} calculations, firstly for projet costs (lines~\ref{l: NPV_cost_st} to~\ref{l: NPV_cost_end}) and secondly for revenue (lines~\ref{l: NPV_rev_st} to~\ref{l: NPV_rev_end}). Annual maintenance is a geometric series annuity that increases by\ac{SA}'s rate each year and revenue consists of 15 unique future values that are brought back to a present value.
+
+\begin{algorithm}
+  \DontPrintSemicolon
+  \SetKwData{EquipmentAndInstall}{EquipmentAndInstall} \SetKwData{EquipmentandMaintenance}{EquipmentandMaintenance} \SetKwData{ROI}{ROI} \SetKwData{SAincrease}{SAincrease} \SetKwData{RevenueProjectLife}{RevenueProjectLife} \SetKwData{Profit}{Profit}  \SetKwData{maintenanceAnnual}{maintenanceAnnual} \SetKwData{YieldProjectLife}{YieldProjectLife} \SetKwData{YearRevenue}{YearRevenue} \SetKwData{LifetimeRevenue}{LifetimeRevenue} \SetKwData{termOne}{termOne} \SetKwData{termTwo}{termTwo} \SetKwData{termThree}{termThree}
+  \SetAlgorithmName{Step}{heuristic}{List of Heuristics}
+  \BlankLine
+	 \termOne$\leftarrow$ (1 + \ROI)$^{n}$\; \label{l: NPV_cost_st}
+  	 \termTwo$\leftarrow$ (1 + \ROI)$^{-n}$\;
+  	 \termThree$\leftarrow$ \ROI $-$ \SAincrease\;
+  	 \EquipmentandMaintenance $\leftarrow$ \EquipmentAndInstall + ((\maintenanceAnnual)$\times$ (1 - (\termOne*\termTwo))$\div$(\termThree))\; \label{l: NPV_cost_end}
+  	 \Blankline
+	\LifetimeRevenue$\leftarrow$ 0\; \label{l: NPV_rev_st}
+		\For{$t\1 $ \KwTo $n$}{
+			\YearRevenue$\leftarrow$ \RevenueProjectLife$[, t]\times (1\div (1 + $ROI)$^{t})$\; 
+			\LifetimeRevenue$\leftarrow$ \LifetimeRevenue + \YearRevenue
+		} \label{l: NPV_rev_end}
+\caption{NPV Calculations}\label{lb: NPV calcs}
+  }
+\end{algorithm}
+
+The final step~\ref{lb: Final Calculations} differs depending on which of the three objective functions is being maximised. To demonstrate, three crucial variables to each of the objective functions is given - overproduction cost to maximise differential revenue, \ac{NPV} to maximise profit and customer saving to maximise customer savings. The production cost $R/kWh$ is calculated in line~\ref{l: prodCost} in order for the total cost of overproduction over the project life to be calculated. Line~\ref{l: RetVal} returns the value to be maximised, which in this case is the \ac{NPV} value (profit).\\
+
+\begin{algorithm}[H]
+  \DontPrintSemicolon
+  	\SetKwData{EquipmentandMaintenance}{EquipmentandMaintenance} \SetKwData{SavingProjectLife}{SavingProjectLife} \SetKwData{RevenueProjectLife}{RevenueProjectLife} \SetKwData{NPV}{NPV} \SetKwData{YieldProjectLife}{YieldProjectLife} \SetKwData{YearRevenue}{YearRevenue} \SetKwData{LifetimeRevenue}{LifetimeRevenue}  \SetKwData{OverProductionProjectLife}{OverProductionProjectLife} \SetKwData{ProductionCostPerkWh}{ProductionCostPerkWh} \SetKwData{OverProductionCost}{OverProductionCost} \SetKwData{CustomerSaving}{CustomerSaving}
+  \SetAlgorithmName{Step}{heuristic}{List of Heuristics}
+  \BlankLine
+  			\ProductionCostPerkWh $\leftarrow$ \EquipmentandMaintenance$\div$ sum(\YieldProjectLife)\; \label{l: prodCost}
+  			\OverProductionCost $\leftarrow$ sum(\OverProductionProjectLife)$\times$ \ProductionCostPerkWh\;
+  			\NPV$\leftarrow$ \LifetimeRevenue - \EquipmentandMaintenance\;
+  			\CustomerSaving$\leftarrow$ sum(\SavingProjectLife)\;
+	\KwRet{\NPV}\; \label{l: RetVal}
+\caption{Final Calculations}\label{lb: Final Calculations}
+  }
+\end{algorithm}
+
+\section{Iterative Algorithm} \label{sec: Iterative Algorithm}
+This function is used by the \ac{IM} to determine the optimal system size. This algorithm performs step five (Figure~\ref{fig: FlowChart)}) by calling the maximisation function that returns the relevant objective function value each time. The \ac{IM} tests system sizes in $1 kWp$ by sending the system size as a parameter to the maximisation function and retrieving the matching objective function value. It then asseses whether the returned objective function value is greater than the current maximim(line~\ref{l: if_newBest}) and replaces the current maximum with the new objective function value if it is.\\
+
+\IncMargin{1em}
+\begin{algorithm}[H]
+\SetKwData{CurrentMaximum}{CurrentMaximum}
+%\SetKwFunction{GetProfit}{GetProfit}
+%\SetKwInOut{Input}{input}\SetKwInOut{Output}{output}
+%\Input{None}
+%\Output{A dataframe of all possible system sizes and profits}
+\BlankLine
+\For{$p\cs $ \KwTo $max$}{
+    \If(\tcp*[h]{}){\GetProfit{$p$} $>$ \CurrentMaximum}{\label{l: if_newBest}
+		    \CurrentMaximum$\leftarrow$ \GetProfit{$p$}\;	
+    }
+}
+\caption{Test All System Sizes}\label{lb: test_SS}
+\end{algorithm}\DecMargin{1em}
+
+\section{Genetic Algorithm} \label{sec: Genetic Algorithm}
+The customised maximisation function is used as an input to a \ac{GA} package called \textit{rgenoud} in \textit{R-studio}. A function in the \textit{rgenoud} package called \textit{genoud}, uses \ac{GA} to test different system sizes by changing the function's input value (system size) and receiving the result (objective function value) each time until it has determined the optimal system size (that which produces the greatest profit or customer saving).
+
+\section{Particle Swarm Optimisation} \label{sec: PSO}
+\ac{PSO} is also used to determine the optimal solution. As with \ac{GA}, the maximisation function is used as an input to a function called \ac{PSO} contained within an \textit{R-Studio} package called \textit{metaheuristicOpt}. The \textit{PSO} function uses \ac{PSO} to determine the system size that maximises the objective function value.
+
+A comparison of the results obtained from use of the three different algorithms is detailed in Section~\ref{sec: Algorithm Comparison}.
+
+\section{Assumption and Limitations} \label{sec: Model Assumptions}
+
+\subsection{Assumptions}
+The following inclusions and assumptions are made in the model in order to mirror company policies:\\
+
+\noindent\textbf{Solar Yield}\\
+Solar yield values produced by \textit{PVsyst} during the simulation run are worked back to expected yield values for a 1 $kWp$ size system with the user specified system size used to run the simulation (\textit{y}). The yield values for the proposed system system size are then calculated by multiplying the yield values for a 1 $kWp$ system with the value of the current and proposed system sizes. Solar equipment degradation is accounted for with \ac{SA}'s worst case yearly degradation factor of 0.07\%. This is done by extending hourly solar yield values of the proposed system size over the length of the user specified project life and then applying the degradation factor to each year's yield values. Inclusion of this degradation is particularly important because the magnitude of each yield relative to the consumer's demand constrains the amount of revenue that can be earned and determines whether or not there will be overproduction.\\
+
+\noindent\textbf{Supplier Selection}\\
+The model mirrors \ac{SA}'s supplier selection policy by analysing a data sheet of supplier costs for system equipment and installation given in ($Rands/W$). It identifies all possible suppliers for the interval in which the proposed system size falls and selects the supplier that provides equipment and installation at the lowest ($Rands/W$) cost to \ac{SA}.\\
+
+\noindent\textbf{Equipment and Maintenance Costs}\\
+Annual \text{Operations and Maintenance} costs are applied over the duration of the project life according to \ac{SA}'s current policy of (1.5\%) of initial equipment and installation costs.\\ 
+
+\noindent\textbf{Tariff Increases}\\
+\ac{SA}'s annual tariff policy is (\ac{CPI} + 1.5\%). South African inflation data for the last 20 years was therefore analysed and assessed with the use of a \textit{Chi-Squared Distribution Test}. The results concluded that the data cannot be found to not follow a normal distribution and the mean value is therefore approximated to be a good representation of the annual inflation rate (5.48\%). Eskom's most recent annual \ac{TOU} tariff increase of 7.32\% is applied each year for the duration of the project life.\\
+
+\noindent\textbf{Minimum Acceptable Rate of Return}\\
+\ac{SA}'s specified \ac{MARR} is 13.5\% is applied in order to ensure the project  is economically feasible
+
+%Sites for which there is no consumption data reflecting power demand, have their system s%ized by studying usage data from sites with already active installations. and estimating what %ctive site's data would be most similar to that of the new site. This method is employed due %to a shortage of long-term usage data and customer demand profiling. Until such time that %sufficient data is collected and customers are profiled, it is not possible to forecast a site's %demand with reasonable accuracy. T \ac{SA} without any data reflecting a site's power %demand. This is usually done by he assumption is therefore made that the client's usage %remains the same over the duration of the project life (i.e. same usage every year for 10 %years. Data gathering, centralisation and analysis to profile customers and forecast a site's %demand will be completed at a later stage during model expansion.\\
+
+\subsection{Limitations}
+
+\noindent\textbf{Client Power Usage}\\
+For the scope of this project, it is assumed that a years worth of power consumption data is available to \ac{SA} to size each new site even though in practice, this is not always the case. In practice, some consumers have a years worth of power consumption data that they can provide to \ac{SA} to better size a system to their needs, while some consumers do not. At present,  \ac{SA} do not have sufficient data on existing installations for customers to be profiled robustly and it is therefore not possible to forecast a new site's demand with reasonable accuracy. Consequently, the assumption is made that the client's power usage remains constant over the duration of the project life (i.e. same usage every year for 15 years).
+
+\ac{SA} have however, expressed interest in constructing a load forecasting model that uses a large database of consumption data (that is presently being collected) in conjunction with customer profiling in order to predict a new consumer's power consumption. Furthermore, \ac{SA} are working on installing a datalogger on each new consumer's site in order to monitor their consumption for a brief period of two weeks and scale the forecast made. Although, this forecast model falls outside the scope of this study, it should be noted that the developed model has been designed in a way that client power usage is simply a \textit{.csv} file used as an input. This means that any prediction made by a future load forecasting model, need only be output into a \textit{.csv} format to run in the model.
+
+%Although there are numerous packages to determine optimal solutions in R-Studio, as mentioned in Section~\ref{sec:rschMeth} most of these packages require the result of the function to be minimised. The nature of the data handling, operations and calculations required to determine the optimal result make it difficult to
+
+%Enables determination of the solution by a more efficient and less computationally taxing computing method is still to be conducted. Heuristics methods such as \ac{GA} and \ac{PSO} will be investigated for use.
+
+\chapter{R-Studio Model and Results} \label{chp: 5 Results}
+An \textit{R-studio} model was built based on the conceptual design in Chapter~\ref{chp: 4 Conceptual Model Design}. The model contains script that when run, performs the necessary functions to determine the optimal size system (as defined by the selected objective function). The code in \textit{R-studio} runs as a `one-click' script and produces a graphic of the model results, a dataframe summarising these results as well as an output message informing the user of the optimal system size.
+
+Multiple runs of the model were completed to test the results of the different objective funcitons for the site addressed in Section~\ref{chp: 3 Data Analysis}, as well as to test the performance of the different methods(\ac{IM}, \ac{GA} and \ac{PSO}) used to determine the solution.
+
+\section{Iterative Method Results}
+\subsection{Maximise Differential Revenue}
+The \ac{IM} was run for all three objetive functions. The same user inputs (specified below) were used for each of these runs. The simulation file produced by \textit{PVsyst} produced yield values for a 17.16 $kWp$ system, \ac{SA} sized the system at 14 $kWp$ with current methods and the maximum possible system size for the site in Kwaggafontein is 33 $kWp$. \ac{SA}'s \ac{MARR} of 13.5\% is used and worst case panel degradaton of 0.07\% is used. Eskom's annual rate increase is used as their most recent \ac{TOU} tariff increase (7.32\%) and \ac{SA}'s annual escalation is \ac{CPI} + 1\% (6.98\%).\\
+
+\textbf{User Inputs}
+\newenvironment{conditions}
+  {\par\vspace{\abovedisplayskip}\noindent\begin{tabular}{>{$}l<{$} @{${}={}$} l}}
+  {\end{tabular}\par\vspace{\belowdisplayskip}}
+\begin{conditions}
+\indent\indent n & 15 $years$\\ 
+\indent\indent y & 17.16 $kWp$\\
+\indent\indent max & 33 $kWp$\\
+\indent\indent cs & 14 $kWp$\\
+\indent\indent SA & $6.98 \%$\\
+\indent\indent Eskom & $7.32 \%$\\
+\indent\indent ROI & $13.5 \%$\\
+\indent\indent deg & $0.07 \%$
+\end{conditions}
+
+When calculating differential revenue as detailed in Section~\ref{sec: Objective Function}, the optimal system size is determined to be 31 $kWp$, which is more than double the size the system was sized at with present methods 14 $kWp$. Sizing the system at 31 $kWp$ is expected to yield an additional R 232 959 in differential revenue over the duration of the project life. System sizes greater than 31 $kWp$ in size, indicate lower potential profit values than 31 $kWp$ because potential revenue to be earned is not justified by the overproduction costs incurred to install and maintain such a large system.
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale = 0.7]{Iterative_ChangeInProfit_Results.pdf}
+\caption{Change in Differential Revenue for Proposed System Sizes}
+\label{fig: iterative_ChangeInProfit_Results)}
+\end{center}
+\end{figure}
+
+\subsection{Maximise Profit}
+When maximising profit (i.e. the \ac{NPV} value) as detailed in Section~\ref{sec: Objective Function}, the optimal system size is in fact determined to be the same size the system was sized at with present methods(14 $kWp$). This system size will ensure the 13.5\% required \ac{ROI} is met while providing an additional R 17 323 to \ac{SA}. All system sizes with a negative \ac{NPV} (those 20 $kWp$ and bigger) are in fact not feasible as they do not meet \ac{SA}'s \ac{MARR}. The variable $cs$ (the size the system was sized at with present methods) is not needed to maximise this objective function and this is the reason why Figure~\ref{fig: Iterative_NPV_Results} plots system sizes from 1 through 30 $kWp$.
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale = 0.7]{Iterative_NPV_Results.pdf}
+\caption{Expected NPV values for proposed system sizes}
+\label{fig: Iterative_NPV_Results}
+\end{center}
+\end{figure}
+
+\subsection{Maximise Customer Savings}
+In order to maximise customer savings as detailed in Section~\ref{sec: Objective Function}, the model selects the largest system size possible (to displace as much of Eskom's more expensive power as possible). This is evident in Figure\ref{fig: Iterative_CustomerSavings_Results}.
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale = 0.7]{Iterative_CustomerSavings_Results.pdf}
+\caption{Expected customer saving over specified project life}
+\label{fig: Iterative_CustomerSavings_Results)}
+\end{center}
+\end{figure}
+
+It is therfore essential that the 13.5\% \ac{ROI} constraint imposed by management is used to remove system sizes that are infeasible for \ac{SA} from the solution space. Once this constraint is applied, the graphical solution is as in Figure\ref{fig: Iterative_CustomerSavings_Results2}. After applying this constraint and eliminating infeasible solutions, the system size that maximises customer savings over the life of the project is determined to be 19 $kWp$ rather than 33 $kWp$.
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale = 0.7]{Iterative_CustomerSavings_Results2.pdf}
+\caption{Expected customer saving over specified project life}
+\label{fig: Iterative_CustomerSavings_Results2)}
+\end{center}
+\end{figure}
+
+\section{Algorithm Comparison} \label{sec: Algorithm Comparison}
+Three different algorithms have been used to maximise profit namely; \ac{IM}, \ac{GA} and \ac{PSO}. Although all three methods call the maxmisation function )Section~\ref{sec: Algorithm Formulation}, the customised \ac{IM} provides the following important functionality for the user while reaching the optimal solution.\\
+
+\noindent\textbf{Comprehensive Output}\\
+The developed algorithm is contained within a function in \textit{R-studio}, enabling it to be called as many times as necessary. This importantly, allows the function to be called multiple times within a for loop that builds a dataframe of each result returned by the function. This dataframe can then be displayed to the user after the optimal solution has been reached, giving them a comprehensive output of the profit, revenue, overproduction and other values for each system size tested by the algorithm.\\
+
+\noindent\textbf{Useful Graphics}\\
+The results dataframe enables the plotting of graphs for the user to view the relationship between system size and any of the other variables in the dataframe (profit, revenue, overproduction etc.) This function is particularly useful for the user to interpret the relationship between system size and all other variables for the specific site. If it is not possible in practice to meet the optimal system size for any reason, this functionality provides the user with an opportunity to assess the relationship between system size and profit. The user can then make an informed decision on what system size should instead be selected.\\
+
+Use of the \textit{genoud} (\ac{GA}) and \textit{PSO} (\ac{PSO}) functions in \textit{R-Studio} do not unfortunately provide this same functionality. This is because the inner workings of the function are not accessible while it is running. The results options in both of these packages are somewhat limited and neither allows for comprehensive output or useful graphics to be produced as with the customised \ac{IM}.
+
+The three different algorithms used in this study were each run with the objective of maximising customer savings in order to compare the performance of each. Thirty runs of each model were made and the optimal size, maximised customer savings value and run time of each model was recorded.
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale = 0.58]{Algorithm_Comparison.pdf}
+\caption{Algorithm Run Time Results}
+\label{fig: Algorithm Run Time Results}
+\end{center}
+\end{figure}
+
+\begin{table}[H]
+\caption {Algorithm Results Summary} \label{table:	 AlgSum} 
+\begin{center}
+\begin{tabular}{p{5cm} p{2cm} p{2.5cm} p{2.5cm}}\toprule
+    {\textbf{Algorithm}} & {\textbf{Average Run Time (s)}} & {\textbf{Average optimal system size} & {\textbf{Average Customer Saving (R)}}\\ \midrule
+    Iterative Method & 4.20 & 19 & 247 626\\
+	Genetic Algorithm  & 30.13 & 18.01 & 236 316\\
+    Particle Swarm Optimisation & 9.69 & 17.98 & 235 967\\ \bottomrule
+\end{tabular}
+\end{center}
+\end{table}
+
+As evident from, \ac{GA} gets the closest to the global optimum. This is because it achieves the highest customer saving on average. \ac{PSO} rivals \ac{GA} in this sense evident in R 350 customer saving value over the project life and an optimal system size difference of 0.03 $kWp$. This difference is insignificant, considering it is not practically possible to design a system to more resolution than a single $kWp$.\ac{GA} produced only marginally better results than \ac{PSO} which on average is more than 20 seconds quicker at reaching a near identical local optimum.
+
+Figure~\ref{fig: Algorithm Run Time Results} shows that \ac{IM} is substantially quicker than both \ac{GA} and \ac{PSO} in its run time. However, it is expected that \ac{IM} may not determine a solution quicker than the two metaheuristics methods when substantially more system sizes need to be tested (i.e. if maximum system size for a site was 100 $kWp$ instead of 33 $kWp$). Use of \ac{IM} instead of the other algorithms in this scenario would have also resulted in R 10 000 more customer savings over the duration of the project.
+
+\section{Model Verification and Validation}  \label{sec: Model Validation and Expansion}
+The model has been verified and validated. Both verification and validation were completed in consultation with \ac{SA} employees experienced in system sizing. The model has been tested firstly to ensure it accurately reflects the decision making process \ac{SA} desire system sizing to follow and secondly to ensure it correctly calculates all necessary cost and revenue values. Values the model produced were compared to those for the site used in this study (Section~\ref{sec: Data Tidying}).
+
+\section{Conclusion}
+In conclusion, it can be said that the model effectively fulfills the required functionality. Management have decided to pursue maximised customer savings as the objective function. The results from the maximisation of profit objective function did however, show that \ac{SA}'s present sizing methods selected the system size that will maximise profit for the site in this study.
+
+\ac{IM} is selected as the chosen solution algorithm for its run time performance, ability to reach the same or better result than the other algorithms and its suitability to practical 1$kWp$ system sizing. 
+
+%\bibliography{Proposal}
+\addcontentsline{toc}{section}{References}
+
+\end{document}

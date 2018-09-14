@@ -48,9 +48,11 @@
 Welcome to writing in \LaTeX~ during your stay in \ac{CTD} at \ac{UP}.
 At the start of each chapter we reset all the acronyms so that they are typed out in full the first time they are used in a chapter. 
 
-\section{Background}
-
+\section{Introduction}
 There is usually some introductory text before you just jump in with \textbackslash\texttt{section\{\ldots\}} and \textbackslash\texttt{subsection\{\ldots\}} commands.
+\section{Problem Background} \label{sec: Problem Background}
+
+\section{Problem Statement} \label{sec: Problem Statement}
 
 \subsection{Subsection}
 You have to ensure that there is proper flow through your document. 
@@ -61,22 +63,51 @@ And once there is logical flow at the structural level, you can start populating
 In \LaTeX, when you want to start with a new paragraph, you simply leave open a line in the source \texttt{$\star$.tex} file, without adding specific line break commands `\textbackslash\textbackslash'. 
 The formatting of the paragraphs so that each subsequent paragraph starts with the first line indented, and \emph{no open space between lines}, is sorted out by \LaTeX~during compilation.
 
-\chapter{Literature review}
-\acresetall
-So at the start of a new chapter, the first use of the acronym \ac{UP} should be written in full again.
-I doubt \citet{ar:Manson2006} will think this is a rigorous review.
+\chapter{Needs Analysis}
+\section{Requirement Analysis}
+\textbf{Operational Need} - The name of the system to be developed and a descriptive representation of the problem to be addressed using letters, figures, charts, photos etc as deemed necessary. Is it a new system from the scratch? Is it a major upgrade of an existing system? Any market opportunities/technological capability in terms of availability and cost? Etc.
 
+\textbf{Operational Objective(s)} - what exactly do you want to do in this problem space? Which component(s) of the operational need will you be addressing
 
-\chapter{Model}
-\acresetall
-And here is some mathematical formula expressed in~\eqref{eq:example}.
-\begin{align}
-y & = mx + c \label{eq:example}
-\end{align}
-where $m$ is the gradient of the line.
+\section{Functional Definition}
+What initial functions/processes/capabilities need to come on board to
+achieve the stated objectives?
 
-\chapter{Results and discussion}
-\acresetall
+\section{Physical Definition}
+Visualisation of the physical elements/hardware/software/technology
+etc.
+
+\section{Design Validation}
+Need validation
+
+\chapter{Concept Exploration}
+\section{Operational Requirements Analysis}
+analysing the stated operational requirements in terms of their
+objectives. Restating, redefining or amplifying (as required) to provide
+specificity, independence and consistency among different
+objectives
+
+\section{Performance Requirements Formulation}
+Translating operational requirements into subsystem functions and defining a necessary and sufficient set of performance characteristics reflecting the functions essential to meeting the system’s operational requirements. Formulating the performance parameters required to meet the stated operational requirements.
+
+\section{Implementation of Concept Exploration}
+Exploring a range of feasible implementation technologies and concepts offering a variety of potentially advantageous options 
+
+\section{Performance Requirements Validation}
+Conducting effectiveness analyses to define a set of performance requirements that accommodate the full range of desirable system concepts and validating the conformity of these requirements with the stated operational objectives and refining the requirements if necessary. 
+
+\chapter{Concept Definition}
+\section{Performance Requirement Analysis}
+Analysing the system performance requirements and relate them with operational objectives refining the requirements as necessary to include unstated constraints and quantifying qualitative requirements where possible. 
+
+\section{Functional Analysis and Formulation} 
+Allocating subsystem functions to the component level in terms of system functional elements and defining element interactions, developing functional architectural products, and formulating preliminary functional requirements corresponding to the assigned functions. 
+
+\section{Concept Selection}
+Synthesizing alternative technological approaches and component configurations designed to performance requirements; developing physical architectural products; and conducting trade-off studies among performance, risk, cost, and schedule to select the preferred system concept, defined in terms of components and architectures. 
+
+\section{Concept Validation}
+Conducting system analyses and simulations to confirm that the selected concept meets requirements and is superior to its competitors and refining the concept as may be necessary. 
 
 \chapter{Conclusion}
 \acresetall
