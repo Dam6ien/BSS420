@@ -41,81 +41,130 @@
 \acro{UP}{University of Pretoria}
 \end{acronym}
 
-\chapter{Introduction}
+\chapter{Introduction and Background}
 \pagenumbering{arabic}
 \setcounter{page}{1}
 \acresetall
-Welcome to writing in \LaTeX~ during your stay in \ac{CTD} at \ac{UP}.
-At the start of each chapter we reset all the acronyms so that they are typed out in full the first time they are used in a chapter. 
 
-\section{Introduction}
-There is usually some introductory text before you just jump in with \textbackslash\texttt{section\{\ldots\}} and \textbackslash\texttt{subsection\{\ldots\}} commands.
 \section{Problem Background} \label{sec: Problem Background}
 
-\section{Problem Statement} \label{sec: Problem Statement}
+\section{Project Objective} \label{sec: Project Objective}
 
-\subsection{Subsection}
-You have to ensure that there is proper flow through your document. 
-One suggestion is to plan your document by only adding the various section and subsection headings. 
-You should have flow through them. 
-And once there is logical flow at the structural level, you can start populating the different sections.
-
-In \LaTeX, when you want to start with a new paragraph, you simply leave open a line in the source \texttt{$\star$.tex} file, without adding specific line break commands `\textbackslash\textbackslash'. 
-The formatting of the paragraphs so that each subsequent paragraph starts with the first line indented, and \emph{no open space between lines}, is sorted out by \LaTeX~during compilation.
-
-\chapter{Needs Analysis}
-\section{Requirement Analysis}
+\chapter{Concept Development Stage}
+\section{Needs Analysis Phase} \label{sec: Needs Analysis Phase}
+\subsection{Operational Need} \label{Ssec: Operational Need}
 \textbf{Operational Need} - The name of the system to be developed and a descriptive representation of the problem to be addressed using letters, figures, charts, photos etc as deemed necessary. Is it a new system from the scratch? Is it a major upgrade of an existing system? Any market opportunities/technological capability in terms of availability and cost? Etc.
+\subsection{Operational Objectives}
+\textbf{Requirements Analysis} - what exactly do you want to do in this problem space? Which component(s) of the operational need will you be addressing?
 
-\textbf{Operational Objective(s)} - what exactly do you want to do in this problem space? Which component(s) of the operational need will you be addressing
-
-\section{Functional Definition}
+\subsection{Functional Definition}
 What initial functions/processes/capabilities need to come on board to
 achieve the stated objectives?
 
-\section{Physical Definition}
-Visualisation of the physical elements/hardware/software/technology
+\subsection{Feasibility Definition}
+Physical Definition - Visualisation of the physical elements/hardware/software/technology
 etc.
 
-\section{Design Validation}
-Need validation
+\subsection{Need Validation}
+\textbf{Design Validation}
 
-\chapter{Concept Exploration}
-\section{Operational Requirements Analysis}
+\section{Concept Exploration}
+\subsection{Operational Requirements Analysis}
 analysing the stated operational requirements in terms of their
 objectives. Restating, redefining or amplifying (as required) to provide
 specificity, independence and consistency among different
 objectives
 
-\section{Performance Requirements Formulation}
+\subsection{Performance Requirements Formulation}
 Translating operational requirements into subsystem functions and defining a necessary and sufficient set of performance characteristics reflecting the functions essential to meeting the system’s operational requirements. Formulating the performance parameters required to meet the stated operational requirements.
 
-\section{Implementation of Concept Exploration}
+\subsection{Implementation of Concept Exploration}
 Exploring a range of feasible implementation technologies and concepts offering a variety of potentially advantageous options 
 
-\section{Performance Requirements Validation}
+\subsection{Performance Requirements Validation}
 Conducting effectiveness analyses to define a set of performance requirements that accommodate the full range of desirable system concepts and validating the conformity of these requirements with the stated operational objectives and refining the requirements if necessary. 
 
-\chapter{Concept Definition}
-\section{Performance Requirement Analysis}
+\section{Concept Definition}
+\subsection{Performance Requirement Analysis}
 Analysing the system performance requirements and relate them with operational objectives refining the requirements as necessary to include unstated constraints and quantifying qualitative requirements where possible. 
 
-\section{Functional Analysis and Formulation} 
+\subsection{Functional Analysis and Formulation} 
 Allocating subsystem functions to the component level in terms of system functional elements and defining element interactions, developing functional architectural products, and formulating preliminary functional requirements corresponding to the assigned functions. 
 
-\section{Concept Selection}
+\subsection{Concept Selection}
 Synthesizing alternative technological approaches and component configurations designed to performance requirements; developing physical architectural products; and conducting trade-off studies among performance, risk, cost, and schedule to select the preferred system concept, defined in terms of components and architectures. 
 
-\section{Concept Validation}
+\subsection{Concept Validation}
 Conducting system analyses and simulations to confirm that the selected concept meets requirements and is superior to its competitors and refining the concept as may be necessary. 
+
+\chapter{Engineering Development Phase}
+
+\section{Advanced Development Phase}
+
+\subsection{Requirements Analysis}
+
+\subsection{Functional Analysis and Design}
+
+\subsection{Prototype Development}
+
+\subsection{Development Testing}
+
+\section{Engineering Procurement Phase}
+
+\subsection{Requirements Analysis}
+
+\subsection{Functional Analysis and Design}
+
+\subsection{Component Design}
+
+\subsection{Design Validation}
+
+\section{Integration and Evaluation Phase}
+
+\subsection{Test Planning and Preparation}
+
+\subsection{System Integration}
+
+\subsection{Developmental System Testing}
+
+\subsection{Operational Test and Evaluation}
+
+\chapter{Post Development Stage}
+
+\section{Production and Deployment Phase}
+
+\subsection{Transitions from Development to Production}
+
+\subsection{Production Operations}
+
+\section{Operations and Support Phase}
+Installation and test (system integration site, internal and external, disruptive or non-disruptive installation, early system operational difficulties encountered or that could be encountered, operational personnel)
+Logistics, Support and Maintenance schedule
+System Upgrades (hard and software upgrade plans)
+
+\chapter{Software Design and System Dynamics}
+This phase is required to study the behaviour and structure of a system by carrying out sensitivity analysis tests. Only select critical elements or more as deemed fit from the designed system and apply to these to the modelling capability of a chosen software.
+Your algorithm/software approach should be such that a change in the value of one element’s input can be quantitatively seen in other elements within the network. [Use software such as: Anylogic, Vensim, Stella, Dynamo++ etc]
+Phase II is tied to your ability to demonstrate sensitivity analysis, structure and behaviour of a system resulting from a change in one or more parameters of some system elements.
+
+\section{Core 9 System Design Structure}
+
+\section{System Dynamics Analysis}
+==35marks==
+
+\section{Selected Elements for System Dynamics Analysis}
+==10/35marks==
+Reason for selecting these elements in a situation where the new network for SD differs from the main designed network ==5/35marks==
+
+\section{Sensitivity Analysis}
+==20/35marks==
+Simulation runs to demonstrate sensitivity analysis, changed system behaviour etc 
 
 \chapter{Conclusion}
 \acresetall
 This is the chapter where you add \emph{concluding} remarks. It is not a summary.
 
-
 \bibliography{Example}
-
 
 \appendix
 \chapter{Some data as appendix}
