@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.19)  18 SEP 2018 11:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.19)  18 SEP 2018 11:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -459,36 +459,40 @@ LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 
 
 ]
-(./Report.toc
+[1
+
+] [2
+
+] (./Report.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 5.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 5.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
-
+) [3
 
 ])
 \tf@toc=\write5
 \openout5 = `Report.toc'.
 
- [2]
+ [4]
 (./Report.lof)
 \tf@lof=\write6
 \openout6 = `Report.lof'.
 
- [3
+ [5
 
 ] (./Report.lot)
 \tf@lot=\write7
 \openout7 = `Report.lot'.
 
- [4
+ [6
 
-] [5
+] [7
 
 ]
 Chapter 1.
@@ -496,7 +500,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.53 \chapter
+l.62 \chapter
              {Concept Development Stage} [1
 
 ]
@@ -522,28 +526,34 @@ No file Report.bbl.
 
 ]
 Appendix A.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 172.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 181.
 [8
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 172.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 181.
  (./Report.aux (./TitlePage.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 172.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 172.
-Package rerunfilecheck Info: File `Report.out' has not changed.
-(rerunfilecheck)             Checksum: 0EA7876FAE867C2EEECE33CB3D8C93FB;3718.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 181.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 181.
 
+
+Package rerunfilecheck Warning: File `Report.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Report.out':
+(rerunfilecheck)             Before: 0EA7876FAE867C2EEECE33CB3D8C93FB;3718
+(rerunfilecheck)             After:  0FBA3D2BAE3C23B41B590E1247675F47;3718.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 172.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 181.
  ) 
 Here is how much of TeX's memory you used:
- 8345 strings out of 492649
- 117503 string characters out of 6129622
+ 8350 strings out of 492649
+ 117552 string characters out of 6129622
  233066 words of memory out of 5000000
- 12032 multiletter control sequences out of 15000+600000
- 11970 words of font info for 44 fonts, out of 8000000 for 9000
+ 12033 multiletter control sequences out of 15000+600000
+ 12317 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,13n,39p,1043b,393s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
@@ -554,11 +564,12 @@ usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
 r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
 local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/l
 ocal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
-cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Report.pdf (14 pages, 133905 bytes).
+cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/loc
+al/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Report.pdf (16 pages, 149336 bytes).
 PDF statistics:
- 379 PDF objects out of 1000 (max. 8388607)
- 350 compressed objects within 4 object streams
- 68 named destinations out of 1000 (max. 500000)
+ 392 PDF objects out of 1000 (max. 8388607)
+ 360 compressed objects within 4 object streams
+ 71 named destinations out of 1000 (max. 500000)
  409 words of extra memory for PDF output out of 10000 (max. 10000000)
 
