@@ -1,8 +1,8 @@
-PWD /Users/damien/Google Drive/TUKS/BSS 420/3.Project/1.Latex Document/2.Report
+PWD /Users/damien/Google Drive/TUKS/BSS 420/3.Project/BSS420/1.Latex Document/2.Report
 INPUT /usr/local/texlive/2018/texmf.cnf
 INPUT /usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/damien/Google Drive/TUKS/BSS 420/3.Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex
+INPUT /Users/damien/Google Drive/TUKS/BSS 420/3.Project/BSS420/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex
 OUTPUT BSSGroupProject_e-casa.log
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/base/report.cls
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/base/report.cls
@@ -162,6 +162,21 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT graphics/Objective_Tree_Structure.png
+INPUT ./graphics/Objective_Tree_Structure.png
+INPUT ./graphics/Objective_Tree_Structure.png
+INPUT graphics/ecasa_OT.png
+INPUT ./graphics/ecasa_OT.png
+INPUT ./graphics/ecasa_OT.png
+INPUT graphics/HouseholdRecyclingBin.jpg
+INPUT ./graphics/HouseholdRecyclingBin.jpg
+INPUT ./graphics/HouseholdRecyclingBin.jpg
+INPUT graphics/Household_Grey_Water.png
+INPUT ./graphics/Household_Grey_Water.png
+INPUT ./graphics/Household_Grey_Water.png
+INPUT graphics/System_Diagram.jpg
+INPUT ./graphics/System_Diagram.jpg
+INPUT ./graphics/System_Diagram.jpg
 INPUT BSSGroupProject_e-casa.aux
 INPUT TitlePage.aux
 INPUT TitlePage.aux

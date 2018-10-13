@@ -1,9 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.19)  10 OCT 2018 19:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.29)  13 OCT 2018 19:00
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**BSSGroupProject_e-casa.tex
-(./BSSGroupProject_e-casa.tex
+**"/Users/damien/Google Drive/TUKS/BSS 420/3.Project/BSS420/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex"
+(/Users/damien/Google Drive/TUKS/BSS 420/3.Project/BSS420/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex
 LaTeX2e <2018-04-01> patch level 2
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/report.cls
@@ -17,8 +18,7 @@ Already applied: [0000/00/00] Make \[ robust on input line 62.
 Applying: [2015/01/01] Make \] robust on input line 74.
 LaTeX Info: Redefining \] on input line 75.
 Already applied: [0000/00/00] Make \] robust on input line 83.
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/size11.clo
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/base/size11.clo
 File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count80
@@ -33,15 +33,11 @@ File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen103
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/acronym/acronym.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/acronym/acronym.sty
 Package: acronym 2015/03/21 v1.41 Support for acronyms (Tobias Oetiker)
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/bigfoot/suffix.sty
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/bigfoot/suffix.sty
 Package: suffix 2006/07/15 1.5a Variant command support
-)
-(/usr/local/texlive/2018/texmf-dist/tex/generic/xstring/xstring.sty
-(/usr/local/texlive/2018/texmf-dist/tex/generic/xstring/xstring.tex
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/xstring/xstring.sty (/usr/local/texlive/2018/texmf-dist/tex/generic/xstring/xstring.tex
 \@xs@message=\write3
 \integerpart=\count89
 \decimalpart=\count90
@@ -49,25 +45,21 @@ Package: suffix 2006/07/15 1.5a Variant command support
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
 \AC@clearlist=\toks14
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks15
 \ex@=\dimen104
-))
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+)) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen105
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count91
@@ -107,18 +99,15 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \mathdisplay@stack=\toks19
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
-(/usr/local/texlive/2018/texmf-dist/tex/latex/booktabs/booktabs.sty
+)) (/usr/local/texlive/2018/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \heavyrulewidth=\dimen113
 \lightrulewidth=\dimen114
@@ -137,16 +126,13 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \@thisruleclass=\count105
 \@lastruleclass=\count106
 \@thisrulewidth=\dimen125
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
@@ -158,25 +144,19 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/dvipsnam.def
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
-))
-(/usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
+)) (/usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2018/03/24 v5.7 Page Geometry
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks20
-)
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
-)
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
-)
-(/usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count107
@@ -191,32 +171,24 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen132
 \Gm@layoutvoffset=\dimen133
 \Gm@dimlist=\toks21
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 )
 \Gin@req@height=\dimen134
 \Gin@req@width=\dimen135
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
-
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
-
-
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
@@ -233,15 +205,13 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
-)
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO)
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
-)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO)
 Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
 Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
 )
@@ -254,25 +224,21 @@ Package atveryend Info: \enddocument detected (standard20110627).
 Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/auxhook.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen136
 \Hy@linkcounter=\count110
 \Hy@pagecounter=\count111
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/pd1enc.def
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
 \Hy@SavedSpaceFactor=\count112
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4509.
@@ -283,8 +249,7 @@ Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4762.
 \c@Hy@tempcnt=\count113
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/url/url.sty
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -307,36 +272,29 @@ LaTeX Info: Redefining \pageref on input line 6443.
 \c@Hfootnote=\count117
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hpdftex.def
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
 \Fld@listcount=\count118
 \c@bookmark@seq@number=\count119
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-82.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 282.
 )
 \Hy@SectionHShift=\skip46
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 20.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/natbib/natbib.sty
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip47
 \bibsep=\skip48
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count120
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/gitinfo2/gitinfo2.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/gitinfo2/gitinfo2.sty
 Package: gitinfo2 2015/11/22 v2.0.7 git revision information
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count121
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
 )
 
@@ -360,8 +318,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
-
-(/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count122
 \scratchdimen=\dimen140
@@ -376,20 +333,15 @@ LaTeX Font Info:    ... okay on input line 27.
 \everyMPtoPDFconversion=\toks23
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 438.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -429,8 +381,7 @@ e
 Package hyperref Info: Link coloring ON on input line 27.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
-
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count128
@@ -438,8 +389,7 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 27.
 LaTeX Info: Redefining \pageref on input line 27.
 LaTeX Info: Redefining \nameref on input line 27.
-
-(./BSSGroupProject_e-casa.out) (./BSSGroupProject_e-casa.out)
+ (./BSSGroupProject_e-casa.out) (./BSSGroupProject_e-casa.out)
 \@outlinefile=\write4
 \openout4 = `BSSGroupProject_e-casa.out'.
 
@@ -447,8 +397,8 @@ LaTeX Info: Redefining \nameref on input line 27.
 
  (./TitlePage.tex)
 LaTeX Font Info:    Try loading font information for OMS+cmss on input line 31.
-
 LaTeX Font Info:    No file OMScmss.fd. on input line 31.
+
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
@@ -457,20 +407,17 @@ LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 [1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
-]
-[1
+] [1
 
 ] [2
 
 ] (./BSSGroupProject_e-casa.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 5.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 5.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [3
 
@@ -478,8 +425,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@toc=\write5
 \openout5 = `BSSGroupProject_e-casa.toc'.
 
- [4]
-(./BSSGroupProject_e-casa.lof)
+ [4] (./BSSGroupProject_e-casa.lof)
 \tf@lof=\write6
 \openout6 = `BSSGroupProject_e-casa.lof'.
 
@@ -495,8 +441,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ]
 Chapter 1.
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.63 \chapter
@@ -504,8 +449,7 @@ l.63 \chapter
 
 ]
 Chapter 2.
-Package acronym Info: Label `acro:e-casa' newly defined as it shall be overridd
-en
+Package acronym Info: Label `acro:e-casa' newly defined as it shall be overridden
 although it is yet undefined on input line 68.
 
 Underfull \hbox (badness 10000) in paragraph at lines 73--74
@@ -515,28 +459,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 73--74
 [2
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 76--77
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
 <graphics/Objective_Tree_Structure.png, id=336, 630.355pt x 423.5825pt>
 File: graphics/Objective_Tree_Structure.png Graphic file (type png)
 <use graphics/Objective_Tree_Structure.png>
-Package pdftex.def Info: graphics/Objective_Tree_Structure.png  used on input l
-ine 84.
+Package pdftex.def Info: graphics/Objective_Tree_Structure.png  used on input line 85.
 (pdftex.def)             Requested size: 378.21591pt x 254.15146pt.
 <graphics/ecasa_OT.png, id=338, 1356.06625pt x 661.47125pt>
 File: graphics/ecasa_OT.png Graphic file (type png)
 <use graphics/ecasa_OT.png>
-Package pdftex.def Info: graphics/ecasa_OT.png  used on input line 92.
+Package pdftex.def Info: graphics/ecasa_OT.png  used on input line 93.
 (pdftex.def)             Requested size: 461.05643pt x 224.89725pt.
 
-Overfull \hbox (34.26508pt too wide) in paragraph at lines 92--93
+Overfull \hbox (34.26508pt too wide) in paragraph at lines 93--94
  [] 
  []
 
@@ -544,63 +487,60 @@ Overfull \hbox (34.26508pt too wide) in paragraph at lines 92--93
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--101
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--103
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
 
 [3 <./graphics/Objective_Tree_Structure.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
 
  []
 
 <graphics/HouseholdRecyclingBin.jpg, id=346, 491.8375pt x 491.8375pt>
 File: graphics/HouseholdRecyclingBin.jpg Graphic file (type jpg)
 <use graphics/HouseholdRecyclingBin.jpg>
-Package pdftex.def Info: graphics/HouseholdRecyclingBin.jpg  used on input line
- 115.
+Package pdftex.def Info: graphics/HouseholdRecyclingBin.jpg  used on input line 116.
 (pdftex.def)             Requested size: 167.22253pt x 167.22253pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 <graphics/Household_Grey_Water.png, id=349, 240.9pt x 199.947pt>
 File: graphics/Household_Grey_Water.png Graphic file (type png)
 <use graphics/Household_Grey_Water.png>
-Package pdftex.def Info: graphics/Household_Grey_Water.png  used on input line 
-125.
+Package pdftex.def Info: graphics/Household_Grey_Water.png  used on input line 126.
 (pdftex.def)             Requested size: 289.07854pt x 239.93518pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[4 <./graphics/ecasa_OT.png>] [5 <./graphics/HouseholdRecyclingBin.jpg>]
-[6 <./graphics/Household_Grey_Water.png>]
+[4 <./graphics/ecasa_OT.png>] [5 <./graphics/HouseholdRecyclingBin.jpg> <./graphics/Household_Grey_Water.png>] [6]
 Chapter 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--169
+Underfull \hbox (badness 10000) in paragraph at lines 169--170
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--171
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--173
+Underfull \hbox (badness 10000) in paragraph at lines 173--174
 
  []
 
 <graphics/System_Diagram.jpg, id=365, 1284.8pt x 942.52126pt>
 File: graphics/System_Diagram.jpg Graphic file (type jpg)
 <use graphics/System_Diagram.jpg>
-Package pdftex.def Info: graphics/System_Diagram.jpg  used on input line 179.
+Package pdftex.def Info: graphics/System_Diagram.jpg  used on input line 180.
 (pdftex.def)             Requested size: 436.82622pt x 320.45299pt.
 
-Overfull \hbox (10.03487pt too wide) in paragraph at lines 179--180
+Overfull \hbox (10.03487pt too wide) in paragraph at lines 180--181
  [] 
  []
 
@@ -624,45 +564,32 @@ No file BSSGroupProject_e-casa.bbl.
 
 ]
 Appendix A.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 256.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 257.
 [13
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 256.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 257.
  (./BSSGroupProject_e-casa.aux (./TitlePage.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 256.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 256.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 257.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 257.
 Package rerunfilecheck Info: File `BSSGroupProject_e-casa.out' has not changed.
-
 (rerunfilecheck)             Checksum: 0FBA3D2BAE3C23B41B590E1247675F47;3718.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 256.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 257.
  ) 
 Here is how much of TeX's memory you used:
- 8399 strings out of 492649
- 118970 string characters out of 6129622
+ 8400 strings out of 492649
+ 119219 string characters out of 6129622
  233368 words of memory out of 5000000
  12063 multiletter control sequences out of 15000+600000
  12317 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,13n,39p,1058b,393s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
-usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
-r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
-local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/l
-ocal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
-cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/loc
-al/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on BSSGroupProject_e-casa.pdf (21 pages, 489764 bytes).
+ 37i,13n,39p,1143b,393s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on BSSGroupProject_e-casa.pdf (21 pages, 489663 bytes).
 PDF statistics:
  450 PDF objects out of 1000 (max. 8388607)
  404 compressed objects within 5 object streams
