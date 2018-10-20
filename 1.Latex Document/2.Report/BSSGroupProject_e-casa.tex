@@ -43,6 +43,7 @@ The aim of this project is to create a household waste system System of that wil
 \addcontentsline{toc}{chapter}{Acronyms}
 \begin{acronym}[ABCDEF]
 \acro{e-casa}{Eco-friendly Household Waste System}
+\acro{FBD}{Functional Block Diagram}
 \acro{SD}{System Dynamics}
 \end{acronym}
 
@@ -146,7 +147,7 @@ To ensure the proposed system can fufill the identified need, metrics have been 
 \begin{table}[h]
 \caption {System Performance Metrics} \label{tb: Performance_Metrics} 
 \begin{center}
-\begin{tabular}{p{4cm}|p{3.5cm}|p{8cm}}\toprule
+\begin{tabular}{p{5cm}|p{3cm}|p{8cm}}\toprule
 	{\textbf{Matric Category}} & {\textbf{Unit Measure}} & {\textbf{Description}}\\ \midrule
     Water savings & \textit{litres} & The volume of water saved is calculated as the reduction in the volume of water that enters the household. \\
     \hline
@@ -177,6 +178,32 @@ objectives. Restating, redefining or amplifying (as required) to provide specifi
 
 \subsection{Performance Requirements Formulation}
 \textcolor{red}{Translating operational requirements into subsystem functions and defining a necessary and sufficient set of performance characteristics reflecting the functions essential to meeting the system’s operational requirements. Formulating the performance parameters required to meet the stated operational requirements.}
+
+Subsystem functions are allocated and represented by the following \ac{FBD}s:\\
+%
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale = 0.7]{Function1.pdf}
+\caption{Provide waste sortation and storage}
+\label{fig: Function1}
+\end{center}
+\end{figure}
+%
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale = 0.7]{Function2.pdf}
+\caption{Reduce water consumption}
+\label{fig: Function2}
+\end{center}
+\end{figure}
+%
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale = 0.7]{Function3.pdf}
+\caption{Provide long-term cost savings function}
+\label{fig: Function3}
+\end{center}
+\end{figure}
 
 \subsection{Implementation of Concept Exploration}
 \textcolor{red}{Exploring a range of feasible implementation technologies and concepts offering a variety of potentially advantageous options.}
