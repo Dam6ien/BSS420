@@ -1,8 +1,8 @@
-PWD /Users/damien/Google Drive/TUKS/BSS 420/3.Project/BSS420/1.Latex Document/2.Report
+PWD /Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report
 INPUT /usr/local/texlive/2018/texmf.cnf
 INPUT /usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/damien/Google Drive/TUKS/BSS 420/3.Project/BSS420/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex
+INPUT /Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex
 OUTPUT BSSGroupProject_e-casa.log
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/base/report.cls
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/base/report.cls
