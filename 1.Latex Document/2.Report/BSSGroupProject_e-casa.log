@@ -1,9 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.29)  24 OCT 2018 13:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.29)  24 OCT 2018 14:42
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**BSSGroupProject_e-casa.tex
-(./BSSGroupProject_e-casa.tex
+**"/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex"
+(/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex
 LaTeX2e <2018-04-01> patch level 2
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/report.cls
@@ -17,8 +18,7 @@ Already applied: [0000/00/00] Make \[ robust on input line 62.
 Applying: [2015/01/01] Make \] robust on input line 74.
 LaTeX Info: Redefining \] on input line 75.
 Already applied: [0000/00/00] Make \] robust on input line 83.
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/size11.clo
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/base/size11.clo
 File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count80
@@ -33,15 +33,11 @@ File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen103
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/acronym/acronym.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/acronym/acronym.sty
 Package: acronym 2015/03/21 v1.41 Support for acronyms (Tobias Oetiker)
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/bigfoot/suffix.sty
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/bigfoot/suffix.sty
 Package: suffix 2006/07/15 1.5a Variant command support
-)
-(/usr/local/texlive/2018/texmf-dist/tex/generic/xstring/xstring.sty
-(/usr/local/texlive/2018/texmf-dist/tex/generic/xstring/xstring.tex
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/xstring/xstring.sty (/usr/local/texlive/2018/texmf-dist/tex/generic/xstring/xstring.tex
 \@xs@message=\write3
 \integerpart=\count89
 \decimalpart=\count90
@@ -49,25 +45,21 @@ Package: suffix 2006/07/15 1.5a Variant command support
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
 \AC@clearlist=\toks14
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks15
 \ex@=\dimen104
-))
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+)) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen105
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count91
@@ -107,18 +99,15 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \mathdisplay@stack=\toks19
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
-(/usr/local/texlive/2018/texmf-dist/tex/latex/booktabs/booktabs.sty
+)) (/usr/local/texlive/2018/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \heavyrulewidth=\dimen113
 \lightrulewidth=\dimen114
@@ -137,16 +126,13 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \@thisruleclass=\count105
 \@lastruleclass=\count106
 \@thisrulewidth=\dimen125
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
@@ -158,25 +144,19 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/dvipsnam.def
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
-))
-(/usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
+)) (/usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2018/03/24 v5.7 Page Geometry
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks20
-)
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
-)
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
-)
-(/usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count107
@@ -191,32 +171,24 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen132
 \Gm@layoutvoffset=\dimen133
 \Gm@dimlist=\toks21
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 )
 \Gin@req@height=\dimen134
 \Gin@req@width=\dimen135
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
-
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
-
-
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
@@ -233,15 +205,13 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
-)
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO)
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
-)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO)
 Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
 Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
 )
@@ -254,25 +224,21 @@ Package atveryend Info: \enddocument detected (standard20110627).
 Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/auxhook.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen136
 \Hy@linkcounter=\count110
 \Hy@pagecounter=\count111
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/pd1enc.def
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
 \Hy@SavedSpaceFactor=\count112
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4509.
@@ -283,8 +249,7 @@ Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4762.
 \c@Hy@tempcnt=\count113
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/url/url.sty
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -307,48 +272,24 @@ LaTeX Info: Redefining \pageref on input line 6443.
 \c@Hfootnote=\count117
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hpdftex.def
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
 \Fld@listcount=\count118
 \c@bookmark@seq@number=\count119
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-82.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 282.
 )
 \Hy@SectionHShift=\skip46
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 20.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/natbib/natbib.sty
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip47
 \bibsep=\skip48
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count120
-)
-(./BSSGroupProject_e-casa.aux (./TitlePage.aux)
-
-LaTeX Warning: Label `tb: Functional_SS_elements' multiply defined.
-
-
-! Package natbib Error: Bibliography not compatible with author-year citations.
-
-(natbib)                Press <return> to continue in numerical citation style.
-
-
-See the natbib package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.138 ...and\NAT@force@numbers{}\NAT@force@numbers
-                                                  
-Check the bibliography entries for non-compliant syntax,
-or select author-year BibTeX style, e.g. plainnat
-
-)
+) (./BSSGroupProject_e-casa.aux)
 \openout1 = `BSSGroupProject_e-casa.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
@@ -380,20 +321,15 @@ LaTeX Font Info:    ... okay on input line 27.
 \everyMPtoPDFconversion=\toks23
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 438.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -433,8 +369,7 @@ e
 Package hyperref Info: Link coloring ON on input line 27.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
-
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count127
@@ -442,8 +377,6 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 27.
 LaTeX Info: Redefining \pageref on input line 27.
 LaTeX Info: Redefining \nameref on input line 27.
-
-(./BSSGroupProject_e-casa.out) (./BSSGroupProject_e-casa.out)
 \@outlinefile=\write4
 \openout4 = `BSSGroupProject_e-casa.out'.
 
@@ -452,46 +385,33 @@ LaTeX Info: Redefining \nameref on input line 27.
  (./TitlePage.tex) [1
 
 
-{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[1
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [1
 
 ] [2
 
-] (./BSSGroupProject_e-casa.toc
-LaTeX Font Info:    Try loading font information for U+msa on input line 5.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 5.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [3
-
-])
+]
 \tf@toc=\write5
 \openout5 = `BSSGroupProject_e-casa.toc'.
 
- [4]
-(./BSSGroupProject_e-casa.lof)
+ [3
+
+]
 \tf@lof=\write6
 \openout6 = `BSSGroupProject_e-casa.lof'.
 
- [5
+ [4
 
-] (./BSSGroupProject_e-casa.lot)
+]
 \tf@lot=\write7
 \openout7 = `BSSGroupProject_e-casa.lot'.
 
- [6
+ [5
 
-] [7
+] [6
 
 ]
 Chapter 1.
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.65 \chapter
@@ -499,13 +419,36 @@ l.65 \chapter
 
 ]
 Chapter 2.
-Package acronym Info: Label `acro:e-casa' newly defined as it shall be overridd
-en
+Package acronym Info: Label `acro:e-casa' newly defined as it shall be overridden
 although it is yet undefined on input line 68.
+
+Package acronym Warning: Acronym `e-casa' is not defined on input line 68.
+
+
+Package acronym Warning: Acronym `e-casa' is not defined on input line 68.
+
+
+Package acronym Warning: Acronym `e-casa' is not defined on input line 71.
+
+
+Package acronym Warning: Acronym `e-casa' is not defined on input line 71.
+
+
+Package acronym Warning: Acronym `e-casa' is not defined on input line 73.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 73--74
 
  []
+
+
+Package acronym Warning: Acronym `e-casa' is not defined on input line 77.
+
+
+LaTeX Warning: Reference `fig: ecasaOT' on page 2 undefined on input line 77.
+
+
+Package acronym Warning: Acronym `e-casa' is not defined on input line 77.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 77--78
@@ -515,13 +458,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 77--78
 [2
 
 ]
-<graphics/Objective_Tree_Structure.png, id=351, 630.355pt x 423.5825pt>
+
+LaTeX Warning: Reference `fig: ObjectiveTreeStructure' on page 3 undefined on input line 79.
+
+
+LaTeX Warning: Reference `fig: ecasaOT' on page 3 undefined on input line 79.
+
+<graphics/Objective_Tree_Structure.png, id=64, 630.355pt x 423.5825pt>
 File: graphics/Objective_Tree_Structure.png Graphic file (type png)
 <use graphics/Objective_Tree_Structure.png>
-Package pdftex.def Info: graphics/Objective_Tree_Structure.png  used on input l
-ine 83.
+Package pdftex.def Info: graphics/Objective_Tree_Structure.png  used on input line 83.
 (pdftex.def)             Requested size: 378.21591pt x 254.15146pt.
-<Objective_Tree_ecasa.pdf, id=353, 830.8001pt x 427.95987pt>
+<Objective_Tree_ecasa.pdf, id=66, 830.8001pt x 427.95987pt>
 File: Objective_Tree_ecasa.pdf Graphic file (type pdf)
 <use Objective_Tree_ecasa.pdf>
 Package pdftex.def Info: Objective_Tree_ecasa.pdf  used on input line 91.
@@ -533,6 +481,9 @@ Overfull \hbox (18.76901pt too wide) in paragraph at lines 91--92
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package acronym Warning: Acronym `e-casa' is not defined on input line 98.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 98--99
@@ -549,28 +500,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
  []
 
+
+Package acronym Warning: Acronym `e-casa' is not defined on input line 104.
+
 [3 <./graphics/Objective_Tree_Structure.png>]
-<graphics/HouseholdRecyclingBin.jpg, id=363, 491.8375pt x 491.8375pt>
+
+LaTeX Warning: Reference `fig: Household separation recycling bin' on page 4 undefined on input line 109.
+
+
+Package acronym Warning: Acronym `e-casa' is not defined on input line 109.
+
+<graphics/HouseholdRecyclingBin.jpg, id=75, 491.8375pt x 491.8375pt>
 File: graphics/HouseholdRecyclingBin.jpg Graphic file (type jpg)
 <use graphics/HouseholdRecyclingBin.jpg>
-Package pdftex.def Info: graphics/HouseholdRecyclingBin.jpg  used on input line
- 113.
+Package pdftex.def Info: graphics/HouseholdRecyclingBin.jpg  used on input line 113.
 (pdftex.def)             Requested size: 167.22253pt x 167.22253pt.
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<graphics/Household_Grey_Water.png, id=366, 240.9pt x 199.947pt>
+
+Package acronym Warning: Acronym `e-casa' is not defined on input line 121.
+
+
+LaTeX Warning: Reference `fig: Grey water system' on page 4 undefined on input line 121.
+
+<graphics/Household_Grey_Water.png, id=76, 240.9pt x 199.947pt>
 File: graphics/Household_Grey_Water.png Graphic file (type png)
 <use graphics/Household_Grey_Water.png>
-Package pdftex.def Info: graphics/Household_Grey_Water.png  used on input line 
-125.
+Package pdftex.def Info: graphics/Household_Grey_Water.png  used on input line 125.
 (pdftex.def)             Requested size: 277.03284pt x 229.93726pt.
-<graphics/Outdoor_Composter.jpg, id=368, 204.765pt x 188.8656pt>
+
+LaTeX Warning: Reference `fig: Outdoor Composter' on page 4 undefined on input line 131.
+
+<graphics/Outdoor_Composter.jpg, id=77, 204.765pt x 188.8656pt>
 File: graphics/Outdoor_Composter.jpg Graphic file (type jpg)
 <use graphics/Outdoor_Composter.jpg>
-Package pdftex.def Info: graphics/Outdoor_Composter.jpg  used on input line 135
-.
+Package pdftex.def Info: graphics/Outdoor_Composter.jpg  used on input line 135.
 (pdftex.def)             Requested size: 225.24217pt x 207.75279pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -584,34 +549,56 @@ Underfull \hbox (badness 10000) in paragraph at lines 142--144
 
  []
 
+LaTeX Font Info:    Try loading font information for U+msa on input line 150.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 150.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+Package acronym Warning: Acronym `e-casa' is not defined on input line 160.
+
 
 Overfull \hbox (53.07162pt too wide) in paragraph at lines 150--162
  [] 
  []
 
 
+LaTeX Warning: Reference `tb: Performance_Metrics' on page 5 undefined on input line 165.
+
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[5 <./graphics/HouseholdRecyclingBin.jpg> <./graphics/Household_Grey_Water.png>
-]
+[5 <./graphics/HouseholdRecyclingBin.jpg> <./graphics/Household_Grey_Water.png>]
+
+Package acronym Warning: Acronym `e-casa' is not defined on input line 169.
+
 Package acronym Info: Label `acro:FBD' newly defined as it shall be overridden
 although it is yet undefined on input line 182.
-<graphics/Function1.pdf, id=401, 333.97052pt x 317.9326pt>
+
+Package acronym Warning: Acronym `FBD' is not defined on input line 182.
+
+
+Package acronym Warning: Acronym `FBD' is not defined on input line 182.
+
+<graphics/Function1.pdf, id=110, 333.97052pt x 317.9326pt>
 File: graphics/Function1.pdf Graphic file (type pdf)
 <use graphics/Function1.pdf>
 Package pdftex.def Info: graphics/Function1.pdf  used on input line 186.
 (pdftex.def)             Requested size: 267.17677pt x 254.34642pt.
-<graphics/Function2.pdf, id=402, 331.98691pt x 341.64388pt>
+<graphics/Function2.pdf, id=111, 331.98691pt x 341.64388pt>
 File: graphics/Function2.pdf Graphic file (type pdf)
 <use graphics/Function2.pdf>
 Package pdftex.def Info: graphics/Function2.pdf  used on input line 194.
 (pdftex.def)             Requested size: 265.58989pt x 273.31546pt.
-<graphics/Function3.pdf, id=403, 362.35776pt x 349.71504pt>
+<graphics/Function3.pdf, id=112, 362.35776pt x 349.71504pt>
 File: graphics/Function3.pdf Graphic file (type pdf)
 <use graphics/Function3.pdf>
 Package pdftex.def Info: graphics/Function3.pdf  used on input line 202.
 (pdftex.def)             Requested size: 289.8866pt x 279.7724pt.
- [6 <./graphics/Outdoor_Composter.jpg>]
+[6 <./graphics/Outdoor_Composter.jpg>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -659,196 +646,1854 @@ Underfull \hbox (badness 10000) in paragraph at lines 241--242
 
  []
 
-[7] [8 <./graphics/Function1.pdf> <./graphics/Function2.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 252--257
+[7] [8 <./graphics/Function1.pdf> <./graphics/Function2.pdf>] [9 <./graphics/Function3.pdf>] [10]
 
- []
+Package acronym Warning: Acronym `e-casa' is not defined on input line 269.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 258--260
-
- []
-
-[9 <./graphics/Function3.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 261--263
-
- []
-
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 266--267
-
- []
-
-[11]
-! Missing } inserted.
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:298: Missing } inserted.
 <inserted text> 
                 }
-l.300 ...{Subsystem}} & {\textbf{Class function} &
+l.298 ...{Subsystem}} & {\textbf{Class function} &
                                                    {\textbf{Element Function...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
 
-! Package xcolor Error: Undefined color `Format used by sample project'.
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:299: Package xcolor Error: Undefined color `Format used by sample project'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.301 ...extcolor{Format used by sample project} &
+l.299 ...extcolor{Format used by sample project} &
                                                    ... & ...\\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-! Missing } inserted.
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:299: Missing } inserted.
 <inserted text> 
                 }
-l.301 ...extcolor{Format used by sample project} &
+l.299 ...extcolor{Format used by sample project} &
                                                    ... & ...\\
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-! Missing { inserted.
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:299: Missing { inserted.
 <inserted text> 
                 {
-l.301 ...or{Format used by sample project} & ... &
+l.299 ...or{Format used by sample project} & ... &
                                                    ...\\
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
 
-Overfull \hbox (65.07162pt too wide) in paragraph at lines 299--307
- [] 
+Underfull \hbox (badness 10000) in paragraph at lines 307--307
+[]\OT1/cmr/bx/n/12 Functional
  []
 
-[12]
+
+Underfull \hbox (badness 10000) in paragraph at lines 307--307
+\OT1/cmr/bx/n/12 Anal-y-sis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--309
+[]\OT1/cmr/m/n/10.95 Allocating sub-sys-
+ []
+
+
+Underfull \hbox (badness 2547) in paragraph at lines 308--309
+\OT1/cmr/m/n/10.95 tem func-tions to the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--309
+\OT1/cmr/m/n/10.95 com-po-nent level in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--309
+\OT1/cmr/m/n/10.95 tional el-e-ments and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--309
+\OT1/cmr/m/n/10.95 defin-ing el-e-ment in-
+ []
+
+
+Underfull \hbox (badness 7667) in paragraph at lines 308--309
+\OT1/cmr/m/n/10.95 ter-ac-tions, de-vel-op-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--309
+\OT1/cmr/m/n/10.95 func-tional ar-chi-tec-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--309
+\OT1/cmr/m/n/10.95 tural prod-ucts, and
+ []
+
+
+Underfull \hbox (badness 6708) in paragraph at lines 308--309
+\OT1/cmr/m/n/10.95 cor-re-spond-ing to the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--312
+[]\OT1/cmr/m/n/10.95 Synthesizing al-ter-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--312
+\OT1/cmr/m/n/10.95 na-tive tech-no-log-i-cal
+ []
+
+
+Underfull \hbox (badness 4556) in paragraph at lines 311--312
+\OT1/cmr/m/n/10.95 ap-proaches and com-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--312
+\OT1/cmr/m/n/10.95 po-nent con-fig-u-ra-tions
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--312
+\OT1/cmr/m/n/10.95 de-signed to per-for-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--312
+\OT1/cmr/m/n/10.95 mance re-quire-ments;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--312
+\OT1/cmr/m/n/10.95 de-vel-op-ing phys-i-cal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--312
+\OT1/cmr/m/n/10.95 ar-chi-tec-tural prod-
+ []
+
+
+Underfull \hbox (badness 2875) in paragraph at lines 311--312
+\OT1/cmr/m/n/10.95 ucts; and con-duct-ing
+ []
+
+
+Underfull \hbox (badness 7869) in paragraph at lines 311--312
+\OT1/cmr/m/n/10.95 the pre-ferred sys-tem
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--312
+\OT1/cmr/m/n/10.95 con-cept, de-fined in
+ []
+
+
+Underfull \hbox (badness 5878) in paragraph at lines 311--312
+\OT1/cmr/m/n/10.95 terms of com-po-nents
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--313
+[]\OT1/cmr/bx/n/12 Concept
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--315
+[]\OT1/cmr/m/n/10.95 Conducting sys-tem
+ []
+
+
+Underfull \hbox (badness 7030) in paragraph at lines 314--315
+\OT1/cmr/m/n/10.95 anal-y-ses and sim-u-la-
+ []
+
+
+Underfull \hbox (badness 1648) in paragraph at lines 314--315
+\OT1/cmr/m/n/10.95 tions to con-firm that
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--315
+\OT1/cmr/m/n/10.95 the se-lected con-cept
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--315
+\OT1/cmr/m/n/10.95 peti-tors and re-fin-ing
+ []
+
 Chapter 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 336--337
-
+Overfull \hbox (31.72548pt too wide) in paragraph at lines 316--316
+[]\OT1/cmr/bx/n/24.88 Engineering 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 338--339
-
+Underfull \hbox (badness 5460) in paragraph at lines 317--318
+[]\OT1/cmr/m/n/10.95 analysing the sys-tem
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 340--341
-
+Underfull \hbox (badness 4048) in paragraph at lines 317--318
+\OT1/cmr/m/n/10.95 with re-gard to their
  []
+
+
+Underfull \hbox (badness 3635) in paragraph at lines 317--318
+\OT1/cmr/m/n/10.95 re-quire-ments and the
+ []
+
+
+Underfull \hbox (badness 3058) in paragraph at lines 317--318
+\OT1/cmr/m/n/10.95 la-tion into sub-sys-tem
+ []
+
+
+Underfull \hbox (badness 2261) in paragraph at lines 317--318
+\OT1/cmr/m/n/10.95 func-tional re-quire-ment
+ []
+
+
+Underfull \hbox (badness 2111) in paragraph at lines 321--322
+\OT1/cmr/m/n/10.95 con-nected to mul-ti-ple
+ []
+
+
+Underfull \hbox (badness 1888) in paragraph at lines 321--322
+\OT1/cmr/m/n/10.95 namely: the wash-ing
+ []
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 321--322
+\OT1/cmr/m/n/10.95 ma-chine, bath/shower,
+ []
+
+
+Underfull \hbox (badness 7081) in paragraph at lines 321--322
+\OT1/cmr/m/n/10.95 re-usable wa-ter from
+ []
+
+
+Underfull \hbox (badness 3343) in paragraph at lines 321--322
+\OT1/cmr/m/n/10.95 un-us-able waste wa-ter
+ []
+
+
+Underfull \hbox (badness 2165) in paragraph at lines 323--324
+\OT1/cmr/m/n/10.95 pile com-po-nents. It
+ []
+
+
+Underfull \hbox (badness 1184) in paragraph at lines 323--324
+\OT1/cmr/m/n/10.95 uses or-ganic ma-te-ri-als
+ []
+
+
+Underfull \hbox (badness 1057) in paragraph at lines 323--324
+\OT1/cmr/m/n/10.95 pa-bil-i-ties are to store
+ []
+
+
+Underfull \hbox (badness 2221) in paragraph at lines 323--324
+\OT1/cmr/m/n/10.95 or-ganic ma-te-ri-als and
+ []
+
+
+Underfull \hbox (badness 1248) in paragraph at lines 323--324
+\OT1/cmr/m/n/10.95 pro-vide some form of
+ []
+
+
+Underfull \hbox (badness 4819) in paragraph at lines 323--324
+\OT1/cmr/m/n/10.95 post for the stor-age
+ []
+
+
+Underfull \hbox (badness 1675) in paragraph at lines 323--324
+\OT1/cmr/m/n/10.95 con-tainer to be emp-
+ []
+
+
+Underfull \hbox (badness 3525) in paragraph at lines 323--324
+\OT1/cmr/m/n/10.95 an in-put as well as
+ []
+
+
+Underfull \hbox (badness 1742) in paragraph at lines 323--324
+\OT1/cmr/m/n/10.95 to the Re-cy-cling and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 325--326
+\OT1/cmr/bx/n/10.95 dis-posal sub-sys-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 325--326
+\OT1/cmr/m/n/10.95 in-ter-faces with the
+ []
+
+
+Underfull \hbox (badness 1122) in paragraph at lines 325--326
+\OT1/cmr/m/n/10.95 side-walk for col-lec-tion
+ []
+
+
+Underfull \hbox (badness 4582) in paragraph at lines 325--326
+\OT1/cmr/m/n/10.95 by the mu-nic-i-pal-ity's
+ []
+
+
+Underfull \hbox (badness 1521) in paragraph at lines 325--326
+\OT1/cmr/m/n/10.95 Its pri-mary ca-pa-bil-ity
+ []
+
+
+Underfull \hbox (badness 4805) in paragraph at lines 325--326
+\OT1/cmr/m/n/10.95 is to sort house-hold
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 325--326
+\OT1/cmr/m/n/10.95 cat-e-gories for re-use
+ []
+
+
+Underfull \hbox (badness 4608) in paragraph at lines 325--326
+\OT1/cmr/m/n/10.95 or dis-posal. Pa-per
+ []
+
+
+Underfull \hbox (badness 2368) in paragraph at lines 325--326
+\OT1/cmr/m/n/10.95 sub-sys-tem are out-put
+ []
+
+
+Underfull \hbox (badness 3525) in paragraph at lines 325--326
+\OT1/cmr/m/n/10.95 post sub-sys-tem while
+ []
+
+
+Underfull \hbox (badness 3919) in paragraph at lines 325--326
+\OT1/cmr/m/n/10.95 other re-cy-clables and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 325--326
+\OT1/cmr/m/n/10.95 non-recylable waste
+ []
+
+
+Underfull \hbox (badness 1377) in paragraph at lines 325--326
+\OT1/cmr/m/n/10.95 is dis-posed of to the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 325--326
+\OT1/cmr/m/n/10.95 mu-nic-i-pal re-cy-cling
+ []
+
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:328: LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.328 \begin{figure}[h!]
+                        
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
 
 pdfTeX warning: pdflatex (file ./graphics/System_Diagram.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graphics/System_Diagram.pdf, id=494, 793.96625pt x 614.295pt>
+<graphics/System_Diagram.pdf, id=196, 793.96625pt x 614.295pt>
 File: graphics/System_Diagram.pdf Graphic file (type pdf)
 <use graphics/System_Diagram.pdf>
-Package pdftex.def Info: graphics/System_Diagram.pdf  used on input line 347.
+Package pdftex.def Info: graphics/System_Diagram.pdf  used on input line 330.
 (pdftex.def)             Requested size: 436.68279pt x 337.86328pt.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Underfull \hbox (badness 10000) in paragraph at lines 337--337
+[]\OT1/cmr/bx/n/14.4 Advanced
+ []
 
-! Missing } inserted.
+
+Underfull \hbox (badness 10000) in paragraph at lines 337--337
+\OT1/cmr/bx/n/14.4 De-vel-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 337--337
+\OT1/cmr/bx/n/14.4 op-ment
+ []
+
+
+Overfull \hbox (8.82649pt too wide) in paragraph at lines 339--339
+[]\OT1/cmr/bx/n/12 Requirements
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 341--341
+[]\OT1/cmr/bx/n/12 Functional
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 341--341
+\OT1/cmr/bx/n/12 Anal-y-sis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 343--343
+[]\OT1/cmr/bx/n/12 Prototype
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 343--343
+\OT1/cmr/bx/n/12 De-vel-op-
+ []
+
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:345: LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.345 \begin{table}[h!]
+                       
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:349: Missing } inserted.
 <inserted text> 
                 }
-l.350 ...}} & {\textbf{Associated Risk}\\ \midrule
+l.349 ...}} & {\textbf{Associated Risk}\\ \midrule
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
 
-! Package xcolor Error: Undefined color `Format used by sample project'.
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:350: Package xcolor Error: Undefined color `Format used by sample project'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.351 ...extcolor{Format used by sample project} &
+l.350 ...extcolor{Format used by sample project} &
                                                    ... & ...\\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-! Missing } inserted.
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:350: Missing } inserted.
 <inserted text> 
                 }
-l.351 ...extcolor{Format used by sample project} &
+l.350 ...extcolor{Format used by sample project} &
                                                    ... & ...\\
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-! Missing { inserted.
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:350: Missing { inserted.
 <inserted text> 
                 {
-l.351 ...or{Format used by sample project} & ... &
+l.350 ...or{Format used by sample project} & ... &
                                                    ...\\
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-! Extra alignment tab has been changed to \cr.
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:350: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.351 ...or{Format used by sample project} & ... &
+l.350 ...or{Format used by sample project} & ... &
                                                    ...\\
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 424.
-[21
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:352: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.352     ... & ... &
+                      ...\\
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
 
-[13
 
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 424.
- (./BSSGroupProject_e-casa.aux (./TitlePage.aux)
+Overfull \hbox (4.64035pt too wide) in paragraph at lines 360--360
+[]\OT1/cmr/bx/n/12 Development
+ []
 
 
-! Package xcolor Error: Undefined color `Format used by sample project'.
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:362: LaTeX Error: Not in outer par mode.
 
-./BSSGroupProject_e-casa.aux:134: Package natbib Error: Bibliography not compatible with author-year citations.
-(natbib)                Press <return> to continue in numerical citation style.
-
-See the natbib package documentation for explanation.
+See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.134 ...and\NAT@force@numbers{}\NAT@force@numbers
+l.362 \begin{table}[h!]
+                       
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:366: Missing } inserted.
+<inserted text> 
+                }
+l.366 ...}} & {\textbf{Risk Mitigation}\\ \midrule
                                                   
-Check the bibliography entries for non-compliant syntax,
-or select author-year BibTeX style, e.g. plainnat
-
-)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 424.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 424.
-Package rerunfilecheck Info: File `BSSGroupProject_e-casa.out' has not changed.
-
-(rerunfilecheck)             Checksum: 969DA00D8C7E3509E98B7E02557E36A3;3727.
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
 
 
-LaTeX Warning: There were multiply-defined labels.
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:367: Package xcolor Error: Undefined color `Format used by sample project'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 424.
- ) 
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.367 ...extcolor{Format used by sample project} &
+                                                   ... & ...\\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:367: Missing } inserted.
+<inserted text> 
+                }
+l.367 ...extcolor{Format used by sample project} &
+                                                   ... & ...\\
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:367: Missing { inserted.
+<inserted text> 
+                {
+l.367 ...or{Format used by sample project} & ... &
+                                                   ...\\
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:367: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.367 ...or{Format used by sample project} & ... &
+                                                   ...\\
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:369: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.369     ... & ... &
+                      ...\\
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Overfull \hbox (7.32216pt too wide) in paragraph at lines 378--378
+[]\OT1/cmr/bx/n/14.4 Engineering
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 378--378
+\OT1/cmr/bx/n/14.4 Pro-cure-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 378--378
+\OT1/cmr/bx/n/14.4 ment
+ []
+
+
+Overfull \hbox (8.82649pt too wide) in paragraph at lines 380--380
+[]\OT1/cmr/bx/n/12 Requirements
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 382--382
+[]\OT1/cmr/bx/n/12 Functional
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 382--382
+\OT1/cmr/bx/n/12 Anal-y-sis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 384--384
+[]\OT1/cmr/bx/n/12 Component
+ []
+
+
+Overfull \hbox (1.85548pt too wide) in paragraph at lines 388--388
+[]\OT1/cmr/bx/n/14.4 Integration
+ []
+
+
+Underfull \hbox (badness 4454) in paragraph at lines 388--388
+\OT1/cmr/bx/n/14.4 and Eval-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 388--388
+\OT1/cmr/bx/n/14.4 u-a-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 390--390
+[]\OT1/cmr/bx/n/12 Test Plan-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 390--390
+\OT1/cmr/bx/n/12 ning and
+ []
+
+
+Underfull \hbox (badness 5231) in paragraph at lines 392--392
+[]\OT1/cmr/bx/n/12 System In-
+ []
+
+
+Overfull \hbox (14.95285pt too wide) in paragraph at lines 394--394
+[]\OT1/cmr/bx/n/12 Developmental
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 394--394
+\OT1/cmr/bx/n/12 Sys-tem
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 396--396
+[]\OT1/cmr/bx/n/12 Operational
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 396--396
+\OT1/cmr/bx/n/12 Test and
+ []
+
+Chapter 4.
+
+Overfull \hbox (2.42216pt too wide) in paragraph at lines 400--400
+[]\OT1/cmr/bx/n/14.4 Production
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 400--400
+\OT1/cmr/bx/n/14.4 and De-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 400--400
+\OT1/cmr/bx/n/14.4 ploy-ment
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 402--402
+[]\OT1/cmr/bx/n/12 Transitions
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 402--402
+\OT1/cmr/bx/n/12 op-ment to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 404--404
+[]\OT1/cmr/bx/n/12 Production
+ []
+
+
+Overfull \hbox (0.87883pt too wide) in paragraph at lines 406--406
+[]\OT1/cmr/bx/n/14.4 Operations
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 406--406
+\OT1/cmr/bx/n/14.4 and Sup-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 409--410
+[]\OT1/cmr/m/n/10.95 Installation and test
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 409--410
+\OT1/cmr/m/n/10.95 (sys-tem in-te-gra-tion
+ []
+
+
+Underfull \hbox (badness 1478) in paragraph at lines 409--410
+\OT1/cmr/m/n/10.95 site, in-ter-nal and ex-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 409--410
+\OT1/cmr/m/n/10.95 ter-nal, dis-rup-tive or
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 409--410
+\OT1/cmr/m/n/10.95 non-disruptive in-stal-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 409--410
+\OT1/cmr/m/n/10.95 la-tion, early sys-tem
+ []
+
+
+Underfull \hbox (badness 7116) in paragraph at lines 409--410
+\OT1/cmr/m/n/10.95 op-er-a-tional dif-fi-cul-ties
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 409--410
+\OT1/cmr/m/n/10.95 en-coun-tered or that
+ []
+
+
+Underfull \hbox (badness 1571) in paragraph at lines 409--410
+\OT1/cmr/m/n/10.95 could be en-coun-tered,
+ []
+
+
+Underfull \hbox (badness 4765) in paragraph at lines 409--410
+\OT1/cmr/m/n/10.95 op-er-a-tional per-son-nel)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 409--410
+\OT1/cmr/m/n/10.95 Main-te-nance sched-ule
+ []
+
+
+Underfull \hbox (badness 2875) in paragraph at lines 409--410
+\OT1/cmr/m/n/10.95 and soft-ware up-grade
+ []
+
+Chapter 5.
+
+Underfull \hbox (badness 10000) in paragraph at lines 414--415
+\OT1/cmr/m/n/10.95 and struc-ture of a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 414--415
+\OT1/cmr/m/n/10.95 sys-tem by car-ry-ing
+ []
+
+
+Underfull \hbox (badness 7468) in paragraph at lines 414--415
+\OT1/cmr/m/n/10.95 de-signed sys-tem and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 414--415
+\OT1/cmr/m/n/10.95 al-go-rithm/software
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 414--415
+\OT1/cmr/m/n/10.95 ap-proach should be
+ []
+
+
+Underfull \hbox (badness 8113) in paragraph at lines 414--415
+\OT1/cmr/m/n/10.95 such that a change
+ []
+
+
+Underfull \hbox (badness 4001) in paragraph at lines 414--415
+\OT1/cmr/m/n/10.95 in the value of one
+ []
+
+
+Underfull \hbox (badness 2469) in paragraph at lines 414--415
+\OT1/cmr/m/n/10.95 quan-ti-ta-tively seen in
+ []
+
+
+Underfull \hbox (badness 2050) in paragraph at lines 414--415
+\OT1/cmr/m/n/10.95 other el-e-ments within
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 414--415
+\OT1/cmr/m/n/10.95 Ven-sim, Stella, Dy-
+ []
+
+
+Underfull \hbox (badness 2050) in paragraph at lines 414--415
+\OT1/cmr/m/n/10.95 e-ters of some sys-tem
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 416--416
+[]\OT1/cmr/bx/n/14.4 Core 9
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 416--416
+\OT1/cmr/bx/n/14.4 Sys-tem
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 416--416
+\OT1/cmr/bx/n/14.4 De-sign
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 418--418
+[]\OT1/cmr/bx/n/14.4 System
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 418--418
+\OT1/cmr/bx/n/14.4 Dy-nam-ics
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 421--421
+[]\OT1/cmr/bx/n/14.4 Selected
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 421--421
+\OT1/cmr/bx/n/14.4 El-e-ments
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 421--421
+\OT1/cmr/bx/n/14.4 Dy-nam-ics
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 422--424
+\OT1/cmr/m/n/10.95 ==10/35marks==
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 422--424
+\OT1/cmr/m/n/10.95 Rea-son for se-lect-ing
+ []
+
+
+Underfull \hbox (badness 7151) in paragraph at lines 422--424
+\OT1/cmr/m/n/10.95 these el-e-ments in a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 422--424
+\OT1/cmr/m/n/10.95 sit-u-a-tion where the
+ []
+
+
+Underfull \hbox (badness 3780) in paragraph at lines 422--424
+\OT1/cmr/m/n/10.95 new net-work for SD
+ []
+
+
+Underfull \hbox (badness 1248) in paragraph at lines 422--424
+\OT1/cmr/m/n/10.95 dif-fers from the main
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 422--424
+\OT1/cmr/m/n/10.95 de-signed net-work
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 425--425
+[]\OT1/cmr/bx/n/14.4 Sensitivity
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 426--428
+\OT1/cmr/m/n/10.95 ==20/35marks==
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 426--428
+\OT1/cmr/m/n/10.95 Sim-u-la-tion runs to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 426--428
+\OT1/cmr/m/n/10.95 demon-strate sen-si-tiv-
+ []
+
+
+Underfull \hbox (badness 4429) in paragraph at lines 426--428
+\OT1/cmr/m/n/10.95 ity anal-y-sis, changed
+ []
+
+Chapter 6.
+
+Overfull \hbox (20.0745pt too wide) in paragraph at lines 429--429
+[]\OT1/cmr/bx/n/24.88 Conclusion  
+ []
+
+No file BSSGroupProject_e-casa.bbl.
+Appendix A.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: LaTeX Error: \begin{tabular} on input line 297 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.438 \end{document}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 438.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 438.
+(./BSSGroupProject_e-casa.aux (./TitlePage.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 438.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 438.
+
+
+Package rerunfilecheck Warning: File `BSSGroupProject_e-casa.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `BSSGroupProject_e-casa.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  E6E82C3D1709C7DA9BB6E3F262A42C15;1257.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 438.
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: You can't use `\end' in internal vertical mode.
+\enddocument ...es \z@ \Call@AtVeryVeryEnd \@@end 
+                                                  
+l.438 \end{document}
+                    
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: LaTeX Error: \begin{tabular} on input line 297 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.438 \end{document}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing } inserted.
+<inserted text> 
+                }
+l.438 \end{document}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing } inserted.
+<inserted text> 
+                }
+l.438 \end{document}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.438 \end{document}
+                    
+I'm guessing that you meant to end an alignment here.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing { inserted.
+<inserted text> 
+                {
+l.438 \end{document}
+                    
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing } inserted.
+<inserted text> 
+                }
+l.438 \end{document}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.438 \end{document}
+                    
+I'm guessing that you meant to end an alignment here.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing { inserted.
+<inserted text> 
+                {
+l.438 \end{document}
+                    
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing } inserted.
+<inserted text> 
+                }
+l.438 \end{document}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.438 \end{document}
+                    
+I'm guessing that you meant to end an alignment here.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing { inserted.
+<inserted text> 
+                {
+l.438 \end{document}
+                    
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing } inserted.
+<inserted text> 
+                }
+l.438 \end{document}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.438 \end{document}
+                    
+I'm guessing that you meant to end an alignment here.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing { inserted.
+<inserted text> 
+                {
+l.438 \end{document}
+                    
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing } inserted.
+<inserted text> 
+                }
+l.438 \end{document}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.438 \end{document}
+                    
+I'm guessing that you meant to end an alignment here.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing { inserted.
+<inserted text> 
+                {
+l.438 \end{document}
+                    
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing } inserted.
+<inserted text> 
+                }
+l.438 \end{document}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.438 \end{document}
+                    
+I'm guessing that you meant to end an alignment here.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing { inserted.
+<inserted text> 
+                {
+l.438 \end{document}
+                    
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing } inserted.
+<inserted text> 
+                }
+l.438 \end{document}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.438 \end{document}
+                    
+I'm guessing that you meant to end an alignment here.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing { inserted.
+<inserted text> 
+                {
+l.438 \end{document}
+                    
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing } inserted.
+<inserted text> 
+                }
+l.438 \end{document}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.438 \end{document}
+                    
+I'm guessing that you meant to end an alignment here.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing { inserted.
+<inserted text> 
+                {
+l.438 \end{document}
+                    
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing } inserted.
+<inserted text> 
+                }
+l.438 \end{document}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.438 \end{document}
+                    
+I'm guessing that you meant to end an alignment here.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing { inserted.
+<inserted text> 
+                {
+l.438 \end{document}
+                    
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing } inserted.
+<inserted text> 
+                }
+l.438 \end{document}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.438 \end{document}
+                    
+I'm guessing that you meant to end an alignment here.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing { inserted.
+<inserted text> 
+                {
+l.438 \end{document}
+                    
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing } inserted.
+<inserted text> 
+                }
+l.438 \end{document}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.438 \end{document}
+                    
+I'm guessing that you meant to end an alignment here.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing { inserted.
+<inserted text> 
+                {
+l.438 \end{document}
+                    
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing } inserted.
+<inserted text> 
+                }
+l.438 \end{document}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.438 \end{document}
+                    
+I'm guessing that you meant to end an alignment here.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing { inserted.
+<inserted text> 
+                {
+l.438 \end{document}
+                    
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing } inserted.
+<inserted text> 
+                }
+l.438 \end{document}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.438 \end{document}
+                    
+I'm guessing that you meant to end an alignment here.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing { inserted.
+<inserted text> 
+                {
+l.438 \end{document}
+                    
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing } inserted.
+<inserted text> 
+                }
+l.438 \end{document}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.438 \end{document}
+                    
+I'm guessing that you meant to end an alignment here.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing { inserted.
+<inserted text> 
+                {
+l.438 \end{document}
+                    
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing } inserted.
+<inserted text> 
+                }
+l.438 \end{document}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.438 \end{document}
+                    
+I'm guessing that you meant to end an alignment here.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing { inserted.
+<inserted text> 
+                {
+l.438 \end{document}
+                    
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing } inserted.
+<inserted text> 
+                }
+l.438 \end{document}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.438 \end{document}
+                    
+I'm guessing that you meant to end an alignment here.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing { inserted.
+<inserted text> 
+                {
+l.438 \end{document}
+                    
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing } inserted.
+<inserted text> 
+                }
+l.438 \end{document}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.438 \end{document}
+                    
+I'm guessing that you meant to end an alignment here.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing { inserted.
+<inserted text> 
+                {
+l.438 \end{document}
+                    
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing } inserted.
+<inserted text> 
+                }
+l.438 \end{document}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.438 \end{document}
+                    
+I'm guessing that you meant to end an alignment here.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing { inserted.
+<inserted text> 
+                {
+l.438 \end{document}
+                    
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing } inserted.
+<inserted text> 
+                }
+l.438 \end{document}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.438 \end{document}
+                    
+I'm guessing that you meant to end an alignment here.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing { inserted.
+<inserted text> 
+                {
+l.438 \end{document}
+                    
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing } inserted.
+<inserted text> 
+                }
+l.438 \end{document}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.438 \end{document}
+                    
+I'm guessing that you meant to end an alignment here.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing { inserted.
+<inserted text> 
+                {
+l.438 \end{document}
+                    
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing } inserted.
+<inserted text> 
+                }
+l.438 \end{document}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.438 \end{document}
+                    
+I'm guessing that you meant to end an alignment here.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing { inserted.
+<inserted text> 
+                {
+l.438 \end{document}
+                    
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing } inserted.
+<inserted text> 
+                }
+l.438 \end{document}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.438 \end{document}
+                    
+I'm guessing that you meant to end an alignment here.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing { inserted.
+<inserted text> 
+                {
+l.438 \end{document}
+                    
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing } inserted.
+<inserted text> 
+                }
+l.438 \end{document}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.438 \end{document}
+                    
+I'm guessing that you meant to end an alignment here.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing { inserted.
+<inserted text> 
+                {
+l.438 \end{document}
+                    
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing } inserted.
+<inserted text> 
+                }
+l.438 \end{document}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.438 \end{document}
+                    
+I'm guessing that you meant to end an alignment here.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing { inserted.
+<inserted text> 
+                {
+l.438 \end{document}
+                    
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing } inserted.
+<inserted text> 
+                }
+l.438 \end{document}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.438 \end{document}
+                    
+I'm guessing that you meant to end an alignment here.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing { inserted.
+<inserted text> 
+                {
+l.438 \end{document}
+                    
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing } inserted.
+<inserted text> 
+                }
+l.438 \end{document}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.438 \end{document}
+                    
+I'm guessing that you meant to end an alignment here.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing { inserted.
+<inserted text> 
+                {
+l.438 \end{document}
+                    
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing } inserted.
+<inserted text> 
+                }
+l.438 \end{document}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.438 \end{document}
+                    
+I'm guessing that you meant to end an alignment here.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing { inserted.
+<inserted text> 
+                {
+l.438 \end{document}
+                    
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing } inserted.
+<inserted text> 
+                }
+l.438 \end{document}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.438 \end{document}
+                    
+I'm guessing that you meant to end an alignment here.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing { inserted.
+<inserted text> 
+                {
+l.438 \end{document}
+                    
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing } inserted.
+<inserted text> 
+                }
+l.438 \end{document}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.438 \end{document}
+                    
+I'm guessing that you meant to end an alignment here.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing { inserted.
+<inserted text> 
+                {
+l.438 \end{document}
+                    
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing } inserted.
+<inserted text> 
+                }
+l.438 \end{document}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.438 \end{document}
+                    
+I'm guessing that you meant to end an alignment here.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing { inserted.
+<inserted text> 
+                {
+l.438 \end{document}
+                    
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing } inserted.
+<inserted text> 
+                }
+l.438 \end{document}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.438 \end{document}
+                    
+I'm guessing that you meant to end an alignment here.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing { inserted.
+<inserted text> 
+                {
+l.438 \end{document}
+                    
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing } inserted.
+<inserted text> 
+                }
+l.438 \end{document}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.438 \end{document}
+                    
+I'm guessing that you meant to end an alignment here.
+
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438: Missing { inserted.
+<inserted text> 
+                {
+l.438 \end{document}
+                    
+(That makes 100 errors; please try again.) 
 Here is how much of TeX's memory you used:
- 7917 strings out of 492649
- 113023 string characters out of 6129622
- 232234 words of memory out of 5000000
- 11568 multiletter control sequences out of 15000+600000
+ 7789 strings out of 492649
+ 111214 string characters out of 6129622
+ 243512 words of memory out of 5000000
+ 11512 multiletter control sequences out of 15000+600000
  12012 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,12n,35p,1195b,423s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on BSSGroupProject_e-casa.pdf (29 pages, 1289343 bytes).
-PDF statistics:
- 590 PDF objects out of 1000 (max. 8388607)
- 521 compressed objects within 6 object streams
- 111 named destinations out of 1000 (max. 500000)
- 454 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 28i,20n,35p,1195b,639s stack positions out of 5000i,500n,10000p,200000b,80000s
 
+/Users/damien/Google Drive/TUKS/BSS 420/3.Project/Project/1.Latex Document/2.Report/BSSGroupProject_e-casa.tex:438:  ==> Fatal error occurred, no output PDF file produced!
