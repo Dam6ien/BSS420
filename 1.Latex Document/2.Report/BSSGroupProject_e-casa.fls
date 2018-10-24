@@ -182,6 +182,8 @@ INPUT ./graphics/Function3.pdf
 INPUT graphics/System_Diagram.pdf
 INPUT ./graphics/System_Diagram.pdf
 INPUT ./graphics/System_Diagram.pdf
+INPUT BSSGroupProject_e-casa.bbl
+INPUT BSSGroupProject_e-casa.bbl
 INPUT BSSGroupProject_e-casa.aux
 INPUT TitlePage.aux
 INPUT TitlePage.aux
