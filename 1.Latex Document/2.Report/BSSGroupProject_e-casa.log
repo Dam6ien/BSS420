@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.19)  24 OCT 2018 14:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.19)  24 OCT 2018 16:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -339,21 +339,6 @@ LaTeX Warning: Label `tb: Functional_SS_elements' multiply defined.
 
 LaTeX Warning: Label `tb: Functional_SS_elements' multiply defined.
 
-
-! Package natbib Error: Bibliography not compatible with author-year citations.
-
-(natbib)                Press <return> to continue in numerical citation style.
-
-
-See the natbib package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.142 ...and\NAT@force@numbers{}\NAT@force@numbers
-                                                  
-Check the bibliography entries for non-compliant syntax,
-or select author-year BibTeX style, e.g. plainnat
-
 )
 \openout1 = `BSSGroupProject_e-casa.aux'.
 
@@ -521,13 +506,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 77--78
 [2
 
 ]
-<graphics/Objective_Tree_Structure.png, id=355, 630.355pt x 423.5825pt>
+<graphics/Objective_Tree_Structure.png, id=357, 630.355pt x 423.5825pt>
 File: graphics/Objective_Tree_Structure.png Graphic file (type png)
 <use graphics/Objective_Tree_Structure.png>
 Package pdftex.def Info: graphics/Objective_Tree_Structure.png  used on input l
 ine 83.
 (pdftex.def)             Requested size: 378.21591pt x 254.15146pt.
-<Objective_Tree_ecasa.pdf, id=357, 830.8001pt x 427.95987pt>
+<Objective_Tree_ecasa.pdf, id=359, 830.8001pt x 427.95987pt>
 File: Objective_Tree_ecasa.pdf Graphic file (type pdf)
 <use Objective_Tree_ecasa.pdf>
 Package pdftex.def Info: Objective_Tree_ecasa.pdf  used on input line 91.
@@ -556,7 +541,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 102--103
  []
 
 [3 <./graphics/Objective_Tree_Structure.png>]
-<graphics/HouseholdRecyclingBin.jpg, id=367, 491.8375pt x 491.8375pt>
+<graphics/HouseholdRecyclingBin.jpg, id=369, 491.8375pt x 491.8375pt>
 File: graphics/HouseholdRecyclingBin.jpg Graphic file (type jpg)
 <use graphics/HouseholdRecyclingBin.jpg>
 Package pdftex.def Info: graphics/HouseholdRecyclingBin.jpg  used on input line
@@ -566,13 +551,13 @@ Package pdftex.def Info: graphics/HouseholdRecyclingBin.jpg  used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<graphics/Household_Grey_Water.png, id=370, 240.9pt x 199.947pt>
+<graphics/Household_Grey_Water.png, id=372, 240.9pt x 199.947pt>
 File: graphics/Household_Grey_Water.png Graphic file (type png)
 <use graphics/Household_Grey_Water.png>
 Package pdftex.def Info: graphics/Household_Grey_Water.png  used on input line 
 125.
-(pdftex.def)             Requested size: 277.03284pt x 229.93726pt.
-<graphics/Outdoor_Composter.jpg, id=372, 204.765pt x 188.8656pt>
+(pdftex.def)             Requested size: 289.07854pt x 239.93518pt.
+<graphics/Outdoor_Composter.jpg, id=374, 204.765pt x 188.8656pt>
 File: graphics/Outdoor_Composter.jpg Graphic file (type jpg)
 <use graphics/Outdoor_Composter.jpg>
 Package pdftex.def Info: graphics/Outdoor_Composter.jpg  used on input line 135
@@ -586,12 +571,12 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--144
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
 
  []
 
 
-Overfull \hbox (53.07162pt too wide) in paragraph at lines 150--162
+Overfull \hbox (53.07162pt too wide) in paragraph at lines 149--161
  [] 
  []
 
@@ -601,25 +586,22 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [5 <./graphics/HouseholdRecyclingBin.jpg> <./graphics/Household_Grey_Water.png>
 ]
 Package acronym Info: Label `acro:FBD' newly defined as it shall be overridden
-although it is yet undefined on input line 182.
-<graphics/Function1.pdf, id=405, 333.97052pt x 317.9326pt>
+although it is yet undefined on input line 183.
+<graphics/Function1.pdf, id=407, 333.97052pt x 317.9326pt>
 File: graphics/Function1.pdf Graphic file (type pdf)
 <use graphics/Function1.pdf>
-Package pdftex.def Info: graphics/Function1.pdf  used on input line 186.
+Package pdftex.def Info: graphics/Function1.pdf  used on input line 187.
 (pdftex.def)             Requested size: 267.17677pt x 254.34642pt.
-<graphics/Function2.pdf, id=406, 331.98691pt x 341.64388pt>
+<graphics/Function2.pdf, id=408, 331.98691pt x 341.64388pt>
 File: graphics/Function2.pdf Graphic file (type pdf)
 <use graphics/Function2.pdf>
-Package pdftex.def Info: graphics/Function2.pdf  used on input line 194.
+Package pdftex.def Info: graphics/Function2.pdf  used on input line 195.
 (pdftex.def)             Requested size: 265.58989pt x 273.31546pt.
-<graphics/Function3.pdf, id=407, 362.35776pt x 349.71504pt>
+<graphics/Function3.pdf, id=409, 362.35776pt x 349.71504pt>
 File: graphics/Function3.pdf Graphic file (type pdf)
 <use graphics/Function3.pdf>
-Package pdftex.def Info: graphics/Function3.pdf  used on input line 202.
+Package pdftex.def Info: graphics/Function3.pdf  used on input line 203.
 (pdftex.def)             Requested size: 289.8866pt x 279.7724pt.
- [6 <./graphics/Outdoor_Composter.jpg>]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -628,68 +610,50 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 1565) in paragraph at lines 219--219
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[6 <./graphics/Outdoor_Composter.jpg>]
+Underfull \hbox (badness 1565) in paragraph at lines 221--221
 []\OT1/cmr/m/n/10.95 Four sep-a-rate pipes from (bath,
  []
 
 
-Underfull \hbox (badness 1189) in paragraph at lines 219--220
-[]\OT1/cmr/m/n/10.95 One pipe that merges bath-room
+Underfull \hbox (badness 1057) in paragraph at lines 221--222
+\OT1/cmr/m/n/10.95 pli-ance out-puts and one for the
  []
 
 
-Underfull \hbox (badness 1418) in paragraph at lines 227--227
+Underfull \hbox (badness 1418) in paragraph at lines 229--229
 []\OT1/cmr/m/n/10.95 Grey wa-ter sys-tem makes wa-ter
  []
 
 
-Underfull \hbox (badness 2158) in paragraph at lines 229--229
+Underfull \hbox (badness 1418) in paragraph at lines 229--230
+[]\OT1/cmr/m/n/10.95 Grey wa-ter sys-tem makes wa-ter
+ []
+
+
+Underfull \hbox (badness 2158) in paragraph at lines 231--231
 []\OT1/cmr/m/n/10.95 N/A - Al-ter-na-tives ex-plored by
  []
 
 
-Underfull \hbox (badness 2158) in paragraph at lines 229--230
+Underfull \hbox (badness 2158) in paragraph at lines 231--232
 []\OT1/cmr/m/n/10.95 N/A - Al-ter-na-tives ex-plored by
  []
 
 
-Overfull \hbox (38.84523pt too wide) in paragraph at lines 215--237
+Overfull \hbox (38.84523pt too wide) in paragraph at lines 217--239
  [] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 241--242
-
- []
-
-[7] [8 <./graphics/Function1.pdf> <./graphics/Function2.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 252--257
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 258--260
-
- []
-
-[9 <./graphics/Function3.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 261--263
-
- []
-
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 266--267
-
- []
-
-[11]
 ! Missing } inserted.
 <inserted text> 
                 }
-l.300 ...{Subsystem}} & {\textbf{Class function} &
+l.259 ...{Subsystem}} & {\textbf{Class function} &
                                                    {\textbf{Element Function...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -702,7 +666,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.301 ...extcolor{Format used by sample project} &
+l.260 ...extcolor{Format used by sample project} &
                                                    ... & ...\\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -710,7 +674,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.301 ...extcolor{Format used by sample project} &
+l.260 ...extcolor{Format used by sample project} &
                                                    ... & ...\\
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -719,31 +683,145 @@ Try to go on, since this might almost work.
 ! Missing { inserted.
 <inserted text> 
                 {
-l.301 ...or{Format used by sample project} & ... &
+l.260 ...or{Format used by sample project} & ... &
                                                    ...\\
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
 
-Overfull \hbox (65.07162pt too wide) in paragraph at lines 299--307
+Overfull \hbox (65.07162pt too wide) in paragraph at lines 258--266
  [] 
  []
 
-[12]
+[7] [8 <./graphics/Function1.pdf> <./graphics/Function2.pdf>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--276
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--279
+
+ []
+
+[9 <./graphics/Function3.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 282--283
+
+ []
+
+
+Package natbib Warning: Citation `Fischer2012' on page 10 undefined on input li
+ne 291.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.297 ...{\textbf{Selected Alternative}\\ \midrule
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+
+! Package xcolor Error: Undefined color `Format used by sample project'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.298 ...extcolor{Format used by sample project} &
+                                                   ... & ...\\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.298 ...extcolor{Format used by sample project} &
+                                                   ... & ...\\
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.298 ...or{Format used by sample project} & ... &
+                                                   ...\\
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.298 ...or{Format used by sample project} & ... &
+                                                   ...\\
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.300 ... garbage bin with multiple compartments &
+                                                   ...\\
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.306 ...achine, toilet cistern or in the garden &
+                                                   \textcolor{blue}{Smaller ...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.308 ...etable patch) and to the toilet cistern &
+                                                   Three-way valve to direct...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.312 ...ives explored by other system functions &
+                                                   N/A - Alternatives explor...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+LaTeX Warning: Float too large for page by 121.09276pt on input line 321.
+
+[10]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[11] [12] [13] [14]
 Chapter 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--321
+Underfull \hbox (badness 10000) in paragraph at lines 331--332
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 322--323
+Underfull \hbox (badness 10000) in paragraph at lines 333--334
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--325
+Underfull \hbox (badness 10000) in paragraph at lines 335--336
 
  []
 
@@ -751,21 +829,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 324--325
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./graphics/System_Diagram.pd
 f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graphics/System_Diagram.pdf, id=490, 793.96625pt x 614.295pt>
+<graphics/System_Diagram.pdf, id=502, 793.96625pt x 614.295pt>
 File: graphics/System_Diagram.pdf Graphic file (type pdf)
 <use graphics/System_Diagram.pdf>
-Package pdftex.def Info: graphics/System_Diagram.pdf  used on input line 331.
+Package pdftex.def Info: graphics/System_Diagram.pdf  used on input line 342.
 (pdftex.def)             Requested size: 436.68279pt x 337.86328pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[13
+[15
 
 ]
 ! Missing } inserted.
 <inserted text> 
                 }
-l.352 ...}} & {\textbf{Associated Risk}\\ \midrule
+l.363 ...}} & {\textbf{Associated Risk}\\ \midrule
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -778,7 +856,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.353 ...extcolor{Format used by sample project} &
+l.364 ...extcolor{Format used by sample project} &
                                                    ... & ...\\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -786,7 +864,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.353 ...extcolor{Format used by sample project} &
+l.364 ...extcolor{Format used by sample project} &
                                                    ... & ...\\
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -795,7 +873,7 @@ Try to go on, since this might almost work.
 ! Missing { inserted.
 <inserted text> 
                 {
-l.353 ...or{Format used by sample project} & ... &
+l.364 ...or{Format used by sample project} & ... &
                                                    ...\\
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -804,7 +882,7 @@ Try to go on, since this might almost work.
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.353 ...or{Format used by sample project} & ... &
+l.364 ...or{Format used by sample project} & ... &
                                                    ...\\
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
@@ -813,7 +891,7 @@ So I'll assume that you meant to type \cr instead.
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.355     ... & ... &
+l.366     ... & ... &
                       ...\\
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
@@ -822,7 +900,7 @@ So I'll assume that you meant to type \cr instead.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.369 ...}} & {\textbf{Risk Mitigation}\\ \midrule
+l.380 ...}} & {\textbf{Risk Mitigation}\\ \midrule
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -835,7 +913,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.370 ...extcolor{Format used by sample project} &
+l.381 ...extcolor{Format used by sample project} &
                                                    ... & ...\\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -843,7 +921,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.370 ...extcolor{Format used by sample project} &
+l.381 ...extcolor{Format used by sample project} &
                                                    ... & ...\\
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -852,7 +930,7 @@ Try to go on, since this might almost work.
 ! Missing { inserted.
 <inserted text> 
                 {
-l.370 ...or{Format used by sample project} & ... &
+l.381 ...or{Format used by sample project} & ... &
                                                    ...\\
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -861,7 +939,7 @@ Try to go on, since this might almost work.
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.370 ...or{Format used by sample project} & ... &
+l.381 ...or{Format used by sample project} & ... &
                                                    ...\\
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
@@ -870,13 +948,13 @@ So I'll assume that you meant to type \cr instead.
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.372     ... & ... &
+l.383     ... & ... &
                       ...\\
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
-[14 <./graphics/System_Diagram.pdf>]
+[16 <./graphics/System_Diagram.pdf>]
 
 ! Package xcolor Error: Undefined color `Format used by sample project'.
 
@@ -884,7 +962,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.385 ...extcolor{Format used by sample project} &
+l.396 ...extcolor{Format used by sample project} &
                                                    ... & ...\\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -892,7 +970,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.385 ...extcolor{Format used by sample project} &
+l.396 ...extcolor{Format used by sample project} &
                                                    ... & ...\\
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -901,36 +979,38 @@ Try to go on, since this might almost work.
 ! Missing { inserted.
 <inserted text> 
                 {
-l.385 ...or{Format used by sample project} & ... &
+l.396 ...or{Format used by sample project} & ... &
                                                    ...\\
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-[15] [16]
+[17] [18]
 Chapter 4.
-[17
+[19
 
 ]
 Chapter 5.
-[18
+[20
 
 ]
 Chapter 6.
-(./BSSGroupProject_e-casa.bbl [19
-
-]) [20
-
-]
-Appendix A.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 457.
+No file BSSGroupProject_e-casa.bbl.
 [21
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 457.
+Appendix A.
+
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 468.
+[22
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 468.
  (./BSSGroupProject_e-casa.aux (./TitlePage.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 457.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 457.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 468.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 468.
 Package rerunfilecheck Info: File `BSSGroupProject_e-casa.out' has not changed.
 
 (rerunfilecheck)             Checksum: 969DA00D8C7E3509E98B7E02557E36A3;3727.
@@ -938,16 +1018,16 @@ Package rerunfilecheck Info: File `BSSGroupProject_e-casa.out' has not changed.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 457.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 468.
  ) 
 Here is how much of TeX's memory you used:
- 7913 strings out of 492649
- 112831 string characters out of 6129622
- 232385 words of memory out of 5000000
- 11571 multiletter control sequences out of 15000+600000
+ 7909 strings out of 492649
+ 112727 string characters out of 6129622
+ 239431 words of memory out of 5000000
+ 11569 multiletter control sequences out of 15000+600000
  12012 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,12n,35p,1109b,395s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,12n,35p,931b,419s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
@@ -956,10 +1036,10 @@ usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
 r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
 local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/l
 ocal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on BSSGroupProject_e-casa.pdf (29 pages, 1289988 bytes).
+Output written on BSSGroupProject_e-casa.pdf (30 pages, 1291179 bytes).
 PDF statistics:
- 589 PDF objects out of 1000 (max. 8388607)
- 520 compressed objects within 6 object streams
+ 597 PDF objects out of 1000 (max. 8388607)
+ 527 compressed objects within 6 object streams
  105 named destinations out of 1000 (max. 500000)
  454 words of extra memory for PDF output out of 10000 (max. 10000000)
 
