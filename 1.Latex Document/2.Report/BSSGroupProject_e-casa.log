@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.19)  24 OCT 2018 16:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.19)  24 OCT 2018 22:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -650,10 +650,11 @@ Overfull \hbox (38.84523pt too wide) in paragraph at lines 217--239
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[7] [8 <./graphics/Function1.pdf> <./graphics/Function2.pdf>]
 ! Missing } inserted.
 <inserted text> 
                 }
-l.259 ...{Subsystem}} & {\textbf{Class function} &
+l.264 ...{Subsystem}} & {\textbf{Class function} &
                                                    {\textbf{Element Function...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -666,7 +667,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.260 ...extcolor{Format used by sample project} &
+l.265 ...extcolor{Format used by sample project} &
                                                    ... & ...\\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -674,7 +675,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.260 ...extcolor{Format used by sample project} &
+l.265 ...extcolor{Format used by sample project} &
                                                    ... & ...\\
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -683,44 +684,44 @@ Try to go on, since this might almost work.
 ! Missing { inserted.
 <inserted text> 
                 {
-l.260 ...or{Format used by sample project} & ... &
+l.265 ...or{Format used by sample project} & ... &
                                                    ...\\
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
 
-Overfull \hbox (65.07162pt too wide) in paragraph at lines 258--266
+Overfull \hbox (65.07162pt too wide) in paragraph at lines 263--271
  [] 
  []
 
-[7] [8 <./graphics/Function1.pdf> <./graphics/Function2.pdf>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 274--276
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 277--279
-
- []
-
 [9 <./graphics/Function3.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 282--283
+Underfull \hbox (badness 10000) in paragraph at lines 279--281
 
  []
 
 
-Package natbib Warning: Citation `Fischer2012' on page 10 undefined on input li
-ne 291.
+Underfull \hbox (badness 10000) in paragraph at lines 282--284
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--288
+
+ []
+
+[10]
+
+Package natbib Warning: Citation `Fischer2012' on page 11 undefined on input li
+ne 296.
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.297 ...{\textbf{Selected Alternative}\\ \midrule
+l.302 ...{\textbf{Selected Alternative}\\ \midrule
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -733,7 +734,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.298 ...extcolor{Format used by sample project} &
+l.303 ...extcolor{Format used by sample project} &
                                                    ... & ...\\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -741,7 +742,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.298 ...extcolor{Format used by sample project} &
+l.303 ...extcolor{Format used by sample project} &
                                                    ... & ...\\
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -750,7 +751,7 @@ Try to go on, since this might almost work.
 ! Missing { inserted.
 <inserted text> 
                 {
-l.298 ...or{Format used by sample project} & ... &
+l.303 ...or{Format used by sample project} & ... &
                                                    ...\\
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -759,7 +760,7 @@ Try to go on, since this might almost work.
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.298 ...or{Format used by sample project} & ... &
+l.303 ...or{Format used by sample project} & ... &
                                                    ...\\
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
@@ -768,7 +769,7 @@ So I'll assume that you meant to type \cr instead.
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.300 ... garbage bin with multiple compartments &
+l.305 ... garbage bin with multiple compartments &
                                                    ...\\
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
@@ -777,7 +778,7 @@ So I'll assume that you meant to type \cr instead.
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.306 ...achine, toilet cistern or in the garden &
+l.311 ...achine, toilet cistern or in the garden &
                                                    \textcolor{blue}{Smaller ...
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
@@ -786,7 +787,7 @@ So I'll assume that you meant to type \cr instead.
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.308 ...etable patch) and to the toilet cistern &
+l.313 ...etable patch) and to the toilet cistern &
                                                    Three-way valve to direct...
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
@@ -795,33 +796,32 @@ So I'll assume that you meant to type \cr instead.
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.312 ...ives explored by other system functions &
+l.317 ...ives explored by other system functions &
                                                    N/A - Alternatives explor...
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-LaTeX Warning: Float too large for page by 121.09276pt on input line 321.
+LaTeX Warning: Float too large for page by 121.09276pt on input line 326.
 
-[10]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [11] [12] [13] [14]
 Chapter 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--332
+Underfull \hbox (badness 10000) in paragraph at lines 336--337
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 333--334
+Underfull \hbox (badness 10000) in paragraph at lines 338--339
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 335--336
+Underfull \hbox (badness 10000) in paragraph at lines 340--341
 
  []
 
@@ -832,7 +832,7 @@ f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 <graphics/System_Diagram.pdf, id=502, 793.96625pt x 614.295pt>
 File: graphics/System_Diagram.pdf Graphic file (type pdf)
 <use graphics/System_Diagram.pdf>
-Package pdftex.def Info: graphics/System_Diagram.pdf  used on input line 342.
+Package pdftex.def Info: graphics/System_Diagram.pdf  used on input line 347.
 (pdftex.def)             Requested size: 436.68279pt x 337.86328pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -843,7 +843,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.363 ...}} & {\textbf{Associated Risk}\\ \midrule
+l.368 ...}} & {\textbf{Associated Risk}\\ \midrule
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -856,7 +856,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.364 ...extcolor{Format used by sample project} &
+l.369 ...extcolor{Format used by sample project} &
                                                    ... & ...\\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -864,7 +864,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.364 ...extcolor{Format used by sample project} &
+l.369 ...extcolor{Format used by sample project} &
                                                    ... & ...\\
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -873,7 +873,7 @@ Try to go on, since this might almost work.
 ! Missing { inserted.
 <inserted text> 
                 {
-l.364 ...or{Format used by sample project} & ... &
+l.369 ...or{Format used by sample project} & ... &
                                                    ...\\
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -882,7 +882,7 @@ Try to go on, since this might almost work.
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.364 ...or{Format used by sample project} & ... &
+l.369 ...or{Format used by sample project} & ... &
                                                    ...\\
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
@@ -891,7 +891,7 @@ So I'll assume that you meant to type \cr instead.
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.366     ... & ... &
+l.371     ... & ... &
                       ...\\
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
@@ -900,7 +900,25 @@ So I'll assume that you meant to type \cr instead.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.380 ...}} & {\textbf{Risk Mitigation}\\ \midrule
+l.385 	{\textbf{Function} &
+                            \textbf{Associated Risk}} & {\textbf{Risk Mitiga...
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.385 ...f{Function} & \textbf{Associated Risk}} &
+                                                   {\textbf{Risk Mitigation}...
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.385 ...}} & {\textbf{Risk Mitigation}\\ \midrule
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -913,7 +931,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.381 ...extcolor{Format used by sample project} &
+l.386 ...extcolor{Format used by sample project} &
                                                    ... & ...\\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -921,7 +939,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.381 ...extcolor{Format used by sample project} &
+l.386 ...extcolor{Format used by sample project} &
                                                    ... & ...\\
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -930,29 +948,11 @@ Try to go on, since this might almost work.
 ! Missing { inserted.
 <inserted text> 
                 {
-l.381 ...or{Format used by sample project} & ... &
+l.386 ...or{Format used by sample project} & ... &
                                                    ...\\
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.381 ...or{Format used by sample project} & ... &
-                                                   ...\\
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.383     ... & ... &
-                      ...\\
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
 
 [16 <./graphics/System_Diagram.pdf>]
 
@@ -962,7 +962,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.396 ...extcolor{Format used by sample project} &
+l.401 ...extcolor{Format used by sample project} &
                                                    ... & ...\\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -970,7 +970,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.396 ...extcolor{Format used by sample project} &
+l.401 ...extcolor{Format used by sample project} &
                                                    ... & ...\\
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -979,7 +979,7 @@ Try to go on, since this might almost work.
 ! Missing { inserted.
 <inserted text> 
                 {
-l.396 ...or{Format used by sample project} & ... &
+l.401 ...or{Format used by sample project} & ... &
                                                    ...\\
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1003,14 +1003,14 @@ Appendix A.
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 468.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 473.
 [22
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 468.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 473.
  (./BSSGroupProject_e-casa.aux (./TitlePage.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 468.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 468.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 473.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 473.
 Package rerunfilecheck Info: File `BSSGroupProject_e-casa.out' has not changed.
 
 (rerunfilecheck)             Checksum: 969DA00D8C7E3509E98B7E02557E36A3;3727.
@@ -1018,12 +1018,12 @@ Package rerunfilecheck Info: File `BSSGroupProject_e-casa.out' has not changed.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 468.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 473.
  ) 
 Here is how much of TeX's memory you used:
  7909 strings out of 492649
  112727 string characters out of 6129622
- 239431 words of memory out of 5000000
+ 235431 words of memory out of 5000000
  11569 multiletter control sequences out of 15000+600000
  12012 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1036,7 +1036,7 @@ usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
 r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
 local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/l
 ocal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on BSSGroupProject_e-casa.pdf (30 pages, 1291179 bytes).
+Output written on BSSGroupProject_e-casa.pdf (30 pages, 1292451 bytes).
 PDF statistics:
  597 PDF objects out of 1000 (max. 8388607)
  527 compressed objects within 6 object streams
