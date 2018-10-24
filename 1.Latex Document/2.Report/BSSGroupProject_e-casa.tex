@@ -183,7 +183,7 @@ Subsystem functions are allocated and represented by the following \ac{FBD}s:\\
 %
 \begin{figure}[h!]
 \begin{center}
-\includegraphics[scale = 0.7]{Function1.pdf}
+\includegraphics[scale = 0.8]{Function1.pdf}
 \caption{Provide waste sortation and storage}
 \label{fig: Function1}
 \end{center}
@@ -191,7 +191,7 @@ Subsystem functions are allocated and represented by the following \ac{FBD}s:\\
 %
 \begin{figure}[h!]
 \begin{center}
-\includegraphics[scale = 0.7]{Function2.pdf}
+\includegraphics[scale = 0.8]{Function2.pdf}
 \caption{Reduce water consumption}
 \label{fig: Function2}
 \end{center}
@@ -199,7 +199,7 @@ Subsystem functions are allocated and represented by the following \ac{FBD}s:\\
 %
 \begin{figure}[h!]
 \begin{center}
-\includegraphics[scale = 0.7]{Function3.pdf}
+\includegraphics[scale = 0.8]{Function3.pdf}
 \caption{Provide long-term cost savings function}
 \label{fig: Function3}
 \end{center}
@@ -210,19 +210,17 @@ Subsystem functions are allocated and represented by the following \ac{FBD}s:\\
 
 %
 \begin{table}[h!]
-\caption {System Alternatives for Functional Tasks} \label{tb: Performance_Metrics} 
+\caption {System Alternatives for Functional Tasks} \label{tb: FunctionalTasks} 
 \begin{center}
 \begin{tabular}{p{3.5cm}|p{6cm}|p{6cm}}\toprule
 	{\textbf{Functional Task}} & {\textbf{Alternative 1}} & {\textbf{Alternative 2}}\\ \midrule
-    Waste sortation & One garbage bin with multiple compartments & Multiple garbage bins each with a single compartment\\
-    \hline
-    Waste storage &  \textcolor{red}{Don't know} & \textcolor{red}{Don't know}\\
+    Waste sortation and storage & \textcolor{blue}{One garbage bin with multiple compartments} & Multiple garbage bins each with a single compartment\\
     \hline
     Receive water & Four separate pipes from (bath, shower, basin and washing machine) that connect to the central grey water storage tank & One pipe that merges bathroom appliance outputs and one kitchen pipe. These two pipes connect to the central grey water tank\\
     \hline
-    Process used water & Filter grey water to be sent back to the washing machine for use & Do not purchase a filter and only use grey water in the garden for composting and plant watering\\
+    Process used water & Filter grey water to be sent back to the washing machine for use & \textcolor{blue}{Do not purchase a filter and only use grey water in the garden for composting and plant watering}\\
     \hline
-    Store processed water & Large central tank to store all water received until it is needed again by the washing machine or in the garden & Small central tank to store used water only for the garden\\
+    Store processed water & Large central tank to store all water received until it is needed again by the washing machine or in the garden & \textcolor{blue}{Small central tank to store used water only for the garden}\\
     \hline
     Direct water & Three-way valve to direct grey water back to the washing machine, to an outside water tap to be used in a compost heap and to the garden's sprinkler system to water the vegetable patch & Two-way valve to direct grey water back to outside water tap to be used in a compost heap and to the garden's sprinkler system to water the vegetable patch\\
     \hline
@@ -255,20 +253,19 @@ Subsystem functions are allocated and represented by the following \ac{FBD}s:\\
 The most suitable alternative for each of the system aspects addressed in the section above will be chosen to form the the system. The system as whole must be as cost effective as possible. However, quality should not be sacrificed for unreliable components. The grey water system components will be selected with the intention of a minimum 50 year project life for each, as per industry piping standards. %\cite{Fischer2012}. this ref is giving erros
 This is important to ensure the system does require repairs over the life of the project, only maintenance. The labour and expertise required to make system repairs for the installed grey water system are expected to be costly and should be avoided.
 =======
-The most suitable alternative for each of the system aspects addressed in the section above will be chosen to form the the system.
+The most suitable alternative for each of the system aspects addressed in the section above will be chosen to form the the system:\\
 
-For waste sortation, alternative one will be selected in order to save space and keep the garbage bin as small as possible to fit into the household's kitchen.
+\textbf{Recycling and waste disposal tasks}\\
+For waste sortation, alternative one will be selected in order to save space and keep the garbage bin as small as possible to fit into the household's kitchen.\\
 
-() Will be chosen for waste storage.
+\textbf{Grey water tasks}\\
+To receive water, the alternative with the least invasive way of changing the household's current piping system will be selected (which is anticipated to be ?). With regards to the processing of used water, alternative two will be selected. This is because the filter is a significant expense and will require frequent maintenance. The significant expense and inconvenience of alternative one is anticipated to outweigh its financial benefit as this would only save water being demanded by the household's washing machine.\\
 
-To receive water, the alternative with the least invasive way of changing the household's current piping system will be selected (which is anticipated to be ?). With regards to the processing of used water, alternative two will be selected. This is because the filter is a significant expense and will require frequent maintenance. The significant expense and inconvenience of alternative one is anticipated to outweigh its financial benefit as this would only save water being demanded by the household's washing machine.
+Alternative two for used water storage goes hand-in-hand with alternative two for water processing. Because a filter will not be purchased for the grey water system, a smaller central tank will be used to temporarily store used water until it is demanded for vegetable garden and composting activities. Alternative one is chosen for the re-use water function. Water will be made available for re-use by the grey water system that will make it available at the outside garden tap and sprinkler system for the user. It is then up to the user to use (re-use) this water as best possible.
 
-Alternative two for used water storage goes hand-in-hand with alternative two for water processing. Because a filter will not be purchased for the grey water system, a smaller central tank will be used to temporarily store used water until it is demanded for vegetable garden and composting activities.
+Alternative two would provide more value to the system user but would require substantial, research, financial investment and testing to develop and automated system that caters specifically to the household's unique needs. For the direct water function, alternative two will be selected as only a two-way valve will be needed if water is not to be re-directed from the storage tank to the washing machine for use.\\
 
-Alternative one is chosen for the re-use water function. Water will be made available for re-use by the grey water system that will make it available at the outside garden tap and sprinkler system for the user. It is then up to the user to use (re-use) this water as best possible. Alternative two would provide more value to the system user but would require substantial, research, financial investment and testing to develop and automated system that caters specifically to the household's unique needs.
-
-For the direct water function, alternative two will be selected as only a two-way valve will be needed if water is not to be re-directed from the storage tank to the washing machine for use.
-
+\textbf{Financial savings related tasks}\\
 The function of integrating water, composting and recycling will be performed both by hardware and the human user. Hardware (piping) will be used to connect the grey water subsystem directly to the outside sprinkler system surrounding the vegetable patch and to an outside tap for garden water usage. Grey water directed to the outside tap will need to be collected in the necessary quantity by the human user and input into the compost container. The human user will also be required to create the link between the recycling system and the compost system by means of physically transporting paper waste, garden refuse and food clippings to the compost container. There is no alternative for this option because alternatives for integrating these subsystems in different ways are explored through the other function tasks.
 
 Alternative one will be selected to combine composting materials. Although a large garden compost heap may produce more compost than a smaller compost container, the smaller residential compost container is more convenient for the human user. To maintain a large compost heap in the garden (alternative two) is not practical for all households due to: space restrictions, the need for a structure to protect the compost from weather conditions that will change the balance of water in the heap and the cost of such a structure. The function of combining the composting materials will be performed by the human user who will place the required amounts of dry materials, food waste, paper and brown materials into the residential size compost container.
@@ -287,35 +284,6 @@ The alternatives chosen to fulfil the functions (tasks) are the biometric scanne
 \section{Concept Definition}
 \subsection{Performance Requirement Analysis}
 \subsubsection{Relating analysed spesifications to operation needs}
-Three primary operational needs were identified. Each need will be evaluated individually to determine if the proposed spesifications can adhere to the need.
-
-\begin{enumerate}
-    \item Reduce water consumption
-    \begin{enumerate}
-        \item Reducing the amount of water consumed by a household would require that water be reused when possible. The specification states that \textcolor{red}{10\%} of input water be diverted to other functions within the house thus reducing the water used from the municipal supply. The net effect is that less water is purchased from the municipality and the consumption decreases.
-    \end{enumerate}
-    \item Reduce the production of physical waste
-    \begin{enumerate}
-        \item The production of physical waste refers the mass of waste that a house outputs and the municipality receives to be processed. Composting organic waste reduces the mass of waste the municipality must process and thus reduces the net waste produced by a house hold.
-        \item Sortation of waste into paper, plastic or glass permits recycling companies to use the various materials and thus reduces the amount of waste required to be processed by the municipality. 
-        \item The net redution of waste is required to be \textcolor{red}{20\%}
-    \end{enumerate}
-    \item Provide sustainable waste management system
-    \begin{enumerate}
-        \item Reducing the amount of water consumed by a household directly reduces the running cost of the house and thus for cost reduction to occur, further reductions in water consumption are required. The reduction in costs of the waste management system shall only materialse once the the composting has been compete. Households may used the composite for the maintenance of their gardens or to grow their own vegatbles, further reducing household running costs. A cost reduction of \textcolor{red}{13\%} is anticipated as the impact of reducing physical waste priduction has less direct implications on cost.
-        \item the cost of the system is expected to fairly high. The savings, in the form of reduced operating costs of a household, generated by the system must be repaid within a \textcolor{red}{2 year period}.
-        \item Reducing the comsumption of water and production of physical waste reduces the net effect on the environment. This achived goal of \textcolor{red}{5 ton reduction}.
-    \end{enumerate}
-\end{enumerate}
-
-
-
-Water usage reduction - the water usage can e reduced by the amount spesified.
-Waste usage reduction - the waste can be reduced by the amount spesfied
-Cost saving - cost sagin can be achived if the first two spesifications are achvied
-Net return of investment - the efficiency of the cost saving will determine if the system can pay itself off within 3 years. 
-
-
 
 
 
@@ -323,6 +291,22 @@ Net return of investment - the efficiency of the cost saving will determine if t
 
 \subsection{Functional Analysis and Formulation} 
 \textcolor{red}{Allocating subsystem functions to the component level in terms of system functional elements and defining element interactions, developing functional architectural products, and formulating preliminary functional requirements corresponding to the assigned functions.}
+
+%
+\begin{table}[h!]
+\caption {Functional subsystem elements} \label{tb: Functional_SS_elements} 
+\begin{center}
+\begin{tabular}{p{4cm}|p{4cm}|p{4cm}|p{4cm}}\toprule
+	{\textbf{Subsystem}} & {\textbf{Class function} & {\textbf{Element Function}} & {\textbf{Physical Elements}}\\ \midrule
+    \textcolor{Format used by sample project} & ... & ...\\
+    \hline
+    ... & ... & ...\\
+
+    \bottomrule
+\end{tabular}
+\end{center}
+\end{table}
+%
 
 \subsection{Concept Selection}
 \textcolor{red}{Synthesizing alternative technological approaches and component configurations designed to performance requirements; developing physical architectural products; and conducting trade-off studies among performance, risk, cost, and schedule to select the preferred system concept, defined in terms of components and architectures.}
@@ -358,8 +342,39 @@ The system's functional specifications are translated into three subsystem funct
 \subsection{Functional Analysis and Design}
 
 \subsection{Prototype Development}
+%
+\begin{table}[h!]
+\caption {Selected alternatives and their associated risks} \label{tb: Functional_SS_elements} 
+\begin{center}
+\begin{tabular}{p{7cm}|p{7cm}}\toprule
+	{\textbf{Selected Alternative}} & {\textbf{Associated Risk}\\ \midrule
+    \textcolor{Format used by sample project} & ... & ...\\
+    \hline
+    ... & ... & ...\\
+
+    \bottomrule
+\end{tabular}
+\end{center}
+\end{table}
+%
 
 \subsection{Development Testing}
+%
+\begin{table}[h!]
+\caption {Selected alternatives and their associated risks} \label{tb: Functional_SS_elements} 
+\begin{center}
+\begin{tabular}{p{7cm}|p{7cm}}\toprule
+	{\textbf{Associated Risk}} & {\textbf{Risk Mitigation}\\ \midrule
+    \textcolor{Format used by sample project} & ... & ...\\
+    \hline
+    ... & ... & ...\\
+
+    \bottomrule
+\end{tabular}
+\end{center}
+\end{table}
+%
+
 
 \section{Engineering Procurement Phase}
 
