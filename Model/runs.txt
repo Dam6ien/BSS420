@@ -1,0 +1,11 @@
+Each run has 2000 simulations
+
+Run 1 - base model with initial uniform distributions
+Run 2 - gardenWaterPercent at minimum (5 %)
+Run 3 - gardenWaterPercent at maximum (15 %)
+Run 4 - renewableWaterPercent at minimum (40 %)
+Run 5 - renewableWaterPercent at maximum (50 %)
+Run 6 - gardenWastePercent at minimum (21 %)
+Run 7 - gardenWastePercent at maximum (57 %)
+Run 8 - renewableWastePercent at minimum (21 %)
+Run 9 - renewableWastePercent at maximum (57 %)
