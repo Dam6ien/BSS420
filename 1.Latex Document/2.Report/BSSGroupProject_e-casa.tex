@@ -143,8 +143,8 @@ A number of different household composters are available on the South African ma
 \textcolor{red}{What we need to do: Define metrics to evaluate performance rquirements. Present scenarios and evaluate what the metrics would do.}\\
 
 To ensure the proposed system can fufill the identified need, metrics have been developed that will be used to evaluate the performance of the system.
-
-\begin{table}[h]
+%
+\begin{table}[h!]
 \caption {System Performance Metrics} \label{tb: Performance_Metrics} 
 \begin{center}
 \begin{tabular}{p{5cm}|p{3cm}|p{8cm}}\toprule
@@ -161,7 +161,7 @@ To ensure the proposed system can fufill the identified need, metrics have been 
 \end{tabular}
 \end{center}
 \end{table}
-
+%
 The five metrics in Table~\ref{tb: Performance_Metrics} are to be evaluated using different hypothetical scenarios. These scenarios reflect expected environmental conditions and consideration of the metrics in conjunction with these scenarios is used to determine the appropriateness of the system. The hypothetical scanarios are as follows:
 
 \begin{description}
@@ -208,10 +208,53 @@ Subsystem functions are allocated and represented by the following \ac{FBD}s:\\
 \subsection{Implementation of Concept Exploration}
 \textcolor{red}{Exploring a range of feasible implementation technologies and concepts offering a variety of potentially advantageous options.}
 
-The recycling and waste disposal subsystem can be expanded to include metal and electronic waste bins as well. However, garbage bins with more than three bins to separate waste are not commercialy available and this type of garbage bin would therefore have to be designed and built. It is particulalry advantageous to simply purchase any already existent multiple-container garbage bin because the costs that would need to be incurred to design a new one do not appear to outweigh the financial or intangible benefits to be gained. It is also expected that most households will not have enough physical space to house such a large bin and if a household did, it would be easy to purchase two three-container bins for use. Furthermore, metal and electronice waste is often found in significantly smaller quantities than more populous, plastic, paper and glass waste and it is difficulty to justify separate containers for these two waste categories as they will likely only be emptied a couple times a year.
+%
+\begin{table}[h!]
+\caption {System Alternatives for Functional Tasks} \label{tb: Performance_Metrics} 
+\begin{center}
+\begin{tabular}{p{3.5cm}|p{6cm}|p{6cm}}\toprule
+	{\textbf{Functional Task}} & {\textbf{Alternative 1}} & {\textbf{Alternative 2}}\\ \midrule
+    Waste sortation & One garbage bin with multiple compartments & Multiple garbage bins each with a single compartment\\
+    \hline
+    Waste storage & a &The total mass of organic waste re-used by means of composting is the reduction in household waste output.\\
+    \hline
+    Receive water & Four separate pipes from (bath, shower, basin and washing machine) that connect to the central grey water storage tank & One pipe that merges bathroom appliance outputs and one kitchen pipe. These two pipes connect to the central grey water tank\\
+    \hline
+    Process used water & Filter grey water to be sent back to the washing machine for use & Do not purchase a filter and only use grey water in the garden for composting and plant watering\\
+    \hline
+    Store processed water & Large central tank to store all water received until it is needed again by the washing machine or in the garden & Small central tank to store used water only for the garden\\
+    \hline
+    Direct water & Three-way valve to direct grey water back to the washing machine, to the compost heap or to the household vegetable patch & \textcolor{red}{Don't know}\\
+    \hline
+    Re-use water & \textit{kilogram} & The total mass of plastic, paper and glass respectively represent disposal waste reduction. It is assumed firstly, that all disposable materials were not previously recycled and that secondly, all disposable materials will be recycled by the municipality's garbage management system once the system is installed.\\
+    \hline
+    Integrate water, recycling and composting & ... & ...\\
+    \hline
+     Combine composting materials & ... & ...\\
+    \hline
+     Grow vegetables & ...& ...\\
+    \hline
+    \bottomrule
+\end{tabular}
+\end{center}
+\end{table}
+%
+
+\textbf{Recycling and Waste Disposal Technologies} - The recycling and waste disposal subsystem can be expanded to include metal and electronic waste bins as well. However, garbage bins with more than three bins to separate waste are not commercialy available and this type of garbage bin would therefore have to be designed and built. It is particulalry advantageous to simply purchase any already existent multiple-container garbage bin because the costs that would need to be incurred to design a new one do not appear to outweigh the financial or intangible benefits to be gained. It is also expected that most households will not have enough physical space to house such a large bin and if a household did, it would be easy to purchase two three-container bins for use. Furthermore, metal and electronice waste is often found in significantly smaller quantities than more populous, plastic, paper and glass waste and it is difficulty to justify separate containers for these two waste categories as they will likely only be emptied a couple times a year.\\
+
+\textbf{Grey water system technologies} - 
+	
+	
+\textbf{Composting Options} - 
+	
 
 \subsection{Performance Requirements Validation}
 \textcolor{red}{Conducting effectiveness analyses to define a set of performance requirements that accommodate the full range of desirable system concepts and validating the conformity of these requirements with the stated operational objectives and refining the requirements if necessary.}
+
+The most suitable alternative for each of the system aspects addressed in the section above will be chosen to form the the system. The system as whole must be as cost effective as possible. However, quality should not be sacrificed for unreliable components. The grey water system components will be selected with the intention of a minimum 50 year project life for each, as per industry piping standards \citep{Fischer2012}. This is important to ensure the system does require repairs over the life of the project, only maintenance. The labour and expertise required to make system repairs for the installed grey water system are expected to be costly and should be avoided.
+
+as it will need to be used by people who may be technologically challenged. The most attractive alternative that has been selected as feasible and appropriate is described below.
+The alternatives chosen to fulfil the functioning tasks are the biometric scanner for fingerprinting, a touch screen for the data input, a receipt printer and portable card machine for payments as well as a cash alternative feed, a built-in camera and scanner to take pictures and to scan documents and lastly, a hard drive for the data storage. These alternatives were chosen with the multi objectivity of suitability, convenience, ease of use and a consideration of cost effectiveness in terms of meeting the requirements without over-designing for its purpose.
 
 \section{Concept Definition}
 \subsection{Performance Requirement Analysis}
@@ -312,7 +355,7 @@ Simulation runs to demonstrate sensitivity analysis, changed system behaviour et
 \acresetall
 
 
-\bibliography{Example}
+\bibliography{References}
 
 \appendix
 \chapter{Some data as appendix}
