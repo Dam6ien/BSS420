@@ -365,9 +365,10 @@ For this reason, the advanced development phase for the selected concept will be
 %
 
 \subsection{Development Testing}
+Associated risks for each of the functions of the system are identified and appropriate mitigation plans suggested in Table~\ref{tb: Functional_risk_mitigation}.
 %
 \begin{table}[h!]
-\caption {Associated risks and applicable risk mitigation plans} \label{tb: Functional_SS_elements} 
+\caption {Associated risks and applicable risk mitigation plans} \label{tb: Functional_risk_mitigation} 
 \begin{center}
 \begin{tabular}{p{3cm}|p{5cm}|p{5cm}}\toprule
 	{\textbf{Function} & \textbf{Associated Risk}} & {\textbf{Risk Mitigation}\\ \midrule
@@ -385,9 +386,10 @@ Grey water storage supply & Not enough water to irrigate vegetable patch & Provi
 \end{center}
 \end{table}
 %
+Design specifications for each of the selected alternatives are given along with a motivation in Table~\ref{tb: Functional_design_specs}.
 %
 \begin{table}[h!]
-\caption {Design specification and motivation for selected alternatives} \label{tb: Functional_SS_elements} 
+\caption {Design specification and motivation for selected alternatives} \label{tb: Functional_design_specs} 
 \begin{center}
 \begin{tabular}{p{4.5cm}|p{4.5cm}|p{4.5cm}}\toprule
 	{\textbf{Selected Alternative}} & {\textbf{Design Specification}} & {\textbf{Motivation}}\\ \midrule
@@ -442,8 +444,37 @@ The components selected must be designed to meet the functional requirements. Ea
 \subsection{Component Procurement}
 \textcolor{red}{The next part of this system development is the preliminary design and building of prototypes, test and evaluation of user interfaces, correcting deficiencies and documenting product design. This is once again an iterative process of affirming whether the needs have been addressed through the final design and is beyond the scope of this task. Laying out of preliminary designs of all the required hardware and software components and interfaces needs to be done to make sure that the appropriate hardware and software are available to make this new system and it adheres to the stated need. It is also required to make sure that the software is able to interact accordingly with the hardware. This goes with implementing detailed hardware designs and software coding. The designs need to be as detailed as possible to ensure that the operational and functional needs are met with the help of the software coding. Building the prototype versions of the engineered component are essential to test the concepts. The prototype can then be used to see where mistakes or improvements can be made before the actual design is manufactured. - SAMPLE PROJECT's answer}
 
+Components need to be purchased for the selected alternatives that will fulfill the earlier specified functions. Table~\ref{tb: Component_Procurement} details the components to be  purchased for the \ac{e-casa} system, the sources they will be purchased from and the cost of each component.
+%
+\begin{table}[h!]
+\caption {Component Procurement Summary} \label{tb: Component_Procurement} 
+\begin{center}
+\begin{tabular}{p{5cm}|p{4.5cm}|p{3cm}}\toprule
+	{\textbf{Component/s}} & {\textbf{Source} & {\textbf{Estimated Cost (Rands)}\\ \midrule
+    Garbage bin with 3 x 15 litre removable containers & RecyclingBins.co.uk & 560 \\
+    \hline
+     Grey water tank, piping and filter (installation included) & waterrhapsody.co.za & 9800\\
+    \hline
+     Residential 220~\textit{l} composter & Builders Warehouse (www.builders.co.za) & 800\\
+    \hline
+    \toprule
+    \textbf{Total} & N/A & \textbf{11 660}\\
+    \bottomrule
+\end{tabular}
+\end{center}
+\end{table}
+%
+
 \subsection{Design Validation}
 \textcolor{red}{A test and evaluation of the engineered products has been conducted and the results show that the engineered components meet the requirements with respect to functions, interfaces, reliability and producibility. Based on the analysis above, no deficiencies were realised as the specification descriptions were defined based on available technology that can perform system functions. The product design can be seen in the schematic below. User manuals will be accompanied by the manufacturers of the engineered components along with specifications from the programmers that have customised the software based on the system’s functional requirements. - SAMPLE PROJECT's answer}
+
+\ac{e-casa} design is validated in two ways. Firstly, components of the system are validated through the fact that they have already been tested and evaluated. These components are for sale on the market, meaning they have already passed the necessary safety and reliability tests. Each of the purchased components will also come with the manufacturer's manual.
+
+Secondly, analysis of Figure~\ref{fig: systemDiagram} shows the interactions between the different subsystems to be functional. This validates the design in the sense that integrating the different subsystems is shown to be possible. The two interactions between subsystems are explained below:
+
+\textbf{Interaction 1: Grey water - Compost subsystem interaction} - Greywater will be directed to the garden sprinkler system or outdoor tap when demanded. When received at the outdoor tap, water will need to be colllected by the human user who will retrieve water in the appropriate amount to add to the compost system.
+
+\textbf{Interaction 2: Waste disposal - Compost subsystem interaction} - Paper collected in the waste dispoal system will need to be physically moved to the compost system by the human user.
 
 \section{Integration and Evaluation Phase}
 
@@ -451,10 +482,19 @@ The components selected must be designed to meet the functional requirements. Ea
 \textcolor{red}{Looking at the system’s requirements to meet the specified need, these requirements have been analysed for consistence and completeness. The requirements do not contradict themselves at all which means the integration and interfaces of the required components are possible. As the components needed already exist, there won’t be a need for building specialised test equipment and facilities. Similar test equipment for ATM or the self-service kiosk will be used to ensure that the new system works efficiently. Test requirements that are needed include the ability of the machine to make use of 5.52kWH of electrical power daily, the photo quality needs to be met and the processing speed of the system would be tested before the prototype is built. The functional architecture needs to adhere to the specifications stated such as having an ergonomic setting of the kiosk which includes a touch screen keyboard, biometric scanner, camera, speed point and printer of which should all be in reach or ease of use to the user. The functional architecture would be integrated in a way similar, if not the exact system shown in figure 4, which are kiosks used at healthcare institutes in the States. An adjustable camera would be added for the convenience of people who would require using the system while sitting down (i.e. in wheelchairs or old age) and an assistant will be available to assist in filling in the required information}
 
 \subsection{System Integration}
+\textcolor{red}{At this point the components are tested as detailed in the test plan above. This is done in a sequential manner. Together, these components form subsystems. The subsystems in this system include the following:}
+• Data processing subsystem.
+• Data storage subsystem.
+• Data capturing subsystem.
+• User interface sub-system.
+• Security sub-system.
+The aggregate of these subsystems is a complete system whose elements have been tested. The equipment exists and thus only needs to be deployed and made available during the system integration process. End to end operation of all elements of the system needs to be proven.
 
 \subsection{Developmental System Testing}
+\textcolor{red}{The system was designed with certain desired levels of performance. Components individually were chosen such that this level of performance is achieved. In this section, the actual performance of the integrated system is tested and compared to the defined performance requirements stated from the beginning. The tests are performed on a systems level. The system will have scenarios that it functions in such as operational conditions and the usability to users with varied levels of computer literacy. The system may also have different language modes as a means of representing South Africa’s diversity. The system then needs to be tested in all the operational scenarios and possible modes. Where performance has deficiencies, these need to be eliminated. Doing this my mean replacing some components, adding different interactions or integration methods. Where not feasible, it may be assessed if the performance deficiency inhibits system objectives from being achieved. If not, then this phase may be concluded.}
 
 \subsection{Operational Test and Evaluation}
+\textcolor{red}{Once the prototype has been made it will be placed at one of the home affairs for a test run, to make sure the required speed of filling out the applications is met and how it can be improved if it is not and all the other requirements. Training for customer service staff to closely monitor users of the kiosks and function as “stewards” for those users that encounter any difficulties. Before the prototype is built the requirements of the components would be tested before-hand. This prototype will be monitored always, maximum a period of two months, measuring the degree of compliance and evaluating the readiness of the system whereby improvements required would then be conveyed to the design team before mass production of the final product is done.}
 
 \chapter{Post Development Stage}
 
