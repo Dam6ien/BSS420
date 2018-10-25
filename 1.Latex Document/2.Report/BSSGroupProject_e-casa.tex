@@ -458,7 +458,7 @@ Components need to be purchased for the selected alternatives that will fulfill 
      Residential 220~\textit{l} composter & Builders Warehouse (www.builders.co.za) & 800\\
     \hline
     \toprule
-    \textbf{Total} & N/A & \textbf{11 660}\\
+    \textbf{Total} & N/A & \textbf{11 160}\\
     \bottomrule
 \end{tabular}
 \end{center}
@@ -470,9 +470,9 @@ Components need to be purchased for the selected alternatives that will fulfill 
 
 \ac{e-casa} design is validated in two ways. Firstly, components of the system are validated through the fact that they have already been tested and evaluated. These components are for sale on the market, meaning they have already passed the necessary safety and reliability tests. Each of the purchased components will also come with the manufacturer's manual.
 
-Secondly, analysis of Figure~\ref{fig: systemDiagram} shows the interactions between the different subsystems to be functional. This validates the design in the sense that integrating the different subsystems is shown to be possible. The two interactions between subsystems are explained below:
+Secondly, analysis of Figure~\ref{fig: systemDiagram} shows the interactions between the different subsystems to be functional. This validates the design in the sense that integrating the different subsystems is shown to be possible. The two interactions between subsystems are explained below:\\
 
-\textbf{Interaction 1: Grey water - Compost subsystem interaction} - Greywater will be directed to the garden sprinkler system or outdoor tap when demanded. When received at the outdoor tap, water will need to be colllected by the human user who will retrieve water in the appropriate amount to add to the compost system.
+\textbf{Interaction 1: Grey water - Compost subsystem interaction} - Greywater will be directed to the garden sprinkler system or outdoor tap when demanded. When received at the outdoor tap, water will need to be colllected by the human user who will retrieve water in the appropriate amount to add to the compost system.\\
 
 \textbf{Interaction 2: Waste disposal - Compost subsystem interaction} - Paper collected in the waste dispoal system will need to be physically moved to the compost system by the human user.
 
@@ -483,12 +483,7 @@ Secondly, analysis of Figure~\ref{fig: systemDiagram} shows the interactions bet
 
 \subsection{System Integration}
 \textcolor{red}{At this point the components are tested as detailed in the test plan above. This is done in a sequential manner. Together, these components form subsystems. The subsystems in this system include the following:}
-• Data processing subsystem.
-• Data storage subsystem.
-• Data capturing subsystem.
-• User interface sub-system.
-• Security sub-system.
-The aggregate of these subsystems is a complete system whose elements have been tested. The equipment exists and thus only needs to be deployed and made available during the system integration process. End to end operation of all elements of the system needs to be proven.
+The \ac{e-casa} system as a whole will need to be integrated with the household's current water supply and garden sprinkler system. This integration is expected to be costly and significant whereas, integration of the compost and waste dipsoal subsystems will not require integration. The components for the latter two subsystems only need to be placed in appropriate places in the household. It is suggested that the recycling garbage bin be placed in the kitchen and the composter be placed outside in the garden to prevent any unpleasant oudors in the kitchen.
 
 \subsection{Developmental System Testing}
 \textcolor{red}{The system was designed with certain desired levels of performance. Components individually were chosen such that this level of performance is achieved. In this section, the actual performance of the integrated system is tested and compared to the defined performance requirements stated from the beginning. The tests are performed on a systems level. The system will have scenarios that it functions in such as operational conditions and the usability to users with varied levels of computer literacy. The system may also have different language modes as a means of representing South Africa’s diversity. The system then needs to be tested in all the operational scenarios and possible modes. Where performance has deficiencies, these need to be eliminated. Doing this my mean replacing some components, adding different interactions or integration methods. Where not feasible, it may be assessed if the performance deficiency inhibits system objectives from being achieved. If not, then this phase may be concluded.}
@@ -499,6 +494,12 @@ The aggregate of these subsystems is a complete system whose elements have been 
 \chapter{Post Development Stage}
 
 \section{Production and Deployment Phase}
+None of the components for the \ac{e-casa} system require production. However, all of them require successful deployment. Deployment of the recycling garbage bin and compost container are uncomplicated but deployment of the grey water subsytem is expected to be time consuming and complicated. 
+
+Successful deployment of the grey water system will require assessment of the household's existing water supply network. This 
+
+o Transition in management and participants o Problems in the transition process
+o Product preparation
 
 \subsection{Transitions from Development to Production}
 
@@ -508,6 +509,8 @@ The aggregate of these subsystems is a complete system whose elements have been 
 \textcolor{red}{Installation and test (system integration site, internal and external, disruptive or non-disruptive installation, early system operational difficulties encountered or that could be encountered, operational personnel)
 Logistics, Support and Maintenance schedule
 System Upgrades (hard and software upgrade plans)}
+
+
 
 \chapter{Software Design and System Dynamics}
 \textcolor{red}{This phase is required to study the behaviour and structure of a system by carrying out sensitivity analysis tests. Only select critical elements or more as deemed fit from the designed system and apply to these to the modelling capability of a chosen software.
