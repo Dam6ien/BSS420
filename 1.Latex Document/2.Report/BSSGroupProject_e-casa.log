@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.19)  25 OCT 2018 14:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.19)  25 OCT 2018 14:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -506,13 +506,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 77--78
 [2
 
 ]
-<graphics/ecasa_OT.png, id=356, 894.34125pt x 265.99374pt>
+<graphics/ecasa_OT.png, id=356, 896.34875pt x 269.005pt>
 File: graphics/ecasa_OT.png Graphic file (type png)
 <use graphics/ecasa_OT.png>
 Package pdftex.def Info: graphics/ecasa_OT.png  used on input line 83.
-(pdftex.def)             Requested size: 491.8892pt x 146.297pt.
+(pdftex.def)             Requested size: 492.99335pt x 147.9532pt.
 
-Overfull \hbox (53.71675pt too wide) in paragraph at lines 83--84
+Overfull \hbox (54.82089pt too wide) in paragraph at lines 83--84
  [] 
  []
 
@@ -854,7 +854,7 @@ Underfull \hbox (badness 1308) in paragraph at lines 379--381
 ! Missing } inserted.
 <inserted text> 
                 }
-l.426 ...tbf{Component}} & {\textbf{Interaction} &
+l.430 ...tbf{Component}} & {\textbf{Interaction} &
                                                    {\textbf{Interface}\\ \mi...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -863,7 +863,7 @@ Try to go on, since this might almost work.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.426 ...raction} & {\textbf{Interface}\\ \midrule
+l.430 ...raction} & {\textbf{Interface}\\ \midrule
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -876,7 +876,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.427 ...extcolor{Format used by sample project} &
+l.431 ...extcolor{Format used by sample project} &
                                                    ... & ...\\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -884,7 +884,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.427 ...extcolor{Format used by sample project} &
+l.431 ...extcolor{Format used by sample project} &
                                                    ... & ...\\
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -893,7 +893,7 @@ Try to go on, since this might almost work.
 ! Missing { inserted.
 <inserted text> 
                 {
-l.427 ...or{Format used by sample project} & ... &
+l.431 ...or{Format used by sample project} & ... &
                                                    ...\\
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -917,14 +917,14 @@ Appendix A.
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 495.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 499.
 [24
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 495.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 499.
  (./BSSGroupProject_e-casa.aux (./TitlePage.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 495.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 495.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 499.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 499.
 Package rerunfilecheck Info: File `BSSGroupProject_e-casa.out' has not changed.
 
 (rerunfilecheck)             Checksum: F6D19B1FD8BFC7FBC588502D191E1D57;3732.
@@ -932,7 +932,7 @@ Package rerunfilecheck Info: File `BSSGroupProject_e-casa.out' has not changed.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 495.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 499.
  ) 
 Here is how much of TeX's memory you used:
  7906 strings out of 492649
@@ -950,7 +950,7 @@ usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
 r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
 local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/l
 ocal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on BSSGroupProject_e-casa.pdf (32 pages, 1294311 bytes).
+Output written on BSSGroupProject_e-casa.pdf (32 pages, 1296731 bytes).
 PDF statistics:
  586 PDF objects out of 1000 (max. 8388607)
  519 compressed objects within 6 object streams
