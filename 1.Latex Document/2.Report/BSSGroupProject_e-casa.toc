@@ -30,23 +30,23 @@
 \contentsline {subsection}{\numberline {3.1.4}Development Testing}{17}{subsection.3.1.4}
 \contentsline {section}{\numberline {3.2}Engineering Procurement Phase}{17}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Requirements Analysis}{17}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Functional Analysis and Design}{18}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Component Design}{18}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.2}Functional Analysis and Design}{17}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Component Procurement}{18}{subsection.3.2.3}
 \contentsline {subsection}{\numberline {3.2.4}Design Validation}{18}{subsection.3.2.4}
-\contentsline {section}{\numberline {3.3}Integration and Evaluation Phase}{18}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Test Planning and Preparation}{18}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}System Integration}{18}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Developmental System Testing}{18}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}Operational Test and Evaluation}{18}{subsection.3.3.4}
-\contentsline {chapter}{\numberline {4}Post Development Stage}{19}{chapter.4}
-\contentsline {section}{\numberline {4.1}Production and Deployment Phase}{19}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Transitions from Development to Production}{19}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Production Operations}{19}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}Operations and Support Phase}{19}{section.4.2}
-\contentsline {chapter}{\numberline {5}Software Design and System Dynamics}{20}{chapter.5}
-\contentsline {section}{\numberline {5.1}Core 9 System Design Structure}{20}{section.5.1}
-\contentsline {section}{\numberline {5.2}System Dynamics Analysis}{20}{section.5.2}
-\contentsline {section}{\numberline {5.3}Selected Elements for System Dynamics Analysis}{20}{section.5.3}
-\contentsline {section}{\numberline {5.4}Sensitivity Analysis}{20}{section.5.4}
-\contentsline {chapter}{\numberline {6}Conclusion}{21}{chapter.6}
-\contentsline {chapter}{\numberline {A}Some data as appendix}{22}{appendix.A}
+\contentsline {section}{\numberline {3.3}Integration and Evaluation Phase}{19}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Test Planning and Preparation}{19}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}System Integration}{19}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Developmental System Testing}{19}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Operational Test and Evaluation}{19}{subsection.3.3.4}
+\contentsline {chapter}{\numberline {4}Post Development Stage}{20}{chapter.4}
+\contentsline {section}{\numberline {4.1}Production and Deployment Phase}{20}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Transitions from Development to Production}{20}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Production Operations}{20}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}Operations and Support Phase}{20}{section.4.2}
+\contentsline {chapter}{\numberline {5}Software Design and System Dynamics}{21}{chapter.5}
+\contentsline {section}{\numberline {5.1}Core 9 System Design Structure}{21}{section.5.1}
+\contentsline {section}{\numberline {5.2}System Dynamics Analysis}{21}{section.5.2}
+\contentsline {section}{\numberline {5.3}Selected Elements for System Dynamics Analysis}{21}{section.5.3}
+\contentsline {section}{\numberline {5.4}Sensitivity Analysis}{21}{section.5.4}
+\contentsline {chapter}{\numberline {6}Conclusion}{22}{chapter.6}
+\contentsline {chapter}{\numberline {A}Some data as appendix}{23}{appendix.A}
