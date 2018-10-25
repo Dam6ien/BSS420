@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.19)  25 OCT 2018 16:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.19)  25 OCT 2018 16:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -930,8 +930,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 458--458
 []\OT1/cmr/m/n/10.95 Builders Ware-house
  []
 
-[19] [20] [21]
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 473--474
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 475--476
+
+ []
+
+[20] [21]
 Chapter 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 513--514
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 515--516
+
+ []
+
 [22
 
 ]
@@ -948,14 +968,14 @@ Appendix A.
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 534.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 546.
 [25
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 534.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 546.
  (./BSSGroupProject_e-casa.aux (./TitlePage.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 534.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 534.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 546.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 546.
 Package rerunfilecheck Info: File `BSSGroupProject_e-casa.out' has not changed.
 
 (rerunfilecheck)             Checksum: F6D19B1FD8BFC7FBC588502D191E1D57;3732.
@@ -963,7 +983,7 @@ Package rerunfilecheck Info: File `BSSGroupProject_e-casa.out' has not changed.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 534.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 546.
  ) 
 Here is how much of TeX's memory you used:
  7911 strings out of 492649
@@ -981,10 +1001,10 @@ usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
 r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
 local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/l
 ocal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on BSSGroupProject_e-casa.pdf (33 pages, 1302651 bytes).
+Output written on BSSGroupProject_e-casa.pdf (33 pages, 1303846 bytes).
 PDF statistics:
- 601 PDF objects out of 1000 (max. 8388607)
- 533 compressed objects within 6 object streams
+ 602 PDF objects out of 1000 (max. 8388607)
+ 534 compressed objects within 6 object streams
  109 named destinations out of 1000 (max. 500000)
  449 words of extra memory for PDF output out of 10000 (max. 10000000)
 
