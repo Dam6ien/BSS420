@@ -216,13 +216,13 @@ Multiple alternatives for each of the function tasks given in \ac{FBD}s are expl
 \begin{center}
 \begin{tabular}{p{3.5cm}|p{6cm}|p{6cm}}\toprule
 	{\textbf{Functional Task}} & {\textbf{Alternative 1}} & {\textbf{Alternative 2}}\\ \midrule
-    Waste sortation and storage & \textcolor{blue}{One garbage bin with multiple compartments} & Multiple garbage bins each with a single compartment\\
+    Waste sortation and storage & One garbage bin with multiple compartments & Multiple garbage bins each with a single compartment\\
     \hline
     Receive water & Four separate pipes from (bath, shower, basin and washing machine) that connect to the central grey water storage tank & One pipe that merges bathroom appliance outputs and one for the kitchen. These two pipes will feed water to the central grey water tank\\
     \hline
-    Process used water & Filter grey water to be sent back to the washing machine for re-use and to the garden (for composting and plant watering) and toilet cistern (for flushing) & \textcolor{blue}{Do not purchase a filter and only use grey water in the garden and to flush the toilet cistern}\\
+    Process used water & Filter grey water to be sent back to the washing machine for re-use and to the garden (for composting and plant watering) and toilet cistern (for flushing) & Do not purchase a filter and only use grey water in the garden and to flush the toilet cistern\\
     \hline
-    Store processed water & Large central tank to store all water received until it is needed again by the washing machine, toilet cistern or in the garden & \textcolor{blue}{Smaller central tank to store used water only for use in the garden}\\
+    Store processed water & Large central tank to store all water received until it is needed again by the washing machine, toilet cistern or in the garden & Smaller central tank to store used water only for use in the garden\\
     \hline
     Direct water & Five-way water valve to direct grey water back to the washing machine, to an outside water tap (to be used in a compost container), to the garden's sprinkler system (to water the vegetable patch) and to the toilet cistern & Three-way valve to direct grey water back to outside water tap to be used in a compost heap and to the garden's sprinkler system to water the vegetable patch\\
     \hline
@@ -274,7 +274,7 @@ The following performance requirements were included in the specification follow
 \subsection{Concept Selection}
 \textcolor{red}{Synthesizing alternative technological approaches and component configurations designed to performance requirements; developing physical architectural products; and conducting trade-off studies among performance, risk, cost, and schedule to select the preferred system concept, defined in terms of components and architectures.}
 
-The alternatives given for the functions in Table~\ref{tb: FunctionalTasks} were assessed according to financial feasibility, convenience and ease of implementation. One alternative was selected for each function and (Table~\ref{tb: chosen_Alts}) with the explanation for choice in each alternative given below:
+The alternatives given for the functions in Table~\ref{tb: FunctionalTasks} were assessed according to financial feasibility, convenience and ease of implementation. One alternative was selected for each function (Table~\ref{tb: chosen_Alts}) with the explanation for choice in each alternative given below:
 
 \textbf{Recycling and waste disposal tasks}\\
 For waste sortation, alternative one will be selected in order to save space and keep the garbage bin as small as possible to fit into the household's kitchen.\\
@@ -298,27 +298,25 @@ The system as whole must be as cost effective as possible. However, quality shou
 \begin{table}[h!]
 \caption {Functions and their selected alternatives} \label{tb: chosen_Alts} 
 \begin{center}
-\begin{tabular}{p{7cm}|p{7cm}}\toprule
+\begin{tabular}{p{3.5cm}|p{9cm}}\toprule
 	{\textbf{Function/Task}} & {\textbf{Selected Alternative}\\ \midrule
-    \textcolor{Format used by sample project} & ... & ...\\
-    \hline
-    ... & One garbage bin with multiple compartments & ...\\
+    Waste sortation and storage & One garbage bin with multiple compartments & ...\\
      \hline
-     Receive water & Four separate pipes from (bath, shower, basin and washing machine) that connect to the central grey water storage tank  One pipe that merges bathroom appliance outputs and one for the kitchen. These two pipes will feed water to the central grey water tank\\
+     Receive water & Four separate pipes from (bath, shower, basin and washing machine) that connect to the central grey water storage tank \textcolor{blue}{One pipe that merges bathroom appliance outputs and one for the kitchen. These two pipes will feed water to the central grey water tank}\\
     \hline
     Process used water & Filter grey water to be sent back to the washing machine for re-use and to the garden (for composting and plant watering) and toilet cistern (for flushing) \textcolor{blue}{Do not purchase a filter and only use grey water in the garden and to flush the toilet cistern}\\
     \hline
-    Store processed water & Large central tank to store all water received until it is needed again by the washing machine, toilet cistern or in the garden & \textcolor{blue}{Smaller central tank to store used water only for use in the garden}\\
+    Store processed water & Large central tank to store all water received until it is needed again by the washing machine, toilet cistern or in the garden \textcolor{blue}{Smaller central tank to store used water only for use in the garden}\\
     \hline
-    Direct water & Five-way water valve to direct grey water back to the washing machine, to an outside water tap (to be used in a compost container), to the garden's sprinkler system (to water the vegetable patch) and to the toilet cistern & Three-way valve to direct grey water back to outside water tap to be used in a compost heap and to the garden's sprinkler system to water the vegetable patch\\
+    Direct water & Five-way water valve to direct grey water back to the washing machine, to an outside water tap (to be used in a compost container), to the garden's sprinkler system (to water the vegetable patch) and to the toilet cistern \textcolor{blue}{Three-way valve to direct grey water back to outside water tap to be used in a compost heap and to the garden's sprinkler system to water the vegetable patch}\\
     \hline
     Re-use water & Grey water system makes water available for re-use at necessary outlet points when human user demands it at a tap\\
     \hline
-    Integrate water, recycling and composting & N/A - Alternatives explored by other system functions & N/A - Alternatives explored by other system functions\\
+    Integrate water, recycling and composting & N/A - Alternatives explored by other system functions\\
     \hline
      Combine composting materials & Purchase a residential size compost container that the necessary materials are combined in to produce compost\\
     \hline
-     Grow vegetables & User must collect water from the outside garden tap in the necessary quantity and use it to water the vegetable patch. Compost collected and filled in the vegetable patch manually by human user Connect grey water storage tank directly to garden sprinkler system to be activated by the human user at the flick of the sprinkler switch. Compost collected and filled in the vegetable patch manually by human user\\
+     Grow vegetables & User must collect water from the outside garden tap in the necessary quantity and use it to water the vegetable patch. Compost collected and filled in the vegetable patch manually by human user \textcolor{blue}{Connect grey water storage tank directly to garden sprinkler system to be activated by the human user at the flick of the sprinkler switch. Compost collected and filled in the vegetable patch manually by human user}\\
     \hline
     \bottomrule
 \end{tabular}
@@ -340,8 +338,7 @@ The system's functional specifications are translated into three subsystem funct
 \textbf{Compost subsystem} -  The compost subsystem interfaces with the household's garden and organic material stockpile components. It uses organic materials from the material stockpile to provide compost to the garden component. It's primary capabilities are to store organic materials and provide some form of visual management for the user to know when there is sufficient compost for the storage container to be emptied. This subsystem is connected to the grey-water subsystem which provides grey water as an input as well as to the Recycling and waste disposal subsystem which provides paper and other organic waste to the compost system.\\
 
 \textbf{Recycling and waste disposal subsystem} - This subsystem interfaces with the household's kitchen as a component in order to receive all household waste as an input. It also intrefaces with the municipal recycling system at the point where waste is placed on the sidewalk for collection by the municipality's waste collection service. Its primary capability is to sort household waste into the relevant categories for re-use or disposal. Paper recyclables and organic waste collected by this subsystem are output to be used in the compost subsystem while other recyclables and non-recylable waste is disposed of to the municipal recycling system.
-
-
+%
 \begin{figure}[h!]
 \begin{center}
 \includegraphics[scale = 0.55]{System_Diagram.pdf}
@@ -349,8 +346,7 @@ The system's functional specifications are translated into three subsystem funct
 \label{fig: systemDiagram}
 \end{center}
 \end{figure}
-
-
+%
 \section{Advanced Development Phase}
 The components for the three aforementioned subsystems of \ac{e-casa} have already been designed and can be purchased from the market. The components will therefore not be evaluated individually but \ac{e-casa} is unique in that it is the first system of this kind that integrates these different components .
 For this reason, the advanced development phase for the selected concept will be conducted to identify possible implementation risks of using these components together as one system.
@@ -394,7 +390,7 @@ For this reason, the advanced development phase for the selected concept will be
 %
 %
 \begin{table}[h!]
-\caption {Associated risks and applicable risk mitigation plans} \label{tb: Functional_SS_elements} 
+\caption {Design specification and motivation for selected alternatives} \label{tb: Functional_SS_elements} 
 \begin{center}
 \begin{tabular}{p{4.5cm}|p{4.5cm}|p{4.5cm}}\toprule
 	{\textbf{Selected Alternative}} & {\textbf{Design Specification}} & {\textbf{Motivation}}\\ \midrule
