@@ -76,8 +76,6 @@ Due to a lack of solutions currently on the market, there is an opportunity to e
 \subsection{Operational Objectives}
 The overarching objective that \ac{e-casa} is intended to fulfil is to provide sustainable household waste management. This objective is deconstructed into three primary objectives, namely: \textit{Provide Waste Sortation and Storage}, \textit{Reduce Water Consumption} and \textit{Provide long-term cost savings}. Figure~\ref{fig: ecasaOT} shows the operational objectives of the \ac{e-casa} system.\\
 
-\textcolor{red}{Figure~\ref{fig: ecasaOT} is a work in progress of our objective tree thus far.}
-
 \begin{figure}[h!]
 \begin{center}
 \includegraphics[scale = 0.55]{ecasa_OT.png}
@@ -131,8 +129,6 @@ A number of different household composters are available on the South African ma
 \end{figure}
 
 \subsection{Need Validation}
-\textcolor{red}{Need to review: Present scenarios and evaluate what the metrics would do.}\\
-
 To ensure the proposed system can fufill the identified need, metrics have been developed that will be used to evaluate the performance of the system.
 %
 \begin{table}[h!]
@@ -166,12 +162,12 @@ The metrics are shown to be helpful in assessing the performance of the system u
 
 \section{Concept Exploration}
 \subsection{Operational Requirements Analysis}
-The three primary objectives of the system are to reduce water consumption, provide waste sortation and storage, and to provide long-term cost savings. The following operational requirements are specified according to these three objectives: 
+The three primary objectives of the system are to reduce water consumption, provide waste sortation and storage, and to provide long-term cost savings. The following operational requirements are specified according to these three objectives: \\
 
 \textbf{Water Consumption}
 \begin{itemize}
 \item Reduce Water Consumption
-\item Use water collection and diversion
+\item Grey water collection
 \item Grey water storage 
 \item Greywater filtration 
 \item Filtered greywater diversion 
@@ -183,55 +179,23 @@ The three primary objectives of the system are to reduce water consumption, prov
 \item Visual compartment distinction 
 \item Safe and odourless waste containment 
 \item Specialised organic waste storage 
-\item Compost to veggie patch distribution 
+\item Compost to veggetable patch distribution 
 \end{itemize}
 \medskip
 \textbf{Provide Long-term Cost Savings}
 \begin{itemize}
 \item Water volume usage reduction
 \item Garden maintenance cost reduction 
-\item Vegetable patch garden growth 
-\item Payback period shortening 
+\item Self-grown vegetables from garden
 \end{itemize}
-
 
 \subsection{Performance Requirements Formulation}
-From the operational requirements discussed above, the following subsystem functions are defined. 
-
-\textbf{Water Consumption}
-\begin{itemize}
-\item Collect reusable water from appliances within the household and divert the water to a greywater storage tank 
-\item Store greywater produced by the household
-\item Filter the greywater to be reused by the household
-\item Divert the greywater to compatible appliances 
-\item Divert the greywater to toilet cisterns
-\item Divert the greywater to toilet cisterns
-\item Divert the greywater into the garden and veggie patch
-\end{itemize}
-\medskip
-\textbf{Provide waste Sortation and Storage}
-\begin{itemize}
-\item Collect and store waste by waste type
-\item Visual distinction to inform the user of where each waste type must go (sort waste)
-\item Safe and odourless containment of waste
-\item Specialised storage for converting organic waste into compost (composter)
-\item Dispose of compost into veggie patch and garden
-\end{itemize}
-\medskip
-\textbf{Provide Long-term Cost Savings}
-\begin{itemize}
-\item Reduce the volume of water purchased from the municipality
-\item Lower garden maintenance cost
-\item Grow produce to reduce monthly food bill 
-\item Short-term payback period
-\end{itemize}
-
-These subsystem functions are allocated and represented by the following \ac{FBD}s:\\ 
+Subsystem functions are defined and allocated from the operational requirements discussed above and can be found in the following \ac{FBD}s:\\ 
 %
 \begin{figure}[h!]
 \begin{center}
 \includegraphics[scale = 0.4]{Function1.pdf}
-\caption{Provide waste sortation and storage}
+\caption{Function 1: Provide waste sortation and storage}
 \label{fig: Function1}
 \end{center}
 \end{figure}
@@ -239,7 +203,7 @@ These subsystem functions are allocated and represented by the following \ac{FBD
 \begin{figure}[h!]
 \begin{center}
 \includegraphics[scale = 0.8]{Function2.pdf}
-\caption{Reduce water consumption}
+\caption{Function 2: Reduce water consumption}
 \label{fig: Function2}
 \end{center}
 \end{figure}
@@ -247,7 +211,7 @@ These subsystem functions are allocated and represented by the following \ac{FBD
 \begin{figure}[h!]
 \begin{center}
 \includegraphics[scale = 0.8]{Function3.pdf}
-\caption{Provide long-term cost savings function}
+\caption{Function 3: Provide long-term cost savings function}
 \label{fig: Function3}
 \end{center}
 \end{figure}
@@ -320,7 +284,7 @@ The following performance requirements were included in the specification after 
 \end{table}
 %
 
-\subsubsection{Relating analysed spesifications to operation needs}
+\subsubsection{Relating analysed specifications to operation needs}
 
 \subsection{Functional Analysis and Formulation} 
 \textcolor{red}{Allocating subsystem functions to the component level in terms of system functional elements and defining element interactions, developing functional architectural products, and formulating preliminary functional requirements corresponding to the assigned functions.}
@@ -426,8 +390,21 @@ For this reason, the advanced development phase for the selected concept will be
 \begin{tabular}{p{7cm}|p{7cm}}\toprule
 	{\textbf{Selected Alternative}} & {\textbf{Associated Risk}\\ \midrule
     \hline
-    ... & ... & ...\\
-
+    Single bin with multiple compartments & If a compartment or one part of the bin breaks, the entire bin needs to be replaced as individual parts are not sold separately.\\
+        \hline
+    Four separate pipes into the greywater system  & Installation may become complicated and thus more costly since more materials may be required.\\
+        \hline
+    Filter used water & Including a filter will increase the electricity usage and the cost of the overall system. Cleaning the filter may be an inconvenience to the user. If the filter pump breaks it may be costly to replace. \\
+        \hline
+   Large central greywater tank & The cost of the tank increases with larger size. If the water is treated incorrectly the effects will be experienced broadly by the household. \\
+        \hline
+    Five way water valve & If the valve gets blocked or breaks, all aspects linked to the system will be adversely affected. More connections means more widespread effect on the household.\\
+        \hline
+    Greywater available on demand from a tap & If all the greywater has been used on other areas of the household, the tap may run dry. Water that could otherwise be used for cooking and drinking will be used to water the garden. Manually transferring water may be an inconvenience for the user\\
+        \hline
+    Residential sized compost container & The above ground container can be knocked over by pets and wild animals.\\
+        \hline
+    Greywater system connected directly to sprinkler system & Additional parts will be needed to connect switches and electronic pumps. A malfunction in the sprinkler system could result in the garden not receiving water or excessive water usage. \\
     \bottomrule
 \end{tabular}
 \end{center}
@@ -631,3 +608,31 @@ Simulation runs to demonstrate sensitivity analysis, changed system behaviour et
 
 %	\item[Long term system failure] - The water and waste savings will be realised within the first usage cycle, meaning once the system has re-used waste and waste, the saving immediately materialises. The return on investment is expected to be achieved before the onset of long term system failure. The likelihood of system failure can be decreased with continued maintenance of the system.
 %	\item[External market competition] - No other competitors are presently offering an integrated system however, there are suppliers offering parts of the system. This implies that other suppliers can match or better the household service cost of the \ac{e-casa} system. The reduced cost of implementing e-casa shall lie in the simple integration with current household systems. Customers would not require large renovations to install the system, reducing the over cost and improving the return on investment making the system marketable.
+
+%\textbf{Water Consumption}
+%\begin{itemize}
+%\item Collect reusable water from appliances within the household and divert the water to a greywater storage tank 
+%item Store greywater produced by the household
+%\item Filter the greywater to be reused by the household
+%\item Divert the greywater to compatible appliances 
+%\item Divert the greywater to toilet cisterns
+%\item Divert the greywater to toilet cisterns
+%\item Divert the greywater into the garden and veggie patch
+%\end{itemize}
+%\medskip
+%\textbf{Provide waste Sortation and Storage}
+%\begin{itemize}
+%\item Collect and store waste by waste type
+%\item Visual distinction to inform the user of where each waste type must go (sort waste)
+%\item Safe and odourless containment of waste
+%\item Specialised storage for converting organic waste into compost (composter)
+%\item Dispose of compost into veggie patch and garden
+%\end{itemize}
+%\medskip
+%\textbf{Provide Long-term Cost Savings}
+%\begin{itemize}
+%\item Reduce the volume of water purchased from the municipality
+%\item Lower garden maintenance cost
+%\item Grow produce to reduce monthly food bill 
+%\item Short-term payback period
+%\end{itemize}
