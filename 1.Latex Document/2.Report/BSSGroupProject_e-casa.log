@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.19)  26 OCT 2018 22:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.19)  26 OCT 2018 22:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -964,7 +964,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.493 \caption
-               {Associated risks and applicable risk mitigation
+               {Associated risks and applicable risk mitigation}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -972,25 +972,7 @@ If that doesn't work, type  X <return>  to quit.
 <inserted text> 
                 }
 l.495 	{\textbf{Function} &
-                            \textbf{Associated Risk}} & {\textbf{Risk Mitiga...
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-! Missing { inserted.
-<inserted text> 
-                {
-l.495 ...f{Function} & \textbf{Associated Risk}} &
-                                                   {\textbf{Risk Mitigation}...
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.495 ...}} & {\textbf{Risk Mitigation}\\ \midrule
-                                                  
+                            \textbf{Associated Risk} & {\textbf{Risk Mitigat...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
@@ -1035,17 +1017,6 @@ Underfull \vbox (badness 10000) detected at line 517
  []
 
 [19]
-! Missing } inserted.
-<inserted text> 
-                }
-l.518 \end{center}
-                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
 
 ! LaTeX Error: \caption outside float.
 
@@ -1058,6 +1029,24 @@ l.526 \caption
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.528 ...tive}} & {\textbf{Design Specification} &
+                                                   \textbf{Motivation}}\\ \m...
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.528 ...cation} & \textbf{Motivation}}\\ \midrule
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 530--530
@@ -1191,25 +1180,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 640--641
 
 LaTeX Warning: Text page 24 contains only floats.
 
-[24]
-Runaway argument?
-{blueThe waste sortation and storage system of e-casa requires non-de\ETC.
-! Paragraph ended before \@textcolor was complete.
-<to be read again> 
-                   \par 
-l.656 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Too many }'s.
-l.659 ...order to manage and utilise the compost.}
-                                                  
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-[25] [26]
+[24] [25] [26]
 Chapter 4.
 [27
 
@@ -1250,7 +1221,7 @@ Here is how much of TeX's memory you used:
  11692 multiletter control sequences out of 15000+600000
  12012 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,12n,35p,1177b,520s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,12n,35p,1177b,518s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
@@ -1260,7 +1231,7 @@ r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
 local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/l
 ocal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/lo
 cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on BSSGroupProject_e-casa.pdf (39 pages, 1375197 bytes).
+Output written on BSSGroupProject_e-casa.pdf (39 pages, 1375399 bytes).
 PDF statistics:
  633 PDF objects out of 1000 (max. 8388607)
  560 compressed objects within 6 object streams
