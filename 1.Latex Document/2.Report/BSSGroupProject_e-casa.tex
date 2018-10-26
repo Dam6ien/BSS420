@@ -33,7 +33,7 @@
 \pagenumbering{roman}
 
 \chapter*{Executive Summary}
-The aim of this project is to create a household waste system System of that will not only reduce the waste produced by a generic household but do so by increasing value to the user. The final deliverable for this project will be a report that details the needs analysis, conceptual design, feasibility and risk assessment of the designed system. The coneptual design will be done with the use of \textit{Core 9} to capture all identified needs accurately and produce system design documentation.
+The aim of this project is to create a household waste management system of that will not only reduce the waste produced by a generic household but do so by increasing value to the user. The final deliverable for this project will be a report that details the needs analysis, conceptual design, feasibility and risk assessment of the designed system. The coneptual design will be done with the use of \textit{Core 9} to capture all identified needs accurately and produce system design documentation.
 
 \tableofcontents
 \listoffigures\addcontentsline{toc}{chapter}{List of Figures}
@@ -76,19 +76,11 @@ Due to a lack of solutions currently on the market, there is an opportunity to e
 \subsection{Operational Objectives}
 The overarching objective that \ac{e-casa} is intended to fulfil is to provide sustainable household waste management. This objective is deconstructed into three primary objectives, namely: \textit{Provide Waste Sortation and Storage}, \textit{Reduce Water Consumption} and \textit{Provide long-term cost savings}. Figure~\ref{fig: ecasaOT} shows the operational objectives of the \ac{e-casa} system.\\
 
-\textcolor{red}{*We need an objective tree of our own here that resembles Figure~\ref{fig: ObjectiveTreeStructure}. Figure~\ref{fig: ecasaOT} is a work in progress of that so far.}
+\textcolor{red}{Figure~\ref{fig: ecasaOT} is a work in progress of our objective tree thus far.}
 
 \begin{figure}[h!]
 \begin{center}
-\includegraphics[scale = 0.6]{Objective_Tree_Structure.png}
-\caption{Objective Tree Structure}
-\label{fig: ObjectiveTreeStructure}
-\end{center}
-\end{figure}
-
-\begin{figure}[h!]
-\begin{center}
-\includegraphics[scale = 0.55]{Objective_Tree_ecasa.pdf}
+\includegraphics[scale = 0.55]{ecasa_OT.png}
 \caption{e-casa Objective Tree Structure}
 \label{fig: ecasaOT}
 \end{center}
@@ -216,13 +208,13 @@ Multiple alternatives for each of the function tasks given in \ac{FBD}s are expl
 \begin{center}
 \begin{tabular}{p{3.5cm}|p{6cm}|p{6cm}}\toprule
 	{\textbf{Functional Task}} & {\textbf{Alternative 1}} & {\textbf{Alternative 2}}\\ \midrule
-    Waste sortation and storage & \textcolor{blue}{One garbage bin with multiple compartments} & Multiple garbage bins each with a single compartment\\
+    Waste sortation and storage & One garbage bin with multiple compartments & Multiple garbage bins each with a single compartment\\
     \hline
     Receive water & Four separate pipes from (bath, shower, basin and washing machine) that connect to the central grey water storage tank & One pipe that merges bathroom appliance outputs and one for the kitchen. These two pipes will feed water to the central grey water tank\\
     \hline
-    Process used water & Filter grey water to be sent back to the washing machine for re-use and to the garden (for composting and plant watering) and toilet cistern (for flushing) & \textcolor{blue}{Do not purchase a filter and only use grey water in the garden and to flush the toilet cistern}\\
+    Process used water & Filter grey water to be sent back to the washing machine for re-use and to the garden (for composting and plant watering) and toilet cistern (for flushing) & Do not purchase a filter and only use grey water in the garden and to flush the toilet cistern\\
     \hline
-    Store processed water & Large central tank to store all water received until it is needed again by the washing machine, toilet cistern or in the garden & \textcolor{blue}{Smaller central tank to store used water only for use in the garden}\\
+    Store processed water & Large central tank to store all water received until it is needed again by the washing machine, toilet cistern or in the garden & Smaller central tank to store used water only for use in the garden\\
     \hline
     Direct water & Five-way water valve to direct grey water back to the washing machine, to an outside water tap (to be used in a compost container), to the garden's sprinkler system (to water the vegetable patch) and to the toilet cistern & Three-way valve to direct grey water back to outside water tap to be used in a compost heap and to the garden's sprinkler system to water the vegetable patch\\
     \hline
@@ -243,10 +235,15 @@ Multiple alternatives for each of the function tasks given in \ac{FBD}s are expl
 \subsection{Performance Requirements Validation}
 \textcolor{red}{Conducting effectiveness analyses to define a set of performance requirements that accommodate the full range of desirable system concepts and validating the conformity of these requirements with the stated operational objectives and refining the requirements if necessary.}
 
-
-%====== Current Session
 \section{Concept Definition}
 \subsection{Performance Requirement Analysis}
+\textbf{System performance requirements refinement} - The system performance requirements do not consider the impact the size of the household may have on them and are these performance requirements are rather set using data for an “average” household in South Africa. The size of the household will affect the size of the required system, the cost of such a system and therefore the system’s ability to be financially feasible. The waste producing capacity of a smaller household is a constraining requirement as smaller households will produce less waste and it will take longer to realise the cost savings of a larger system (possibly more than 2 years). However, smaller households will require smaller system components and therefore a lower initial system cost than a larger system.
+
+To ensure the long-term operation of the system, each subsystem must be made easy for the system user him/herself or cheap labour to maintain. Standardised components are therefore preferred for the greywater system as well as the physical waste system. 
+
+\textbf{Updated performance requirements}
+The following performance requirements were included in the specification following the after reviewing the initial performance requirements.
+
 \subsubsection{Relating analysed spesifications to operation needs}
 
 \subsection{Functional Analysis and Formulation} 
@@ -269,7 +266,7 @@ Multiple alternatives for each of the function tasks given in \ac{FBD}s are expl
 \subsection{Concept Selection}
 \textcolor{red}{Synthesizing alternative technological approaches and component configurations designed to performance requirements; developing physical architectural products; and conducting trade-off studies among performance, risk, cost, and schedule to select the preferred system concept, defined in terms of components and architectures.}
 
-The alternatives given for the functions in Table~\ref{tb: FunctionalTasks} were assessed according to financial feasibility, convenience and ease of implementation. One alternative was selected for each function and (Table~\ref{tb: chosen_Alts}) with the explanation for choice in each alternative given below:
+The alternatives given for the functions in Table~\ref{tb: FunctionalTasks} were assessed according to financial feasibility, convenience and ease of implementation. One alternative was selected for each function (Table~\ref{tb: chosen_Alts}) with the explanation for choice in each alternative given below:
 
 \textbf{Recycling and waste disposal tasks}\\
 For waste sortation, alternative one will be selected in order to save space and keep the garbage bin as small as possible to fit into the household's kitchen.\\
@@ -293,27 +290,25 @@ The system as whole must be as cost effective as possible. However, quality shou
 \begin{table}[h!]
 \caption {Functions and their selected alternatives} \label{tb: chosen_Alts} 
 \begin{center}
-\begin{tabular}{p{7cm}|p{7cm}}\toprule
+\begin{tabular}{p{3.5cm}|p{9cm}}\toprule
 	{\textbf{Function/Task}} & {\textbf{Selected Alternative}\\ \midrule
-    \textcolor{Format used by sample project} & ... & ...\\
-    \hline
-    ... & One garbage bin with multiple compartments & ...\\
+    Waste sortation and storage & One garbage bin with multiple compartments \\
      \hline
-     Receive water & Four separate pipes from (bath, shower, basin and washing machine) that connect to the central grey water storage tank  One pipe that merges bathroom appliance outputs and one for the kitchen. These two pipes will feed water to the central grey water tank\\
+     Receive water & Four separate pipes from (bath, shower, basin and washing machine) that connect to the central grey water storage tank \textcolor{blue}{One pipe that merges bathroom appliance outputs and one for the kitchen. These two pipes will feed water to the central grey water tank}\\
     \hline
     Process used water & Filter grey water to be sent back to the washing machine for re-use and to the garden (for composting and plant watering) and toilet cistern (for flushing) \textcolor{blue}{Do not purchase a filter and only use grey water in the garden and to flush the toilet cistern}\\
     \hline
-    Store processed water & Large central tank to store all water received until it is needed again by the washing machine, toilet cistern or in the garden & \textcolor{blue}{Smaller central tank to store used water only for use in the garden}\\
+    Store processed water & Large central tank to store all water received until it is needed again by the washing machine, toilet cistern or in the garden \textcolor{blue}{Smaller central tank to store used water only for use in the garden}\\
     \hline
-    Direct water & Five-way water valve to direct grey water back to the washing machine, to an outside water tap (to be used in a compost container), to the garden's sprinkler system (to water the vegetable patch) and to the toilet cistern & Three-way valve to direct grey water back to outside water tap to be used in a compost heap and to the garden's sprinkler system to water the vegetable patch\\
+    Direct water & Five-way water valve to direct grey water back to the washing machine, to an outside water tap (to be used in a compost container), to the garden's sprinkler system (to water the vegetable patch) and to the toilet cistern \textcolor{blue}{Three-way valve to direct grey water back to outside water tap to be used in a compost heap and to the garden's sprinkler system to water the vegetable patch}\\
     \hline
     Re-use water & Grey water system makes water available for re-use at necessary outlet points when human user demands it at a tap\\
     \hline
-    Integrate water, recycling and composting & N/A - Alternatives explored by other system functions & N/A - Alternatives explored by other system functions\\
+    Integrate water, recycling and composting & N/A - Alternatives explored by other system functions\\
     \hline
      Combine composting materials & Purchase a residential size compost container that the necessary materials are combined in to produce compost\\
     \hline
-     Grow vegetables & User must collect water from the outside garden tap in the necessary quantity and use it to water the vegetable patch. Compost collected and filled in the vegetable patch manually by human user Connect grey water storage tank directly to garden sprinkler system to be activated by the human user at the flick of the sprinkler switch. Compost collected and filled in the vegetable patch manually by human user\\
+     Grow vegetables & User must collect water from the outside garden tap in the necessary quantity and use it to water the vegetable patch. Compost collected and filled in the vegetable patch manually by human user \textcolor{blue}{Connect grey water storage tank directly to garden sprinkler system to be activated by the human user at the flick of the sprinkler switch. Compost collected and filled in the vegetable patch manually by human user}\\
     \hline
     \bottomrule
 \end{tabular}
@@ -335,8 +330,7 @@ The system's functional specifications are translated into three subsystem funct
 \textbf{Compost subsystem} -  The compost subsystem interfaces with the household's garden and organic material stockpile components. It uses organic materials from the material stockpile to provide compost to the garden component. It's primary capabilities are to store organic materials and provide some form of visual management for the user to know when there is sufficient compost for the storage container to be emptied. This subsystem is connected to the grey-water subsystem which provides grey water as an input as well as to the Recycling and waste disposal subsystem which provides paper and other organic waste to the compost system.\\
 
 \textbf{Recycling and waste disposal subsystem} - This subsystem interfaces with the household's kitchen as a component in order to receive all household waste as an input. It also intrefaces with the municipal recycling system at the point where waste is placed on the sidewalk for collection by the municipality's waste collection service. Its primary capability is to sort household waste into the relevant categories for re-use or disposal. Paper recyclables and organic waste collected by this subsystem are output to be used in the compost subsystem while other recyclables and non-recylable waste is disposed of to the municipal recycling system.
-
-
+%
 \begin{figure}[h!]
 \begin{center}
 \includegraphics[scale = 0.55]{System_Diagram.pdf}
@@ -344,8 +338,7 @@ The system's functional specifications are translated into three subsystem funct
 \label{fig: systemDiagram}
 \end{center}
 \end{figure}
-
-
+%
 \section{Advanced Development Phase}
 The components for the three aforementioned subsystems of \ac{e-casa} have already been designed and can be purchased from the market. The components will therefore not be evaluated individually but \ac{e-casa} is unique in that it is the first system of this kind that integrates these different components .
 For this reason, the advanced development phase for the selected concept will be conducted to identify possible implementation risks of using these components together as one system.
@@ -372,29 +365,47 @@ For this reason, the advanced development phase for the selected concept will be
 %
 
 \subsection{Development Testing}
+Associated risks for each of the functions of the system are identified and appropriate mitigation plans suggested in Table~\ref{tb: Functional_risk_mitigation}.
 %
 \begin{table}[h!]
-\caption {Associated risks and applicable risk mitigation plans} \label{tb: Functional_SS_elements} 
+\caption {Associated risks and applicable risk mitigation plans} \label{tb: Functional_risk_mitigation} 
 \begin{center}
-\begin{tabular}{p{7cm}|p{7cm}}\toprule
-	{\textbf{Associated Risk}} & {\textbf{Risk Mitigation}\\ \midrule
-    \textcolor{Format used by sample project} & ... & ...\\
+\begin{tabular}{p{3cm}|p{5cm}|p{5cm}}\toprule
+	{\textbf{Function} & \textbf{Associated Risk}} & {\textbf{Risk Mitigation}\\ \midrule
     \hline
-    ... & ... & ...\\
-
+    Process used water & Water processor unit (filter) malfunctions and pollutants pass through to garden and washing machine water & ?\\
+     \hline
+    Direct water & One path on five-way water valve is damaged and causes water to leak out & ?\\
+     \hline
+    Waste sortation & User places disposable waste into incorrect category (i.e. plastic into paper or paper into glass) & Use visual management signals or colours to mark gardbage bin compartments clearly
+\\
+    \hline
+Grey water storage supply & Not enough water to irrigate vegetable patch & Provide storage tank or buffer to offset needs\\
     \bottomrule
 \end{tabular}
 \end{center}
 \end{table}
 %
+Design specifications for each of the selected alternatives are given along with a motivation in Table~\ref{tb: Functional_design_specs}.
 %
 \begin{table}[h!]
-\caption {Associated risks and applicable risk mitigation plans} \label{tb: Functional_SS_elements} 
+\caption {Design specification and motivation for selected alternatives} \label{tb: Functional_design_specs} 
 \begin{center}
 \begin{tabular}{p{4.5cm}|p{4.5cm}|p{4.5cm}}\toprule
 	{\textbf{Selected Alternative}} & {\textbf{Design Specification}} & {\textbf{Motivation}}\\ \midrule
-    \textcolor{Format used by sample project} & ... & ...\\
     \hline
+    Waste sortation and storage & One garbage bin with 3x removable 20~\textit{l} containers& ...\\
+        \hline
+    Receive water & 4x Separate pipes that connect as inputs to central grey water tank & Entire grey water system does not need to stop when one line of supply (pipe) is damaged. Damaged line can be switched off to prevent water flow while others continue to operate\\
+        \hline
+    Process used water & Water filter that is capable of removing enough contaminats for the water to be used in a washing machine & If the water is safe enough to be used in the washing machine, it will be safe enough to use in the garden and toilet cistern\\
+        \hline
+    Store processed water & ?~\textit{l} tank to store sufficient water for the three outlets: washing machine, garden and toilet cistern & Smaller tank would not enable household to earn as much financial savings and the payback period would increase for the household\\
+        \hline
+    Direct water & Five way water valve & Water coming from one source will need to be supplied to four different sources. Two three-way valves would have to be purchased to perform this function if a five-way valve is not purchased and this would lead to additional piping costs\\
+            \hline
+    Re-use water & ? & ?\\
+            \hline
     ... & ... & ...\\
 
     \bottomrule
@@ -403,31 +414,92 @@ For this reason, the advanced development phase for the selected concept will be
 \end{table}
 %
 \section{Engineering Procurement Phase}
-
+\textcolor{red}{The advanced development phase has selected specifications of the chosen alternative components in order to meet the design requirements. The engineering design phase will now deal with the reliability and maintainability of components that are producible and affordable in consideration of the interface elements. - SAMPLE GROUP'S ANSWER}
 
 \subsection{Requirements Analysis}
 \textcolor{red}{The system design requirements are analysed for consistency and completeness, this is to avoid any systems requirements that would contradict each other and are unable to meet the specified need. This is also done to verify that the system meets the specifications and operational requirements. Identifying requirements for all external and internal interactions and interfaces is done to make sure that the system would be able to interact and interface with its entities to the best level possible and be able to perform or output what is needed correctly. That is, if signals or inputs from an external entity would be transformed into the outputs that are required by the external entity. This also includes how the system should be able to adapt or perform to its environment, without giving any functional problems.
 The process of systems design has a repeated circumspection back to the requirements analysis. The main design requirements of the system are that it must be easy to use, and it must be reliable. Further design requirements of importance are that the system must be producible and affordable. These design requirements are a follow up from the functional and physical requirements. - SAMPLE GROUP'S ANSWER}
 
 \subsection{Functional Analysis and Design}
+\textcolor{red}{The components of the system need to interact effectively through the available interfaces. These interfaces include physical connections through cable connections and the software that retrieves information by means of these cables and displays the result of the actions taken by the user. Integration between all the parts (i.e. the touch screen with camera, speed point machine, biometric scanner and printer) is necessary for the overall functioning of the system. Testing these interconnections may pose as a challenge since the system is needed in service throughout. Testing will then need to be done during low peak service periods. Another challenge may be posed by the multiple complex subsystems of the systems that all need to function in sync for the system objectives to be met. The user will interact with the system by means of the user interface provided through the software. The design and prototyping of the user interfaces will be based on a standard Graphic User Interface (GUI) as well as a form based interface that should help reducing the time needed to learn how to operate the system.
+The components selected must be designed to meet the functional requirements. Each component’s interactions and interfaces are analysed and discussed below.- SAMPLE GROUP'S ANSWER}
 
-\subsection{Component Design}
+%
+\begin{table}[h!]
+\caption {Component interactions and their interfaces} \label{tb: Components & interfaces} 
+\begin{center}
+\begin{tabular}{p{4cm}|p{4cm}|p{4cm}}\toprule
+	{\textbf{Component}} & {\textbf{Interaction} & {\textbf{Interface}\\ \midrule
+    \textcolor{Format used by sample project} & ... & ...\\
+    \hline
+    ... & ... & ...\\
+
+    \bottomrule
+\end{tabular}
+\end{center}
+\end{table}
+%
+\textcolor{red}{The interaction modes include the basic mode that is for regular users and is designed for speed and ease of use. Another interaction mode includes the assisted mode with an attendant to help the user to navigate the process made for physically impaired users}.
+
+\subsection{Component Procurement}
+\textcolor{red}{The next part of this system development is the preliminary design and building of prototypes, test and evaluation of user interfaces, correcting deficiencies and documenting product design. This is once again an iterative process of affirming whether the needs have been addressed through the final design and is beyond the scope of this task. Laying out of preliminary designs of all the required hardware and software components and interfaces needs to be done to make sure that the appropriate hardware and software are available to make this new system and it adheres to the stated need. It is also required to make sure that the software is able to interact accordingly with the hardware. This goes with implementing detailed hardware designs and software coding. The designs need to be as detailed as possible to ensure that the operational and functional needs are met with the help of the software coding. Building the prototype versions of the engineered component are essential to test the concepts. The prototype can then be used to see where mistakes or improvements can be made before the actual design is manufactured. - SAMPLE PROJECT's answer}
+
+Components need to be purchased for the selected alternatives that will fulfill the earlier specified functions. Table~\ref{tb: Component_Procurement} details the components to be  purchased for the \ac{e-casa} system, the sources they will be purchased from and the cost of each component.
+%
+\begin{table}[h!]
+\caption {Component Procurement Summary} \label{tb: Component_Procurement} 
+\begin{center}
+\begin{tabular}{p{5cm}|p{4.5cm}|p{3cm}}\toprule
+	{\textbf{Component/s}} & {\textbf{Source} & {\textbf{Estimated Cost (Rands)}\\ \midrule
+    Garbage bin with 3 x 15 litre removable containers & RecyclingBins.co.uk & 560 \\
+    \hline
+     Grey water tank, piping and filter (installation included) & waterrhapsody.co.za & 9800\\
+    \hline
+     Residential 220~\textit{l} composter & Builders Warehouse (www.builders.co.za) & 800\\
+    \hline
+    \toprule
+    \textbf{Total} & N/A & \textbf{11 160}\\
+    \bottomrule
+\end{tabular}
+\end{center}
+\end{table}
+%
 
 \subsection{Design Validation}
+\textcolor{red}{A test and evaluation of the engineered products has been conducted and the results show that the engineered components meet the requirements with respect to functions, interfaces, reliability and producibility. Based on the analysis above, no deficiencies were realised as the specification descriptions were defined based on available technology that can perform system functions. The product design can be seen in the schematic below. User manuals will be accompanied by the manufacturers of the engineered components along with specifications from the programmers that have customised the software based on the system’s functional requirements. - SAMPLE PROJECT's answer}
+
+\ac{e-casa} design is validated in two ways. Firstly, components of the system are validated through the fact that they have already been tested and evaluated. These components are for sale on the market, meaning they have already passed the necessary safety and reliability tests. Each of the purchased components will also come with the manufacturer's manual.
+
+Secondly, analysis of Figure~\ref{fig: systemDiagram} shows the interactions between the different subsystems to be functional. This validates the design in the sense that integrating the different subsystems is shown to be possible. The two interactions between subsystems are explained below:\\
+
+\textbf{Interaction 1: Grey water - Compost subsystem interaction} - Greywater will be directed to the garden sprinkler system or outdoor tap when demanded. When received at the outdoor tap, water will need to be colllected by the human user who will retrieve water in the appropriate amount to add to the compost system.\\
+
+\textbf{Interaction 2: Waste disposal - Compost subsystem interaction} - Paper collected in the waste dispoal system will need to be physically moved to the compost system by the human user.
 
 \section{Integration and Evaluation Phase}
 
 \subsection{Test Planning and Preparation}
+\textcolor{red}{Looking at the system’s requirements to meet the specified need, these requirements have been analysed for consistence and completeness. The requirements do not contradict themselves at all which means the integration and interfaces of the required components are possible. As the components needed already exist, there won’t be a need for building specialised test equipment and facilities. Similar test equipment for ATM or the self-service kiosk will be used to ensure that the new system works efficiently. Test requirements that are needed include the ability of the machine to make use of 5.52kWH of electrical power daily, the photo quality needs to be met and the processing speed of the system would be tested before the prototype is built. The functional architecture needs to adhere to the specifications stated such as having an ergonomic setting of the kiosk which includes a touch screen keyboard, biometric scanner, camera, speed point and printer of which should all be in reach or ease of use to the user. The functional architecture would be integrated in a way similar, if not the exact system shown in figure 4, which are kiosks used at healthcare institutes in the States. An adjustable camera would be added for the convenience of people who would require using the system while sitting down (i.e. in wheelchairs or old age) and an assistant will be available to assist in filling in the required information}
 
 \subsection{System Integration}
+\textcolor{red}{At this point the components are tested as detailed in the test plan above. This is done in a sequential manner. Together, these components form subsystems. The subsystems in this system include the following:}
+The \ac{e-casa} system as a whole will need to be integrated with the household's current water supply and garden sprinkler system. This integration is expected to be costly and significant whereas, integration of the compost and waste dipsoal subsystems will not require integration. The components for the latter two subsystems only need to be placed in appropriate places in the household. It is suggested that the recycling garbage bin be placed in the kitchen and the composter be placed outside in the garden to prevent any unpleasant oudors in the kitchen.
 
 \subsection{Developmental System Testing}
+\textcolor{red}{The system was designed with certain desired levels of performance. Components individually were chosen such that this level of performance is achieved. In this section, the actual performance of the integrated system is tested and compared to the defined performance requirements stated from the beginning. The tests are performed on a systems level. The system will have scenarios that it functions in such as operational conditions and the usability to users with varied levels of computer literacy. The system may also have different language modes as a means of representing South Africa’s diversity. The system then needs to be tested in all the operational scenarios and possible modes. Where performance has deficiencies, these need to be eliminated. Doing this my mean replacing some components, adding different interactions or integration methods. Where not feasible, it may be assessed if the performance deficiency inhibits system objectives from being achieved. If not, then this phase may be concluded.}
 
 \subsection{Operational Test and Evaluation}
+\textcolor{red}{Once the prototype has been made it will be placed at one of the home affairs for a test run, to make sure the required speed of filling out the applications is met and how it can be improved if it is not and all the other requirements. Training for customer service staff to closely monitor users of the kiosks and function as “stewards” for those users that encounter any difficulties. Before the prototype is built the requirements of the components would be tested before-hand. This prototype will be monitored always, maximum a period of two months, measuring the degree of compliance and evaluating the readiness of the system whereby improvements required would then be conveyed to the design team before mass production of the final product is done.}
 
 \chapter{Post Development Stage}
 
 \section{Production and Deployment Phase}
+None of the components for the \ac{e-casa} system require production. However, all of them require successful deployment. Deployment of the recycling garbage bin and compost container are uncomplicated but deployment of the grey water subsytem is expected to be time consuming and complicated. 
+
+Successful deployment of the grey water system will require assessment of the household's existing water supply network. This 
+
+o Transition in management and participants o Problems in the transition process
+o Product preparation
 
 \subsection{Transitions from Development to Production}
 
@@ -437,6 +509,12 @@ The process of systems design has a repeated circumspection back to the requirem
 \textcolor{red}{Installation and test (system integration site, internal and external, disruptive or non-disruptive installation, early system operational difficulties encountered or that could be encountered, operational personnel)
 Logistics, Support and Maintenance schedule
 System Upgrades (hard and software upgrade plans)}
+
+\textbf{Logistics} - \\
+
+\textbf{Maintenance} - The grey water system is anticipated to require maintenance on a monthly basis to prevent unpleasant odours and keep the filter and components clean enough. The recycling bin compartments will need to be maintained by means of regular (weekly cleaning) and replacement of the bags holding waste each time a container is emptied. There is no set rule for how often the compost needs in the container needs to be turned but it is anticipated it will need to be turned approximately every three days by the human user. \\
+
+\textbf{System Upgrades} - A significanr opportunity for system upgrade could be a system that measures the household's disposable waste generation. This would entail:
 
 \chapter{Software Design and System Dynamics}
 \textcolor{red}{This phase is required to study the behaviour and structure of a system by carrying out sensitivity analysis tests. Only select critical elements or more as deemed fit from the designed system and apply to these to the modelling capability of a chosen software.
