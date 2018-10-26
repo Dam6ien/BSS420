@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.19)  26 OCT 2018 21:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.19)  26 OCT 2018 22:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -357,21 +357,6 @@ LaTeX Warning: Label `tb: Functional_SS_elements' multiply defined.
 
 LaTeX Warning: Label `tb: Functional_SS_elements' multiply defined.
 
-
-! Package natbib Error: Bibliography not compatible with author-year citations.
-
-(natbib)                Press <return> to continue in numerical citation style.
-
-
-See the natbib package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.174 ...and\NAT@force@numbers{}\NAT@force@numbers
-                                                  
-Check the bibliography entries for non-compliant syntax,
-or select author-year BibTeX style, e.g. plainnat
-
 )
 \openout1 = `BSSGroupProject_e-casa.aux'.
 
@@ -479,7 +464,17 @@ LaTeX Info: Redefining \nameref on input line 29.
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 [1
 
-] [2
+]
+! Undefined control sequence.
+l.38 ...and the average water usage by 1029~\texit
+                                                  {l} per week. A total redu...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[2
 
 ] (./BSSGroupProject_e-casa.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 5.
@@ -518,69 +513,69 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.67 \chapter
+l.68 \chapter
              {Concept Development Stage} [1
 
 ]
 Chapter 2.
 Package acronym Info: Label `acro:e-casa' newly defined as it shall be overridd
 en
-although it is yet undefined on input line 70.
+although it is yet undefined on input line 71.
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
  []
 
 [2
 
 ]
-<graphics/ecasa_OT.png, id=332, 896.34875pt x 269.005pt>
+<graphics/ecasa_OT.png, id=334, 896.34875pt x 269.005pt>
 File: graphics/ecasa_OT.png Graphic file (type png)
 <use graphics/ecasa_OT.png>
-Package pdftex.def Info: graphics/ecasa_OT.png  used on input line 83.
+Package pdftex.def Info: graphics/ecasa_OT.png  used on input line 84.
 (pdftex.def)             Requested size: 448.17328pt x 134.50217pt.
 
-Overfull \hbox (10.00082pt too wide) in paragraph at lines 83--84
+Overfull \hbox (10.00082pt too wide) in paragraph at lines 84--85
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--95
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
 
  []
 
 [3 <./graphics/ecasa_OT.png>]
-<graphics/HouseholdRecyclingBin.jpg, id=343, 491.8375pt x 491.8375pt>
+<graphics/HouseholdRecyclingBin.jpg, id=345, 491.8375pt x 491.8375pt>
 File: graphics/HouseholdRecyclingBin.jpg Graphic file (type jpg)
 <use graphics/HouseholdRecyclingBin.jpg>
 Package pdftex.def Info: graphics/HouseholdRecyclingBin.jpg  used on input line
- 105.
+ 106.
 (pdftex.def)             Requested size: 167.22253pt x 167.22253pt.
-<graphics/Household_Grey_Water.png, id=347, 240.9pt x 199.947pt>
+<graphics/Household_Grey_Water.png, id=350, 240.9pt x 199.947pt>
 File: graphics/Household_Grey_Water.png Graphic file (type png)
 <use graphics/Household_Grey_Water.png>
 Package pdftex.def Info: graphics/Household_Grey_Water.png  used on input line 
-117.
+118.
 (pdftex.def)             Requested size: 289.07854pt x 239.93518pt.
-<graphics/Outdoor_Composter.jpg, id=350, 204.765pt x 188.8656pt>
+<graphics/Outdoor_Composter.jpg, id=354, 204.765pt x 188.8656pt>
 File: graphics/Outdoor_Composter.jpg Graphic file (type jpg)
 <use graphics/Outdoor_Composter.jpg>
-Package pdftex.def Info: graphics/Outdoor_Composter.jpg  used on input line 127
+Package pdftex.def Info: graphics/Outdoor_Composter.jpg  used on input line 128
 .
 (pdftex.def)             Requested size: 225.24217pt x 207.75279pt.
 
@@ -591,7 +586,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 3919) in paragraph at lines 143--143
+Underfull \hbox (badness 3919) in paragraph at lines 144--144
 []\OT1/cmr/m/n/10.95 Organic waste re-duc-
  []
 
@@ -599,36 +594,36 @@ Underfull \hbox (badness 3919) in paragraph at lines 143--143
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [4 <./graphics/HouseholdRecyclingBin.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 166--167
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
 
  []
 
 [5 <./graphics/Household_Grey_Water.png> <./graphics/Outdoor_Composter.jpg>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 170.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 171.
 
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 170.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 171.
  [6]
 Package acronym Info: Label `acro:FBD' newly defined as it shall be overridden
-although it is yet undefined on input line 194.
-<graphics/Function1.pdf, id=371, 735.74875pt x 655.44875pt>
+although it is yet undefined on input line 195.
+<graphics/Function1.pdf, id=376, 735.74875pt x 655.44875pt>
 File: graphics/Function1.pdf Graphic file (type pdf)
 <use graphics/Function1.pdf>
-Package pdftex.def Info: graphics/Function1.pdf  used on input line 198.
+Package pdftex.def Info: graphics/Function1.pdf  used on input line 199.
 (pdftex.def)             Requested size: 294.29428pt x 262.17485pt.
-<graphics/Function2.pdf, id=372, 331.98691pt x 341.64388pt>
+<graphics/Function2.pdf, id=377, 331.98691pt x 341.64388pt>
 File: graphics/Function2.pdf Graphic file (type pdf)
 <use graphics/Function2.pdf>
-Package pdftex.def Info: graphics/Function2.pdf  used on input line 206.
+Package pdftex.def Info: graphics/Function2.pdf  used on input line 207.
 (pdftex.def)             Requested size: 265.58989pt x 273.31546pt.
-<graphics/Function3.pdf, id=373, 362.35776pt x 349.71504pt>
+<graphics/Function3.pdf, id=378, 362.35776pt x 349.71504pt>
 File: graphics/Function3.pdf Graphic file (type pdf)
 <use graphics/Function3.pdf>
-Package pdftex.def Info: graphics/Function3.pdf  used on input line 214.
+Package pdftex.def Info: graphics/Function3.pdf  used on input line 215.
 (pdftex.def)             Requested size: 289.8866pt x 279.7724pt.
 
 
@@ -647,58 +642,48 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.226 \caption
+l.227 \caption
                {Table 2.2.3: System Alternatives for Functional Tasks} \labe...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 1721) in paragraph at lines 235--236
+Underfull \hbox (badness 1721) in paragraph at lines 236--237
 []|\OT1/cmr/m/n/10.95 Smaller cen-tral tank to store
  []
 
 
-Underfull \hbox (badness 1810) in paragraph at lines 243--244
+Underfull \hbox (badness 1810) in paragraph at lines 244--245
 []|\OT1/cmr/m/n/10.95 Create a large com-post heap
  []
 
 
-Underfull \hbox (badness 2269) in paragraph at lines 243--244
+Underfull \hbox (badness 2269) in paragraph at lines 244--245
 \OT1/cmr/m/n/10.95 in the house-hold's gar-den to
  []
 
-Runaway argument?
-! Paragraph ended before \LT@entry was complete.
-<to be read again> 
-                   \par 
-l.248 \end{longtable}
-                     
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
 
-
-Overfull \hbox (10.39247pt too wide) in alignment at lines 227--248
+Overfull \hbox (10.39247pt too wide) in alignment at lines 228--249
  [] [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 248
+Underfull \vbox (badness 10000) detected at line 249
  []
 
 [7] [8] [9 <./graphics/Function1.pdf> <./graphics/Function2.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 261--262
+Underfull \hbox (badness 10000) in paragraph at lines 262--263
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--265
+Underfull \hbox (badness 10000) in paragraph at lines 264--266
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 272--272
+Underfull \hbox (badness 10000) in paragraph at lines 273--273
 []\OT1/cmr/m/n/10.95 Waste sor-ta-tion
  []
 
@@ -744,57 +729,101 @@ Underfull \hbox (badness 5147) in paragraph at lines 288--288
  []
 
 
-Overfull \hbox (10.39247pt too wide) in paragraph at lines 269--291
+Overfull \hbox (10.39247pt too wide) in paragraph at lines 270--291
  [] 
  []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--293
+
+ []
+
+! Extra }, or forgotten \endgroup.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.298 \end{table}
+                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
+Underfull \hbox (badness 10000) in paragraph at lines 300--301
 
  []
+
+! Undefined control sequence.
+l.304 ...mption will reduce by at least 147~\texit
+                                                  {l} per day (33\%) (this i...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 [10 <./graphics/Function3.pdf>] [11]
-Underfull \hbox (badness 10000) in paragraph at lines 316--317
+! Undefined control sequence.
+l.315 ...ing per year was calculated as 147~\texit
+                                                  {l}/day. With a rate of R1...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.315 ...{l}/day. With a rate of R18.97 per~\texit
+                                                  {kl} this translates to a ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--323
 
  []
 
 
-Underfull \hbox (badness 1472) in paragraph at lines 322--322
+Underfull \hbox (badness 1472) in paragraph at lines 328--328
 []\OT1/cmr/bx/n/10.95 Element Func-
  []
 
 
-Underfull \hbox (badness 2277) in paragraph at lines 323--324
+Underfull \hbox (badness 2277) in paragraph at lines 329--330
 []\OT1/cmr/m/n/10.95 Piping, wa-ter stor-age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 325--326
+Underfull \hbox (badness 10000) in paragraph at lines 331--332
 []\OT1/cmr/m/n/10.95 Separate bins, bags,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 327--327
+Underfull \hbox (badness 10000) in paragraph at lines 333--333
 []\OT1/cmr/m/n/10.95 Generate com-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 333--334
+Underfull \hbox (badness 10000) in paragraph at lines 339--340
 
  []
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 343--344
+Underfull \hbox (badness 10000) in paragraph at lines 349--350
 
  []
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.349 ...{\textbf{Selected Alternative}\\ \midrule
+l.355 ...{\textbf{Selected Alternative}\\ \midrule
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -804,17 +833,17 @@ Try to go on, since this might almost work.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 374--376
+Underfull \hbox (badness 10000) in paragraph at lines 380--382
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 382--383
+Underfull \hbox (badness 10000) in paragraph at lines 388--389
 
  []
 
 [13] [14]
-Underfull \hbox (badness 10000) in paragraph at lines 396--397
+Underfull \hbox (badness 10000) in paragraph at lines 402--403
 
  []
 
@@ -825,52 +854,53 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.415 
-      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.424 
-      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.429 
+l.421 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 [15]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.430 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.435 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[16]
 Chapter 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 431--432
+Underfull \hbox (badness 10000) in paragraph at lines 437--438
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 433--434
+Underfull \hbox (badness 10000) in paragraph at lines 439--440
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--436
+Underfull \hbox (badness 10000) in paragraph at lines 441--442
 
  []
 
@@ -878,15 +908,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 435--436
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./graphics/System_Diagram.pd
 f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graphics/System_Diagram.pdf, id=465, 793.96625pt x 614.295pt>
+<graphics/System_Diagram.pdf, id=481, 793.96625pt x 614.295pt>
 File: graphics/System_Diagram.pdf Graphic file (type pdf)
 <use graphics/System_Diagram.pdf>
-Package pdftex.def Info: graphics/System_Diagram.pdf  used on input line 441.
+Package pdftex.def Info: graphics/System_Diagram.pdf  used on input line 447.
 (pdftex.def)             Requested size: 436.68279pt x 337.86328pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[16
+[17
 
 ]
 
@@ -896,7 +926,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.456 \caption
+l.462 \caption
                {Selected alternatives and their associated risks}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -904,24 +934,24 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.458 ...}} & {\textbf{Associated Risk}\\ \midrule
+l.464 ...}} & {\textbf{Associated Risk}\\ \midrule
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
 
-Underfull \hbox (badness 3333) in paragraph at lines 472--473
+Underfull \hbox (badness 3333) in paragraph at lines 478--479
 []|\OT1/cmr/m/n/10.95 The above ground con-tainer can be
  []
 
 
-Underfull \vbox (badness 10000) detected at line 476
+Underfull \vbox (badness 10000) detected at line 482
  []
 
-[17 <./graphics/System_Diagram.pdf>]
+[18 <./graphics/System_Diagram.pdf>]
 ! Too many }'s.
-l.485  plans}
+l.491  plans}
               \label{tb: Functional_risk_mitigation}
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
@@ -933,7 +963,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.487 \caption
+l.493 \caption
                {Associated risks and applicable risk mitigation
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -941,7 +971,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.489 	{\textbf{Function} &
+l.495 	{\textbf{Function} &
                             \textbf{Associated Risk}} & {\textbf{Risk Mitiga...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -950,7 +980,7 @@ Try to go on, since this might almost work.
 ! Missing { inserted.
 <inserted text> 
                 {
-l.489 ...f{Function} & \textbf{Associated Risk}} &
+l.495 ...f{Function} & \textbf{Associated Risk}} &
                                                    {\textbf{Risk Mitigation}...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -959,56 +989,56 @@ Try to go on, since this might almost work.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.489 ...}} & {\textbf{Risk Mitigation}\\ \midrule
+l.495 ...}} & {\textbf{Risk Mitigation}\\ \midrule
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 491--491
-[]|\OT1/cmr/m/n/10.95 Waste sor-ta-tion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 493--493
+Underfull \hbox (badness 10000) in paragraph at lines 497--497
 []|\OT1/cmr/m/n/10.95 Waste sor-ta-tion
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 499--499
-[]|\OT1/cmr/m/n/10.95 Store Pro-cessed
- []
-
-
-Underfull \hbox (badness 2617) in paragraph at lines 501--501
-[]|\OT1/cmr/m/n/10.95 If the valve gets blocked or
- []
-
-
-Underfull \hbox (badness 1005) in paragraph at lines 501--501
-\OT1/cmr/m/n/10.95 More con-nec-tions means more
+[]|\OT1/cmr/m/n/10.95 Waste sor-ta-tion
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 505--505
+[]|\OT1/cmr/m/n/10.95 Store Pro-cessed
+ []
+
+
+Underfull \hbox (badness 2617) in paragraph at lines 507--507
+[]|\OT1/cmr/m/n/10.95 If the valve gets blocked or
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 507--507
+\OT1/cmr/m/n/10.95 More con-nec-tions means more
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 511--511
 []|\OT1/cmr/m/n/10.95 Combine Com-
  []
 
 
-Underfull \hbox (badness 1342) in paragraph at lines 508--508
+Underfull \hbox (badness 1342) in paragraph at lines 514--514
 \OT1/cmr/m/n/10.95 to con-nect switches and elec-
  []
 
 
-Underfull \vbox (badness 10000) detected at line 511
+Underfull \vbox (badness 10000) detected at line 517
  []
 
-[18]
+[19]
 ! Missing } inserted.
 <inserted text> 
                 }
-l.512 \end{center}
+l.518 \end{center}
                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1023,106 +1053,96 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.520 \caption
+l.526 \caption
                {Design specification and motivation for selected alternative...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 524--524
+Underfull \hbox (badness 10000) in paragraph at lines 530--530
 []|\OT1/cmr/m/n/10.95 Waste sor-ta-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 525--526
+Underfull \hbox (badness 10000) in paragraph at lines 531--532
 []|\OT1/cmr/m/n/10.95 Kitchen space con-straints.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 527--527
+Underfull \hbox (badness 10000) in paragraph at lines 533--533
 []|\OT1/cmr/m/n/10.95 Four sep-a-rate
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 527--527
+Underfull \hbox (badness 10000) in paragraph at lines 533--533
 \OT1/cmr/m/n/10.95 pipes into the
  []
 
 
-Underfull \hbox (badness 1960) in paragraph at lines 527--528
+Underfull \hbox (badness 4595) in paragraph at lines 533--533
+\OT1/cmr/m/n/10.95 grey wa-ter sys-
+ []
+
+
+Underfull \hbox (badness 1960) in paragraph at lines 533--534
 \OT1/cmr/m/n/10.95 vents the whole sys-tem from
  []
 
 
-Underfull \hbox (badness 2057) in paragraph at lines 529--531
+Underfull \hbox (badness 2057) in paragraph at lines 535--537
 \OT1/cmr/m/n/10.95 the wa-ter is safe for use in
  []
 
 
-Underfull \hbox (badness 1152) in paragraph at lines 529--531
+Underfull \hbox (badness 1152) in paragraph at lines 535--537
 \OT1/cmr/m/n/10.95 ter pump pow-er-ful enough to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 534--534
-[]|\OT1/cmr/m/n/10.95 Large cen-tral
- []
-
-
-Underfull \hbox (badness 3989) in paragraph at lines 536--536
+Underfull \hbox (badness 3989) in paragraph at lines 542--542
 []|\OT1/cmr/m/n/10.95 Five way wa-ter
  []
 
 
-Underfull \hbox (badness 2050) in paragraph at lines 536--537
+Underfull \hbox (badness 2050) in paragraph at lines 542--543
 \OT1/cmr/m/n/10.95 five-way valve, two three-way
  []
 
 
-Underfull \hbox (badness 3792) in paragraph at lines 538--538
-[]|\OT1/cmr/m/n/10.95 Greywater avail-
- []
-
-
-Underfull \hbox (badness 1661) in paragraph at lines 538--538
+Underfull \hbox (badness 1661) in paragraph at lines 544--544
 \OT1/cmr/m/n/10.95 able on de-mand
  []
 
 
-Underfull \hbox (badness 3039) in paragraph at lines 540--540
+Underfull \hbox (badness 3039) in paragraph at lines 546--546
 []|\OT1/cmr/m/n/10.95 Residential sized
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 540--540
+Underfull \hbox (badness 10000) in paragraph at lines 546--546
 \OT1/cmr/m/n/10.95 com-post con-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 542--542
-[]|\OT1/cmr/m/n/10.95 Greywater sys-
+Underfull \hbox (badness 2035) in paragraph at lines 548--548
+[]|\OT1/cmr/m/n/10.95 Grey wa-ter sys-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 542--542
-\OT1/cmr/m/n/10.95 tem con-nected
+Underfull \vbox (badness 10000) detected at line 551
  []
 
-
-Underfull \vbox (badness 10000) detected at line 545
- []
-
-[19] [20]
-Underfull \hbox (badness 10000) in paragraph at lines 556--557
+[20] [21]
+Underfull \hbox (badness 10000) in paragraph at lines 562--563
 
  []
 
-[21]
+[22]
 ! Missing } inserted.
 <inserted text> 
                 }
-l.574 ...f{Interactions and Interfaces}\\ \midrule
+l.580 ...f{Interactions and Interfaces}\\ \midrule
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1134,7 +1154,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.614 	{\textbf{Component/s}} & {\textbf{Source} &
+l.620 	{\textbf{Component/s}} & {\textbf{Source} &
                                                    {\textbf{Estimated Cost (...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1143,14 +1163,14 @@ Try to go on, since this might almost work.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.614 ...textbf{Estimated Cost (Rands)}\\ \midrule
+l.620 ...textbf{Estimated Cost (Rands)}\\ \midrule
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 619--619
+Underfull \hbox (badness 10000) in paragraph at lines 625--625
 []\OT1/cmr/m/n/10.95 Builders Ware-house
  []
 
@@ -1158,62 +1178,62 @@ Underfull \hbox (badness 10000) in paragraph at lines 619--619
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 632--633
+Underfull \hbox (badness 10000) in paragraph at lines 638--639
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 634--635
+Underfull \hbox (badness 10000) in paragraph at lines 640--641
 
  []
-
-[22]
-
-LaTeX Warning: Text page 23 contains only floats.
 
 [23]
+
+LaTeX Warning: Text page 24 contains only floats.
+
+[24]
 Runaway argument?
 {blueThe waste sortation and storage system of e-casa requires non-de\ETC.
 ! Paragraph ended before \@textcolor was complete.
 <to be read again> 
                    \par 
-l.650 
+l.656 
       
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
 
 ! Too many }'s.
-l.653 ...order to manage and utilise the compost.}
+l.659 ...order to manage and utilise the compost.}
                                                   
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
 
-[24] [25]
+[25] [26]
 Chapter 4.
-[26
+[27
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 677--678
+Underfull \hbox (badness 10000) in paragraph at lines 683--684
 
  []
 
-[27]
+[28]
 Chapter 5.
-(./BSSGroupProject_e-casa.bbl [28
+(./BSSGroupProject_e-casa.bbl [29
 
-]) [29
+]) [30
 
 ]
 Appendix A.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 697.
-[30
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 703.
+[31
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 697.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 703.
  (./BSSGroupProject_e-casa.aux (./TitlePage.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 697.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 697.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 703.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 703.
 Package rerunfilecheck Info: File `BSSGroupProject_e-casa.out' has not changed.
 
 (rerunfilecheck)             Checksum: BAA8DCBCBB65548CE8C0232107E7D747;3337.
@@ -1221,33 +1241,29 @@ Package rerunfilecheck Info: File `BSSGroupProject_e-casa.out' has not changed.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 697.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 703.
  ) 
 Here is how much of TeX's memory you used:
- 8075 strings out of 492649
- 114766 string characters out of 6129622
- 242950 words of memory out of 5000000
- 11699 multiletter control sequences out of 15000+600000
- 14202 words of font info for 53 fonts, out of 8000000 for 9000
+ 8062 strings out of 492649
+ 114674 string characters out of 6129622
+ 242969 words of memory out of 5000000
+ 11692 multiletter control sequences out of 15000+600000
+ 12012 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,18n,35p,1177b,520s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
-st, replaced by a fixed one
-
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
-/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></
-usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></
-usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
-r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
-local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/lo
-cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local
-/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
-texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/t
-exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on BSSGroupProject_e-casa.pdf (38 pages, 1379967 bytes).
+ 28i,12n,35p,1177b,520s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
+r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
+local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/l
+ocal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/lo
+cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on BSSGroupProject_e-casa.pdf (39 pages, 1375197 bytes).
 PDF statistics:
- 619 PDF objects out of 1000 (max. 8388607)
- 545 compressed objects within 6 object streams
+ 633 PDF objects out of 1000 (max. 8388607)
+ 560 compressed objects within 6 object streams
  125 named destinations out of 1000 (max. 500000)
  409 words of extra memory for PDF output out of 10000 (max. 10000000)
 
