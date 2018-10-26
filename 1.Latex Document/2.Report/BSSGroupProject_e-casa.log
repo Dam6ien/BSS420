@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.19)  26 OCT 2018 18:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.19)  26 OCT 2018 18:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -346,7 +346,7 @@ See the natbib package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.161 ...and\NAT@force@numbers{}\NAT@force@numbers
+l.166 ...and\NAT@force@numbers{}\NAT@force@numbers
                                                   
 Check the bibliography entries for non-compliant syntax,
 or select author-year BibTeX style, e.g. plainnat
@@ -477,16 +477,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout5 = `BSSGroupProject_e-casa.toc'.
 
  [4]
-(./BSSGroupProject_e-casa.lof
-
-Package natbib Warning: Citation `AuGov2013' on page v undefined on input line 
-5.
-
-
-Package natbib Warning: Citation `FDB2018' on page v undefined on input line 6.
-
-
-)
+(./BSSGroupProject_e-casa.lof)
 \tf@lof=\write6
 \openout6 = `BSSGroupProject_e-casa.lof'.
 
@@ -527,7 +518,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 77--78
 [2
 
 ]
-<graphics/ecasa_OT.png, id=349, 896.34875pt x 269.005pt>
+<graphics/ecasa_OT.png, id=355, 896.34875pt x 269.005pt>
 File: graphics/ecasa_OT.png Graphic file (type png)
 <use graphics/ecasa_OT.png>
 Package pdftex.def Info: graphics/ecasa_OT.png  used on input line 81.
@@ -553,36 +544,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--93
  []
 
 [3 <./graphics/ecasa_OT.png>]
-<graphics/HouseholdRecyclingBin.jpg, id=360, 491.8375pt x 491.8375pt>
+<graphics/HouseholdRecyclingBin.jpg, id=366, 491.8375pt x 491.8375pt>
 File: graphics/HouseholdRecyclingBin.jpg Graphic file (type jpg)
 <use graphics/HouseholdRecyclingBin.jpg>
 Package pdftex.def Info: graphics/HouseholdRecyclingBin.jpg  used on input line
  103.
 (pdftex.def)             Requested size: 167.22253pt x 167.22253pt.
-
-
-Package natbib Warning: Citation `Rbins2018' on page 4 undefined on input line 
-104.
-
-<graphics/Household_Grey_Water.png, id=363, 240.9pt x 199.947pt>
+<graphics/Household_Grey_Water.png, id=370, 240.9pt x 199.947pt>
 File: graphics/Household_Grey_Water.png Graphic file (type png)
 <use graphics/Household_Grey_Water.png>
 Package pdftex.def Info: graphics/Household_Grey_Water.png  used on input line 
 115.
 (pdftex.def)             Requested size: 289.07854pt x 239.93518pt.
-
-Package natbib Warning: Citation `AuGov2013' on page 4 undefined on input line 
-116.
-
-<graphics/Outdoor_Composter.jpg, id=365, 204.765pt x 188.8656pt>
+<graphics/Outdoor_Composter.jpg, id=373, 204.765pt x 188.8656pt>
 File: graphics/Outdoor_Composter.jpg Graphic file (type jpg)
 <use graphics/Outdoor_Composter.jpg>
 Package pdftex.def Info: graphics/Outdoor_Composter.jpg  used on input line 125
 .
 (pdftex.def)             Requested size: 225.24217pt x 207.75279pt.
-
-Package natbib Warning: Citation `FDB2018' on page 4 undefined on input line 12
-6.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -614,17 +593,17 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
  [6]
 Package acronym Info: Label `acro:FBD' newly defined as it shall be overridden
 although it is yet undefined on input line 192.
-<graphics/Function1.pdf, id=385, 735.74875pt x 655.44875pt>
+<graphics/Function1.pdf, id=394, 735.74875pt x 655.44875pt>
 File: graphics/Function1.pdf Graphic file (type pdf)
 <use graphics/Function1.pdf>
 Package pdftex.def Info: graphics/Function1.pdf  used on input line 196.
 (pdftex.def)             Requested size: 294.29428pt x 262.17485pt.
-<graphics/Function2.pdf, id=386, 331.98691pt x 341.64388pt>
+<graphics/Function2.pdf, id=395, 331.98691pt x 341.64388pt>
 File: graphics/Function2.pdf Graphic file (type pdf)
 <use graphics/Function2.pdf>
 Package pdftex.def Info: graphics/Function2.pdf  used on input line 204.
 (pdftex.def)             Requested size: 265.58989pt x 273.31546pt.
-<graphics/Function3.pdf, id=387, 362.35776pt x 349.71504pt>
+<graphics/Function3.pdf, id=396, 362.35776pt x 349.71504pt>
 File: graphics/Function3.pdf Graphic file (type pdf)
 <use graphics/Function3.pdf>
 Package pdftex.def Info: graphics/Function3.pdf  used on input line 212.
@@ -813,7 +792,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 425--426
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./graphics/System_Diagram.pd
 f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graphics/System_Diagram.pdf, id=470, 793.96625pt x 614.295pt>
+<graphics/System_Diagram.pdf, id=479, 793.96625pt x 614.295pt>
 File: graphics/System_Diagram.pdf Graphic file (type pdf)
 <use graphics/System_Diagram.pdf>
 Package pdftex.def Info: graphics/System_Diagram.pdf  used on input line 431.
@@ -922,10 +901,6 @@ Underfull \hbox (badness 2735) in paragraph at lines 514--515
  []
 
 
-Package natbib Warning: Citation `NHA2003' on page 17 undefined on input line 5
-18.
-
-
 Underfull \hbox (badness 1033) in paragraph at lines 518--520
 \OT1/cmr/m/n/10.95 in-sect eggs. The wa-ter
  []
@@ -939,10 +914,6 @@ Underfull \hbox (badness 6016) in paragraph at lines 521--521
 Underfull \hbox (badness 2103) in paragraph at lines 523--524
 []\OT1/cmr/m/n/10.95 Water com-ing from one
  []
-
-
-Package natbib Warning: Citation `Bran2016' on page 17 undefined on input line 
-525.
 
 
 Underfull \hbox (badness 1748) in paragraph at lines 525--525
@@ -1053,65 +1024,62 @@ Underfull \hbox (badness 10000) in paragraph at lines 577--577
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 590--591
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 592--593
 
  []
 
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 594--595
-
- []
-
-[20]
 Runaway argument?
 {blueThe waste sortation and storage system of e-casa requires non-de\ETC.
 ! Paragraph ended before \@textcolor was complete.
 <to be read again> 
                    \par 
-l.613 
+l.608 
       
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
 
 ! Too many }'s.
-l.616 ...order to manage and utilise the compost.}
+l.611 ...order to manage and utilise the compost.}
                                                   
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
 
-[21] [22] [23] [24] [25]
+[20] [21] [22] [23] [24]
 Chapter 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 644--645
+Underfull \hbox (badness 10000) in paragraph at lines 635--636
 
  []
 
-[26
+[25
 
-] [27]
+] [26]
 Chapter 5.
-[28
+[27
 
 ]
 Chapter 6.
-(./BSSGroupProject_e-casa.bbl [29
+(./BSSGroupProject_e-casa.bbl [28
 
-]) [30
+]) [29
 
 ]
 Appendix A.
-
-Package natbib Warning: There were undefined citations.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 678.
-[31
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 669.
+[30
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 678.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 669.
  (./BSSGroupProject_e-casa.aux (./TitlePage.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 678.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 678.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 669.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 669.
 Package rerunfilecheck Info: File `BSSGroupProject_e-casa.out' has not changed.
 
 (rerunfilecheck)             Checksum: 3930E5F35936D147FE5A16FB9393CE10;3576.
@@ -1119,16 +1087,16 @@ Package rerunfilecheck Info: File `BSSGroupProject_e-casa.out' has not changed.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 678.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 669.
  ) 
 Here is how much of TeX's memory you used:
- 7942 strings out of 492649
- 113099 string characters out of 6129622
- 244777 words of memory out of 5000000
- 11586 multiletter control sequences out of 15000+600000
+ 7961 strings out of 492649
+ 113397 string characters out of 6129622
+ 243915 words of memory out of 5000000
+ 11601 multiletter control sequences out of 15000+600000
  12012 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,12n,35p,1499b,426s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,12n,35p,1177b,426s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
@@ -1138,10 +1106,10 @@ r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
 local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/l
 ocal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/lo
 cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on BSSGroupProject_e-casa.pdf (39 pages, 1372377 bytes).
+Output written on BSSGroupProject_e-casa.pdf (38 pages, 1368382 bytes).
 PDF statistics:
- 616 PDF objects out of 1000 (max. 8388607)
- 543 compressed objects within 6 object streams
- 117 named destinations out of 1000 (max. 500000)
+ 626 PDF objects out of 1000 (max. 8388607)
+ 554 compressed objects within 6 object streams
+ 121 named destinations out of 1000 (max. 500000)
  433 words of extra memory for PDF output out of 10000 (max. 10000000)
 
