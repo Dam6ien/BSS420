@@ -38,13 +38,13 @@
 \contentsline {subsection}{\numberline {3.3.4}Operational Test and Evaluation}{21}{subsection.3.3.4}
 \contentsline {chapter}{\numberline {4}Post Development Stage}{22}{chapter.4}
 \contentsline {section}{\numberline {4.1}Production and Deployment Phase}{22}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Transitions from Development to Production}{22}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Production Operations}{22}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.1}Transitions from Deployment to Installation}{22}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Procurement Operations}{22}{subsection.4.1.2}
 \contentsline {section}{\numberline {4.2}Operations and Support Phase}{22}{section.4.2}
-\contentsline {chapter}{\numberline {5}Software Design and System Dynamics}{23}{chapter.5}
-\contentsline {section}{\numberline {5.1}Core 9 System Design Structure}{23}{section.5.1}
-\contentsline {section}{\numberline {5.2}System Dynamics Analysis}{23}{section.5.2}
-\contentsline {section}{\numberline {5.3}Selected Elements for System Dynamics Analysis}{23}{section.5.3}
-\contentsline {section}{\numberline {5.4}Sensitivity Analysis}{23}{section.5.4}
-\contentsline {chapter}{\numberline {6}Conclusion}{24}{chapter.6}
-\contentsline {chapter}{\numberline {A}Some data as appendix}{26}{appendix.A}
+\contentsline {chapter}{\numberline {5}Software Design and System Dynamics}{24}{chapter.5}
+\contentsline {section}{\numberline {5.1}Core 9 System Design Structure}{24}{section.5.1}
+\contentsline {section}{\numberline {5.2}System Dynamics Analysis}{24}{section.5.2}
+\contentsline {section}{\numberline {5.3}Selected Elements for System Dynamics Analysis}{24}{section.5.3}
+\contentsline {section}{\numberline {5.4}Sensitivity Analysis}{24}{section.5.4}
+\contentsline {chapter}{\numberline {6}Conclusion}{25}{chapter.6}
+\contentsline {chapter}{\numberline {A}Some data as appendix}{27}{appendix.A}

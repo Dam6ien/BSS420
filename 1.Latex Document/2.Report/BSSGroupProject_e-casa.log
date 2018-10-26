@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.19)  26 OCT 2018 10:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.19)  26 OCT 2018 11:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -346,7 +346,7 @@ See the natbib package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.155 ...and\NAT@force@numbers{}\NAT@force@numbers
+l.156 ...and\NAT@force@numbers{}\NAT@force@numbers
                                                   
 Check the bibliography entries for non-compliant syntax,
 or select author-year BibTeX style, e.g. plainnat
@@ -667,10 +667,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 305--305
  []
 
 
-Package natbib Warning: Citation `Sithole2014' on page 10 undefined on input li
-ne 305.
-
-
 Overfull \hbox (10.39247pt too wide) in paragraph at lines 302--319
  [] 
  []
@@ -764,7 +760,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 405--406
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./graphics/System_Diagram.pd
 f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graphics/System_Diagram.pdf, id=464, 793.96625pt x 614.295pt>
+<graphics/System_Diagram.pdf, id=466, 793.96625pt x 614.295pt>
 File: graphics/System_Diagram.pdf Graphic file (type pdf)
 <use graphics/System_Diagram.pdf>
 Package pdftex.def Info: graphics/System_Diagram.pdf  used on input line 411.
@@ -956,47 +952,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 583--584
 
 [22
 
-]
+] [23]
 Chapter 5.
-[23
+[24
 
 ]
 Chapter 6.
-(./BSSGroupProject_e-casa.bbl [24
+(./BSSGroupProject_e-casa.bbl [25
 
-]) [25
+]) [26
 
 ]
 Appendix A.
-
-Package natbib Warning: There were undefined citations.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 614.
-[26
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 617.
+[27
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 614.
- (./BSSGroupProject_e-casa.aux (./TitlePage.aux)
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 617.
+ (./BSSGroupProject_e-casa.aux (./TitlePage.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 617.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 617.
 
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
 
-)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 614.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 614.
-Package rerunfilecheck Info: File `BSSGroupProject_e-casa.out' has not changed.
+Package rerunfilecheck Warning: File `BSSGroupProject_e-casa.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
 
-(rerunfilecheck)             Checksum: 107FF81B872B4C1A279BB099F054B37C;3573.
-
+Package rerunfilecheck Info: Checksums for `BSSGroupProject_e-casa.out':
+(rerunfilecheck)             Before: 107FF81B872B4C1A279BB099F054B37C;3573
+(rerunfilecheck)             After:  0E3577F798C837CC24FF1995A66C7CC0;3575.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 614.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 617.
  ) 
 Here is how much of TeX's memory you used:
- 7937 strings out of 492649
- 113064 string characters out of 6129622
- 238687 words of memory out of 5000000
+ 7938 strings out of 492649
+ 113071 string characters out of 6129622
+ 239713 words of memory out of 5000000
  11586 multiletter control sequences out of 15000+600000
  12012 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1010,10 +1003,10 @@ r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
 local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/l
 ocal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/lo
 cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on BSSGroupProject_e-casa.pdf (34 pages, 1358612 bytes).
+Output written on BSSGroupProject_e-casa.pdf (35 pages, 1360161 bytes).
 PDF statistics:
- 591 PDF objects out of 1000 (max. 8388607)
- 523 compressed objects within 6 object streams
- 112 named destinations out of 1000 (max. 500000)
+ 596 PDF objects out of 1000 (max. 8388607)
+ 527 compressed objects within 6 object streams
+ 113 named destinations out of 1000 (max. 500000)
  433 words of extra memory for PDF output out of 10000 (max. 10000000)
 
