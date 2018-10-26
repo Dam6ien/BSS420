@@ -293,15 +293,41 @@ The following performance requirements were included in the specification after 
 \begin{center}
 \begin{tabular}{p{4cm}|p{4cm}|p{4cm}|p{4cm}}\toprule
 	{\textbf{Subsystem}} & {\textbf{Class function}} & {\textbf{Element Function}} & {\textbf{Physical Elements}}\\ \midrule
-    \textcolor{Format used by sample project} & ... & ...\\
+    Grey water & Material & Process used water & Piping, water storage tanks, valves, pump\\
     \hline
-    ... & ... & ...\\
-
+    Waste sortation and storage & Material & Sort waste, store waste & Separate bins, bags, garbage bin housing\\
+    \hline
+        Compost & Material & Generate compost & Storage container\\
     \bottomrule
 \end{tabular}
 \end{center}
 \end{table}
 %
+\textbf{System walkthrough}
+The following process details how the system will function in practice:\\
+
+Grey water system
+Water is used from the municipal source via taps, showers, baths, wash basins and washing machines. This water is diverted into storage tank. The remaining water used in toilets etc is sent into the sewage line.
+Water in the grey water storage tank is diverted into two paths.
+The first path filters and sterilizes the water for re-use in the washing machine.
+The second sends the remaining grey water into the either the toilet cistern or the garden.
+Water diverted into the garden automatically irrigates the veggie patch and garden.
+Physical waste system
+Physical waste produced by the house is sorted into useable and unusable waste.
+Usable waste is further divided into organic and inorganic waste.
+Organic waste
+Garden refuse, and organic waste produced from the kitchen is transported to the composting system.
+The organic waste is broken down into compost and used in the garden or in the veggie patch.
+The greywater from the greywater system is used to irrigate the veggie patch.
+Garden refuse is generated during this processes and is used as input into the composting system.
+Inorganic waste
+Inorganic waste such as glass, plastic and paper enters the recycling system and is stored into demarcated bins.
+Once the bins reach full capacity, they are sent for recycling.
+Unusable waste
+Hazardous material and non-recyclable material is disposed of in a traditional bin.
+The municipality receives the contents of the bin for further processing at a landfill.
+
+
 \subsection{Concept Selection}
 The alternatives given for the functions in Table~\ref{tb: FunctionalTasks} were assessed according to financial feasibility, convenience and ease of implementation. One alternative was selected for each function (Table~\ref{tb: chosen_Alts}) with the explanation for choice in each alternative given below:
 %
@@ -451,7 +477,7 @@ Associated risks for each of the functions of the system are identified and appr
 \begin{tabular}{p{3cm}|p{5.5cm}|p{5.5cm}}\toprule
 	{\textbf{Function} & \textbf{Associated Risk}} & {\textbf{Risk Mitigation}\\ \midrule
     \hline
-    Waste sortation and storage & User places disposable waste into incorrect category (i.e. plastic into paper or paper into glass) & Use visual management signals or colours to mark gardbage bin compartments clearly\\
+    Waste sortation and storage & User places disposable waste into incorrect category (i.e. plastic into paper or paper into glass) & Use visual management signals or colours to mark garbage bin compartments clearly\\
       \hline
     Waste sortation and storage & If a compartment or one part of the bin breaks, the entire bin needs to be replaced as individual parts are not sold separately & Negotiate an agreement with the suppliers for cheaper prices or to order individual parts when required\\
      \hline
@@ -483,19 +509,25 @@ Design specifications for each of the selected alternatives are given along with
 \begin{tabular}{p{4.5cm}|p{4.5cm}|p{4.5cm}}\toprule
 	{\textbf{Selected Alternative}} & {\textbf{Design Specification}} & {\textbf{Motivation}}\\ \midrule
     \hline
-    Waste sortation and storage & One garbage bin with 3x removable 20~\textit{l} containers& ...\\
+    Waste sortation and storage & One garbage bin with 3x removable 25~\textit{l} containers & 
+Kitchen space constraints. Larger bin (70~\textit{l}) is expected to be impractical and is substantially more expensive at R 1500.\\
         \hline
-    Receive water & 4x Separate pipes that connect as inputs to central grey water tank & Entire grey water system does not need to stop when one line of supply (pipe) is damaged. Damaged line can be switched off to prevent water flow while others continue to operate\\
+    Four separate pipes into the greywater system & 4 x Seperate pipes that connect as inputs to central grey water tank. & Having four separate pipes prevents the whole system from ceasing when one line is damaged or blocked. The damaged line can be switched off to allow repairs to take place without disrupting the rest of the system.\\
         \hline
-    Process used water & Water filter that is capable of removing enough contaminats for the water to be used in a washing machine & If the water is safe enough to be used in the washing machine, it will be safe enough to use in the garden and toilet cistern\\
+    Filter used water & Water filter that is capable of removing unwanted biological and non biological materials so that the water is safe for use in greywater applications.
+A water pump powerful enough to pump water at a rate of at least 7.5~\textit{l}/min
+ & The grey water does not need to be potable but still poses the risk of being infected with waterborne diseases and disease carrying insect eggs. The water should at least adhere to the National Health Act 61 of 2003, \citep{NHA2003}.
+The water will need to pumped through the filter.\\
         \hline
-    Store processed water & 200~\textit{l} tank to store sufficient water for the three outlets: washing machine, garden and toilet cistern & Smaller tank would not enable household to earn as much financial savings and the payback period would increase for the household\\
+    Large central greywater tank & 200~\textit{l} tank to store sufficient water for the three outlets, washing machine, garden and toilet cistern. & A smaller tank would discard more excess water as it will have a lower capacity. This would lead to less water savings and thus less cost savings.\\
         \hline
-    Direct water & Five way water valve & Water coming from one source will need to be supplied to four different sources. Two three-way valves would have to be purchased to perform this function if a five-way valve is not purchased and this would lead to additional piping costs\\
+    Five way water valve & Industry standard five-way water valve for one input and four outputs. & Water coming from one source will need to be supplied to four different locations. Without a five-way valve, two three-way valves will be needed. This could lead to additional piping costs.\\
             \hline
-    Re-use water & ? & ?\\
+    Greywater available on demand from a tap & A water pump powerful enough to generate at least 3 Bars of pressure, \citep{Bran2016}. & For the greywater to be added to the existing water grid the pressure needs to at least meat the municipal grid pressure.\\
             \hline
-    ... & ... & ...\\
+    Residential sized compost container & 220~\textit{l}compost container with securable lid  & The container will be easier to place and relocate than a compost pit. 220~\textit{l} is enough to contain the 3 kg of waste per week, which adds up to 156 kg of waste per year.\\
+            \hline
+    Greywater system connected directly to sprinkler system & Piping and adapters for water flow from tank to garden. A water pump powerful enough to pump water at a rate of at least 7.5 l/min. Electric circuit switch. Electrical wiring.  & For the user to be able to control the flow of water from the greywater tank to the sprinkler system, electrical switches and wiring will be needed to power the pump that sends the water to the garden. Pipes and adapters will be needed to facilitate this movement.\\
 
     \bottomrule
 \end{tabular}
@@ -593,7 +625,7 @@ Integrating the greywater system with the garden and sprinkler systems does not 
 
 \chapter{Post Development Stage}
 
-\section{Production and Deployment Phase}
+\section{Procurement and Deployment Phase}
 None of the components for the \ac{e-casa} system require production. However, all of them require successful deployment. Deployment of the recycling garbage bin and compost container are uncomplicated but deployment of the grey water subsytem is expected to be time consuming and complicated. 
 
 Successful deployment of the grey water system will require assessment of the household's existing water supply network. This 
