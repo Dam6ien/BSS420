@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.19)  26 OCT 2018 10:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.19)  26 OCT 2018 10:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -784,49 +784,10 @@ I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-
-! Package xcolor Error: Undefined color `Format used by sample project'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.428 ...extcolor{Format used by sample project} &
-                                                   ... & ...\\
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.428 ...extcolor{Format used by sample project} &
-                                                   ... & ...\\
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-! Missing { inserted.
-<inserted text> 
-                {
-l.428 ...or{Format used by sample project} & ... &
-                                                   ...\\
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.428 ...or{Format used by sample project} & ... &
-                                                   ...\\
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.430     ... & ... &
+l.429     ... & ... &
                       ...\\
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
@@ -835,7 +796,7 @@ So I'll assume that you meant to type \cr instead.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.445 	{\textbf{Function} &
+l.444 	{\textbf{Function} &
                             \textbf{Associated Risk}} & {\textbf{Risk Mitiga...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -844,7 +805,7 @@ Try to go on, since this might almost work.
 ! Missing { inserted.
 <inserted text> 
                 {
-l.445 ...f{Function} & \textbf{Associated Risk}} &
+l.444 ...f{Function} & \textbf{Associated Risk}} &
                                                    {\textbf{Risk Mitigation}...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -853,51 +814,53 @@ Try to go on, since this might almost work.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.445 ...}} & {\textbf{Risk Mitigation}\\ \midrule
+l.444 ...}} & {\textbf{Risk Mitigation}\\ \midrule
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
 
-Underfull \hbox (badness 1052) in paragraph at lines 447--447
+Underfull \hbox (badness 1052) in paragraph at lines 446--446
 \OT1/cmr/m/n/10.95 mal-func-tions and pol-lu-tants
  []
 
 
-Underfull \hbox (badness 1048) in paragraph at lines 451--451
+Underfull \hbox (badness 1048) in paragraph at lines 450--450
 \OT1/cmr/m/n/10.95 into in-cor-rect cat-e-gory (i.e.
  []
 
 
-Underfull \hbox (badness 7667) in paragraph at lines 451--453
+Underfull \hbox (badness 7667) in paragraph at lines 450--452
 \OT1/cmr/m/n/10.95 nals or colours to mark
  []
 
 
-Underfull \hbox (badness 1308) in paragraph at lines 451--453
+Underfull \hbox (badness 1308) in paragraph at lines 450--452
 \OT1/cmr/m/n/10.95 gard-bage bin com-part-ments
  []
 
 
-Underfull \hbox (badness 2103) in paragraph at lines 476--477
+Underfull \hbox (badness 2103) in paragraph at lines 475--476
 []\OT1/cmr/m/n/10.95 Water com-ing from one
  []
 
 
-Underfull \hbox (badness 3375) in paragraph at lines 476--477
+Underfull \hbox (badness 3375) in paragraph at lines 475--476
 \OT1/cmr/m/n/10.95 source will need to be
  []
 
-[16 <./graphics/System_Diagram.pdf>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[17] [18]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[16 <./graphics/System_Diagram.pdf>] [17]
 ! Missing } inserted.
 <inserted text> 
                 }
-l.503 ...tbf{Component}} & {\textbf{Interaction} &
+l.502 ...tbf{Component}} & {\textbf{Interaction} &
                                                    {\textbf{Interface}\\ \mi...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -906,7 +869,7 @@ Try to go on, since this might almost work.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.503 ...raction} & {\textbf{Interface}\\ \midrule
+l.502 ...raction} & {\textbf{Interface}\\ \midrule
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -919,7 +882,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.504 ...extcolor{Format used by sample project} &
+l.503 ...extcolor{Format used by sample project} &
                                                    ... & ...\\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -927,7 +890,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.504 ...extcolor{Format used by sample project} &
+l.503 ...extcolor{Format used by sample project} &
                                                    ... & ...\\
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -936,16 +899,20 @@ Try to go on, since this might almost work.
 ! Missing { inserted.
 <inserted text> 
                 {
-l.504 ...or{Format used by sample project} & ... &
+l.503 ...or{Format used by sample project} & ... &
                                                    ...\\
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[18]
 ! Missing } inserted.
 <inserted text> 
                 }
-l.522 	{\textbf{Component/s}} & {\textbf{Source} &
+l.521 	{\textbf{Component/s}} & {\textbf{Source} &
                                                    {\textbf{Estimated Cost (...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -954,36 +921,36 @@ Try to go on, since this might almost work.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.522 ...textbf{Estimated Cost (Rands)}\\ \midrule
+l.521 ...textbf{Estimated Cost (Rands)}\\ \midrule
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 527--527
+Underfull \hbox (badness 10000) in paragraph at lines 526--526
 []\OT1/cmr/m/n/10.95 Builders Ware-house
  []
 
-[19]
-Underfull \hbox (badness 10000) in paragraph at lines 542--543
+
+Underfull \hbox (badness 10000) in paragraph at lines 541--542
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 544--545
+Underfull \hbox (badness 10000) in paragraph at lines 543--544
 
  []
 
-[20] [21]
+[19] [20] [21]
 Chapter 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 582--583
+Underfull \hbox (badness 10000) in paragraph at lines 581--582
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 584--585
+Underfull \hbox (badness 10000) in paragraph at lines 583--584
 
  []
 
@@ -1004,14 +971,19 @@ Appendix A.
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 615.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 614.
 [26
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 615.
- (./BSSGroupProject_e-casa.aux (./TitlePage.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 615.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 615.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 614.
+ (./BSSGroupProject_e-casa.aux (./TitlePage.aux)
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 614.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 614.
 Package rerunfilecheck Info: File `BSSGroupProject_e-casa.out' has not changed.
 
 (rerunfilecheck)             Checksum: 107FF81B872B4C1A279BB099F054B37C;3573.
@@ -1019,13 +991,13 @@ Package rerunfilecheck Info: File `BSSGroupProject_e-casa.out' has not changed.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 615.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 614.
  ) 
 Here is how much of TeX's memory you used:
- 7933 strings out of 492649
- 112991 string characters out of 6129622
+ 7937 strings out of 492649
+ 113064 string characters out of 6129622
  238687 words of memory out of 5000000
- 11583 multiletter control sequences out of 15000+600000
+ 11586 multiletter control sequences out of 15000+600000
  12012 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  28i,12n,35p,1499b,426s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1038,10 +1010,10 @@ r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
 local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/l
 ocal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/lo
 cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on BSSGroupProject_e-casa.pdf (34 pages, 1357633 bytes).
+Output written on BSSGroupProject_e-casa.pdf (34 pages, 1358612 bytes).
 PDF statistics:
- 590 PDF objects out of 1000 (max. 8388607)
- 522 compressed objects within 6 object streams
- 111 named destinations out of 1000 (max. 500000)
+ 591 PDF objects out of 1000 (max. 8388607)
+ 523 compressed objects within 6 object streams
+ 112 named destinations out of 1000 (max. 500000)
  433 words of extra memory for PDF output out of 10000 (max. 10000000)
 

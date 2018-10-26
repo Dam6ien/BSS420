@@ -6,46 +6,52 @@ A level-1 auxiliary file: TitlePage.aux
 Database file #1: References.bib
 Warning--entry type for "Fischer2012" isn't style-file defined
 --line 26 of file References.bib
+Too many commas in name 1 of "Sithole, Biesheuvel, Dune, Kuhlmann" for entry Sithole2014
+while executing---line 1023 of file apalike.bst
+Too many commas in name 1 of "Sithole, Biesheuvel, Dune, Kuhlmann" for entry Sithole2014
+while executing---line 1023 of file apalike.bst
 Warning--empty year in Fischer2012
-You've used 1 entry,
+Too many commas in name 1 of "Sithole, Biesheuvel, Dune, Kuhlmann" for entry Sithole2014
+while executing---line 1098 of file apalike.bst
+You've used 2 entries,
             1935 wiz_defined-function locations,
-            476 strings with 3848 characters,
-and the built_in function-call counts, 251 in all, are:
-= -- 24
-> -- 7
-< -- 1
-+ -- 2
-- -- 2
-* -- 13
-:= -- 53
-add.period$ -- 2
-call.type$ -- 1
-change.case$ -- 6
-chr.to.int$ -- 1
-cite$ -- 2
-duplicate$ -- 10
-empty$ -- 16
-format.name$ -- 3
-if$ -- 44
+            482 strings with 3956 characters,
+and the built_in function-call counts, 521 in all, are:
+= -- 50
+> -- 14
+< -- 2
++ -- 4
+- -- 4
+* -- 30
+:= -- 105
+add.period$ -- 5
+call.type$ -- 2
+change.case$ -- 12
+chr.to.int$ -- 2
+cite$ -- 3
+duplicate$ -- 23
+empty$ -- 36
+format.name$ -- 6
+if$ -- 95
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 7
-num.names$ -- 3
-pop$ -- 6
+missing$ -- 1
+newline$ -- 12
+num.names$ -- 6
+pop$ -- 11
 preamble$ -- 1
-purify$ -- 6
+purify$ -- 12
 quote$ -- 0
-skip$ -- 8
+skip$ -- 19
 stack$ -- 0
-substring$ -- 12
-swap$ -- 0
+substring$ -- 24
+swap$ -- 1
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 6
+type$ -- 12
 warning$ -- 1
-while$ -- 2
+while$ -- 4
 width$ -- 0
-write$ -- 11
-(There were 2 warnings)
+write$ -- 23
+(There were 3 error messages)
