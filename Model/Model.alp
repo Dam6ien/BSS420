@@ -266,7 +266,7 @@
 						<UnitType><![CDATA[NONE]]></UnitType>
 						<SdArray>false</SdArray>
 						<DefaultValue Class="CodeValue">
-							<Code><![CDATA[0.57 //uniform(0.21, 0.57)]]></Code>
+							<Code><![CDATA[uniform(0.21, 0.57)]]></Code>
 						</DefaultValue>
 						<ParameterEditor>
 							<Id>1539978503397</Id>
@@ -485,7 +485,7 @@ wasteSource.inject(1);]]></Action>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
 					<FileType>FILE</FileType>
-					<FileName><![CDATA[water_measurements.txt]]></FileName>
+					<FileName><![CDATA[water_measurements.csv]]></FileName>
 					<FileMode>WRITE_APPEND</FileMode>
 					<CharsetName>null</CharsetName>
 					<Separators></Separators>
@@ -676,7 +676,7 @@ wasteSource.inject(1);]]></Action>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[waterSystemQuantity = uniform(180, 240);]]></Code>
+								<Code><![CDATA[waterSystemQuantity = uniform(180, 240)]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -935,7 +935,7 @@ wasteSource.inject(1);]]></Action>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[wasteSystemQuantity = uniform(1.6, 3);
+								<Code><![CDATA[wasteSystemQuantity = normal(1.6, 3);
 ]]></Code>
 							</Value>
 						</Parameter>

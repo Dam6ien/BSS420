@@ -9,3 +9,5 @@ Run 6 - gardenWastePercent at minimum (21 %)
 Run 7 - gardenWastePercent at maximum (57 %)
 Run 8 - renewableWastePercent at minimum (21 %)
 Run 9 - renewableWastePercent at maximum (57 %)
+
+gardenQuantity,renewableQuantity,sewageQuantity
