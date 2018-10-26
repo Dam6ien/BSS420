@@ -142,7 +142,7 @@ To ensure the proposed system can fufill the identified need, metrics have been 
 	{\textbf{Metric Category}} & {\textbf{Unit Measure}} & {\textbf{Description}}\\ \midrule
     Water savings & \textit{litres} & The volume of water saved is calculated as the reduction in the volume of water that enters the household. This value is already measured by the household's municipality that bills them for water usage each month.\\
     \hline
-    *Organic waste reduction & \textit{kilogram} & The total mass of organic waste re-used by means of composting is the reduction in household waste output.\\
+    Organic waste reduction & \textit{kilogram} & The total mass of organic waste re-used by means of composting is the reduction in household waste output.\\
     \hline
     Disposable waste reduction & \textit{kilogram} & The total mass of plastic, paper and glass respectively represent disposal waste reduction. It is assumed firstly, that all disposable materials would not have been recycled before system implementation and secondly, that all disposable materials will ultimately be recycled by the municipality's garbage management system.\\
     \hline
@@ -153,7 +153,6 @@ To ensure the proposed system can fufill the identified need, metrics have been 
 \end{center}
 \end{table}
 %
-*= Problem to measure
 
 The five metrics in Table~\ref{tb: Performance_Metrics} are to be evaluated using different hypothetical scenarios. These scenarios reflect expected environmental conditions and consideration of the metrics in conjunction with these scenarios is used to determine the appropriateness of the system. The hypothetical scanarios are as follows:
 %
@@ -162,16 +161,14 @@ The five metrics in Table~\ref{tb: Performance_Metrics} are to be evaluated usin
 	\item[Equipment price rise] - If the price of grey water system equipment rises substantially due to unfavourable economic circumstances or exchange rate changes before the \ac{e-casa} system is installed, the payback period will significantly increase as more capital would have to be earned back in the form of savings which would take a longer period of time.
 \end{description}
 
-The metrics are shown to be helpful in assessing the performance of the system under differential external operating conditions (the hypothetical scenarios given above). 
+The metrics are shown to be helpful in assessing the performance of the system under the different external operating conditions (hypothetical scenarios given above). 
 %As defined by the metrics, the system is believed to achieve the objectives laid out by the defined need. Thus the system is able to fufill the identified needs.
 
 \section{Concept Exploration}
 \subsection{Operational Requirements Analysis}
-\textcolor{red}{analysing the stated operational requirements in terms of their objectives. Restating, redefining or amplifying (as required) to provide specificity, independence and consistency among different objectives}
+The three primary objectives of the system are to reduce water consumption, provide waste sortation and storage, and to provide long-term cost savings. The following operational requirements are specified according to these three objectives: 
 
-The three primary objectives of the system are to reduce water consumption, provide waste sortation and storage, and to provide long-term cost savings. The following operational requirements will be specified according to these three objectives: 
-
-\textbf{Water Consumption}\\
+\textbf{Water Consumption}
 \begin{itemize}
 \item Reduce Water Consumption
 \item Use water collection and diversion
@@ -179,8 +176,8 @@ The three primary objectives of the system are to reduce water consumption, prov
 \item Greywater filtration 
 \item Filtered greywater diversion 
 \end{itemize}
-
-\textbf{Provide Waste Sortation and Storage}\\
+\medskip
+\textbf{Provide Waste Sortation and Storage}
 \begin{itemize}
 \item Waste storage by type 
 \item Visual compartment distinction 
@@ -188,7 +185,7 @@ The three primary objectives of the system are to reduce water consumption, prov
 \item Specialised organic waste storage 
 \item Compost to veggie patch distribution 
 \end{itemize}
-
+\medskip
 \textbf{Provide Long-term Cost Savings}
 \begin{itemize}
 \item Water volume usage reduction
@@ -199,9 +196,9 @@ The three primary objectives of the system are to reduce water consumption, prov
 
 
 \subsection{Performance Requirements Formulation}
-\textcolor{red}{Translating operational requirements into subsystem functions and defining a necessary and sufficient set of performance characteristics reflecting the functions essential to meeting the system’s operational requirements. Formulating the performance parameters required to meet the stated operational requirements.}
+From the operational requirements discussed above, the following subsystem functions are defined. 
 
-\textbf{Water Consumption}\\
+\textbf{Water Consumption}
 \begin{itemize}
 \item Collect reusable water from appliances within the household and divert the water to a greywater storage tank 
 \item Store greywater produced by the household
@@ -211,8 +208,8 @@ The three primary objectives of the system are to reduce water consumption, prov
 \item Divert the greywater to toilet cisterns
 \item Divert the greywater into the garden and veggie patch
 \end{itemize}
-
-\textbf{Provide waste Sortation and Storage}\\
+\medskip
+\textbf{Provide waste Sortation and Storage}
 \begin{itemize}
 \item Collect and store waste by waste type
 \item Visual distinction to inform the user of where each waste type must go (sort waste)
@@ -220,7 +217,7 @@ The three primary objectives of the system are to reduce water consumption, prov
 \item Specialised storage for converting organic waste into compost (composter)
 \item Dispose of compost into veggie patch and garden
 \end{itemize}
-
+\medskip
 \textbf{Provide Long-term Cost Savings}
 \begin{itemize}
 \item Reduce the volume of water purchased from the municipality
@@ -229,12 +226,11 @@ The three primary objectives of the system are to reduce water consumption, prov
 \item Short-term payback period
 \end{itemize}
 
-
-Subsystem functions are allocated and represented by the following \ac{FBD}s:\\ \textcolor{red}{NOTE TO SELF: Add labels to one of the FBDs}
+These subsystem functions are allocated and represented by the following \ac{FBD}s:\\ 
 %
 \begin{figure}[h!]
 \begin{center}
-\includegraphics[scale = 0.8]{Function1.pdf}
+\includegraphics[scale = 0.4]{Function1.pdf}
 \caption{Provide waste sortation and storage}
 \label{fig: Function1}
 \end{center}
@@ -257,8 +253,6 @@ Subsystem functions are allocated and represented by the following \ac{FBD}s:\\ 
 \end{figure}
 
 \subsection{Implementation of Concept Exploration}
-\textcolor{red}{Exploring a range of feasible implementation technologies and concepts offering a variety of potentially advantageous options.}
-
 Multiple alternatives for each of the function tasks given in \ac{FBD}s are explored in Table~\ref{tb: FunctionalTasks}.
 %
 \begin{table}[h!]
@@ -295,12 +289,56 @@ Multiple alternatives for each of the function tasks given in \ac{FBD}s are expl
 
 \section{Concept Definition}
 \subsection{Performance Requirement Analysis}
-\textbf{System performance requirements refinement} - The system performance requirements do not consider the impact the size of the household may have on them and are these performance requirements are rather set using data for an “average” household in South Africa. The size of the household will affect the size of the required system, the cost of such a system and therefore the system’s ability to be financially feasible. The waste producing capacity of a smaller household is a constraining requirement as smaller households will produce less waste and it will take longer to realise the cost savings of a larger system (possibly more than 2 years). However, smaller households will require smaller system components and therefore a lower initial system cost than a larger system.
+\textbf{System performance requirements refinement} - The system performance requirements do not consider the impact the size of the household may have on them and are these performance requirements are rather set using data for an “average” household in South Africa. The size of the household will affect the size of the required system, the cost of such a system and therefore the system’s ability to be financially feasible. The waste producing capacity of a smaller household is a constraining requirement as smaller households will produce less waste and it will take longer to realise the cost savings of a larger system (possibly more than 2 years). However, smaller households will require smaller system components and therefore a lower initial system cost than a larger system. Additional constraint requirements are also to be included that specify the minimum household size for the system to be feasible.
 
-To ensure the long-term operation of the system, each subsystem must be made easy for the system user him/herself or cheap labour to maintain. Standardised components are therefore preferred for the greywater system as well as the physical waste system. 
+To ensure the long-term operation of the system, each subsystem must be made easy for the system user him/herself or cheap labour to maintain. Standardised components are therefore preferred for the greywater system as well as the physical waste system. \\
 
-\textbf{Updated performance requirements}
-The following performance requirements were included in the specification following the after reviewing the initial performance requirements.
+\textbf{Updated performance requirements} -
+The following performance requirements were included in the specification after reviewing the initial performance requirements.
+%
+\begin{table}[h!]
+\caption {System Performance Requirements} \label{tb: Functional_SS_elements} 
+\begin{center}
+\begin{tabular}{p{3cm}|p{5.5cm}|p{4.5cm}}\toprule
+	{\textbf{Output}} & {\textbf{Performance Description}} & {\textbf{Specification}}\\ \midrule
+    \hline
+   Waste sortation and storage & Capacity to handle household's disposable waste fora week before bins need to be refilled & 156 kg organic waste, 25 kg paper, 36 kg plastic, 22 kg glass.\\
+        \hline
+    ... & ... & ...\\
+        \hline
+    ... & ... & ...\\
+        \hline
+    ... & ... & ...\\
+        \hline
+    ... & ... & ...\\
+        \hline
+    ... & ... & ...\\
+
+    \bottomrule
+\end{tabular}
+\end{center}
+\end{table}
+%
+
+Water consumption
+Household capacity to consume water 
+*1000 l/day
+Water distribution
+Standardised piping requirement
+SANS 966-1:2014 standard (Anon n.d.)
+Water consumption
+Minimum number of toilets 
+2 toilet cisterns 
+Water consumption and waste production
+Minimum occupancy of household
+4 people
+Water consumption
+Minimum number of showers and or baths 
+2 showers/baths
+Water consumption
+Minimum number of washing machines
+1 washing machine
+
 
 \subsubsection{Relating analysed spesifications to operation needs}
 
@@ -352,13 +390,13 @@ The system as whole must be as cost effective as possible. However, quality shou
 	{\textbf{Function/Task}} & {\textbf{Selected Alternative}\\ \midrule
     Waste sortation and storage & One garbage bin with multiple compartments \\
      \hline
-     Receive water & Four separate pipes from (bath, shower, basin and washing machine) that connect to the central grey water storage tank \textcolor{blue}{One pipe that merges bathroom appliance outputs and one for the kitchen. These two pipes will feed water to the central grey water tank}\\
+     Receive water & Four separate pipes from (bath, shower, basin and washing machine) that connect to the central grey water storage tank\\
     \hline
-    Process used water & Filter grey water to be sent back to the washing machine for re-use and to the garden (for composting and plant watering) and toilet cistern (for flushing) \textcolor{blue}{Do not purchase a filter and only use grey water in the garden and to flush the toilet cistern}\\
+    Process used water & Filter grey water to be sent back to the washing machine for re-use and to the garden (for composting and plant watering) and toilet cistern (for flushing)\\
     \hline
-    Store processed water & Large central tank to store all water received until it is needed again by the washing machine, toilet cistern or in the garden \textcolor{blue}{Smaller central tank to store used water only for use in the garden}\\
+    Store processed water & Large central tank to store all water received until it is needed again by the washing machine, toilet cistern or in the garden\\
     \hline
-    Direct water & Five-way water valve to direct grey water back to the washing machine, to an outside water tap (to be used in a compost container), to the garden's sprinkler system (to water the vegetable patch) and to the toilet cistern \textcolor{blue}{Three-way valve to direct grey water back to outside water tap to be used in a compost heap and to the garden's sprinkler system to water the vegetable patch}\\
+    Direct water & Five-way water valve to direct grey water back to the washing machine, to an outside water tap (to be used in a compost container), to the garden's sprinkler system (to water the vegetable patch) and to the toilet cistern\\
     \hline
     Re-use water & Grey water system makes water available for re-use at necessary outlet points when human user demands it at a tap\\
     \hline
@@ -366,7 +404,7 @@ The system as whole must be as cost effective as possible. However, quality shou
     \hline
      Combine composting materials & Purchase a residential size compost container that the necessary materials are combined in to produce compost\\
     \hline
-     Grow vegetables & User must collect water from the outside garden tap in the necessary quantity and use it to water the vegetable patch. Compost collected and filled in the vegetable patch manually by human user \textcolor{blue}{Connect grey water storage tank directly to garden sprinkler system to be activated by the human user at the flick of the sprinkler switch. Compost collected and filled in the vegetable patch manually by human user}\\
+Grow vegetables & Connect grey water storage tank directly to garden sprinkler system to be activated by the human user at the flick of the sprinkler switch. Compost collected and filled in the vegetable patch manually by human user\\
     \hline
     \bottomrule
 \end{tabular}
@@ -400,10 +438,6 @@ The system's functional specifications are translated into three subsystem funct
 \section{Advanced Development Phase}
 The components for the three aforementioned subsystems of \ac{e-casa} have already been designed and can be purchased from the market. The components will therefore not be evaluated individually but \ac{e-casa} is unique in that it is the first system of this kind that integrates these different components .
 For this reason, the advanced development phase for the selected concept will be conducted to identify possible implementation risks of using these components together as one system.
-
-\subsection{Requirements Analysis}
-
-\subsection{Functional Analysis and Design}
 
 \subsection{Prototype Development}
 %

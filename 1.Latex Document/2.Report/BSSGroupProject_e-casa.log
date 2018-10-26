@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.19)  26 OCT 2018 09:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.19)  26 OCT 2018 10:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -333,6 +333,9 @@ LaTeX Info: Redefining \cite on input line 694.
 
 LaTeX Warning: Label `tb: Functional_SS_elements' multiply defined.
 
+
+LaTeX Warning: Label `tb: Functional_SS_elements' multiply defined.
+
 )
 \openout1 = `BSSGroupProject_e-casa.aux'.
 
@@ -500,7 +503,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 77--78
 [2
 
 ]
-<graphics/ecasa_OT.png, id=358, 896.34875pt x 269.005pt>
+<graphics/ecasa_OT.png, id=350, 896.34875pt x 269.005pt>
 File: graphics/ecasa_OT.png Graphic file (type png)
 <use graphics/ecasa_OT.png>
 Package pdftex.def Info: graphics/ecasa_OT.png  used on input line 83.
@@ -526,19 +529,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--95
  []
 
 [3 <./graphics/ecasa_OT.png>]
-<graphics/HouseholdRecyclingBin.jpg, id=369, 491.8375pt x 491.8375pt>
+<graphics/HouseholdRecyclingBin.jpg, id=361, 491.8375pt x 491.8375pt>
 File: graphics/HouseholdRecyclingBin.jpg Graphic file (type jpg)
 <use graphics/HouseholdRecyclingBin.jpg>
 Package pdftex.def Info: graphics/HouseholdRecyclingBin.jpg  used on input line
  105.
 (pdftex.def)             Requested size: 167.22253pt x 167.22253pt.
-<graphics/Household_Grey_Water.png, id=372, 240.9pt x 199.947pt>
+<graphics/Household_Grey_Water.png, id=364, 240.9pt x 199.947pt>
 File: graphics/Household_Grey_Water.png Graphic file (type png)
 <use graphics/Household_Grey_Water.png>
 Package pdftex.def Info: graphics/Household_Grey_Water.png  used on input line 
 117.
 (pdftex.def)             Requested size: 289.07854pt x 239.93518pt.
-<graphics/Outdoor_Composter.jpg, id=374, 204.765pt x 188.8656pt>
+<graphics/Outdoor_Composter.jpg, id=366, 204.765pt x 188.8656pt>
 File: graphics/Outdoor_Composter.jpg Graphic file (type jpg)
 <use graphics/Outdoor_Composter.jpg>
 Package pdftex.def Info: graphics/Outdoor_Composter.jpg  used on input line 127
@@ -566,50 +569,31 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [4 <./graphics/HouseholdRecyclingBin.jpg>] [5 <./graphics/Household_Grey_Water.
 png> <./graphics/Outdoor_Composter.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 174--175
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 173.
 
- []
 
-[6]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 176.
-
- (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 176.
-
-Underfull \hbox (badness 10000) in paragraph at lines 183--184
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 204--205
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 215--216
-
- []
-
-[7]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 173.
+ [6] [7]
 Package acronym Info: Label `acro:FBD' newly defined as it shall be overridden
-although it is yet undefined on input line 233.
-<graphics/Function1.pdf, id=398, 333.97052pt x 317.9326pt>
+although it is yet undefined on input line 229.
+<graphics/Function1.pdf, id=390, 735.74875pt x 655.44875pt>
 File: graphics/Function1.pdf Graphic file (type pdf)
 <use graphics/Function1.pdf>
-Package pdftex.def Info: graphics/Function1.pdf  used on input line 237.
-(pdftex.def)             Requested size: 267.17677pt x 254.34642pt.
-<graphics/Function2.pdf, id=399, 331.98691pt x 341.64388pt>
+Package pdftex.def Info: graphics/Function1.pdf  used on input line 233.
+(pdftex.def)             Requested size: 294.29428pt x 262.17485pt.
+<graphics/Function2.pdf, id=391, 331.98691pt x 341.64388pt>
 File: graphics/Function2.pdf Graphic file (type pdf)
 <use graphics/Function2.pdf>
-Package pdftex.def Info: graphics/Function2.pdf  used on input line 245.
+Package pdftex.def Info: graphics/Function2.pdf  used on input line 241.
 (pdftex.def)             Requested size: 265.58989pt x 273.31546pt.
-<graphics/Function3.pdf, id=400, 362.35776pt x 349.71504pt>
+<graphics/Function3.pdf, id=392, 362.35776pt x 349.71504pt>
 File: graphics/Function3.pdf Graphic file (type pdf)
 <use graphics/Function3.pdf>
-Package pdftex.def Info: graphics/Function3.pdf  used on input line 253.
+Package pdftex.def Info: graphics/Function3.pdf  used on input line 249.
 (pdftex.def)             Requested size: 289.8866pt x 279.7724pt.
 
 
@@ -619,37 +603,37 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 1565) in paragraph at lines 271--271
+Underfull \hbox (badness 1565) in paragraph at lines 265--265
 []\OT1/cmr/m/n/10.95 Four sep-a-rate pipes from (bath,
  []
 
 
-Underfull \hbox (badness 1057) in paragraph at lines 271--272
+Underfull \hbox (badness 1057) in paragraph at lines 265--266
 \OT1/cmr/m/n/10.95 pli-ance out-puts and one for the
  []
 
 
-Underfull \hbox (badness 1418) in paragraph at lines 279--279
+Underfull \hbox (badness 1418) in paragraph at lines 273--273
 []\OT1/cmr/m/n/10.95 Grey wa-ter sys-tem makes wa-ter
  []
 
 
-Underfull \hbox (badness 1418) in paragraph at lines 279--280
+Underfull \hbox (badness 1418) in paragraph at lines 273--274
 []\OT1/cmr/m/n/10.95 Grey wa-ter sys-tem makes wa-ter
  []
 
 
-Underfull \hbox (badness 2158) in paragraph at lines 281--281
+Underfull \hbox (badness 2158) in paragraph at lines 275--275
 []\OT1/cmr/m/n/10.95 N/A - Al-ter-na-tives ex-plored by
  []
 
 
-Underfull \hbox (badness 2158) in paragraph at lines 281--282
+Underfull \hbox (badness 2158) in paragraph at lines 275--276
 []\OT1/cmr/m/n/10.95 N/A - Al-ter-na-tives ex-plored by
  []
 
 
-Overfull \hbox (38.84523pt too wide) in paragraph at lines 267--289
+Overfull \hbox (38.84523pt too wide) in paragraph at lines 261--283
  [] 
  []
 
@@ -658,6 +642,18 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [8 <./graphics/Function1.pdf>] [9 <./graphics/Function2.pdf> <./graphics/Functi
 on3.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 294--295
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--305
+[]\OT1/cmr/m/n/10.95 Waste sor-ta-tion
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 ! Package xcolor Error: Undefined color `Format used by sample project'.
 
@@ -665,7 +661,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.315 ...extcolor{Format used by sample project} &
+l.353 ...extcolor{Format used by sample project} &
                                                    ... & ...\\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -673,7 +669,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.315 ...extcolor{Format used by sample project} &
+l.353 ...extcolor{Format used by sample project} &
                                                    ... & ...\\
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -682,14 +678,14 @@ Try to go on, since this might almost work.
 ! Missing { inserted.
 <inserted text> 
                 {
-l.315 ...or{Format used by sample project} & ... &
+l.353 ...or{Format used by sample project} & ... &
                                                    ...\\
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
 
-Overfull \hbox (65.07162pt too wide) in paragraph at lines 313--321
+Overfull \hbox (65.07162pt too wide) in paragraph at lines 351--359
  [] 
  []
 
@@ -697,28 +693,28 @@ Overfull \hbox (65.07162pt too wide) in paragraph at lines 313--321
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 329--331
+Underfull \hbox (badness 10000) in paragraph at lines 367--369
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--334
+Underfull \hbox (badness 10000) in paragraph at lines 370--372
 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 337--338
+Underfull \hbox (badness 10000) in paragraph at lines 375--376
 
  []
 
 
 Package natbib Warning: Citation `Fischer2012' on page 11 undefined on input li
-ne 346.
+ne 384.
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.352 ...{\textbf{Selected Alternative}\\ \midrule
+l.390 ...{\textbf{Selected Alternative}\\ \midrule
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -731,17 +727,17 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [12] [13] [14] [15]
 Chapter 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 384--385
+Underfull \hbox (badness 10000) in paragraph at lines 422--423
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 386--387
+Underfull \hbox (badness 10000) in paragraph at lines 424--425
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 388--389
+Underfull \hbox (badness 10000) in paragraph at lines 426--427
 
  []
 
@@ -749,10 +745,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 388--389
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./graphics/System_Diagram.pd
 f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graphics/System_Diagram.pdf, id=489, 793.96625pt x 614.295pt>
+<graphics/System_Diagram.pdf, id=466, 793.96625pt x 614.295pt>
 File: graphics/System_Diagram.pdf Graphic file (type pdf)
 <use graphics/System_Diagram.pdf>
-Package pdftex.def Info: graphics/System_Diagram.pdf  used on input line 394.
+Package pdftex.def Info: graphics/System_Diagram.pdf  used on input line 432.
 (pdftex.def)             Requested size: 436.68279pt x 337.86328pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -763,7 +759,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.414 ...}} & {\textbf{Associated Risk}\\ \midrule
+l.448 ...}} & {\textbf{Associated Risk}\\ \midrule
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -776,7 +772,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.415 ...extcolor{Format used by sample project} &
+l.449 ...extcolor{Format used by sample project} &
                                                    ... & ...\\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -784,7 +780,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.415 ...extcolor{Format used by sample project} &
+l.449 ...extcolor{Format used by sample project} &
                                                    ... & ...\\
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -793,7 +789,7 @@ Try to go on, since this might almost work.
 ! Missing { inserted.
 <inserted text> 
                 {
-l.415 ...or{Format used by sample project} & ... &
+l.449 ...or{Format used by sample project} & ... &
                                                    ...\\
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -802,7 +798,7 @@ Try to go on, since this might almost work.
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.415 ...or{Format used by sample project} & ... &
+l.449 ...or{Format used by sample project} & ... &
                                                    ...\\
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
@@ -811,7 +807,7 @@ So I'll assume that you meant to type \cr instead.
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.417     ... & ... &
+l.451     ... & ... &
                       ...\\
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
@@ -820,7 +816,7 @@ So I'll assume that you meant to type \cr instead.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.432 	{\textbf{Function} &
+l.466 	{\textbf{Function} &
                             \textbf{Associated Risk}} & {\textbf{Risk Mitiga...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -829,7 +825,7 @@ Try to go on, since this might almost work.
 ! Missing { inserted.
 <inserted text> 
                 {
-l.432 ...f{Function} & \textbf{Associated Risk}} &
+l.466 ...f{Function} & \textbf{Associated Risk}} &
                                                    {\textbf{Risk Mitigation}...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -838,39 +834,39 @@ Try to go on, since this might almost work.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.432 ...}} & {\textbf{Risk Mitigation}\\ \midrule
+l.466 ...}} & {\textbf{Risk Mitigation}\\ \midrule
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
 
-Underfull \hbox (badness 1052) in paragraph at lines 434--434
+Underfull \hbox (badness 1052) in paragraph at lines 468--468
 \OT1/cmr/m/n/10.95 mal-func-tions and pol-lu-tants
  []
 
 
-Underfull \hbox (badness 1048) in paragraph at lines 438--438
+Underfull \hbox (badness 1048) in paragraph at lines 472--472
 \OT1/cmr/m/n/10.95 into in-cor-rect cat-e-gory (i.e.
  []
 
 
-Underfull \hbox (badness 7667) in paragraph at lines 438--440
+Underfull \hbox (badness 7667) in paragraph at lines 472--474
 \OT1/cmr/m/n/10.95 nals or colours to mark
  []
 
 
-Underfull \hbox (badness 1308) in paragraph at lines 438--440
+Underfull \hbox (badness 1308) in paragraph at lines 472--474
 \OT1/cmr/m/n/10.95 gard-bage bin com-part-ments
  []
 
 
-Underfull \hbox (badness 2103) in paragraph at lines 463--464
+Underfull \hbox (badness 2103) in paragraph at lines 497--498
 []\OT1/cmr/m/n/10.95 Water com-ing from one
  []
 
 
-Underfull \hbox (badness 3375) in paragraph at lines 463--464
+Underfull \hbox (badness 3375) in paragraph at lines 497--498
 \OT1/cmr/m/n/10.95 source will need to be
  []
 
@@ -882,7 +878,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.490 ...tbf{Component}} & {\textbf{Interaction} &
+l.524 ...tbf{Component}} & {\textbf{Interaction} &
                                                    {\textbf{Interface}\\ \mi...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -891,7 +887,7 @@ Try to go on, since this might almost work.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.490 ...raction} & {\textbf{Interface}\\ \midrule
+l.524 ...raction} & {\textbf{Interface}\\ \midrule
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -904,7 +900,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.491 ...extcolor{Format used by sample project} &
+l.525 ...extcolor{Format used by sample project} &
                                                    ... & ...\\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -912,7 +908,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.491 ...extcolor{Format used by sample project} &
+l.525 ...extcolor{Format used by sample project} &
                                                    ... & ...\\
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -921,7 +917,7 @@ Try to go on, since this might almost work.
 ! Missing { inserted.
 <inserted text> 
                 {
-l.491 ...or{Format used by sample project} & ... &
+l.525 ...or{Format used by sample project} & ... &
                                                    ...\\
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -930,7 +926,7 @@ Try to go on, since this might almost work.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.511 	{\textbf{Component/s}} & {\textbf{Source} &
+l.545 	{\textbf{Component/s}} & {\textbf{Source} &
                                                    {\textbf{Estimated Cost (...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -939,36 +935,36 @@ Try to go on, since this might almost work.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.511 ...textbf{Estimated Cost (Rands)}\\ \midrule
+l.545 ...textbf{Estimated Cost (Rands)}\\ \midrule
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 516--516
+Underfull \hbox (badness 10000) in paragraph at lines 550--550
 []\OT1/cmr/m/n/10.95 Builders Ware-house
  []
 
 [20]
-Underfull \hbox (badness 10000) in paragraph at lines 531--532
+Underfull \hbox (badness 10000) in paragraph at lines 565--566
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 533--534
+Underfull \hbox (badness 10000) in paragraph at lines 567--568
 
  []
 
 [21] [22]
 Chapter 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 571--572
+Underfull \hbox (badness 10000) in paragraph at lines 605--606
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 573--574
+Underfull \hbox (badness 10000) in paragraph at lines 607--608
 
  []
 
@@ -988,31 +984,31 @@ Appendix A.
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 604.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 638.
 [26
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 604.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 638.
  (./BSSGroupProject_e-casa.aux (./TitlePage.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 604.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 604.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 638.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 638.
 Package rerunfilecheck Info: File `BSSGroupProject_e-casa.out' has not changed.
 
-(rerunfilecheck)             Checksum: F6D19B1FD8BFC7FBC588502D191E1D57;3732.
+(rerunfilecheck)             Checksum: 107FF81B872B4C1A279BB099F054B37C;3573.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 604.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 638.
  ) 
 Here is how much of TeX's memory you used:
- 7929 strings out of 492649
- 112913 string characters out of 6129622
- 237666 words of memory out of 5000000
- 11582 multiletter control sequences out of 15000+600000
+ 7926 strings out of 492649
+ 112854 string characters out of 6129622
+ 239666 words of memory out of 5000000
+ 11580 multiletter control sequences out of 15000+600000
  12012 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,12n,35p,1499b,423s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,12n,35p,1499b,426s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
@@ -1022,10 +1018,10 @@ r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
 local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/l
 ocal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/lo
 cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on BSSGroupProject_e-casa.pdf (34 pages, 1312880 bytes).
+Output written on BSSGroupProject_e-casa.pdf (34 pages, 1359234 bytes).
 PDF statistics:
- 610 PDF objects out of 1000 (max. 8388607)
- 540 compressed objects within 6 object streams
- 110 named destinations out of 1000 (max. 500000)
- 449 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 587 PDF objects out of 1000 (max. 8388607)
+ 519 compressed objects within 6 object streams
+ 109 named destinations out of 1000 (max. 500000)
+ 433 words of extra memory for PDF output out of 10000 (max. 10000000)
 
