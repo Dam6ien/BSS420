@@ -136,7 +136,7 @@ To ensure the proposed system can fufill the identified need, metrics have been 
 \begin{table}[h!]
 \caption {System Performance Metrics} \label{tb: Performance_Metrics} 
 \begin{center}
-\begin{tabular}{p{3cm}|p{2cm}|p{9cm}}\toprule
+\begin{tabular}{p{4cm}|p{3cm}|p{7cm}}\toprule
 	{\textbf{Metric Category}} & {\textbf{Unit Measure}} & {\textbf{Description}}\\ \midrule
     Water savings & \textit{litres} & The volume of water saved is calculated as the reduction in the volume of water that enters the household. This value is already measured by the household's municipality that bills them for water usage each month.\\
     \hline
@@ -180,7 +180,7 @@ The three primary objectives of the system are to reduce water consumption, prov
 \item Visual compartment distinction 
 \item Safe and odourless waste containment 
 \item Specialised organic waste storage 
-\item Compost to veggetable patch distribution 
+\item Compost to vegetable patch distribution 
 \end{itemize}
 \medskip
 \textbf{Provide Long-term Cost Savings}
@@ -222,9 +222,8 @@ Multiple alternatives for each of the function tasks given in \ac{FBD}s are expl
 %
 
 
-
 \begin{center}
-\caption {System Alternatives for Functional Tasks} \label{tb: FunctionalTasks} 
+\caption {Table 2.2.3: System Alternatives for Functional Tasks} \label{tb: FunctionalTasks} 
 \begin{longtable}{p{3.5cm}|p{5.5cm}|p{5.5cm}}\toprule
 	{\textbf{Functional Task}} & {\textbf{Alternative 1}} & {\textbf{Alternative 2}}\\ \midrule
     Waste sortation and storage & One garbage bin with multiple compartments & Multiple garbage bins each with a single compartment\\
@@ -256,7 +255,7 @@ The solution criteria with which the appropriate alternative is to be evaluated 
 
 
 \section{Concept Definition}
-\subsection{Performance Requirement Analysis}
+\subsection{Performance Requirements Analysis}
 \textbf{System performance requirements refinement} - The system performance requirements do not consider the impact the size of the household may have on them and are these performance requirements are rather set using data for an “average” household in South Africa. The size of the household will affect the size of the required system, the cost of such a system and therefore the system’s ability to be financially feasible. The waste producing capacity of a smaller household is a constraining requirement as smaller households will produce less waste and it will take longer to realise the cost savings of a larger system (possibly more than 2 years). However, smaller households will require smaller system components and therefore a lower initial system cost than a larger system. Additional constraint requirements are also to be included that specify the minimum household size for the system to be feasible.
 
 To ensure the long-term operation of the system, each subsystem must be made easy for the system user him/herself or cheap labour to maintain. Standardised components are therefore preferred for the greywater system as well as the physical waste system. \\
@@ -270,18 +269,23 @@ The following performance requirements were included in the specification after 
 \begin{tabular}{p{3cm}|p{6cm}|p{5.5cm}}\toprule
 	{\textbf{Output}} & {\textbf{Performance Description}} & {\textbf{Specification}}\\ \midrule
     \hline
-   Waste sortation and storage & Capacity to handle household's disposable waste for week before recycling bin containers need to be emptied  & 2.1 kg paper, 3 kg plastic, 1.8 kg glass, \citep{Sithole2014}\\
+   Waste sortation and storage & Capacity to handle household's disposable waste for week before recycling bin containers need to be emptied  & 1.6kg/week\footnote{0.75 kg (waste)/person/day x 7 days/week and 9\% paper = 0.5 kg/week, 13\% plastic = 0.7 kg/week, 8\% glass = 0.4 kg/week
+, \citep{Sithole2014}}\\
         \hline
-    Re-usable water & System must be able to be able to supply a certain (\%) of household appliance water demands with grey water & ?\\
+    Re-usable water & System must be able to be able to supply a certain (\%) of household appliance water demands with grey water & 33\%\\
         \hline
-    ... & ... & ...\\
+    Water distribution & Standardised piping requirement & SANS 966-1:2014 standard\\
         \hline
-    ... & ... & ...\\
+    Water consumption & System must be able supply sufficient water to 2 toilet cisterns & 447~\textit{l}/household/day
+29\% = 129.63~\textit{l}\\
         \hline
-    ... & ... & ...\\
+    Water consumption and waste production & Minimum occupancy of household & 4 people\\
         \hline
-    ... & ... & ...\\
-
+    Water consumption & System must be able supply sufficient water to 2 showers/baths & 20\% = 89.4~\textit{l}\\
+        \hline
+    Water consumption & System must be able supply sufficient water to the household garden & 35\% = 156.45~\textit{l}\\
+            \hline
+    Water consumption & System must be able supply sufficient water to 1 household washing machine & 13\% = 58.11~\textit{l}\\
     \bottomrule
 \end{tabular}
 \end{center}
@@ -566,12 +570,35 @@ Evaluating the the greywater system interaction with the external pubming system
 \begin{table}[h!]
 \caption {Component interactions and their interfaces} \label{tb: Components & interfaces} 
 \begin{center}
-\begin{tabular}{p{4cm}|p{4cm}|p{4cm}}\toprule
-	{\textbf{Component}} & {\textbf{Interactions and Interfaces} & {\textbf{Interface}\\ \midrule
-    \textcolor{Format used by sample project} & ... & ...\\
+\begin{tabular}{p{4cm}|p{8cm}}\toprule
+	{\textbf{Component}} & {\textbf{Interactions and Interfaces}\\ \midrule
+    Human User & The user plants vegetables in the garden, uses greywater to water the garden and spreads self-made compost from the compost container onto the soil in the garden. When the vegetables are harvested the leftover waste goes into the compost container. The human also distinguishes between different waste types and puts each waste type into the respective bin container.\\
     \hline
-    ... & ... & ...\\
-
+    Compost Container & Leftover vegetables are placed into the compost container with reusable water and mixed with the existing compost.\\
+        \hline
+    Vegetables & The vegetables are planted in the vegetable garden and interface with the self made compost through the soil medium.\\
+        \hline
+    Garden tap & The used water from the storage tank is pumped to the garden tap for use by the human user. \\
+        \hline
+    Reused Water & The reused water is stored in the storage tank and distributed through the pipes and valves.\\
+        \hline
+    Self-Made Compost & The self made compost is spread in the garden soil by the human user.\\
+         \hline
+    Vegetable Garden & The vegetable garden interacts with the reusable water, compost and human user to facilitate the growth of the vegetables.\\
+         \hline
+    Water Filter & The used water is passed through the water filter that is connected to the pipes.\\
+             \hline
+    Pipes & The pipes link the water filter, valves, storage tank and garden tap to each other.\\
+             \hline
+    Storage Tank & The storage tank receives the used water as it passes through the filter and stores it for reuse later. The reusable water is then distributed to the various locations through the pipes. \\
+             \hline
+    Valve & The valves control the flow of the reusable water through the pipes as it is directed to the different locations. This is done by controlling the obstruction of the water flow within the valve.\\
+                 \hline
+    Water Pump & The pump applies pressure to the water to force it through the pipes and filter.\\
+                 \hline
+    Bin Containers & The human user places each waste type into the respective bins and empties the bins into the selected recycling program.\\
+                     \hline
+   Bin housing & The bin housing holds the bin containers in place and protects them from damage and spilling.\\
     \bottomrule
 \end{tabular}
 \end{center}
@@ -635,9 +662,9 @@ As the e-casa system is to be evaluated on site during installation , the test b
 \chapter{Post Development Stage}
 
 \section{Procurement and Deployment Phase}
-None of the components for the \ac{e-casa} system require production. However, all of them require successful deployment. Deployment of the recycling garbage bin and compost container are uncomplicated but deployment of the grey water subsytem is expected to be time consuming and complicated. 
+None of the components for the \ac{e-casa} system require production. However, all of them require successful deployment. Deployment of the recycling garbage bin and compost container are uncomplicated but deployment of the grey water subsystem is expected to be time consuming and complicated.
 
-Successful deployment of the grey water system will require assessment of the household's existing water supply network. This 
+Successful deployment of the grey water system will require assessment of the household's existing water supply network and a formulation of the integration plan. This plan determines where interfacing elements are required to ensure that the greywater system can indeed interact with the households water supply network. Once the interfacing plan has been established, components are analysed to ensure all interfacing elements are compatible. Installation of the physical system shall then begin by means of an accredited third party installer. 
 
 \subsection{Transitions from Deployment to Installation}
 The grey water system components are to be delivered and installed by a registered third party installer experienced in grey water system installation. This third party (WaterRhapsody) will integrate the grey water system with the household's current sprinklers and internal plumbing water network. The composting and waste disposal systems will be installed by the human user as only appropriate placement is required and both are small enough for the user to transport. The installation of the grey water system will require the household's water supply and network to be temporarily shut off for the installation period. The installation period is determined by the third party installer and is anticipated to be two days (without complications).  Upon completion of the installation, the third party installer is required to perform a diagnostic check to ensure all physical components are functioning correctly. The installation is complete once the household's members acknowledge so by means of written consent. The diagnostic check and additional confirmation are to ensure that the system fulfills the specified functions without problems.
