@@ -23,6 +23,8 @@
 %\usepackage[mark]{gitinfo2}
 %\renewcommand{\gitMark}{Branch:\,\gitBranch\,@\,\gitAbbrevHash{}; Author:\,\gitAuthorName; Date:\,\gitAuthorIsoDate~\textbullet{}}
 \usepackage{url}
+\usepackage{lscape}
+\usepackage{longtable}
 
 \begin{document}
 %===============================================================
@@ -78,7 +80,7 @@ The overarching objective that \ac{e-casa} is intended to fulfil is to provide s
 
 \begin{figure}[h!]
 \begin{center}
-\includegraphics[scale = 0.55]{ecasa_OT.png}
+\includegraphics[scale = 0.5]{ecasa_OT.png}
 \caption{e-casa Objective Tree Structure}
 \label{fig: ecasaOT}
 \end{center}
@@ -134,7 +136,7 @@ To ensure the proposed system can fufill the identified need, metrics have been 
 \begin{table}[h!]
 \caption {System Performance Metrics} \label{tb: Performance_Metrics} 
 \begin{center}
-\begin{tabular}{p{5cm}|p{3cm}|p{8cm}}\toprule
+\begin{tabular}{p{3cm}|p{2cm}|p{9cm}}\toprule
 	{\textbf{Metric Category}} & {\textbf{Unit Measure}} & {\textbf{Description}}\\ \midrule
     Water savings & \textit{litres} & The volume of water saved is calculated as the reduction in the volume of water that enters the household. This value is already measured by the household's municipality that bills them for water usage each month.\\
     \hline
@@ -218,10 +220,12 @@ Subsystem functions are defined and allocated from the operational requirements 
 \subsection{Implementation of Concept Exploration}
 Multiple alternatives for each of the function tasks given in \ac{FBD}s are explored in Table~\ref{tb: FunctionalTasks}.
 %
-\begin{table}[h!]
-\caption {System Alternatives for Functional Tasks} \label{tb: FunctionalTasks} 
+
+
+
 \begin{center}
-\begin{tabular}{p{3.5cm}|p{6cm}|p{6cm}}\toprule
+\caption {System Alternatives for Functional Tasks} \label{tb: FunctionalTasks} 
+\begin{longtable}{p{3.5cm}|p{5.5cm}|p{5.5cm}}\toprule
 	{\textbf{Functional Task}} & {\textbf{Alternative 1}} & {\textbf{Alternative 2}}\\ \midrule
     Waste sortation and storage & One garbage bin with multiple compartments & Multiple garbage bins each with a single compartment\\
     \hline
@@ -242,9 +246,8 @@ Multiple alternatives for each of the function tasks given in \ac{FBD}s are expl
      Grow vegetables & User must collect water from the outside garden tap in the necessary quantity and use it to water the vegetable patch. Compost collected and filled in the vegetable patch manually by human user & Connect grey water storage tank directly to garden sprinkler system to be activated by the human user at the flick of the sprinkler switch. Compost collected and filled in the vegetable patch manually by human user\\
     \hline
     \bottomrule
-\end{tabular}
+\end{longtable}
 \end{center}
-\end{table}
 %
 	
 \subsection{Performance Requirements Validation}
@@ -440,10 +443,11 @@ For this reason, the advanced development phase for the selected concept will be
 
 \subsection{Prototype Development}
 %
-\begin{table}[h!]
-\caption {Selected alternatives and their associated risks} \label{tb: Functional_SS_elements} 
+%\begin{table}[h!]
+ \label{tb: Functional_SS_elements} 
 \begin{center}
-\begin{tabular}{p{7cm}|p{7cm}}\toprule
+\caption {Selected alternatives and their associated risks}
+\begin{longtable}{p{7cm}|p{7cm}}\toprule
 	{\textbf{Selected Alternative}} & {\textbf{Associated Risk}\\ \midrule
     \hline
     Single bin with multiple compartments & If a compartment or one part of the bin breaks, the entire bin needs to be replaced as individual parts are not sold separately.\\
@@ -462,18 +466,19 @@ For this reason, the advanced development phase for the selected concept will be
         \hline
     Greywater system connected directly to sprinkler system & Additional parts will be needed to connect switches and electronic pumps. A malfunction in the sprinkler system could result in the garden not receiving water or excessive water usage. \\
     \bottomrule
-\end{tabular}
+\end{longtable}
 \end{center}
-\end{table}
+%\end{table}
 %
 
 \subsection{Development Testing}
 Associated risks for each of the functions of the system are identified and appropriate mitigation plans suggested in Table~\ref{tb: Functional_risk_mitigation}.
 %
-\begin{table}[h!]
-\caption {Associated risks and applicable risk mitigation plans} \label{tb: Functional_risk_mitigation} 
+%\begin{table}[h!]
+ plans} \label{tb: Functional_risk_mitigation} 
 \begin{center}
-\begin{tabular}{p{3cm}|p{5.5cm}|p{5.5cm}}\toprule
+\caption {Associated risks and applicable risk mitigation
+\begin{longtable}{p{3cm}|p{5.5cm}|p{5.5cm}}\toprule
 	{\textbf{Function} & \textbf{Associated Risk}} & {\textbf{Risk Mitigation}\\ \midrule
     \hline
     Waste sortation and storage & User places disposable waste into incorrect category (i.e. plastic into paper or paper into glass) & Use visual management signals or colours to mark garbage bin compartments clearly\\
@@ -496,16 +501,17 @@ The above ground container can be knocked over by pets and wild animals. The con
 Grow Vegetables & Additional parts will be needed to connect switches and electronic pumps. A malfunction in the sprinkler system could result in the garden not receiving water or excessive water usage & 
 Using low risk mechanisms can reduce the likelihood of system malfunctions\\
     \bottomrule
-\end{tabular}
+\end{longtable}
 \end{center}
-\end{table}
+%\end{table}
 %
 Design specifications for each of the selected alternatives are given along with a motivation in Table~\ref{tb: Functional_design_specs}.
 %
-\begin{table}[h!]
-\caption {Design specification and motivation for selected alternatives} \label{tb: Functional_design_specs} 
+
+
 \begin{center}
-\begin{tabular}{p{4.5cm}|p{4.5cm}|p{4.5cm}}\toprule
+\caption {Design specification and motivation for selected alternatives} \label{tb: Functional_design_specs} 
+\begin{longtable}{p{3cm}|p{5.5cm}|p{5.5cm}}\toprule
 	{\textbf{Selected Alternative}} & {\textbf{Design Specification}} & {\textbf{Motivation}}\\ \midrule
     \hline
     Waste sortation and storage & One garbage bin with 3x removable 25~\textit{l} containers & 
@@ -529,9 +535,8 @@ The water will need to pumped through the filter.\\
     Greywater system connected directly to sprinkler system & Piping and adapters for water flow from tank to garden. A water pump powerful enough to pump water at a rate of at least 7.5 l/min. Electric circuit switch. Electrical wiring.  & For the user to be able to control the flow of water from the greywater tank to the sprinkler system, electrical switches and wiring will be needed to power the pump that sends the water to the garden. Pipes and adapters will be needed to facilitate this movement.\\
 
     \bottomrule
-\end{tabular}
+\end{longtable}
 \end{center}
-\end{table}
 %
 \section{Engineering Procurement Phase}
 \subsection{Requirements Analysis}
@@ -559,7 +564,7 @@ Evaluating the the greywater system interaction with the external pubming system
 \caption {Component interactions and their interfaces} \label{tb: Components & interfaces} 
 \begin{center}
 \begin{tabular}{p{4cm}|p{4cm}|p{4cm}}\toprule
-	{\textbf{Component}} & {\textbf{Interaction} & {\textbf{Interface}\\ \midrule
+	{\textbf{Component}} & {\textbf{Interactions and Interfaces} & {\textbf{Interface}\\ \midrule
     \textcolor{Format used by sample project} & ... & ...\\
     \hline
     ... & ... & ...\\
