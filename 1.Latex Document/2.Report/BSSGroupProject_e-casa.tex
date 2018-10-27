@@ -23,6 +23,8 @@
 %\usepackage[mark]{gitinfo2}
 %\renewcommand{\gitMark}{Branch:\,\gitBranch\,@\,\gitAbbrevHash{}; Author:\,\gitAuthorName; Date:\,\gitAuthorIsoDate~\textbullet{}}
 \usepackage{url}
+\usepackage{lscape}
+\usepackage{longtable}
 
 \begin{document}
 %===============================================================
@@ -33,7 +35,9 @@
 \pagenumbering{roman}
 
 \chapter*{Executive Summary}
-The aim of this project is to create a household waste management system of that will not only reduce the waste produced by a generic household but do so by increasing value to the user. The final deliverable for this project will be a report that details the needs analysis, conceptual design, feasibility and risk assessment of the designed system. The coneptual design will be done with the use of \textit{Core 9} to capture all identified needs accurately and produce system design documentation.
+The aim of this project is to design a household waste reduction system that will not only reduce the amount of waste sent from a generic household to government land fills, but to offer the user a lifestyle cost reduction through the use of the system. The final deliverable for this project is a report that details the systems engineering approach to the design process, including the needs analysis, conceptual design, feasibility assessment and risk assessment of the proposed system. The individual greywater, composting and recycling subsystems were combined to form a household wide waste reduction system with capacity for four people. The objectives of the system are to reduce the amount of paper, plastic and glass that a typical household sends to landfills by at least 1.44 kg per week and the average water usage by 1029~\texit{l} per week. A total reduction of 3 kg of organic waste sent to landfills per week should also arise through composting.  The System should also provide a financial benefit to the user significant enough to pay back the installation costs  estimated to be R 11 160 within seven years. 
+The system was designed to form interactions between the subsystems. The interactions were designed such that the reusable water collected from showers, baths, basins and washing machines can be filtered, stored and reused for these as well as for toilet cisterns and garden maintenance. The compost is to be used to grow vegetables as part of organic food production, which is expected to reduce the monthly grocery cost of the household. The entire system will use the financial benefits as a motivating factor to improve environmental consciousness amongst middle and high income South Africans.
+In the concept development stage, the objectives and functions are defined in detail. In the concept exploration phase a number of alternative solutions were investigated and the best alternatives were decided upon. In the engineering development stage, various risks were assessed and mitigation strategies explored. A list of design specifications was also compiled and system integration discussed. The post development stage discusses installation and support activities. The conceptual design is done with the use of Core 9 to capture all identified needs accurately and produce system design documentation.
 
 \tableofcontents
 \listoffigures\addcontentsline{toc}{chapter}{List of Figures}
@@ -44,7 +48,6 @@ The aim of this project is to create a household waste management system of that
 \begin{acronym}[ABCDEF]
 \acro{e-casa}{Eco-friendly Household Waste System}
 \acro{FBD}{Functional Block Diagram}
-\acro{SD}{System Dynamics}
 \end{acronym}
 
 \chapter{Introduction and Background}
@@ -76,11 +79,9 @@ Due to a lack of solutions currently on the market, there is an opportunity to e
 \subsection{Operational Objectives}
 The overarching objective that \ac{e-casa} is intended to fulfil is to provide sustainable household waste management. This objective is deconstructed into three primary objectives, namely: \textit{Provide Waste Sortation and Storage}, \textit{Reduce Water Consumption} and \textit{Provide long-term cost savings}. Figure~\ref{fig: ecasaOT} shows the operational objectives of the \ac{e-casa} system.\\
 
-\textcolor{red}{Figure~\ref{fig: ecasaOT} is a work in progress of our objective tree thus far.}
-
 \begin{figure}[h!]
 \begin{center}
-\includegraphics[scale = 0.55]{ecasa_OT.png}
+\includegraphics[scale = 0.5]{ecasa_OT.png}
 \caption{e-casa Objective Tree Structure}
 \label{fig: ecasaOT}
 \end{center}
@@ -103,7 +104,7 @@ At present there are household recycling bins available on the market that separ
 \begin{figure}[h!]
 \begin{center}
 \includegraphics[scale = 0.34]{HouseholdRecyclingBin.jpg}
-\caption{Household separation recycling bin}
+\caption{Household separation recycling bin, \citep{Rbins2018}}
 \label{fig: Household separation recycling bin}
 \end{center}
 \end{figure}
@@ -115,7 +116,7 @@ The design for \ac{e-casa}'s expected to be much like the one in Figure~\ref{fig
 \begin{figure}[h!]
 \begin{center}
 \includegraphics[scale = 1.2]{Household_Grey_Water.png}
-\caption{Household grey water system}
+\caption{Household grey water system, \citep{AuGov2013}}
 \label{fig: Grey water system}
 \end{center}
 \end{figure}
@@ -125,24 +126,22 @@ A number of different household composters are available on the South African ma
 \begin{figure}[h!]
 \begin{center}
 \includegraphics[scale = 1.1]{Outdoor_Composter.jpg}
-\caption{Outdoor Household Composter (220 \textit{litres})}
+\caption{Outdoor Residential Composter (220 \textit{litres}), \citep{FDB2018}}
 \label{fig: Outdoor Composter}
 \end{center}
 \end{figure}
 
 \subsection{Need Validation}
-\textcolor{red}{Need to review: Present scenarios and evaluate what the metrics would do.}\\
-
 To ensure the proposed system can fufill the identified need, metrics have been developed that will be used to evaluate the performance of the system.
 %
 \begin{table}[h!]
 \caption {System Performance Metrics} \label{tb: Performance_Metrics} 
 \begin{center}
-\begin{tabular}{p{5cm}|p{3cm}|p{8cm}}\toprule
+\begin{tabular}{p{4cm}|p{3cm}|p{7cm}}\toprule
 	{\textbf{Metric Category}} & {\textbf{Unit Measure}} & {\textbf{Description}}\\ \midrule
     Water savings & \textit{litres} & The volume of water saved is calculated as the reduction in the volume of water that enters the household. This value is already measured by the household's municipality that bills them for water usage each month.\\
     \hline
-    *Organic waste reduction & \textit{kilogram} & The total mass of organic waste re-used by means of composting is the reduction in household waste output.\\
+    Organic waste reduction & \textit{kilogram} & The total mass of organic waste re-used by means of composting is the reduction in household waste output.\\
     \hline
     Disposable waste reduction & \textit{kilogram} & The total mass of plastic, paper and glass respectively represent disposal waste reduction. It is assumed firstly, that all disposable materials would not have been recycled before system implementation and secondly, that all disposable materials will ultimately be recycled by the municipality's garbage management system.\\
     \hline
@@ -153,8 +152,6 @@ To ensure the proposed system can fufill the identified need, metrics have been 
 \end{center}
 \end{table}
 %
-*= Problem to measure
-
 The five metrics in Table~\ref{tb: Performance_Metrics} are to be evaluated using different hypothetical scenarios. These scenarios reflect expected environmental conditions and consideration of the metrics in conjunction with these scenarios is used to determine the appropriateness of the system. The hypothetical scanarios are as follows:
 %
 \begin{description}
@@ -162,22 +159,45 @@ The five metrics in Table~\ref{tb: Performance_Metrics} are to be evaluated usin
 	\item[Equipment price rise] - If the price of grey water system equipment rises substantially due to unfavourable economic circumstances or exchange rate changes before the \ac{e-casa} system is installed, the payback period will significantly increase as more capital would have to be earned back in the form of savings which would take a longer period of time.
 \end{description}
 
-The metrics are shown to be helpful in assessing the performance of the system under differential external operating conditions (the hypothetical scenarios given above). 
+The metrics are shown to be helpful in assessing the performance of the system under the different external operating conditions (hypothetical scenarios given above). 
 %As defined by the metrics, the system is believed to achieve the objectives laid out by the defined need. Thus the system is able to fufill the identified needs.
 
 \section{Concept Exploration}
 \subsection{Operational Requirements Analysis}
-\textcolor{red}{analysing the stated operational requirements in terms of their objectives. Restating, redefining or amplifying (as required) to provide specificity, independence and consistency among different objectives}
+The three primary objectives of the system are to reduce water consumption, provide waste sortation and storage, and to provide long-term cost savings. The following operational requirements are specified according to these three objectives: \\
+
+\noindent\textbf{Water Consumption}
+\begin{itemize}
+\item Reduce Water Consumption
+\item Grey water collection
+\item Grey water storage 
+\item Grey water filtration 
+\item Filtered grey water diversion 
+\end{itemize}
+\medskip
+\textbf{Provide Waste Sortation and Storage}
+\begin{itemize}
+\item Waste storage by type 
+\item Visual compartment distinction 
+\item Safe and odourless waste containment 
+\item Specialised organic waste storage 
+\item Compost to vegetable patch distribution 
+\end{itemize}
+\medskip
+\textbf{Provide Long-term Cost Savings}
+\begin{itemize}
+\item Water volume usage reduction
+\item Garden maintenance cost reduction 
+\item Self-grown vegetables from garden
+\end{itemize}
 
 \subsection{Performance Requirements Formulation}
-\textcolor{red}{Translating operational requirements into subsystem functions and defining a necessary and sufficient set of performance characteristics reflecting the functions essential to meeting the system’s operational requirements. Formulating the performance parameters required to meet the stated operational requirements.}
-
-Subsystem functions are allocated and represented by the following \ac{FBD}s:\\ \textcolor{red}{NOTE TO SELF: Add labels to one of the FBDs}
+Subsystem functions are defined and allocated from the operational requirements discussed above and can be found in the following \ac{FBD}s:\\ 
 %
 \begin{figure}[h!]
 \begin{center}
-\includegraphics[scale = 0.8]{Function1.pdf}
-\caption{Provide waste sortation and storage}
+\includegraphics[scale = 0.4]{Function1.pdf}
+\caption{Function 1: Provide waste sortation and storage}
 \label{fig: Function1}
 \end{center}
 \end{figure}
@@ -185,7 +205,7 @@ Subsystem functions are allocated and represented by the following \ac{FBD}s:\\ 
 \begin{figure}[h!]
 \begin{center}
 \includegraphics[scale = 0.8]{Function2.pdf}
-\caption{Reduce water consumption}
+\caption{Function 2: Reduce water consumption}
 \label{fig: Function2}
 \end{center}
 \end{figure}
@@ -193,20 +213,19 @@ Subsystem functions are allocated and represented by the following \ac{FBD}s:\\ 
 \begin{figure}[h!]
 \begin{center}
 \includegraphics[scale = 0.8]{Function3.pdf}
-\caption{Provide long-term cost savings function}
+\caption{Function 3: Provide long-term cost savings function}
 \label{fig: Function3}
 \end{center}
 \end{figure}
 
 \subsection{Implementation of Concept Exploration}
-\textcolor{red}{Exploring a range of feasible implementation technologies and concepts offering a variety of potentially advantageous options.}
-
 Multiple alternatives for each of the function tasks given in \ac{FBD}s are explored in Table~\ref{tb: FunctionalTasks}.
 %
-\begin{table}[h!]
-\caption {System Alternatives for Functional Tasks} \label{tb: FunctionalTasks} 
+
+
 \begin{center}
-\begin{tabular}{p{3.5cm}|p{6cm}|p{6cm}}\toprule
+\caption {Table 2.2.3: System Alternatives for Functional Tasks} \label{tb: FunctionalTasks} 
+\begin{longtable}{p{3.5cm}|p{5.5cm}|p{5.5cm}}\toprule
 	{\textbf{Functional Task}} & {\textbf{Alternative 1}} & {\textbf{Alternative 2}}\\ \midrule
     Waste sortation and storage & One garbage bin with multiple compartments & Multiple garbage bins each with a single compartment\\
     \hline
@@ -227,52 +246,142 @@ Multiple alternatives for each of the function tasks given in \ac{FBD}s are expl
      Grow vegetables & User must collect water from the outside garden tap in the necessary quantity and use it to water the vegetable patch. Compost collected and filled in the vegetable patch manually by human user & Connect grey water storage tank directly to garden sprinkler system to be activated by the human user at the flick of the sprinkler switch. Compost collected and filled in the vegetable patch manually by human user\\
     \hline
     \bottomrule
-\end{tabular}
+\end{longtable}
 \end{center}
-\end{table}
 %
 	
 \subsection{Performance Requirements Validation}
-\textcolor{red}{Conducting effectiveness analyses to define a set of performance requirements that accommodate the full range of desirable system concepts and validating the conformity of these requirements with the stated operational objectives and refining the requirements if necessary.}
+The solution criteria with which the appropriate alternative is to be evaluated against is both the cost of the system and its ability to reliably reduce the waste output of a household. However, increasing the systems ability to reliably reduce waste consumption requires costlier components. The trade off has been evaluated in terms of the risk of the system not performing, capability of the system to perform and the cost of implementation. A system with which can provide enough cost saving to a household within the given payback period has been chosen as the most appropriate. 
+
+
 
 \section{Concept Definition}
-\subsection{Performance Requirement Analysis}
-\textbf{System performance requirements refinement} - The system performance requirements do not consider the impact the size of the household may have on them and are these performance requirements are rather set using data for an “average” household in South Africa. The size of the household will affect the size of the required system, the cost of such a system and therefore the system’s ability to be financially feasible. The waste producing capacity of a smaller household is a constraining requirement as smaller households will produce less waste and it will take longer to realise the cost savings of a larger system (possibly more than 2 years). However, smaller households will require smaller system components and therefore a lower initial system cost than a larger system.
+\subsection{Performance Requirements Analysis}
+\textbf{System performance requirements refinement} - The system performance requirements do not consider the impact the size of the household may have on them and are these performance requirements are rather set using data for an “average” household in South Africa. The size of the household will affect the size of the required system, the cost of such a system and therefore the system’s ability to be financially feasible. The waste producing capacity of a smaller household is a constraining requirement as smaller households will produce less waste and it will take longer to realise the cost savings of a larger system (possibly more than 2 years). However, smaller households will require smaller system components and therefore a lower initial system cost than a larger system. Additional constraint requirements are also to be included that specify the minimum household size for the system to be feasible.
 
-To ensure the long-term operation of the system, each subsystem must be made easy for the system user him/herself or cheap labour to maintain. Standardised components are therefore preferred for the greywater system as well as the physical waste system. 
+To ensure the long-term operation of the system, each subsystem must be made easy for the system user him/herself or cheap labour to maintain. Standardised components are therefore preferred for the grey water system as well as the physical waste system. \\
 
-\textbf{Updated performance requirements}
-The following performance requirements were included in the specification following the after reviewing the initial performance requirements.
+\noindent\textbf{Updated performance requirements} -
+The following performance requirements were included in the specification after reviewing the initial performance requirements.\\
 
-\subsubsection{Relating analysed spesifications to operation needs}
+\begin{table}[h!]
+\caption {System Performance Requirements} \label{tb: Functional_SS_elements} 
+\begin{center}
+\begin{tabular}{p{3cm}|p{6cm}|p{5.5cm}}\toprule
+	{\textbf{Output}} & {\textbf{Performance Description}} & {\textbf{Specification}}\\ \midrule
+    \hline
+   Waste sortation and storage & Capacity to handle household's disposable waste for week before recycling bin containers need to be emptied  & 1.6kg/week* \citep{Sithole2014}\\
+        \hline
+    Re-usable water & System must be able to be able to supply a certain (\%) of household appliance water demands with grey water & 33\%\\
+        \hline
+    Water distribution & Standardised piping requirement & SANS 966-1:2014 standard\\
+        \hline
+    Water consumption & System must be able supply sufficient water to 2 toilet cisterns & 447~\textit{l}/household/day
+29\% = 129.63~\textit{l}\\
+        \hline
+    Water consumption and waste production & Minimum occupancy of household & 4 people\\
+        \hline
+    Water consumption & System must be able supply sufficient water to 2 showers/baths & 20\% = 89.4~\textit{l} \citep{Aqua2010}\\
+        \hline
+    Water consumption & System must be able supply sufficient water to the household garden & 35\% = 156.45~\textit{l} \citep{Aqua2010}\\
+            \hline
+    Water consumption & System must be able supply sufficient water to 1 household washing machine & 13\% = 58.11~\textit{l} \citep{Aqua2010}\\
+    \bottomrule
+\end{tabular}
+\end{center}
+*0.75 kg (waste)/person/day  x  7 days/week\\
+
+9\% paper = 0.5 kg/week\\
+13\% plastic = 0.7 kg/week\\
+8\% glass = 0.4 kg/week
+57\% organic = 3 kg/week}
+\end{table}
+
+\noindent\textbf{Relating analysed specifications to operational needs}\\
+
+\noindent\textbf{Reduce water consumption}
+\begin{enumerate}
+\item To reduce the amount of water consumed by the household, water from the bath, shower, basin and washing machine will be re-used. The water is diverted to toilet cisterns and into the veggie patch or garden. The specification for this function is that the households total water consumption will reduce by at least 147~\texit{l} per day (33\%) (this is all water used by the showers, baths and washing machine then re-used for garden or toilet flushing purposes). The grey water system can divert a sufficient volume of water back into the house for consumption or this water can be stored for later use. The net effect is that less water is purchased from the municipality and the household consumption decreases thus satisfying the requirement.
+\end{enumerate}
+
+\noindent\textbf{Reduce the amount of physical waste sent to landfills}
+\begin{enumerate}
+\item Disposable waste refers to the mass of plastic, paper and glass generated by the household, received by the municipality and sent to landfills.The system should reduce this value by at least 1.44 kg per household per week (90\%). To achieve this, e-casa either uses the physical waste or sorts it for a third party, excluding the municipality, to process. 
+\item Organic waste is composted within the e-casa system and re-used in the vegetable patch, replacing the need for fertilisers to be purchased. The system aims to reduce the amount of organic waste sent to landfills by at least 3 kg per household per week (90\%)Recyclable waste, such as paper or glass, is stored separately from hazardous and plastic material. In both instances, the mass of physical waste being transferred to the municipality is lowered reducing the production of physical waste.
+\end{enumerate}
+
+\noindent\textbf{Provide sustainable waste management system}
+\begin{enumerate}
+\item Reducing the amount of water consumed by a household directly reduces running costs, and any reduction in water consumption will therefore realise a cost saving for the system user. The estimated cost saving per year was calculated as 147~\texit{l}/day. With a rate of R18.97 per~\texit{kl} this translates to a savings of R~1018 per year.
+\item The reduction in costs generated by the composting subsystem will only be realised once the composting process is complete, this is expected to take a minimum of 3 months. If this compost replaces store bought compost a savings of R~1 per litre can be realised. Using 3 kg of organic waste per week a total savings of R~195 can be realised per year. The self-produced compost can then be used to grow vegetables, causing further estimated savings of R~456 per year to be realised in the form of reduced grocery costs for the household, given a 2 square meter garden and a benchmark cost for vegetables.
+\item The specification for the payback period metric is 7 years, meaning cost savings generated by the system must pay back the initial cost of the system within a  7 year period.
+\item Reducing the water consumption and physical waste generation (through recycling and re-use) lessens the the negative impact on the environment. A specification of 30\% reduction in total waste output for a household within a year period will significantly reduce the waste accumulated in local landfills, thus reducing the impact on the environment.
+\end{enumerate}
 
 \subsection{Functional Analysis and Formulation} 
-\textcolor{red}{Allocating subsystem functions to the component level in terms of system functional elements and defining element interactions, developing functional architectural products, and formulating preliminary functional requirements corresponding to the assigned functions.}
-%
+Each subsystem is summarised along with its class of function, element function and the physical elements required to perform the function in Table~\ref{tb: Functional_SS_elements}.\\
+
 \begin{table}[h!]
 \caption {Functional subsystem elements} \label{tb: Functional_SS_elements} 
 \begin{center}
-\begin{tabular}{p{4cm}|p{4cm}|p{4cm}|p{4cm}}\toprule
-	{\textbf{Subsystem}} & {\textbf{Class function} & {\textbf{Element Function}} & {\textbf{Physical Elements}}\\ \midrule
-    \textcolor{Format used by sample project} & ... & ...\\
+\begin{tabular}{p{3.5cm}|p{3cm}|p{3cm}|p{4cm}}\toprule
+	{\textbf{Subsystem}} & {\textbf{Class function}} & {\textbf{Element Function}} & {\textbf{Physical Elements}}\\ \midrule
+    Grey water & Material & Process used water & Piping, water storage tanks, valves, pump\\
     \hline
-    ... & ... & ...\\
+    Waste sortation and storage & Material & Sort waste, store waste & Separate bins, bags, garbage bin housing\\
+    \hline
+        Compost & Material & Generate compost & Storage container\\
+    \bottomrule
+\end{tabular}
+\end{center}
+\end{table}
 
+\textbf{System walkthrough}: The following process details how the system will function in practice:\\
+
+Water is used from the municipal source via taps, showers, baths, wash basins and washing machines. This water is diverted into storage tank. The remaining water used in toilets etc is sent into the sewage line. Water in the grey water storage tank is diverted into two paths. The first path filters and sterilizes the water for re-use in the washing machine. The second sends the remaining grey water into the either the toilet cistern or the garden.
+Water diverted into the garden automatically irrigates the vegetable patch and garden. Physical waste produced by the house is sorted into useable and unusable waste. Usable waste is further divided into organic and inorganic waste. Organic waste
+Garden refuse, and organic waste produced from the kitchen is transported to the composting system.
+The organic waste is broken down into compost and used in the garden or in the vegetable patch.
+The grey water from the grey water system is used to irrigate the veggie patch. Garden refuse is generated during this processes and is used as input into the composting system. Inorganic waste such as glass, plastic and paper enters the recycling system and is stored into demarcated bins. Once the bins reach full capacity, they are sent for recycling. Unusable waste
+Hazardous material and non-recyclable material is disposed of in a traditional bin. The municipality receives the contents of the bin for further processing at a landfill.
+
+\subsection{Concept Selection}
+The alternatives given for the functions in Table~\ref{tb: FunctionalTasks} were assessed according to financial feasibility, convenience and ease of implementation. One alternative was selected for each function (Table~\ref{tb: chosen_Alts}) with the explanation for choice in each alternative given below:\\
+
+\begin{table}[h!]
+\caption {Functions and their selected alternatives} \label{tb: chosen_Alts} 
+\begin{center}
+\begin{tabular}{p{3.5cm}|p{9cm}}\toprule
+	{\textbf{Function/Task}} & {\textbf{Selected Alternative}\\ \midrule
+    Waste sortation and storage & One garbage bin with multiple compartments \\
+     \hline
+     Receive water & Four separate pipes from (bath, shower, basin and washing machine) that connect to the central grey water storage tank\\
+    \hline
+    Process used water & Filter grey water to be sent back to the washing machine for re-use and to the garden (for composting and plant watering) and toilet cistern (for flushing)\\
+    \hline
+    Store processed water & Large central tank to store all water received until it is needed again by the washing machine, toilet cistern or in the garden\\
+    \hline
+    Direct water & Five-way water valve to direct grey water back to the washing machine, to an outside water tap (to be used in a compost container), to the garden's sprinkler system (to water the vegetable patch) and to the toilet cistern\\
+    \hline
+    Re-use water & Grey water system makes water available for re-use at necessary outlet points when human user demands it at a tap\\
+    \hline
+    Integrate water, recycling and composting & N/A - Alternatives explored by other system functions\\
+    \hline
+     Combine composting materials & Purchase a residential size compost container that the necessary materials are combined in to produce compost\\
+    \hline
+Grow vegetables & Connect grey water storage tank directly to garden sprinkler system to be activated by the human user at the flick of the sprinkler switch. Compost collected and filled in the vegetable patch manually by human user\\
+    \hline
     \bottomrule
 \end{tabular}
 \end{center}
 \end{table}
 %
-\subsection{Concept Selection}
-\textcolor{red}{Synthesizing alternative technological approaches and component configurations designed to performance requirements; developing physical architectural products; and conducting trade-off studies among performance, risk, cost, and schedule to select the preferred system concept, defined in terms of components and architectures.}
-
-The alternatives given for the functions in Table~\ref{tb: FunctionalTasks} were assessed according to financial feasibility, convenience and ease of implementation. One alternative was selected for each function (Table~\ref{tb: chosen_Alts}) with the explanation for choice in each alternative given below:
 
 \textbf{Recycling and waste disposal tasks}\\
 For waste sortation, alternative one will be selected in order to save space and keep the garbage bin as small as possible to fit into the household's kitchen.\\
 
 \textbf{Grey water tasks}\\
-To receive water, the alternative with the least invasive way of changing the household's current piping system will be selected (which is anticipated to be ?). With regards to the processing of used water, alternative two will be selected. This is because the filter is a significant expense and will require frequent maintenance. The significant expense and inconvenience of alternative one is anticipated to outweigh its financial benefit as this would only save water being demanded by the household's washing machine.\\
+To receive water, the alternative with the least invasive way of changing the household's current piping system will be selected (which is anticipated to be ?). With regards to the processing of used water, alternative two will be selected. This is because the filter is a significant expense and will require frequent maintenance. The significant expense and inconvenience of alternative one is anticipated to outweigh its financial benefit as this would only save water being demanded by the household's washing machine.
 
 Alternative two for used water storage goes hand-in-hand with alternative two for water processing. Because a filter will not be purchased for the grey water system, a smaller central tank will be used to temporarily store used water until it is demanded for vegetable garden and composting activities. Alternative one is chosen for the re-use water function. Water will be made available for re-use by the grey water system that will make it available at the outside garden tap and sprinkler system for the user. It is then up to the user to use (re-use) this water as best possible.
 
@@ -286,43 +395,45 @@ Alternative one will be selected to combine composting materials. Although a lar
 The task of growing vegetables will need to be performed by the human user. However, fulfilling this function will be made easier for the human user by selecting alternative two that will connect the household's water sprinkler system directly to the grey water storage tank. This way the user will just have to flick a switch to turn on the sprinklers and water the vegetable garden instead of manually collecting water from a tap and watering the growing vegetables. Although alternative two is expected to be more expensive because of the hardware required, it is expected to add a significant benefit to the system user in the form of convenience. The compost to grow vegetables will have to be collected out of the bottom of the compost container by the human user and placed into the vegetable patch. This is because there is not yet a way to automate this process feasibly on such a small scale.
 
 The system as whole must be as cost effective as possible. However, quality should not be sacrificed for unreliable components. The grey water system components will be selected with the intention of a minimum 50 year project life for each, as per industry piping standards. \citep{Fischer2012}. This is important to ensure the system does not require large-scale repairs over the life of the project, only routine maintenance and reparis. The labour and expertise required to make system repairs for the installed grey water system are expected to be costly and should be avoided.
-%
-\begin{table}[h!]
-\caption {Functions and their selected alternatives} \label{tb: chosen_Alts} 
-\begin{center}
-\begin{tabular}{p{3.5cm}|p{9cm}}\toprule
-	{\textbf{Function/Task}} & {\textbf{Selected Alternative}\\ \midrule
-    Waste sortation and storage & One garbage bin with multiple compartments \\
-     \hline
-     Receive water & Four separate pipes from (bath, shower, basin and washing machine) that connect to the central grey water storage tank \textcolor{blue}{One pipe that merges bathroom appliance outputs and one for the kitchen. These two pipes will feed water to the central grey water tank}\\
-    \hline
-    Process used water & Filter grey water to be sent back to the washing machine for re-use and to the garden (for composting and plant watering) and toilet cistern (for flushing) \textcolor{blue}{Do not purchase a filter and only use grey water in the garden and to flush the toilet cistern}\\
-    \hline
-    Store processed water & Large central tank to store all water received until it is needed again by the washing machine, toilet cistern or in the garden \textcolor{blue}{Smaller central tank to store used water only for use in the garden}\\
-    \hline
-    Direct water & Five-way water valve to direct grey water back to the washing machine, to an outside water tap (to be used in a compost container), to the garden's sprinkler system (to water the vegetable patch) and to the toilet cistern \textcolor{blue}{Three-way valve to direct grey water back to outside water tap to be used in a compost heap and to the garden's sprinkler system to water the vegetable patch}\\
-    \hline
-    Re-use water & Grey water system makes water available for re-use at necessary outlet points when human user demands it at a tap\\
-    \hline
-    Integrate water, recycling and composting & N/A - Alternatives explored by other system functions\\
-    \hline
-     Combine composting materials & Purchase a residential size compost container that the necessary materials are combined in to produce compost\\
-    \hline
-     Grow vegetables & User must collect water from the outside garden tap in the necessary quantity and use it to water the vegetable patch. Compost collected and filled in the vegetable patch manually by human user \textcolor{blue}{Connect grey water storage tank directly to garden sprinkler system to be activated by the human user at the flick of the sprinkler switch. Compost collected and filled in the vegetable patch manually by human user}\\
-    \hline
-    \bottomrule
-\end{tabular}
-\end{center}
-\end{table}
-%
+
 The selected alternative for each function will be chosen to form the final system.
 
 \subsection{Concept Validation}
-\textcolor{red}{Conducting system analyses and simulations to confirm that the selected concept meets requirements and is superior to its competitors and refining the concept as may be necessary.}
+The system concept is validated by the following list of requirements:\\
+
+\noindent\textbf{Physical waste management}
+\begin{itemize}
+\item Be sanitary
+\item Not be odorous
+\item Be as aesthetically pleasing as possible
+\item Be small enough to fit in a kitchen
+\item Be big enough to store one week's worth of recyclables
+\item Be simply to use
+\item Be child and pet safe
+\end{itemize}
+
+\noindent\textbf{Grey water management}
+\begin{itemize}
+\item Require minimal setup
+\item Integrate with current infrastructure
+\item Use standard piping for ease of maintenance and repair
+\end{itemize}\\
+
+\noindent\textbf{Composting and vegetable garden}
+\begin{itemize}
+\item Be self sustaining/ require minimal attention
+\item Be able to produce own vegetables
+\item Be aesthetically pleasing in the garden as possible
+\item Be small enough to fit into an average size garden
+\item Vegetable patch big enough to consume the compost produced
+\end{itemize}\\
+
+\noindent\textbf{Financial saving aspects }
+\begin{itemize}
+\item Be able to achieve payback period of 7 years
+\end{itemize}\\
 
 \chapter{Engineering Development Phase}
-\textcolor{red}{analysing the system functional specifications with regard to their derivation from operational and performance requirements and the validity of their translation into subsystem functional requirement identifying components requiring development}
-
 The system's functional specifications are translated into three subsystem functional requirements:\\
 
 \textbf{Grey Water subsystem} - This system interfaces with the household's municipal water supply which is its primary input. It is also connected to multiple household components, namely: the washing machine, bath/shower, toilet cistern and garden. This subsystem has three functional capabilities. The first being to store grey water in a central tank to be recycled (re-used) in the system, secondly to sort re-usable water from unusable waste water and finally to transfer both the re-usable and unusable water in the subsystem to the appropriate destination (component). This subsystem also feeds grey water to the next subsystem (compost).\\
@@ -343,107 +454,163 @@ The system's functional specifications are translated into three subsystem funct
 The components for the three aforementioned subsystems of \ac{e-casa} have already been designed and can be purchased from the market. The components will therefore not be evaluated individually but \ac{e-casa} is unique in that it is the first system of this kind that integrates these different components .
 For this reason, the advanced development phase for the selected concept will be conducted to identify possible implementation risks of using these components together as one system.
 
-\subsection{Requirements Analysis}
-
-\subsection{Functional Analysis and Design}
-
 \subsection{Prototype Development}
 %
-\begin{table}[h!]
-\caption {Selected alternatives and their associated risks} \label{tb: Functional_SS_elements} 
+%\begin{table}[h!]
+ \label{tb: Functional_SS_elements} 
 \begin{center}
-\begin{tabular}{p{7cm}|p{7cm}}\toprule
+\caption {Selected alternatives and their associated risks}
+\begin{longtable}{p{7cm}|p{7cm}}\toprule
 	{\textbf{Selected Alternative}} & {\textbf{Associated Risk}\\ \midrule
-    \textcolor{Format used by sample project} & ... & ...\\
     \hline
-    ... & ... & ...\\
-
+    Single bin with multiple compartments & If a compartment or one part of the bin breaks, the entire bin needs to be replaced as individual parts are not sold separately.\\
+        \hline
+    Four separate pipes into the grey water system  & Installation may become complicated and thus more costly since more materials may be required.\\
+        \hline
+    Filter used water & Including a filter will increase the electricity usage and the cost of the overall system. Cleaning the filter may be an inconvenience to the user. If the filter pump breaks it may be costly to replace. \\
+        \hline
+   Large central grey water tank & The cost of the tank increases with larger size. If the water is treated incorrectly the effects will be experienced broadly by the household. \\
+        \hline
+    Five way water valve & If the valve gets blocked or breaks, all aspects linked to the system will be adversely affected. More connections means more widespread effect on the household.\\
+        \hline
+    Grey water available on demand from a tap & If all the grey water has been used on other areas of the household, the tap may run dry. Water that could otherwise be used for cooking and drinking will be used to water the garden. Manually transferring water may be an inconvenience for the user\\
+        \hline
+    Residential sized compost container & The above ground container can be knocked over by pets and wild animals.\\
+        \hline
+    Grey water system connected directly to sprinkler system & Additional parts will be needed to connect switches and electronic pumps. A malfunction in the sprinkler system could result in the garden not receiving water or excessive water usage. \\
     \bottomrule
-\end{tabular}
+\end{longtable}
 \end{center}
-\end{table}
+%\end{table}
 %
 
 \subsection{Development Testing}
 Associated risks for each of the functions of the system are identified and appropriate mitigation plans suggested in Table~\ref{tb: Functional_risk_mitigation}.
 %
-\begin{table}[h!]
-\caption {Associated risks and applicable risk mitigation plans} \label{tb: Functional_risk_mitigation} 
+%\begin{table}[h!]
+ plans} \label{tb: Functional_risk_mitigation} 
 \begin{center}
-\begin{tabular}{p{3cm}|p{5cm}|p{5cm}}\toprule
-	{\textbf{Function} & \textbf{Associated Risk}} & {\textbf{Risk Mitigation}\\ \midrule
+\caption {Associated risks and applicable risk mitigation}
+\begin{longtable}{p{3cm}|p{5.5cm}|p{5.5cm}}\toprule
+	{\textbf{Function} & \textbf{Associated Risk} & {\textbf{Risk Mitigation}}\\ \midrule
     \hline
-    Process used water & Water processor unit (filter) malfunctions and pollutants pass through to garden and washing machine water & ?\\
+    Waste sortation and storage & User places disposable waste into incorrect category (i.e. plastic into paper or paper into glass) & Use visual management signals or colours to mark garbage bin compartments clearly\\
+      \hline
+    Waste sortation and storage & If a compartment or one part of the bin breaks, the entire bin needs to be replaced as individual parts are not sold separately & Negotiate an agreement with the suppliers for cheaper prices or to order individual parts when required\\
      \hline
-    Direct water & One path on five-way water valve is damaged and causes water to leak out & ?\\
-     \hline
-    Waste sortation & User places disposable waste into incorrect category (i.e. plastic into paper or paper into glass) & Use visual management signals or colours to mark gardbage bin compartments clearly
-\\
+     Receive Water & Installation may become complicated and thus more costly since more materials may be required & The pipe layout should be standardised and the total volume of materials needed should be reduced through appropriate planning procedures\\
     \hline
-Grey water storage supply & Not enough water to irrigate vegetable patch & Provide storage tank or buffer to offset needs\\
+Process Used Water & Including a filter will increase the electricity usage and the cost of the overall system. Cleaning the filter may be an inconvenience to the user. If the filter pump breaks it may be costly to replace & Ensuring that the filter is placed in an accessible location will allow maintenance to be carried out as conveniently as possible\\
+    \hline
+Store Processed Water & The cost of the tank increases with larger size. If the water is treated incorrectly the effects will be experienced broadly by the household & Ensuring that the tank is robust so that is does not break easily and making access to the tank easy can allow the water to be treated consistently well. Making the tank removable could allow it to be better cleaned and disinfected if necessary\\
+    \hline
+Direct Water & If the valve gets blocked or breaks, all aspects linked to the system will be adversely affected. More connections means more widespread effect on the household & A back up five-way valve could be included to take over if the original valve fails. Adding a tap before the valve can allow the water to be shut off so that the failed five way valve can be easily replaced\\
+    \hline
+Reuse Water & If all the grey water has been used on other areas of the household, the tap may run dry. Water that could otherwise be used for cooking and drinking will be used to water the garden. Manually transferring water may be an inconvenience for the user & A backup pipe can be linked from the municipal water system to the grey water system to become active when the tank is empty\\
+    \hline
+Combine Composting Materials & The above ground container can be knocked over by pets and wild animals & 
+The above ground container can be knocked over by pets and wild animals. The container can be semi buried or strapped down to maintain stability. The container has a housing but a securable lid could be fitted to the container as an extra measure to ensure no materials escape unwantedly. \\
+    \hline
+Grow Vegetables & Additional parts will be needed to connect switches and electronic pumps. A malfunction in the sprinkler system could result in the garden not receiving water or excessive water usage & 
+Using low risk mechanisms can reduce the likelihood of system malfunctions\\
     \bottomrule
-\end{tabular}
+\end{longtable}
 \end{center}
-\end{table}
+%\end{table}
 %
 Design specifications for each of the selected alternatives are given along with a motivation in Table~\ref{tb: Functional_design_specs}.
 %
-\begin{table}[h!]
-\caption {Design specification and motivation for selected alternatives} \label{tb: Functional_design_specs} 
+
+
 \begin{center}
-\begin{tabular}{p{4.5cm}|p{4.5cm}|p{4.5cm}}\toprule
-	{\textbf{Selected Alternative}} & {\textbf{Design Specification}} & {\textbf{Motivation}}\\ \midrule
+\caption {Design specification and motivation for selected alternatives} \label{tb: Functional_design_specs} 
+\begin{longtable}{p{3cm}|p{5.5cm}|p{5.5cm}}\toprule
+	{\textbf{Selected Alternative}} & {\textbf{Design Specification} & \textbf{Motivation}}\\ \midrule
     \hline
-    Waste sortation and storage & One garbage bin with 3x removable 20~\textit{l} containers& ...\\
+    Waste sortation and storage & One garbage bin with 3x removable 25~\textit{l} containers & 
+Kitchen space constraints. Larger bin (70~\textit{l}) is expected to be impractical and is substantially more expensive at R 1500.\\
         \hline
-    Receive water & 4x Separate pipes that connect as inputs to central grey water tank & Entire grey water system does not need to stop when one line of supply (pipe) is damaged. Damaged line can be switched off to prevent water flow while others continue to operate\\
+    Four separate pipes into the grey water system & 4 x Seperate pipes that connect as inputs to central grey water tank. & Having four separate pipes prevents the whole system from ceasing when one line is damaged or blocked. The damaged line can be switched off to allow repairs to take place without disrupting the rest of the system.\\
         \hline
-    Process used water & Water filter that is capable of removing enough contaminats for the water to be used in a washing machine & If the water is safe enough to be used in the washing machine, it will be safe enough to use in the garden and toilet cistern\\
+    Filter used water & Water filter that is capable of removing unwanted biological and non biological materials so that the water is safe for use in grey water applications.
+A water pump powerful enough to pump water at a rate of at least 7.5~\textit{l}/min
+ & The grey water does not need to be potable but still poses the risk of being infected with waterborne diseases and disease carrying insect eggs. The water should at least adhere to the National Health Act 61 of 2003, \citep{NHA2003}.
+The water will need to pumped through the filter.\\
         \hline
-    Store processed water & ?~\textit{l} tank to store sufficient water for the three outlets: washing machine, garden and toilet cistern & Smaller tank would not enable household to earn as much financial savings and the payback period would increase for the household\\
+    Large central grey water tank & 200~\textit{l} tank to store sufficient water for the three outlets, washing machine, garden and toilet cistern. & A smaller tank would discard more excess water as it will have a lower capacity. This would lead to less water savings and thus less cost savings.\\
         \hline
-    Direct water & Five way water valve & Water coming from one source will need to be supplied to four different sources. Two three-way valves would have to be purchased to perform this function if a five-way valve is not purchased and this would lead to additional piping costs\\
+    Five way water valve & Industry standard five-way water valve for one input and four outputs. & Water coming from one source will need to be supplied to four different locations. Without a five-way valve, two three-way valves will be needed. This could lead to additional piping costs.\\
             \hline
-    Re-use water & ? & ?\\
+    Grey water available on demand from a tap & A water pump powerful enough to generate at least 3 Bars of pressure, \citep{Bran2016}. & For the grey water to be added to the existing water grid the pressure needs to at least meat the municipal grid pressure.\\
             \hline
-    ... & ... & ...\\
+    Residential sized compost container & 220~\textit{l}compost container with securable lid  & The container will be easier to place and relocate than a compost pit. 220~\textit{l} is enough to contain the 3 kg of waste per week, which adds up to 156 kg of waste per year.\\
+            \hline
+    Grey water system connected directly to sprinkler system & Piping and adapters for water flow from tank to garden. A water pump powerful enough to pump water at a rate of at least 7.5 l/min. Electric circuit switch. Electrical wiring.  & For the user to be able to control the flow of water from the grey water tank to the sprinkler system, electrical switches and wiring will be needed to power the pump that sends the water to the garden. Pipes and adapters will be needed to facilitate this movement.\\
 
     \bottomrule
-\end{tabular}
+\end{longtable}
 \end{center}
-\end{table}
 %
 \section{Engineering Procurement Phase}
-\textcolor{red}{The advanced development phase has selected specifications of the chosen alternative components in order to meet the design requirements. The engineering design phase will now deal with the reliability and maintainability of components that are producible and affordable in consideration of the interface elements. - SAMPLE GROUP'S ANSWER}
-
 \subsection{Requirements Analysis}
-\textcolor{red}{The system design requirements are analysed for consistency and completeness, this is to avoid any systems requirements that would contradict each other and are unable to meet the specified need. This is also done to verify that the system meets the specifications and operational requirements. Identifying requirements for all external and internal interactions and interfaces is done to make sure that the system would be able to interact and interface with its entities to the best level possible and be able to perform or output what is needed correctly. That is, if signals or inputs from an external entity would be transformed into the outputs that are required by the external entity. This also includes how the system should be able to adapt or perform to its environment, without giving any functional problems.
-The process of systems design has a repeated circumspection back to the requirements analysis. The main design requirements of the system are that it must be easy to use, and it must be reliable. Further design requirements of importance are that the system must be producible and affordable. These design requirements are a follow up from the functional and physical requirements. - SAMPLE GROUP'S ANSWER}
+The design requirements of the e-casa system are further analysed to prevent contradicting requirements and ensure that requirements meet the defined specifications and operational requirements. Internal and external interfaces are defined to capitalise on potential improvements, ensure correct functionality and safeguard against inefficiencies. These requirements must be met in order to for the system to correctly interact and integrate with the outputs of the household. Successful interaction ensure that e-casa’s output, that is waste reduction, is achieved.
+
+The combined systems are required to reduce the net waste produced by a household given the capacity constraints of the household in the specified payback period (7 years). Thus the key performance requirements are net reduction in produced waste and return on investment. The requirements are an extension for the predefined physical and functional requirements.
+
 
 \subsection{Functional Analysis and Design}
-\textcolor{red}{The components of the system need to interact effectively through the available interfaces. These interfaces include physical connections through cable connections and the software that retrieves information by means of these cables and displays the result of the actions taken by the user. Integration between all the parts (i.e. the touch screen with camera, speed point machine, biometric scanner and printer) is necessary for the overall functioning of the system. Testing these interconnections may pose as a challenge since the system is needed in service throughout. Testing will then need to be done during low peak service periods. Another challenge may be posed by the multiple complex subsystems of the systems that all need to function in sync for the system objectives to be met. The user will interact with the system by means of the user interface provided through the software. The design and prototyping of the user interfaces will be based on a standard Graphic User Interface (GUI) as well as a form based interface that should help reducing the time needed to learn how to operate the system.
-The components selected must be designed to meet the functional requirements. Each component’s interactions and interfaces are analysed and discussed below.- SAMPLE GROUP'S ANSWER}
+The various components which e-casa comprises of must interact and interface with each other and the external environment to ensure that the objective of e-casa are met. Such interfaces include:\\
 
-%
+\begin{itemize}
+\item Pipes which link components to components and to the external plumbing system
+\item Human users who interface between the coposting system and the vegetable garden
+\item Valves which ensure correct diversion of water flow to the correct components
+\item Connectors which link valves, pipes and appliances to the grey water system and to each other
+\item Visual indicators (colored bins) provide visual cues to the user to place the correct waste type into the corresponding bin.
+\end{itemize}
+
+Interactions between the grey water system and the external plumbing system of the household are paramount in achieving the water reduction requirement. Secondly, the interfacing between the composter and the garden requires human interaction. Testing these interactions presents several practical challenges namely that they are required for continued operation of the system. 
+
+Evaluating the the grey water system interaction with the external pubming system will occur after installation and prior to full use. The grey water system is then monitored for a probation period to ensure successful operation. Rigiour testing of interfacing elements is to be conducted after installation. This testing includes a diagnostic procedure that shall be undertaken by the third party installer. The waste management system shall be inspected some time after implementation to evaluate the effect the human interface has on the system. The installer shall return to the household short after implementation to ensure interfacing elements are correctly operating and to implement corrective action if not.
+
 \begin{table}[h!]
 \caption {Component interactions and their interfaces} \label{tb: Components & interfaces} 
 \begin{center}
-\begin{tabular}{p{4cm}|p{4cm}|p{4cm}}\toprule
-	{\textbf{Component}} & {\textbf{Interaction} & {\textbf{Interface}\\ \midrule
-    \textcolor{Format used by sample project} & ... & ...\\
+\begin{tabular}{p{4cm}|p{8cm}}\toprule
+	{\textbf{Component}} & {\textbf{Interactions and Interfaces}\\ \midrule
+    Human User & The user plants vegetables in the garden, uses grey water to water the garden and spreads self-made compost from the compost container onto the soil in the garden. When the vegetables are harvested the leftover waste goes into the compost container. The human also distinguishes between different waste types and puts each waste type into the respective bin container.\\
     \hline
-    ... & ... & ...\\
-
+    Compost Container & Leftover vegetables are placed into the compost container with reusable water and mixed with the existing compost.\\
+        \hline
+    Vegetables & The vegetables are planted in the vegetable garden and interface with the self made compost through the soil medium.\\
+        \hline
+    Garden tap & The used water from the storage tank is pumped to the garden tap for use by the human user. \\
+        \hline
+    Reused Water & The reused water is stored in the storage tank and distributed through the pipes and valves.\\
+        \hline
+    Self-Made Compost & The self made compost is spread in the garden soil by the human user.\\
+         \hline
+    Vegetable Garden & The vegetable garden interacts with the reusable water, compost and human user to facilitate the growth of the vegetables.\\
+         \hline
+    Water Filter & The used water is passed through the water filter that is connected to the pipes.\\
+             \hline
+    Pipes & The pipes link the water filter, valves, storage tank and garden tap to each other.\\
+             \hline
+    Storage Tank & The storage tank receives the used water as it passes through the filter and stores it for reuse later. The reusable water is then distributed to the various locations through the pipes. \\
+             \hline
+    Valve & The valves control the flow of the reusable water through the pipes as it is directed to the different locations. This is done by controlling the obstruction of the water flow within the valve.\\
+                 \hline
+    Water Pump & The pump applies pressure to the water to force it through the pipes and filter.\\
+                 \hline
+    Bin Containers & The human user places each waste type into the respective bins and empties the bins into the selected recycling program.\\
+                     \hline
+   Bin housing & The bin housing holds the bin containers in place and protects them from damage and spilling.\\
     \bottomrule
 \end{tabular}
 \end{center}
 \end{table}
-%
-\textcolor{red}{The interaction modes include the basic mode that is for regular users and is designed for speed and ease of use. Another interaction mode includes the assisted mode with an attendant to help the user to navigate the process made for physically impaired users}.
 
 \subsection{Component Procurement}
-\textcolor{red}{The next part of this system development is the preliminary design and building of prototypes, test and evaluation of user interfaces, correcting deficiencies and documenting product design. This is once again an iterative process of affirming whether the needs have been addressed through the final design and is beyond the scope of this task. Laying out of preliminary designs of all the required hardware and software components and interfaces needs to be done to make sure that the appropriate hardware and software are available to make this new system and it adheres to the stated need. It is also required to make sure that the software is able to interact accordingly with the hardware. This goes with implementing detailed hardware designs and software coding. The designs need to be as detailed as possible to ensure that the operational and functional needs are met with the help of the software coding. Building the prototype versions of the engineered component are essential to test the concepts. The prototype can then be used to see where mistakes or improvements can be made before the actual design is manufactured. - SAMPLE PROJECT's answer}
-
 Components need to be purchased for the selected alternatives that will fulfill the earlier specified functions. Table~\ref{tb: Component_Procurement} details the components to be  purchased for the \ac{e-casa} system, the sources they will be purchased from and the cost of each component.
 %
 \begin{table}[h!]
@@ -466,76 +633,66 @@ Components need to be purchased for the selected alternatives that will fulfill 
 %
 
 \subsection{Design Validation}
-\textcolor{red}{A test and evaluation of the engineered products has been conducted and the results show that the engineered components meet the requirements with respect to functions, interfaces, reliability and producibility. Based on the analysis above, no deficiencies were realised as the specification descriptions were defined based on available technology that can perform system functions. The product design can be seen in the schematic below. User manuals will be accompanied by the manufacturers of the engineered components along with specifications from the programmers that have customised the software based on the system’s functional requirements. - SAMPLE PROJECT's answer}
-
 \ac{e-casa} design is validated in two ways. Firstly, components of the system are validated through the fact that they have already been tested and evaluated. These components are for sale on the market, meaning they have already passed the necessary safety and reliability tests. Each of the purchased components will also come with the manufacturer's manual.
 
 Secondly, analysis of Figure~\ref{fig: systemDiagram} shows the interactions between the different subsystems to be functional. This validates the design in the sense that integrating the different subsystems is shown to be possible. The two interactions between subsystems are explained below:\\
 
-\textbf{Interaction 1: Grey water - Compost subsystem interaction} - Greywater will be directed to the garden sprinkler system or outdoor tap when demanded. When received at the outdoor tap, water will need to be colllected by the human user who will retrieve water in the appropriate amount to add to the compost system.\\
+\textbf{Interaction 1: Grey water - Compost subsystem interaction} - Grey water will be directed to the garden sprinkler system or outdoor tap when demanded. When received at the outdoor tap, water will need to be colllected by the human user who will retrieve water in the appropriate amount to add to the compost system.\\
 
 \textbf{Interaction 2: Waste disposal - Compost subsystem interaction} - Paper collected in the waste dispoal system will need to be physically moved to the compost system by the human user.
 
 \section{Integration and Evaluation Phase}
 
 \subsection{Test Planning and Preparation}
-\textcolor{red}{Looking at the system’s requirements to meet the specified need, these requirements have been analysed for consistence and completeness. The requirements do not contradict themselves at all which means the integration and interfaces of the required components are possible. As the components needed already exist, there won’t be a need for building specialised test equipment and facilities. Similar test equipment for ATM or the self-service kiosk will be used to ensure that the new system works efficiently. Test requirements that are needed include the ability of the machine to make use of 5.52kWH of electrical power daily, the photo quality needs to be met and the processing speed of the system would be tested before the prototype is built. The functional architecture needs to adhere to the specifications stated such as having an ergonomic setting of the kiosk which includes a touch screen keyboard, biometric scanner, camera, speed point and printer of which should all be in reach or ease of use to the user. The functional architecture would be integrated in a way similar, if not the exact system shown in figure 4, which are kiosks used at healthcare institutes in the States. An adjustable camera would be added for the convenience of people who would require using the system while sitting down (i.e. in wheelchairs or old age) and an assistant will be available to assist in filling in the required information}
+Comparing the system requirements to the identified need has identified no inconsistencies implying no requirements are in contradiction of each other. The system components are to be purchased and thus no special equipment is required in the testing and evaluation of the system. The e-casa system requires integration with bespoke household plumbing systems and thus the interface configuration will differ from household to household. This means that the testing be conducted on site. A diagnostic procedure is issued to all accredited installers which ensures that each interface is evaluated individually before the installation is complete. Installers will require training and the relevant documentation to conduct the diagnostic procedure.
+					
+The various components used in the installation of the e-casa system are to be tested by the relevant suppliers. Agreements pertaining to specification are to be made which legally enforce supplier compliance. Testing must ensure that all interfacing elements are operating correctly and that each component is fully operational.
+
 
 \subsection{System Integration}
-\textcolor{red}{At this point the components are tested as detailed in the test plan above. This is done in a sequential manner. Together, these components form subsystems. The subsystems in this system include the following:}
 The \ac{e-casa} system as a whole will need to be integrated with the household's current water supply and garden sprinkler system. This integration is expected to be costly and significant whereas, integration of the compost and waste dipsoal subsystems will not require integration. The components for the latter two subsystems only need to be placed in appropriate places in the household. It is suggested that the recycling garbage bin be placed in the kitchen and the composter be placed outside in the garden to prevent any unpleasant oudors in the kitchen.
 
+The waste sortation and storage system of e-casa requires non-destruction integration with the household. This implies that bins, storage units etc, can be installed without the need for severe household modifications. Household operations will not be interrupted during the installation of the waste sortation and storage system.
+
+The grey water system requires destructive integration with the household. Modification of plumbing fixtures will require that the water supply be temporarily suspended to install the interfacing elements between the household and the grey water system.
+
+Integrating the grey water system with the garden and sprinkler systems does not require destructive integration. The interfacing element is an external tap which may be manually  connected to the sprinkler system to irrigate the vegetable patch or garden. The composting system requires that human user interface with it in order to manage and utilise the compost.
+
+
 \subsection{Developmental System Testing}
-\textcolor{red}{The system was designed with certain desired levels of performance. Components individually were chosen such that this level of performance is achieved. In this section, the actual performance of the integrated system is tested and compared to the defined performance requirements stated from the beginning. The tests are performed on a systems level. The system will have scenarios that it functions in such as operational conditions and the usability to users with varied levels of computer literacy. The system may also have different language modes as a means of representing South Africa’s diversity. The system then needs to be tested in all the operational scenarios and possible modes. Where performance has deficiencies, these need to be eliminated. Doing this my mean replacing some components, adding different interactions or integration methods. Where not feasible, it may be assessed if the performance deficiency inhibits system objectives from being achieved. If not, then this phase may be concluded.}
+To achieve the desired performance of the e-casa system components that best achieve the required goals have been used to form the system. The true performance of the e-casa system is evaluated to determine if the aggregate performance level of each component is reflected in the performance of the total system. It is believed that interfacing elements within the system may be the cause of inefficiencies and testing procedures aim to mitigate these inefficiencies by incorporating rigorous testing of interfacing elements. If performance deficiencies reoccur the components and interfaces associated with the identified deficiencies are to be replaced, thus concluding this phase.
 
 \subsection{Operational Test and Evaluation}
-\textcolor{red}{Once the prototype has been made it will be placed at one of the home affairs for a test run, to make sure the required speed of filling out the applications is met and how it can be improved if it is not and all the other requirements. Training for customer service staff to closely monitor users of the kiosks and function as “stewards” for those users that encounter any difficulties. Before the prototype is built the requirements of the components would be tested before-hand. This prototype will be monitored always, maximum a period of two months, measuring the degree of compliance and evaluating the readiness of the system whereby improvements required would then be conveyed to the design team before mass production of the final product is done.}
+As the e-casa system is to be evaluated on site during installation , the test being performed are conducted in a realistic manner. The installation of the e-casa system includes assembly of the grey water system, the waste storage and sortation system, the composting system and the connecting the various interfacing elements. Once installation is complete, the grey water system is initiated by activating the water supply. Each component in the grey water system is inspected to ensure correct operation. Proceeding component inspection, each interfacing element is inspected to determine if the element is functioning correctly. When components and interfaces are operable the system is expect to divert water from the various collection sources to the garden, toilet cistern and washing machine. Evaluating each component, each interface and then each system allows for parts of the system to be isolated and an individual test agent to evaluate the performance of the system. The operation test and evaluation has measured the degree of compliance and achieves the stated requirements.
 
 \chapter{Post Development Stage}
 
-\section{Production and Deployment Phase}
-None of the components for the \ac{e-casa} system require production. However, all of them require successful deployment. Deployment of the recycling garbage bin and compost container are uncomplicated but deployment of the grey water subsytem is expected to be time consuming and complicated. 
+\section{Procurement and Deployment Phase}
+None of the components for the \ac{e-casa} system require production. However, all of them require successful deployment. Deployment of the recycling garbage bin and compost container are uncomplicated but deployment of the grey water subsystem is expected to be time consuming and complicated.
 
-Successful deployment of the grey water system will require assessment of the household's existing water supply network. This 
+Successful deployment of the grey water system will require assessment of the household's existing water supply network and a formulation of the integration plan. This plan determines where interfacing elements are required to ensure that the grey water system can indeed interact with the households water supply network. Once the interfacing plan has been established, components are analysed to ensure all interfacing elements are compatible. Installation of the physical system shall then begin by means of an accredited third party installer. 
 
-o Transition in management and participants o Problems in the transition process
-o Product preparation
+\subsection{Transitions from Deployment to Installation}
+The grey water system components are to be delivered and installed by a registered third party installer experienced in grey water system installation. This third party (WaterRhapsody) will integrate the grey water system with the household's current sprinklers and internal plumbing water network. The composting and waste disposal systems will be installed by the human user as only appropriate placement is required and both are small enough for the user to transport. The installation of the grey water system will require the household's water supply and network to be temporarily shut off for the installation period. The installation period is determined by the third party installer and is anticipated to be two days (without complications).  Upon completion of the installation, the third party installer is required to perform a diagnostic check to ensure all physical components are functioning correctly. The installation is complete once the household's members acknowledge so by means of written consent. The diagnostic check and additional confirmation are to ensure that the system fulfills the specified functions without problems.
 
-\subsection{Transitions from Development to Production}
-
-\subsection{Production Operations}
+\subsection{Procurement Operations}
 
 \section{Operations and Support Phase}
-\textcolor{red}{Installation and test (system integration site, internal and external, disruptive or non-disruptive installation, early system operational difficulties encountered or that could be encountered, operational personnel)
-Logistics, Support and Maintenance schedule
-System Upgrades (hard and software upgrade plans)}
+\textbf{Support and Maintenance} - The grey water system is anticipated to require maintenance on a monthly basis to prevent unpleasant odours and keep the filter and components clean enough. The grey water system has a 1 year warranty on labour and a 10 year warranty on all piping components, subject to terms and conditions of use. In the case of a system fault a callout fee, determined by the third party installer,  will be issued to the client. The callout fee will be waived if the system fault falls within the terms and condition of the warranty. If the fault is found not to fall within the specified terms and conditions, the customer (system user) will have to pay the third party installer the call-out fee as well as for component/s that are replaced.
 
-\textbf{Logistics} - \\
+The recycling bin compartments will need to be maintained by means of regular (weekly cleaning) and replacement of the bags holding waste each time a container is emptied. There is no set rule for how often the compost needs in the container needs to be turned but it is anticipated it will need to be turned approximately every three days by the human user. \\
 
-\textbf{Maintenance} - The grey water system is anticipated to require maintenance on a monthly basis to prevent unpleasant odours and keep the filter and components clean enough. The recycling bin compartments will need to be maintained by means of regular (weekly cleaning) and replacement of the bags holding waste each time a container is emptied. There is no set rule for how often the compost needs in the container needs to be turned but it is anticipated it will need to be turned approximately every three days by the human user. \\
+\textbf{System Upgrades} - A significant opportunity for system upgrade could be to develop means to measure the household's disposable waste generation. This would entail further upgrades to the system focused on automation of certain aspects and a means of waste measurement and feedback to the user. 
 
-\textbf{System Upgrades} - A significanr opportunity for system upgrade could be a system that measures the household's disposable waste generation. This would entail:
+Automation would primarily concern itself with channeling grey water directly into the garden as it is demanded. A hygrometer will be used to determine if moisture levels within the vegetable patch's soil are optimal for plant growth. If not, a computer controlled valve will be opened permitting water to flow out of the grey water system into the garden. This provides greater value to the user as it reduces the effort required by the user to maintain the vegetable patch and its soil. This would create a competitive advantage for the system within the current market as there are presently no other devices like this on the market.
+An improved measurement system would allow the user to accurately monitor the realtime levels of waste being produced, transported and disposed of throughout the house. This would be achieved with wireless weight sensors beneath each recycling bin container. These sensors would then transmit a signal with the bins current mass to a could server via the houses internet connection. The user will then be able to access this information from the relevant cloud server through their mobile device of choice. Similarly, sensors in the water pipe network, within pipe joints will make information available to the user on how much water is consumed by each section of the house. The user may use this information to adjust his or her consumption accordingly or even as fault detection to determine problems within the system. 
 
-\chapter{Software Design and System Dynamics}
-\textcolor{red}{This phase is required to study the behaviour and structure of a system by carrying out sensitivity analysis tests. Only select critical elements or more as deemed fit from the designed system and apply to these to the modelling capability of a chosen software.
-Your algorithm/software approach should be such that a change in the value of one element’s input can be quantitatively seen in other elements within the network. [Use software such as: Anylogic, Vensim, Stella, Dynamo++ etc]
-Phase II is tied to your ability to demonstrate sensitivity analysis, structure and behaviour of a system resulting from a change in one or more parameters of some system elements.}
+\chapter{Software Design}
 
 \section{Core 9 System Design Structure}
 The main needs the system is intended to fulfill are best represented its three primary objectives: \textit{Provide Waste Sortation and Storage}, \textit{Reduce Water Consumption} and \textit{Provide long-term cost savings}. From these objectives, operational, functional and then performance requirements were developed in the earlier sections. The functional and performance requirements that \ac{e-casa} as a system is refined by are as follows:
 
-\section{System Dynamics Analysis}
-\textcolor{red}{==35marks==}
-
-\section{Selected Elements for System Dynamics Analysis}
-\textcolor{red}{==10/35marks==
-Reason for selecting these elements in a situation where the new network for SD differs from the main designed network ==5/35marks==}
-
-\section{Sensitivity Analysis}
-\textcolor{red}{==20/35marks==
-Simulation runs to demonstrate sensitivity analysis, changed system behaviour etc.}
-
-\chapter{Conclusion}
+\section{Conclusion}
 \acresetall
   
 \bibliography{References}
@@ -566,3 +723,31 @@ Simulation runs to demonstrate sensitivity analysis, changed system behaviour et
 
 %	\item[Long term system failure] - The water and waste savings will be realised within the first usage cycle, meaning once the system has re-used waste and waste, the saving immediately materialises. The return on investment is expected to be achieved before the onset of long term system failure. The likelihood of system failure can be decreased with continued maintenance of the system.
 %	\item[External market competition] - No other competitors are presently offering an integrated system however, there are suppliers offering parts of the system. This implies that other suppliers can match or better the household service cost of the \ac{e-casa} system. The reduced cost of implementing e-casa shall lie in the simple integration with current household systems. Customers would not require large renovations to install the system, reducing the over cost and improving the return on investment making the system marketable.
+
+%\textbf{Water Consumption}
+%\begin{itemize}
+%\item Collect reusable water from appliances within the household and divert the water to a greywater storage tank 
+%item Store greywater produced by the household
+%\item Filter the greywater to be reused by the household
+%\item Divert the greywater to compatible appliances 
+%\item Divert the greywater to toilet cisterns
+%\item Divert the greywater to toilet cisterns
+%\item Divert the greywater into the garden and veggie patch
+%\end{itemize}
+%\medskip
+%\textbf{Provide waste Sortation and Storage}
+%\begin{itemize}
+%\item Collect and store waste by waste type
+%\item Visual distinction to inform the user of where each waste type must go (sort waste)
+%\item Safe and odourless containment of waste
+%\item Specialised storage for converting organic waste into compost (composter)
+%\item Dispose of compost into veggie patch and garden
+%\end{itemize}
+%\medskip
+%\textbf{Provide Long-term Cost Savings}
+%\begin{itemize}
+%\item Reduce the volume of water purchased from the municipality
+%\item Lower garden maintenance cost
+%\item Grow produce to reduce monthly food bill 
+%\item Short-term payback period
+%\end{itemize}
